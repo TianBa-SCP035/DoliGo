@@ -528,6 +528,9 @@ a {
   scroll-margin-top: 28px;
   position: relative;
 }
+.doli-document-unit[data-current-unit] {
+  box-shadow: -2px 0 0 0 rgba(40, 102, 79, 0.42);
+}
 .doli-document-english {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 22px;
@@ -616,6 +619,9 @@ a {
   }
   .doli-dialogue .doli-document-unit {
     padding-left: 35px;
+  }
+  .doli-document-unit[data-current-unit] {
+    box-shadow: -2px 0 0 0 rgba(40, 102, 79, 0.3);
   }
   .doli-document-heading {
     margin: 24px 0 32px;
