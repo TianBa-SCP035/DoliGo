@@ -52,15 +52,15 @@ export function WordGroupPicker({
       </button>
       <header className="doli-library-heading">
         <h1 id="word-groups-title">背单词</h1>
+        {library && library.total > 0 && (
+          <button
+            className="doli-text-button doli-words-link"
+            onClick={library.onOpen}
+          >
+            找一个单词
+          </button>
+        )}
       </header>
-      {library && library.total > 0 && (
-        <button
-          className="doli-text-button doli-words-link"
-          onClick={library.onOpen}
-        >
-          找一个单词
-        </button>
-      )}
       <LibraryDiscovery browser={browser} placeholder="搜索全部内容" />
       <div className="doli-document-list">
         {browser.items.map((group) => {

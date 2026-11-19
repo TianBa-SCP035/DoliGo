@@ -933,9 +933,15 @@ a {
   display: block;
   margin: 20px auto 0;
 }
+.doli-library-heading:has(.doli-words-link) {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
 .doli-words-link {
-  display: block;
-  margin: -10px 0 0 auto;
+  margin: 0;
+  white-space: nowrap;
 }
 .doli-discovery-search input:focus-visible {
   outline: 2px solid var(--accent);
