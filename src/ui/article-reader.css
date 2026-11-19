@@ -1,7 +1,6 @@
 /* Continuous article text: translation controls take no extra line while closed. */
 .doli-prose { max-width: 720px; }
 .doli-prose .doli-document-heading { margin-bottom: 24px; }
-.doli-reading-hint { font-size: 13px; color: var(--muted); margin: 0 0 24px; }
 .doli-prose .doli-article-body { display: block; }
 .doli-prose .doli-document-unit { margin: 0 0 1.1em; padding-right: 38px; }
 .doli-prose .doli-document-english { font-size: 21px; line-height: 1.8; white-space: pre-line; margin: 0; }
@@ -45,7 +44,6 @@
   .doli-prose .doli-document-english { font-size: 19px; line-height: 1.8; }
   .doli-prose .doli-document-unit { margin-bottom: 1em; padding-right: 32px; }
   .doli-prose .doli-paragraph-translation > summary { right: -5px; width: 32px; opacity: 1; min-height: 44px; }
-  .doli-reading-hint { font-size: 12px; margin-bottom: 20px; }
   .doli-lookup-panel { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); width: calc(100vw - 24px); padding: 14px 18px; max-height: 62vh; }
 }
 @media (prefers-reduced-motion: reduce) { .doli-paragraph-translation > summary { transition: none; } }

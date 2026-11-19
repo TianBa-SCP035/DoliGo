@@ -121,7 +121,6 @@ export function ArticleReader({ units, notes, catalog, docId }: {
     setLookup({ unit, text, start, end, cardId: id, mode: "word" });
   }
   return <>
-    <p className="doli-reading-hint">划选文字查词，段旁「中文」查看整段翻译。</p>
     <div ref={body} className="doli-document-body doli-article-body" onMouseUp={selectedText} onTouchEnd={() => {
       clearTimeout(touchTimer.current);
       touchTimer.current = setTimeout(selectedText, 350);
