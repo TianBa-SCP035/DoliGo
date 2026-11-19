@@ -1,13 +1,10 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
-  createReviewCardSession,
   getCard,
-  openCardSession,
   segmentsForUnit,
   type LearningCatalog,
-  type ReviewCardSession,
+  type VocabCard,
 } from "../lib/review";
-import { SenseCard } from "./ReviewView";
 import type { TextUnit } from "./TextLibraryView";
 
 export type ArticleUnit = TextUnit & {
@@ -63,6 +60,16 @@ export function lookupMeaning(text: string, catalog: LearningCatalog, notes: { e
   const card = [...catalog.cardIndex.byId.values()].find(c => normalizeLookup(c.headword) === key);
   return card ? { meaning: card.senseZh, source: "词库释义，需结合本句语境" } : undefined;
 }
+export function lookupCardPos(card: Pick<VocabCard, "pos" | "posZh">) {
+  const parts: string[] = [];
+  for (const part of [card.pos, card.posZh]) {
+    const value = part?.trim();
+    if (!value) continue;
+    if (parts.some(existing => existing.toLowerCase() === value.toLowerCase())) continue;
+    parts.push(value);
+  }
+  return parts.join(" · ");
+}
 type Lookup = { unit: ArticleUnit; text: string; start: number; end: number; mode: "word" | "sentence" | "paragraph"; cardId?: string };
 export function ArticleReader({ units, notes, catalog, docId }: {
   units: ArticleUnit[];
@@ -75,10 +82,10 @@ export function ArticleReader({ units, notes, catalog, docId }: {
   const touchTimer = useRef<ReturnType<typeof setTimeout>>();
   const returnFocus = useRef<HTMLElement>();
   const [lookup, setLookup] = useState<Lookup>();
-  const [session, setSession] = useState<ReviewCardSession>(createReviewCardSession);
   const anchors = useMemo(() => new Map(catalog.anchorsPack.units.filter(u => u.parentId === docId).map(u => [u.sourceId, u])), [catalog, docId]);
   const localMeaning = lookup ? lookupMeaning(lookup.text, catalog, notes) : undefined;
   const card = lookup?.cardId ? getCard(catalog.cardIndex, lookup.cardId) : undefined;
+  const cardPos = card ? lookupCardPos(card) : "";
   const sentence = lookup ? sentenceTranslation(lookup.unit, lookup.start, lookup.end) : undefined;
   function close() {
     const shouldReturn = Boolean(panel.current?.contains(document.activeElement));
@@ -117,7 +124,6 @@ export function ArticleReader({ units, notes, catalog, docId }: {
     // A real text selection takes precedence over the click fired after mouseup.
     if (window.getSelection()?.toString().trim()) return;
     returnFocus.current = trigger;
-    setSession(cur => openCardSession(cur, unit.id, id));
     setLookup({ unit, text, start, end, cardId: id, mode: "word" });
   }
   return <>
@@ -165,7 +171,7 @@ export function ArticleReader({ units, notes, catalog, docId }: {
         <button aria-pressed={lookup.mode === "sentence"} onClick={() => setLookup({ ...lookup, mode: "sentence" })}>整句中文</button>
         <button aria-pressed={lookup.mode === "paragraph"} onClick={() => setLookup({ ...lookup, mode: "paragraph" })}>整段中文</button>
       </div>
-      {lookup.mode === "word" && (card ? <SenseCard card={card} session={session} onSession={setSession} /> : localMeaning ? <><p className="doli-lookup-meaning">{localMeaning.meaning}</p><small>{localMeaning.source}</small></> : <p className="doli-muted">本地词库暂未收录这个选词的释义，可查看整句或整段中文。</p>)}
+      {lookup.mode === "word" && (card ? <>{cardPos ? <p className="doli-muted">{cardPos}</p> : null}<p className="doli-lookup-meaning">{card.senseZh}{card.collocation ? `  ${card.collocation}` : ""}</p></> : localMeaning ? <><p className="doli-lookup-meaning">{localMeaning.meaning}</p><small>{localMeaning.source}</small></> : <p className="doli-muted">本地词库暂未收录这个选词的释义，可查看整句或整段中文。</p>)}
       {lookup.mode === "sentence" && (sentence?.zh ? <p className="doli-lookup-meaning">{sentence.zh}</p> : <p className="doli-muted">{sentence ? "本句暂未整理独立译文，请查看整段中文。" : "选区跨越句子，请查看整段中文。"}</p>)}
       {lookup.mode === "paragraph" && <><p className="doli-lookup-meaning">{lookup.unit.zh}</p><details className="doli-lookup-original"><summary>查看对应英文</summary><p lang="en">{lookup.unit.en}</p></details></>}
       <details className="doli-lookup-scope"><summary>查译范围</summary><p>当前查询本地已整理的释义和译文，未接入任意文本在线翻译。查词和看译文不会自动标记掌握。</p></details>

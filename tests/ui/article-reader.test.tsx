@@ -1,7 +1,7 @@
 import React, { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, expect, it } from "vitest";
-import { ArticleReader, lookupMeaning, normalizeLookup, reviewedSentences, sentenceTranslation, type ArticleUnit } from "../../src/ui/ArticleReader";
+import { ArticleReader, lookupCardPos, lookupMeaning, normalizeLookup, reviewedSentences, sentenceTranslation, type ArticleUnit } from "../../src/ui/ArticleReader";
 import { loadLearningCatalog } from "../../src/lib/review";
 const catalog = loadLearningCatalog();
 const unit: ArticleUnit = { id: "qa-article-p1", en: "We need a map. It is quiet here.", zh: "我们需要一张地图。这里很安静。", sentences: [{en:"We need a map.",zh:"我们需要一张地图。"},{en:"It is quiet here.",zh:"这里很安静。"}] };
@@ -44,4 +44,25 @@ it("supports a true single-sentence paragraph and normalizes lookup punctuation"
 });
 it("ignores selections crossing paragraphs",()=>{
  render([unit,{id:"p2",en:"Another paragraph.",zh:"另一段。"}]);const ps=host.querySelectorAll(".doli-document-english");const r=document.createRange();r.setStart(ps[0].firstChild!,0);r.setEnd(ps[1].firstChild!,7);window.getSelection()!.addRange(r);act(()=>ps[0].dispatchEvent(new MouseEvent("mouseup",{bubbles:true})));expect(host.querySelector('[role="dialog"]')).toBeNull();
+});
+it("shows one part of speech when the English and Chinese labels are the same", () => {
+  expect(lookupCardPos({ pos: "名词", posZh: "名词" })).toBe("名词");
+  expect(lookupCardPos({ pos: "n.", posZh: "名词" })).toBe("n. · 名词");
+  expect(lookupCardPos({ pos: "  ", posZh: "名词" })).toBe("名词");
+});
+it("shows a catalog word's meaning immediately without a reveal button or duplicated part of speech", () => {
+  const reading = catalog.readings.find(item => item.id === "reading-picnic-in-the-rain");
+  expect(reading).toBeTruthy();
+  act(() => root.render(<ArticleReader units={reading!.paragraphs} notes={[]} catalog={catalog} docId={reading!.id} />));
+  const tap = [...host.querySelectorAll(".doli-tap")].find(el => el.textContent === "market");
+  expect(tap).toBeTruthy();
+  act(() => (tap as HTMLElement).click());
+  const dialog = host.querySelector('[role="dialog"]');
+  expect(dialog).toBeTruthy();
+  expect(dialog!.textContent).not.toContain("查看意思");
+  expect(dialog!.textContent).not.toMatch(/([^\s·]+) · \1/);
+  const card = [...catalog.cardIndex.byId.values()].find(item => item.headword.toLowerCase() === "market");
+  expect(card).toBeTruthy();
+  expect(host.querySelector(".doli-lookup-meaning")?.textContent).toContain(card!.senseZh);
+  expect(dialog!.textContent).toContain(lookupCardPos(card!));
 });
