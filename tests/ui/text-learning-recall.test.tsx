@@ -337,24 +337,23 @@ it("lets an empty nextDocument prop hide the catalog lookup", async () => {
   expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
 });
 
-it("offers the next hung reading on a travel article", async () => {
-  const opened: string[] = [];
+it("does not show a next-article primary button on a travel article", async () => {
   act(() => {
     root.render(
       <TextLearningView
         kind="reading"
         startId="reading-using-public-transport-depth"
         onBack={() => undefined}
-        onOpenRelated={(route) => opened.push(route)}
+        onOpenRelated={() => undefined}
       />,
     );
   });
   await settle();
-  const next = container.querySelector("[data-next-document] button");
-  expect(next?.textContent).toContain("开始下一篇");
-  expect(next?.textContent).toContain("换乘和出站时可以注意什么");
-  act(() => (next as HTMLButtonElement).click());
-  expect(opened).toEqual(["#/reading/reading-transfers-and-leaving-depth"]);
+  expect(container.querySelector("[data-next-document]")).toBeNull();
+  expect(container.textContent).not.toContain("开始下一篇");
+  expect(container.textContent).toContain("相关文章");
+  expect(container.textContent).toContain("换乘和出站时可以注意什么");
+  expect(container.textContent).toContain("返回阅读列表");
   expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
 });
 

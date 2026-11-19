@@ -464,7 +464,7 @@ function DocumentView({
             {judgementEndCopy(kind)}
           </p>
         ) : null}
-        {resolvedNext && onOpenRelated ? (
+        {kind === "scene" && resolvedNext && onOpenRelated ? (
           <div className="doli-completion-actions" data-next-document="">
             <button
               type="button"
