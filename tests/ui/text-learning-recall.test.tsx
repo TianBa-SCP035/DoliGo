@@ -308,6 +308,8 @@ it("offers the next hung scene and does not write the address itself", async () 
   await settle();
   const next = container.querySelector("[data-next-document] button");
   expect(next).toBeTruthy();
+  expect(next?.className).toContain("doli-primary");
+  expect(next?.className).not.toContain("doli-secondary");
   expect(next?.textContent).toContain("开始下一篇");
   expect(next?.textContent).toContain("高峰时段在站台等车");
   expect(container.querySelector("select")).toBeNull();
@@ -337,23 +339,29 @@ it("lets an empty nextDocument prop hide the catalog lookup", async () => {
   expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
 });
 
-it("does not show a next-article primary button on a travel article", async () => {
+it("offers the next hung reading as a secondary action", async () => {
+  const opened: string[] = [];
   act(() => {
     root.render(
       <TextLearningView
         kind="reading"
         startId="reading-using-public-transport-depth"
         onBack={() => undefined}
-        onOpenRelated={() => undefined}
+        onOpenRelated={(route) => opened.push(route)}
       />,
     );
   });
   await settle();
-  expect(container.querySelector("[data-next-document]")).toBeNull();
-  expect(container.textContent).not.toContain("开始下一篇");
+  const next = container.querySelector("[data-next-document] button");
+  expect(next).toBeTruthy();
+  expect(next?.className).toContain("doli-secondary");
+  expect(next?.className).not.toContain("doli-primary");
+  expect(next?.textContent).toContain("开始下一篇");
+  expect(next?.textContent).toContain("换乘和出站时可以注意什么");
   expect(container.textContent).toContain("相关文章");
-  expect(container.textContent).toContain("换乘和出站时可以注意什么");
   expect(container.textContent).toContain("返回阅读列表");
+  act(() => (next as HTMLButtonElement).click());
+  expect(opened).toEqual(["#/reading/reading-transfers-and-leaving-depth"]);
   expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
 });
 

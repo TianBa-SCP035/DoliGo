@@ -464,11 +464,14 @@ function DocumentView({
             {judgementEndCopy(kind)}
           </p>
         ) : null}
-        {kind === "scene" && resolvedNext && onOpenRelated ? (
-          <div className="doli-completion-actions" data-next-document="">
+        {resolvedNext && onOpenRelated ? (
+          <div
+            className={kind === "scene" ? "doli-completion-actions" : undefined}
+            data-next-document=""
+          >
             <button
               type="button"
-              className="doli-primary"
+              className={kind === "scene" ? "doli-primary" : "doli-secondary"}
               onClick={() => onOpenRelated(resolvedNext.route)}
             >
               <span>开始下一篇</span>
