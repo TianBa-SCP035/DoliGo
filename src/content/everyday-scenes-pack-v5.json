@@ -1,0 +1,436 @@
+{
+  "id": "everyday-scenes-pack-v5",
+  "title": "日常交流场景增量包 v5（吃饭、购物相关改计划、出行）",
+  "version": "v5",
+  "lang": "en",
+  "varietyNote": "General everyday American-leaning English, A2 spoken style.",
+  "levelNote": "教学建议大约 A2，未经认证分级。",
+  "provenance": "全部为原创虚构学习情景和原创例句，是学习示例，不是真人经历、真实聊天或转载语料。本轮优先寻找可公开引用、来源与许可可核验的真实材料；因未找到许可明确、且适合本课难度与“日常交流（吃饭、购物、出行、改计划）”主题的现成对话或正文，故采用原创学习示例，并在此标明。人物不是助手或用户本人。本包不含新闻翻译或小说摘录。",
+  "status": "增量补充，不替换 everyday-scenes-pack-v1.1 / v3 / v4。v2 仍不接入。",
+  "createdAt": "2026-11-12T17:25:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-scenes-pack-v1.1",
+    "everyday-scenes-pack-v3",
+    "everyday-scenes-pack-v4"
+  ],
+  "selectionPrinciples": [
+    "只加厚日常交流：吃饭、购物、出行、改计划。本包必含出行，并继续加厚吃饭与改计划；购物主要由配套阅读承担。",
+    "不写游戏语音、请同事复现问题或其他工作篇，不收入新闻翻译或小说正文。",
+    "优先复用已有准确词卡，不为同义重复建卡。"
+  ],
+  "integrationNotes": [
+    "通过 loadLearningCatalog() 追加 scenes；不改 loadReviewCatalog()。",
+    "新词卡使用独立常量，不改变 NEW_SCENE_CARD_IDS、NEW_SCENE_V4_CARD_IDS、NEW_READING_V3_CARD_IDS 的语义。"
+  ],
+  "scenes": [
+    {
+      "id": "scene-next-bus-delayed",
+      "title": "下一班要多久？",
+      "titleEn": "When's the Next One?",
+      "levelSuggestionZh": "熟人出门后在车站改乘另一种交通方式；建议难度大约 A2，未经认证分级。",
+      "settingZh": "两个朋友已经出了门，在公交站等车，准备去城另一头和一个朋友会合，再一起吃午饭。",
+      "situationZh": "他们要乘的公交车晚点了，下一班还要再等二十分钟。两人为了少让朋友等，改走到附近的火车站乘火车，并发消息把见面时间推迟一点。这是出行和改计划的学习情景，不是改晚饭预订，也不是游戏或工作时的对话。",
+      "narratorNote": "两位虚构朋友的原创学习情景示例，不是真实聊天记录。人物不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-next-bus-delayed-l1",
+          "speaker": "A",
+          "en": "The bus is late again. We've been here for ten minutes.",
+          "zh": "这班车又晚了。我们已经在这儿等了十分钟。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l2",
+          "speaker": "B",
+          "en": "I know. We said we'd meet Lin at twelve, near the station.",
+          "zh": "我知道。我们说好十二点在车站附近和小林会合。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l3",
+          "speaker": "A",
+          "en": "If this one doesn't come soon, we'll be late for lunch.",
+          "zh": "再这么不来，午饭我们就要晚了。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l4",
+          "speaker": "B",
+          "en": "The sign says the next one is delayed. About twenty minutes.",
+          "zh": "牌子上写着下一班也晚点了。大概还要二十分钟。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l5",
+          "speaker": "A",
+          "en": "That's too long. I don't want her to wait.",
+          "zh": "太久了。我不想让她干等。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l6",
+          "speaker": "B",
+          "en": "The train station is ten minutes away. We can walk.",
+          "zh": "火车站还有十分钟的路程。我们可以走过去。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l7",
+          "speaker": "A",
+          "en": "So we walk there and take the train?",
+          "zh": "那我们就走过去，改坐火车？"
+        },
+        {
+          "id": "scene-next-bus-delayed-l8",
+          "speaker": "B",
+          "en": "Yes. We can buy a ticket at the station.",
+          "zh": "对。到车站再买票就行。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l9",
+          "speaker": "A",
+          "en": "Okay. I'll message Lin that we'll arrive a little later.",
+          "zh": "好。我给小林发个消息，说我们会晚一点到。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l10",
+          "speaker": "B",
+          "en": "Good. Tell her twelve twenty, if we catch the next train.",
+          "zh": "行。跟她说十二点二十，要是能赶上下一班火车的话。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l11",
+          "speaker": "A",
+          "en": "She said that's fine. She's still on the way herself.",
+          "zh": "她说没问题。她自己也还在路上。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l12",
+          "speaker": "B",
+          "en": "Perfect. Let's walk before we miss that one too.",
+          "zh": "那就好。咱们走吧，别连那班也误了。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l13",
+          "speaker": "A",
+          "en": "Which stop do we get off at?",
+          "zh": "我们在哪一站下？"
+        },
+        {
+          "id": "scene-next-bus-delayed-l14",
+          "speaker": "B",
+          "en": "The one after the river. I'll get off with you.",
+          "zh": "过了河的那一站。我和你一起下。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l15",
+          "speaker": "A",
+          "en": "All right. Lunch first, then we can look around.",
+          "zh": "好。先吃午饭，然后再转转。"
+        },
+        {
+          "id": "scene-next-bus-delayed-l16",
+          "speaker": "B",
+          "en": "Sounds good. I'm already hungry.",
+          "zh": "听起来不错。我已经饿了。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "The next one is delayed.",
+          "meaningZh": "下一班晚点了。车辆常用 be delayed / is delayed。人晚到更常说 be late。不是改预订的那场对话。"
+        },
+        {
+          "expression": "ten minutes away",
+          "meaningZh": "还有十分钟的路程。已有词卡，本段只复现。不是“十分钟前”。"
+        },
+        {
+          "expression": "take the train",
+          "meaningZh": "坐火车。这里的 train 是火车，不是“训练”。"
+        },
+        {
+          "expression": "She's still on the way.",
+          "meaningZh": "她还在路上，正在过来。本卡先学这个意思。"
+        },
+        {
+          "expression": "Which stop do we get off at?",
+          "meaningZh": "我们在哪一站下？get off 是下车。反义常用 get on（上车）。不是“下班”（get off work）。"
+        },
+        {
+          "expression": "if we catch the next train / before we miss that one",
+          "meaningZh": "赶上或错过车。catch、miss、next、ticket、station、bus、late、wait、later、hungry 都复用已有词卡，不另建重复卡。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "The next one is delayed.",
+          "zh": "下一班晚点了。",
+          "required": false
+        },
+        {
+          "en": "Which stop do we get off at?",
+          "zh": "我们在哪一站下？",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 152,
+      "lineCount": 16
+    },
+    {
+      "id": "scene-restaurant-is-full",
+      "title": "这家客满了",
+      "titleEn": "They're Full Right Now",
+      "levelSuggestionZh": "熟人没订位子，到店后发现客满，改去附近另一家；建议难度大约 A2，未经认证分级。",
+      "settingZh": "两个朋友中午走进一家常去的小餐馆，事先没有订位子。",
+      "situationZh": "店里客满，要等大约四十分钟。两人都饿了，不想等那么久，改去街角一家面馆，在那儿点了餐。这是加厚吃饭和改计划的学习情景，不是改晚饭预订时间，也不是超市缺货那场。",
+      "narratorNote": "两位虚构朋友的原创学习情景示例，不是真实聊天记录。人物不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-restaurant-is-full-l1",
+          "speaker": "A",
+          "en": "Here we are. I hope we can get a table.",
+          "zh": "到了。希望还能有位子。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l2",
+          "speaker": "B",
+          "en": "There's a line. I'll ask how long it is.",
+          "zh": "还排着队。我去问问要等多久。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l3",
+          "speaker": "A",
+          "en": "What did they say?",
+          "zh": "他们怎么说？"
+        },
+        {
+          "id": "scene-restaurant-is-full-l4",
+          "speaker": "B",
+          "en": "They're full for about forty minutes.",
+          "zh": "说客满了，大概要四十分钟。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l5",
+          "speaker": "A",
+          "en": "Forty minutes? I'm too hungry to wait that long.",
+          "zh": "四十分钟？我饿得等不了那么久。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l6",
+          "speaker": "B",
+          "en": "Same here. There's a noodle place around the corner.",
+          "zh": "我也是。街角有一家面馆。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l7",
+          "speaker": "A",
+          "en": "Is it far?",
+          "zh": "远吗？"
+        },
+        {
+          "id": "scene-restaurant-is-full-l8",
+          "speaker": "B",
+          "en": "No, just a few minutes away. We went there last month.",
+          "zh": "不远，走几分钟就到。上个月我们去过。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l9",
+          "speaker": "A",
+          "en": "Let's go there instead. We can come back here another day.",
+          "zh": "那我们改去那儿吧。改天再来这家。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l10",
+          "speaker": "B",
+          "en": "Okay. I'll tell them we won't wait.",
+          "zh": "好。我跟他们说一声，我们不等了。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l11",
+          "speaker": "stage",
+          "en": "They walk around the corner. A table by the window is free.",
+          "zh": "两人转到街角。窗边有一张空位子。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l12",
+          "speaker": "A",
+          "en": "Oh good, they have a table.",
+          "zh": "还不错，有位子。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l13",
+          "speaker": "B",
+          "en": "Perfect. I'm going to order the soup and noodles.",
+          "zh": "正好。我要一碗汤，再点面。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l14",
+          "speaker": "A",
+          "en": "I'll have the same. I don't want to think about it.",
+          "zh": "我也一样。不想再想了。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l15",
+          "speaker": "B",
+          "en": "Do you want tea?",
+          "zh": "要茶吗？"
+        },
+        {
+          "id": "scene-restaurant-is-full-l16",
+          "speaker": "A",
+          "en": "Just water for me, thanks.",
+          "zh": "给我白水就行，谢谢。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l17",
+          "speaker": "B",
+          "en": "All right. This was a better idea.",
+          "zh": "行。还是这样更好。"
+        },
+        {
+          "id": "scene-restaurant-is-full-l18",
+          "speaker": "A",
+          "en": "Yeah. We can try the other place next time, when it's quieter.",
+          "zh": "是啊。下次人少了，再试那家吧。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "They're full for about forty minutes.",
+          "meaningZh": "客满了，大约要再等四十分钟。they're full 是已有词卡，这里指店里没有空位，不是 I am full（我吃饱了）。本段没有订位子，也不是改预订时间。"
+        },
+        {
+          "expression": "around the corner",
+          "meaningZh": "在街角附近，转过弯就到。本卡只学距离近，不学“即将发生”的比喻义。"
+        },
+        {
+          "expression": "Let's go there instead.",
+          "meaningZh": "那我们改去那儿吧。instead 是已有词卡，表示改做另一件事。"
+        },
+        {
+          "expression": "last month",
+          "meaningZh": "上个月。这里的 last 是“上一个”，复用已有词卡，不是末班车的 last。"
+        },
+        {
+          "expression": "I'm going to order the soup and noodles.",
+          "meaningZh": "我要点汤和面。order 是已有词卡，这里只指点餐。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "They're full for about forty minutes.",
+          "zh": "客满了，大概要四十分钟。",
+          "required": false
+        },
+        {
+          "en": "There's a noodle place around the corner.",
+          "zh": "街角有一家面馆。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 133,
+      "lineCount": 17
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "sc9-be-delayed",
+      "headword": "be delayed",
+      "pos": "动词短语",
+      "posZh": "动词短语",
+      "senseZh": "（车、航班等）晚点、延误",
+      "collocation": "be delayed / The next one is delayed",
+      "exampleEn": "The sign says the next one is delayed.",
+      "exampleZh": "牌子上写着下一班晚点了。",
+      "transferEn": "Our flight was delayed, so we had dinner at the airport first.",
+      "transferZh": "我们的航班晚点了，于是先在机场吃了晚饭。",
+      "sourceScene": "scene-next-bus-delayed",
+      "sourceLine": "scene-next-bus-delayed-l4",
+      "notesZh": "车辆或航班晚点常用 be delayed / is delayed。人晚到更常说 be late。另境例句改到机场航班，不用本段等公交的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc9-get-off",
+      "headword": "get off",
+      "pos": "动词短语",
+      "posZh": "动词短语",
+      "senseZh": "下车；从公交车或火车下来",
+      "collocation": "get off at the next stop / get off the bus",
+      "exampleEn": "Which stop do we get off at?",
+      "exampleZh": "我们在哪一站下？",
+      "transferEn": "I usually get off in front of the supermarket and then walk home.",
+      "transferZh": "我通常在超市门前下车，然后再走回家。",
+      "sourceScene": "scene-next-bus-delayed",
+      "sourceLine": "scene-next-bus-delayed-l13",
+      "notesZh": "get off the bus / get off at this stop。反义常用 get on。本卡不教 get off work（下班）的意思。另境例句改到超市门口下车，不用本段改乘火车的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc9-on-the-way",
+      "headword": "on the way",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "在路上（正在来或去的途中）",
+      "collocation": "I'm on the way / still on the way",
+      "exampleEn": "She's still on the way herself.",
+      "exampleZh": "她自己也还在路上。",
+      "transferEn": "Don't start cooking yet. I'm on the way, and I'll be there in ten minutes.",
+      "transferZh": "先别开始做饭。我在路上，十分钟就到。",
+      "sourceScene": "scene-next-bus-delayed",
+      "sourceLine": "scene-next-bus-delayed-l11",
+      "notesZh": "指人正在来或去的途中。也可以说 on the way to the station（在去车站的路上）。本卡不教 on the way 的少见比喻用法。另境例句改到回家吃饭，不用本段车站改乘的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc9-train",
+      "headword": "train",
+      "pos": "名词",
+      "posZh": "名词",
+      "senseZh": "火车",
+      "collocation": "take the train / the next train / train station",
+      "exampleEn": "So we walk there and take the train?",
+      "exampleZh": "那我们就走过去，改坐火车？",
+      "transferEn": "There is no direct bus to my parents' place, so I usually take the train.",
+      "transferZh": "没有直达我父母家的公交车，所以我通常坐火车。",
+      "sourceScene": "scene-next-bus-delayed",
+      "sourceLine": "scene-next-bus-delayed-l7",
+      "notesZh": "take the train 是坐火车。本卡只学“火车”这个意思，不学动词 train（训练）。另境例句改到去父母家，不用本段午饭前改乘的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc10-around-the-corner",
+      "headword": "around the corner",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "在街角附近；转过弯就到",
+      "collocation": "around the corner / a place around the corner",
+      "exampleEn": "There's a noodle place around the corner.",
+      "exampleZh": "街角有一家面馆。",
+      "transferEn": "I forgot the milk, but there's a small shop around the corner.",
+      "transferZh": "我忘了买牛奶，不过街角有一家小店。",
+      "sourceScene": "scene-restaurant-is-full",
+      "sourceLine": "scene-restaurant-is-full-l6",
+      "notesZh": "指很近、转过街角就到。本卡不教“即将发生”的比喻义（如 A big change is around the corner）。另境例句改到买牛奶，不用本段换餐馆的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    }
+  ],
+  "stats": {
+    "scenes": 2,
+    "spokenWords": [
+      152,
+      133
+    ],
+    "spokenLines": [
+      16,
+      17
+    ],
+    "wordCards": 5
+  }
+}

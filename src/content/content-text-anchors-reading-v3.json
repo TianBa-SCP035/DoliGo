@@ -1,0 +1,421 @@
+{
+  "id": "content-text-anchors-reading-v3",
+  "title": "阅读 v3 点词范围",
+  "version": "v3",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-12T16:55:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-reading-pack-v3 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p1",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p1",
+      "textEn": "On Thursday evening, I made a plan with two friends, Mei and Chris. We wanted to take the Saturday morning train to a small town and walk around the old streets.",
+      "spans": [],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p2",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p2",
+      "textEn": "I thought about the trip all day Friday. After work, I packed a small bag and set my alarm for six.",
+      "spans": [],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p3",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p3",
+      "textEn": "At nine, Mei messaged me. Her sister's plane was arriving late, and Mei wanted to meet her at the station. She couldn't go on Saturday anymore.",
+      "spans": [
+        {
+          "start": 49,
+          "end": 57,
+          "surface": "arriving",
+          "cardId": "l17-w-arrive",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 98,
+          "end": 105,
+          "surface": "station",
+          "cardId": "L05-V10",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p4",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p4",
+      "textEn": "I told Chris. He said we could still go, just the two of us. I didn't want to leave Mei out of a trip we had planned together.",
+      "spans": [
+        {
+          "start": 78,
+          "end": 91,
+          "surface": "leave Mei out",
+          "cardId": "rd3-leave-out",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p5",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p5",
+      "textEn": "So we decided to stay in the city and have lunch instead. I told Mei she could join us if her sister needed to rest first.",
+      "spans": [
+        {
+          "start": 49,
+          "end": 56,
+          "surface": "instead",
+          "cardId": "reading-delivery-w07",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p6",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p6",
+      "textEn": "Saturday morning, I was almost ready to leave when Chris called. His neighbor had asked him to help carry a table up the stairs, and it was taking longer than he thought. He asked if we could eat an hour later.",
+      "spans": [
+        {
+          "start": 31,
+          "end": 45,
+          "surface": "ready to leave",
+          "cardId": "l14-w-leave",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 204,
+          "end": 209,
+          "surface": "later",
+          "cardId": "l12-w-later",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p7",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p7",
+      "textEn": "I said there was no rush. I sat by the window with a book. After all the changes, the quiet morning felt a little strange, but not bad.",
+      "spans": [
+        {
+          "start": 17,
+          "end": 24,
+          "surface": "no rush",
+          "cardId": "l15-w-rush",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p8",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p8",
+      "textEn": "We met at one. Mei came after all — her sister wanted to rest at the hotel first. The noodle place was busy, so we waited outside for a few minutes.",
+      "spans": [],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p9",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p9",
+      "textEn": "After lunch, we walked along the river and went into a small bookstore. Chris found a map of the town we hadn't visited, and we laughed. Mei bought a postcard for her sister.",
+      "spans": [],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-weekend-plans-change-p10",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-weekend-plans-change-p10",
+      "textEn": "On the way home, we chose a new day for the train: the weekend after next, if everyone is free. This time, I won't pack until we are really going.",
+      "spans": [
+        {
+          "start": 51,
+          "end": 73,
+          "surface": "the weekend after next",
+          "cardId": "rd3-weekend-after-next",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-weekend-plans-change"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p1",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p1",
+      "textEn": "Tuesday started like most of my workdays. I got to the office a little after nine, made tea, and opened my email. I had a short list of things to finish before lunch.",
+      "spans": [],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p2",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p2",
+      "textEn": "At ten, my manager, Paula, stopped by my desk. Two people from another office were coming at three to talk about a shared project. She asked me to print a few copies of the notes and get the small meeting room ready.",
+      "spans": [],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p3",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p3",
+      "textEn": "I said I would take care of it. I wanted everything ready before they arrived. Last month, a visitor had waited in the wrong hallway, and I still remembered how awkward that felt.",
+      "spans": [
+        {
+          "start": 15,
+          "end": 30,
+          "surface": "take care of it",
+          "cardId": "rd3-take-care-of-it",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 125,
+          "end": 132,
+          "surface": "hallway",
+          "cardId": "reading-delivery-w09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p4",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p4",
+      "textEn": "I put the meeting on the shared calendar and sent the visitors a short message with the time and the floor. Then I went down the hall to print the notes.",
+      "spans": [
+        {
+          "start": 101,
+          "end": 106,
+          "surface": "floor",
+          "cardId": "rd3-floor",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p5",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p5",
+      "textEn": "The printer started, then stopped. The light said it was out of paper, but the tray was already full. I took the paper out and put it back. Nothing changed.",
+      "spans": [
+        {
+          "start": 57,
+          "end": 69,
+          "surface": "out of paper",
+          "cardId": "sc6-out-of",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p6",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p6",
+      "textEn": "I tried again from another computer. The same light came on. I didn't want to bother anyone yet, so I waited a few minutes and tried once more. It still didn't work.",
+      "spans": [
+        {
+          "start": 160,
+          "end": 164,
+          "surface": "work",
+          "cardId": "sc2-work",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p7",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p7",
+      "textEn": "At a quarter to twelve, I asked Ken, who sits next to me. He came over, opened the side of the printer, and pulled out a small folded piece of paper I hadn't seen. \"It does that sometimes,\" he said.",
+      "spans": [
+        {
+          "start": 165,
+          "end": 187,
+          "surface": "It does that sometimes",
+          "cardId": "sc1-does-that-sometimes",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p8",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p8",
+      "textEn": "After that, the copies came out fine. I checked the first page and saw last week's date at the top — I had printed the old notes. I still had time, but not a lot.",
+      "spans": [
+        {
+          "start": 71,
+          "end": 82,
+          "surface": "last week's",
+          "cardId": "L08-V02",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p9",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p9",
+      "textEn": "I found the right file, printed it again, and checked every page. Then I looked back at the message I had sent. I had written \"third floor,\" but the small room is on the second floor. That was the same kind of mistake as last month, only this time I caught it early.",
+      "spans": [
+        {
+          "start": 127,
+          "end": 138,
+          "surface": "third floor",
+          "cardId": "rd3-floor",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 170,
+          "end": 182,
+          "surface": "second floor",
+          "cardId": "rd3-floor",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 250,
+          "end": 256,
+          "surface": "caught",
+          "cardId": "sc2-catch",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p10",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p10",
+      "textEn": "I sent a second message with the right floor and went downstairs to put a small note on the door of the wrong room, just in case someone still went there. At five to three, I was in the right room, with the copies on the table.",
+      "spans": [
+        {
+          "start": 29,
+          "end": 44,
+          "surface": "the right floor",
+          "cardId": "rd3-floor",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 116,
+          "end": 128,
+          "surface": "just in case",
+          "cardId": "rd3-just-in-case",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    },
+    {
+      "id": "everyday-reading-pack-v3::reading-right-floor-p11",
+      "sourcePack": "everyday-reading-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-right-floor-p11",
+      "textEn": "The visitors found the room without any trouble. After they left, I wrote a short reminder for myself: check the floor, check the date, and look inside the printer before I start to worry. It was an ordinary day, when a few small things could have gone wrong, and I was glad they didn't.",
+      "spans": [
+        {
+          "start": 82,
+          "end": 90,
+          "surface": "reminder",
+          "cardId": "rd3-reminder",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-right-floor"
+    }
+  ],
+  "stats": {
+    "units": 21,
+    "unitsWithSpans": 15,
+    "spans": 21
+  }
+}

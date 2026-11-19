@@ -1,0 +1,609 @@
+{
+  "id": "sourced-reading-pack-travel-game-nov18",
+  "version": "v1",
+  "status": "review-ready",
+  "createdAt": "2026-11-18T11:24:57+08:00",
+  "sources": [
+    {
+      "id": "src-voy-public-transportation-5426949",
+      "kind": "wikimedia-wiki",
+      "title": "Public transportation",
+      "site": "en.wikivoyage.org",
+      "oldid": 5426949,
+      "permanentRevisionUrl": "https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949",
+      "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history",
+      "sourceLicense": "CC BY-SA 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "wikitextSha256": "633718978d4b90a7205fe75349e51f92a69e398056dc5556ad03903411d68d95",
+      "contributorsAttribution": "Volunteer contributors to the en.wikivoyage.org article “Public transportation”; see the article history. Do not name a single author.",
+      "rightsEvidence": [
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "https://en.wikivoyage.org/wiki/Wikivoyage:Copyleft"
+      ],
+      "reviewedBy": "牛马六号",
+      "reviewedAt": "2026-11-18T11:24:57+08:00",
+      "localCopy": "raw/voy-public-transportation.wikitext",
+      "plainCopy": "raw/voy-public-transportation.plain.txt",
+      "metaCopy": "raw/voy-public-transportation.meta.json"
+    },
+    {
+      "id": "src-simple-videogame-10959862",
+      "kind": "wikimedia-wiki",
+      "title": "Video game",
+      "site": "simple.wikipedia.org",
+      "oldid": 10959862,
+      "permanentRevisionUrl": "https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862",
+      "historyUrl": "https://simple.wikipedia.org/w/index.php?title=Video_game&action=history",
+      "sourceLicense": "CC BY-SA 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "wikitextSha256": "5b0cc047fa6f08c38b69a27779120e13da965e4f901be4681681139f7a0a5d89",
+      "contributorsAttribution": "Volunteer contributors to the simple.wikipedia.org article “Video game”; see the article history. Do not name a single author.",
+      "rightsEvidence": [
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "https://simple.wikipedia.org/wiki/Wikipedia:Copyrights"
+      ],
+      "localCopy": "raw/simple-videogame.wikitext",
+      "plainCopy": "raw/simple-videogame.plain.txt",
+      "metaCopy": "raw/simple-videogame.meta.json",
+      "reviewedBy": "牛马六号",
+      "reviewedAt": "2026-11-18T11:24:57+08:00"
+    }
+  ],
+  "readings": [
+    {
+      "id": "reading-using-public-transport-depth",
+      "kind": "reading",
+      "title": "出行时怎么坐公共交通",
+      "titleEn": "Using public transportation",
+      "topic": "travel",
+      "register": "everyday-informative",
+      "levelSuggestionZh": "A2 建议，日常出行说明",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "en": "Public transportation is a system of scheduled passenger travel that lets strangers share the same route in the same vehicle.",
+          "zh": "公共交通是一种按时刻运行的客运系统，让互不相识的人在同一辆车上走同一条路线。",
+          "sentences": [
+            {
+              "id": "p1-s1",
+              "en": "Public transportation is a system of scheduled passenger travel",
+              "zh": "公共交通是一种按时刻运行的客运系统，",
+              "start": 0,
+              "end": 63
+            },
+            {
+              "id": "p1-s2",
+              "en": "that lets strangers share the same route in the same vehicle.",
+              "zh": "让互不相识的人在同一辆车上走同一条路线。",
+              "start": 64,
+              "end": 125
+            }
+          ],
+          "wordCountEn": 20
+        },
+        {
+          "id": "p2",
+          "en": "In large cities it is often provided by buses and by different rail systems, such as a metro, commuter rail, and trams.",
+          "zh": "在大城市里，它常常由公共汽车提供，也可由不同的轨道交通提供，比如地铁、市郊铁路和有轨电车。",
+          "sentences": [
+            {
+              "id": "p2-s1",
+              "en": "In large cities it is often provided by buses",
+              "zh": "在大城市里，它常常由公共汽车提供，",
+              "start": 0,
+              "end": 45
+            },
+            {
+              "id": "p2-s2",
+              "en": "and by different rail systems, such as a metro, commuter rail, and trams.",
+              "zh": "也可由不同的轨道交通提供，比如地铁、市郊铁路和有轨电车。",
+              "start": 46,
+              "end": 119
+            }
+          ],
+          "wordCountEn": 22
+        },
+        {
+          "id": "p3",
+          "en": "Comfort and reliability vary a lot, but in many large cities it is a practical way to get around, and it usually costs less than a taxi.",
+          "zh": "舒适程度和准点程度差别很大，但在许多大城市里，它是一种实用的出行方式，费用通常也比出租车低。",
+          "sentences": [
+            {
+              "id": "p3-s1",
+              "en": "Comfort and reliability vary a lot,",
+              "zh": "舒适程度和准点程度差别很大，",
+              "start": 0,
+              "end": 35
+            },
+            {
+              "id": "p3-s2",
+              "en": "but in many large cities it is a practical way to get around,",
+              "zh": "但在许多大城市里，它是一种实用的出行方式，",
+              "start": 36,
+              "end": 97
+            },
+            {
+              "id": "p3-s3",
+              "en": "and it usually costs less than a taxi.",
+              "zh": "费用通常也比出租车低。",
+              "start": 98,
+              "end": 136
+            }
+          ],
+          "wordCountEn": 27
+        },
+        {
+          "id": "p4",
+          "en": "These systems often carry large numbers of passengers, so there are fairly often problems with overcrowding, especially at rush hours.",
+          "zh": "这些系统常常运送大量乘客，所以相当经常会出现拥挤，尤其是在高峰时段。",
+          "sentences": [
+            {
+              "id": "p4-s1",
+              "en": "These systems often carry large numbers of passengers,",
+              "zh": "这些系统常常运送大量乘客，",
+              "start": 0,
+              "end": 54
+            },
+            {
+              "id": "p4-s2",
+              "en": "so there are fairly often problems with overcrowding, especially at rush hours.",
+              "zh": "所以相当经常会出现拥挤，尤其是在高峰时段。",
+              "start": 55,
+              "end": 134
+            }
+          ],
+          "wordCountEn": 20
+        },
+        {
+          "id": "p5",
+          "en": "You usually need a ticket. You can buy one at a ticket office, at a machine, or sometimes on your phone. Keep it until you get off, and in some systems tap or show it before you board.",
+          "zh": "你通常需要一张票。你可以在售票处、售票机，有时也可以在手机上购买。票要一直留着，直到下车；在有些系统里，上车前还需要拍卡或出示车票。",
+          "sentences": [
+            {
+              "id": "p5-s1",
+              "en": "You usually need a ticket.",
+              "zh": "你通常需要一张票。",
+              "start": 0,
+              "end": 26
+            },
+            {
+              "id": "p5-s2",
+              "en": "You can buy one at a ticket office, at a machine, or sometimes on your phone.",
+              "zh": "你可以在售票处、售票机，有时也可以在手机上购买。",
+              "start": 27,
+              "end": 104
+            },
+            {
+              "id": "p5-s3",
+              "en": "Keep it until you get off, and in some systems tap or show it before you board.",
+              "zh": "票要一直留着，直到下车；在有些系统里，上车前还需要拍卡或出示车票。",
+              "start": 105,
+              "end": 184
+            }
+          ],
+          "wordCountEn": 38
+        },
+        {
+          "id": "p6",
+          "en": "A driver or an inspector may check your ticket. If you travel without a valid ticket, you may have to pay a fine; this is general information, not a rule for one city.",
+          "zh": "司机或查票员可能会检查你的票。如果你没有有效车票就乘车，可能要交罚款；这是一般说明，不是某一座城市的规定。",
+          "sentences": [
+            {
+              "id": "p6-s1",
+              "en": "A driver or an inspector may check your ticket.",
+              "zh": "司机或查票员可能会检查你的票。",
+              "start": 0,
+              "end": 47
+            },
+            {
+              "id": "p6-s2",
+              "en": "If you travel without a valid ticket, you may have to pay a fine;",
+              "zh": "如果你没有有效车票就乘车，可能要交罚款；",
+              "start": 48,
+              "end": 113
+            },
+            {
+              "id": "p6-s3",
+              "en": "this is general information, not a rule for one city.",
+              "zh": "这是一般说明，不是某一座城市的规定。",
+              "start": 114,
+              "end": 167
+            }
+          ],
+          "wordCountEn": 33
+        },
+        {
+          "id": "p7",
+          "en": "You usually carry your own bags. A large suitcase is hard to manage at rush hour.",
+          "zh": "你通常要自己拿行李。在高峰时段，大行李箱很难挪动。",
+          "sentences": [
+            {
+              "id": "p7-s1",
+              "en": "You usually carry your own bags.",
+              "zh": "你通常要自己拿行李。",
+              "start": 0,
+              "end": 32
+            },
+            {
+              "id": "p7-s2",
+              "en": "A large suitcase is hard to manage at rush hour.",
+              "zh": "在高峰时段，大行李箱很难挪动。",
+              "start": 33,
+              "end": 81
+            }
+          ],
+          "wordCountEn": 16
+        },
+        {
+          "id": "p8",
+          "en": "Don't block the aisle or the doors. Offer your seat if someone needs it more, and look for seats marked as priority seats.",
+          "zh": "不要堵住过道或车门。如果有人更需要座位，就把座位让出来，也可以留意标成优先座位的位子。",
+          "sentences": [
+            {
+              "id": "p8-s1",
+              "en": "Don't block the aisle or the doors.",
+              "zh": "不要堵住过道或车门。",
+              "start": 0,
+              "end": 35
+            },
+            {
+              "id": "p8-s2",
+              "en": "Offer your seat if someone needs it more,",
+              "zh": "如果有人更需要座位，就把座位让出来，",
+              "start": 36,
+              "end": 77
+            },
+            {
+              "id": "p8-s3",
+              "en": "and look for seats marked as priority seats.",
+              "zh": "也可以留意标成优先座位的位子。",
+              "start": 78,
+              "end": 122
+            }
+          ],
+          "wordCountEn": 23
+        },
+        {
+          "id": "p9",
+          "en": "Buses and trains follow a schedule, but there can be a delay. If you miss one bus, the next one may come soon, or you may have to wait longer; this is a learning example, not a timetable for a real city.",
+          "zh": "公共汽车和火车会按时刻表运行，但也可能晚点。如果你错过一班车，下一班也许很快就来，也可能要等更久；这是学习情景示例，不是某座真实城市的时刻表。",
+          "sentences": [
+            {
+              "id": "p9-s1",
+              "en": "Buses and trains follow a schedule, but there can be a delay.",
+              "zh": "公共汽车和火车会按时刻表运行，但也可能晚点。",
+              "start": 0,
+              "end": 61
+            },
+            {
+              "id": "p9-s2",
+              "en": "If you miss one bus, the next one may come soon, or you may have to wait longer;",
+              "zh": "如果你错过一班车，下一班也许很快就来，也可能要等更久；",
+              "start": 62,
+              "end": 142
+            },
+            {
+              "id": "p9-s3",
+              "en": "this is a learning example, not a timetable for a real city.",
+              "zh": "这是学习情景示例，不是某座真实城市的时刻表。",
+              "start": 143,
+              "end": 203
+            }
+          ],
+          "wordCountEn": 42
+        }
+      ],
+      "relatedSceneIds": [
+        "scene-next-bus-delayed"
+      ],
+      "relatedPathId": "path-travel",
+      "sourceId": "src-voy-public-transportation-5426949",
+      "textMode": "adapted",
+      "changeNotice": "Adapted from the English Wikivoyage article “Public transportation”, permanent revision https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949 (CC BY-SA 4.0). Expanded to nine paragraphs for A2+ learners, still from the same pinned revision. Omitted intra-wiki “see also” links, the Yogi Berra quotation, oil-price and climate-policy claims, city-specific ticketing examples, and unusual transport modes. Ticket-check, baggage, and courtesy lines were rewritten as general information, not as rules for a named city. The delay/next-bus close was rewritten as a clearly marked learning example, not a timetable. No images or logos were used. Share-alike: this adapted text is also offered under CC BY-SA 4.0.",
+      "adaptedLicense": "CC BY-SA 4.0",
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "出行说明文体，词汇以常用公共交通词为主，可与场景 scene-next-bus-delayed 联读。",
+        "noteZh": "本篇整体标为常用；配套词仍按词卡三档混出，不替代 levelSuggestionZh。"
+      },
+      "wordCountEn": 241,
+      "wordCount": 241,
+      "source": {
+        "sourceType": "external-adaptation",
+        "sourceTitle": "Public transportation",
+        "sourceSite": "en.wikivoyage.org",
+        "sourceArticleUrl": "https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949",
+        "permanentRevisionUrl": "https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949",
+        "sourceOldid": 5426949,
+        "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history",
+        "contributorsAttribution": "Volunteer contributors to the en.wikivoyage.org article “Public transportation”; see the article history. Do not name a single author.",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adaptedLicense": "CC BY-SA 4.0"
+      },
+      "sourceAttribution": {
+        "attributionEn": "Adapted from “Public transportation” by volunteer contributors to en.wikivoyage.org. Permanent revision: https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949. Contributor history: https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history. Source and adapted English and Chinese text: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Images, logos and trademarks excluded. No endorsement is implied.",
+        "attributionZh": "改编自 en.wikivoyage.org 条目「Public transportation」志愿者文稿。永久修订：https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949。贡献者历史：https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history。原文及改编中英文：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）。不含图片、标志或商标。不表示背书。",
+        "links": [
+          {
+            "label": "Permanent revision",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949"
+          },
+          {
+            "label": "History",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history"
+          },
+          {
+            "label": "CC BY-SA 4.0",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        ],
+        "changeEn": "Adapted from the English Wikivoyage article “Public transportation”, permanent revision https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949 (CC BY-SA 4.0). Expanded to nine paragraphs for A2+ learners, still from the same pinned revision. Omitted intra-wiki “see also” links, the Yogi Berra quotation, oil-price and climate-policy claims, city-specific ticketing examples, and unusual transport modes. Ticket-check, baggage, and courtesy lines were rewritten as general information, not as rules for a named city. The delay/next-bus close was rewritten as a clearly marked learning example, not a timetable. No images or logos were used. Share-alike: this adapted text is also offered under CC BY-SA 4.0.",
+        "changeZh": "已在同一固定修订上加厚并翻译，供学习使用。不含图片、标志或商标。不表示原作者背书。",
+        "translationEn": "English and Chinese learning text is adapted and translated by the Doliguo content team, licensed CC BY-SA 4.0.",
+        "translationZh": "英语及中文学习文本由多莉国内容组改编翻译，许可 CC BY-SA 4.0。",
+        "noEndorsementEn": "No endorsement is implied.",
+        "noEndorsementZh": "不表示原作者或原网站背书。"
+      },
+      "endOfReadingAttribution": {
+        "en": "Adapted from “Public transportation” by volunteer contributors to en.wikivoyage.org. Permanent revision: https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949. Contributor history: https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history. Source and adapted English and Chinese text: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Images, logos and trademarks excluded. No endorsement is implied.",
+        "zh": "改编自 en.wikivoyage.org 条目「Public transportation」志愿者文稿。永久修订：https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949。贡献者历史：https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history。原文及改编中英文：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）。不含图片、标志或商标。不表示背书。"
+      }
+    },
+    {
+      "id": "reading-what-a-video-game-is-depth",
+      "kind": "reading",
+      "title": "电子游戏是什么",
+      "titleEn": "What a video game is",
+      "topic": "game",
+      "register": "everyday-informative",
+      "levelSuggestionZh": "A2 建议，游戏说明",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "en": "A video game is an electronic game played on a video screen, normally a television, a computer monitor, or a built-in screen on a handheld machine.",
+          "zh": "电子游戏是一种在视频屏幕上玩的游戏，屏幕通常是电视、电脑显示器，或手持设备上的内置屏幕。",
+          "sentences": [
+            {
+              "id": "p1-s1",
+              "en": "A video game is an electronic game played on a video screen,",
+              "zh": "电子游戏是一种在视频屏幕上玩的游戏，",
+              "start": 0,
+              "end": 60
+            },
+            {
+              "id": "p1-s2",
+              "en": "normally a television, a computer monitor, or a built-in screen on a handheld machine.",
+              "zh": "屏幕通常是电视、电脑显示器，或手持设备上的内置屏幕。",
+              "start": 61,
+              "end": 147
+            }
+          ],
+          "wordCountEn": 26
+        },
+        {
+          "id": "p2",
+          "en": "There are many types, or genres, of video games, such as role-playing games and platform games. People can play them at home on a computer or on a specialized device called a console, and they can also play portable games in other places.",
+          "zh": "电子游戏有许多种类，也叫类型，比如角色扮演游戏和平台跳跃游戏。人们可以在家里用电脑玩，也可以用一种专门的设备来玩，这种设备叫做游戏机，还可以在别的地方玩便携游戏。",
+          "sentences": [
+            {
+              "id": "p2-s1",
+              "en": "There are many types, or genres, of video games, such as role-playing games and platform games.",
+              "zh": "电子游戏有许多种类，也叫类型，比如角色扮演游戏和平台跳跃游戏。",
+              "start": 0,
+              "end": 95
+            },
+            {
+              "id": "p2-s2",
+              "en": "People can play them at home on a computer or on a specialized device called a console,",
+              "zh": "人们可以在家里用电脑玩，也可以用一种专门的设备来玩，这种设备叫做游戏机，",
+              "start": 96,
+              "end": 183
+            },
+            {
+              "id": "p2-s3",
+              "en": "and they can also play portable games in other places.",
+              "zh": "还可以在别的地方玩便携游戏。",
+              "start": 184,
+              "end": 238
+            }
+          ],
+          "wordCountEn": 43
+        },
+        {
+          "id": "p3",
+          "en": "Video games usually come on a disc, or they are downloaded digitally. Some games are played alone, and some are played with other people, often online.",
+          "zh": "电子游戏通常存储在光盘上，或者以数字方式下载。有些游戏是独自玩的，有些则是和其他人一起玩，而且常常是在网上。",
+          "sentences": [
+            {
+              "id": "p3-s1",
+              "en": "Video games usually come on a disc, or they are downloaded digitally.",
+              "zh": "电子游戏通常存储在光盘上，或者以数字方式下载。",
+              "start": 0,
+              "end": 69
+            },
+            {
+              "id": "p3-s2",
+              "en": "Some games are played alone,",
+              "zh": "有些游戏是独自玩的，",
+              "start": 70,
+              "end": 98
+            },
+            {
+              "id": "p3-s3",
+              "en": "and some are played with other people, often online.",
+              "zh": "有些则是和其他人一起玩，而且常常是在网上。",
+              "start": 99,
+              "end": 151
+            }
+          ],
+          "wordCountEn": 26
+        },
+        {
+          "id": "p4",
+          "en": "Mobile devices can also run games, so people can play when they are out. Some games are played on arcade machines in public places. Older games sometimes came in a cartridge, but many games are now downloaded.",
+          "zh": "移动设备也可以运行游戏，所以人们出门时也能玩。有些游戏是在公共场所的街机上玩的。较早的游戏有时装在卡带里，但现在许多游戏是下载的。",
+          "sentences": [
+            {
+              "id": "p4-s1",
+              "en": "Mobile devices can also run games, so people can play when they are out.",
+              "zh": "移动设备也可以运行游戏，所以人们出门时也能玩。",
+              "start": 0,
+              "end": 72
+            },
+            {
+              "id": "p4-s2",
+              "en": "Some games are played on arcade machines in public places.",
+              "zh": "有些游戏是在公共场所的街机上玩的。",
+              "start": 73,
+              "end": 131
+            },
+            {
+              "id": "p4-s3",
+              "en": "Older games sometimes came in a cartridge, but many games are now downloaded.",
+              "zh": "较早的游戏有时装在卡带里，但现在许多游戏是下载的。",
+              "start": 132,
+              "end": 209
+            }
+          ],
+          "wordCountEn": 37
+        },
+        {
+          "id": "p5",
+          "en": "When people play together, they may use voice chat. If the connection is poor, the sound can cut out, or the game can lag; this is a learning example, not a report about a real match.",
+          "zh": "人们一起玩时，可能会使用语音聊天。如果网络不好，声音可能会中断，或者游戏会卡顿；这是学习情景示例，不是对某场真实对局的报道。",
+          "sentences": [
+            {
+              "id": "p5-s1",
+              "en": "When people play together, they may use voice chat.",
+              "zh": "人们一起玩时，可能会使用语音聊天。",
+              "start": 0,
+              "end": 51
+            },
+            {
+              "id": "p5-s2",
+              "en": "If the connection is poor, the sound can cut out, or the game can lag;",
+              "zh": "如果网络不好，声音可能会中断，或者游戏会卡顿；",
+              "start": 52,
+              "end": 122
+            },
+            {
+              "id": "p5-s3",
+              "en": "this is a learning example, not a report about a real match.",
+              "zh": "这是学习情景示例，不是对某场真实对局的报道。",
+              "start": 123,
+              "end": 183
+            }
+          ],
+          "wordCountEn": 36
+        },
+        {
+          "id": "p6",
+          "en": "After a short match, players sometimes start another round, or they use a short spoken phrase to end the game in a friendly way.",
+          "zh": "一小局结束后，玩家有时会再开一局，或者用一句简短的口头语友好地结束这局游戏。",
+          "sentences": [
+            {
+              "id": "p6-s1",
+              "en": "After a short match, players sometimes start another round,",
+              "zh": "一小局结束后，玩家有时会再开一局，",
+              "start": 0,
+              "end": 59
+            },
+            {
+              "id": "p6-s2",
+              "en": "or they use a short spoken phrase to end the game in a friendly way.",
+              "zh": "或者用一句简短的口头语友好地结束这局游戏。",
+              "start": 60,
+              "end": 128
+            }
+          ],
+          "wordCountEn": 24
+        },
+        {
+          "id": "p7",
+          "en": "Competitions of video game players are called electronic sports, also known as e-sports. This article does not review any real game, brand, or current machine.",
+          "zh": "电子游戏玩家之间的比赛叫做电子竞技，也称为电竞。本文不评价任何真实游戏、品牌或当前的游戏设备。",
+          "sentences": [
+            {
+              "id": "p7-s1",
+              "en": "Competitions of video game players are called electronic sports, also known as e-sports.",
+              "zh": "电子游戏玩家之间的比赛叫做电子竞技，也称为电竞。",
+              "start": 0,
+              "end": 88
+            },
+            {
+              "id": "p7-s2",
+              "en": "This article does not review any real game, brand, or current machine.",
+              "zh": "本文不评价任何真实游戏、品牌或当前的游戏设备。",
+              "start": 89,
+              "end": 159
+            }
+          ],
+          "wordCountEn": 25
+        }
+      ],
+      "relatedSceneIds": [
+        "scene-one-more-round",
+        "scene-voice-keeps-cutting"
+      ],
+      "relatedPathId": "path-game",
+      "sourceId": "src-simple-videogame-10959862",
+      "textMode": "adapted",
+      "changeNotice": "Adapted from the Simple English Wikipedia article “Video game”, permanent revision https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862 (CC BY-SA 4.0). Expanded to seven paragraphs for A2+ learners, still from the same pinned revision. Omitted image captions, brand and product names, console-generation timelines, emulator claims, unsourced sales statements, and early-title or personal-name history. Genre, console, portable, mobile, arcade, and cartridge lines are adapted from the source; the voice-chat, lag, and another-round paragraphs were added as clearly marked learning examples so this reading can sit with existing game scenes, and they are not from the source article. The first Chinese sentence keeps the earlier typo fix (no repeated 电子). No images or logos were used. Share-alike: this adapted text is also offered under CC BY-SA 4.0.",
+      "adaptedLicense": "CC BY-SA 4.0",
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "游戏说明文体，主体为常用词；语音中断与再来一局为进阶场景用语，仍按词卡三档混出。",
+        "noteZh": "本篇整体标为常用；不替代 levelSuggestionZh。"
+      },
+      "wordCountEn": 217,
+      "wordCount": 217,
+      "source": {
+        "sourceType": "external-adaptation",
+        "sourceTitle": "Video game",
+        "sourceSite": "simple.wikipedia.org",
+        "sourceArticleUrl": "https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862",
+        "permanentRevisionUrl": "https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862",
+        "sourceOldid": 10959862,
+        "historyUrl": "https://simple.wikipedia.org/w/index.php?title=Video_game&action=history",
+        "contributorsAttribution": "Volunteer contributors to the simple.wikipedia.org article “Video game”; see the article history. Do not name a single author.",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adaptedLicense": "CC BY-SA 4.0"
+      },
+      "sourceAttribution": {
+        "attributionEn": "Adapted from “Video game” by volunteer contributors to simple.wikipedia.org. Permanent revision: https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862. Contributor history: https://simple.wikipedia.org/w/index.php?title=Video_game&action=history. Source and adapted English and Chinese text: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Images, logos and trademarks excluded. No endorsement is implied.",
+        "attributionZh": "改编自 simple.wikipedia.org 条目「Video game」志愿者文稿。永久修订：https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862。贡献者历史：https://simple.wikipedia.org/w/index.php?title=Video_game&action=history。原文及改编中英文：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）。不含图片、标志或商标。不表示背书。",
+        "links": [
+          {
+            "label": "Permanent revision",
+            "href": "https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862"
+          },
+          {
+            "label": "History",
+            "href": "https://simple.wikipedia.org/w/index.php?title=Video_game&action=history"
+          },
+          {
+            "label": "CC BY-SA 4.0",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        ],
+        "changeEn": "Adapted from the Simple English Wikipedia article “Video game”, permanent revision https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862 (CC BY-SA 4.0). Expanded to seven paragraphs for A2+ learners, still from the same pinned revision. Omitted image captions, brand and product names, console-generation timelines, emulator claims, unsourced sales statements, and early-title or personal-name history. Genre, console, portable, mobile, arcade, and cartridge lines are adapted from the source; the voice-chat, lag, and another-round paragraphs were added as clearly marked learning examples so this reading can sit with existing game scenes, and they are not from the source article. The first Chinese sentence keeps the earlier typo fix (no repeated 电子). No images or logos were used. Share-alike: this adapted text is also offered under CC BY-SA 4.0.",
+        "changeZh": "已在同一固定修订上加厚并翻译，供学习使用。不含图片、标志或商标。不表示原作者背书。",
+        "translationEn": "English and Chinese learning text is adapted and translated by the Doliguo content team, licensed CC BY-SA 4.0.",
+        "translationZh": "英语及中文学习文本由多莉国内容组改编翻译，许可 CC BY-SA 4.0。",
+        "noEndorsementEn": "No endorsement is implied.",
+        "noEndorsementZh": "不表示原作者或原网站背书。"
+      },
+      "endOfReadingAttribution": {
+        "en": "Adapted from “Video game” by volunteer contributors to simple.wikipedia.org. Permanent revision: https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862. Contributor history: https://simple.wikipedia.org/w/index.php?title=Video_game&action=history. Source and adapted English and Chinese text: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Images, logos and trademarks excluded. No endorsement is implied.",
+        "zh": "改编自 simple.wikipedia.org 条目「Video game」志愿者文稿。永久修订：https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862。贡献者历史：https://simple.wikipedia.org/w/index.php?title=Video_game&action=history。原文及改编中英文：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）。不含图片、标志或商标。不表示背书。"
+      }
+    }
+  ],
+  "note": "Travel and game supporting readings thickened 2026-11-18T11:24:57+08:00 (241 / 217 words). Same IDs replace the earlier short drafts. Do not change the nine study-group queues."
+}

@@ -1,0 +1,514 @@
+{
+  "id": "everyday-scenes-pack-v3",
+  "title": "日常场景对话与独立词卡·新增待接入稿 v3（约饭改时间、商店缺货替代）",
+  "version": "v3",
+  "lang": "zh-Hans",
+  "varietyNote": "用词按普通、偏美式日常英语统一。这不是唯一正确说法。",
+  "levelNote": "难度仅为教学建议，大约按 A2 日常口语来写，未经认证分级，不保证对应某一考试等级。对话按熟人之间或顾客与店员的随意口语来写，不是听力录音转写。",
+  "provenance": "全部为原创虚构学习情景和原创例句，不是真人经历、真实聊天或转载语料；未从网上单词书或现成词库选词。人物不是助手或用户本人。",
+  "status": "新增待接入稿；不是网站已更新，也不是页面实测通过。不替换 everyday-scenes-pack-v1.1，也不覆盖 everyday-scenes-pack-v2。本稿不等于网站上线。",
+  "createdAt": "2026-11-12T16:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-scenes-pack-v1.1",
+    "everyday-scenes-pack-v2"
+  ],
+  "basedOn": [
+    "everyday-scenes-pack-v1.1 的字段与接入约定（schema）",
+    "independent-vocab-review-pack-v1.2（273 张词卡索引，优先复用已有准确义项）",
+    "everyday-scenes-pack-v2（已有约改时间/改计划稿，本包另写晚饭改预订与商店缺货，不覆盖、不重复建卡）",
+    "sample-lesson-dinner-roommates-v1（室友晚饭样课仍单独保留）",
+    "对照去重：english-foundation-8-lessons、english-expansion-everyday-v4、everyday-reading-and-words-v1、everyday-reading-pack-v2.1"
+  ],
+  "selectionPrinciples": [
+    "每段对话只处理一件具体的事，允许计划不顺利，不按词表轮流分配台词。",
+    "词卡可脱离对话单独学；一词一义；另境例句不用正在教的那个场面。",
+    "已在共享稿或独立词卡索引出现过的准确义项只复现，不新建词卡。义项不同则另建，并写明差别。",
+    "不强制做题，不把打开中文或讲解记为掌握。",
+    "选词按教师判断的真实生活实用性，不承诺频率排名或掌握数量。"
+  ],
+  "integrationNotes": [
+    "这是 everyday-scenes-pack-v3 新增待接入稿，只放在共享工作区 nov12-extension，不是已经上线的对话或背词页，不代表网站已更新。不要用本稿覆盖已接入的 everyday-scenes-pack-v1.1，也不要覆盖尚未接入的 everyday-scenes-pack-v2。稿件不等于网站上线。",
+    "两段都有具体障碍：一段是已经订好的晚饭要改时间，餐厅只能改到七点十五；一段是常买的面包卖完了，店员给出另一种牌子的替代。接入时不要把它们拆回 8 句配额问答，也不要改成必须先做题才能继续。",
+    "独立词卡可从背词入口单独学，不必先读完对话或做题。词卡默认先藏意思，再回忆揭晓；中英例句分行写，不要排成一句待译练习。先揭释义，再展开例句和说明。对白正文里应能直接点开本课卡词。",
+    "正文先连续显示英文对白；中文按句展开，包括过场说明（A little later），讲解和可选理解按需打开。本包不附选择题。查看中文、讲解不记为掌握。",
+    "词卡已按义项对照 273 张索引卡、基础 8 课、扩展 v4、阅读 v1、阅读 v2.1、场景 v1.1、场景 v2 和室友晚饭样课做了去重；未读取用户电脑上的现网站 pack，不能代替现网词本核对，也不把词卡数说成净新增词数。",
+    "只复现、不新建的已有义项包括：dinner、tonight、still、okay、already、table、arrive、late、later、minute、check、fine、place、text、leave、Sounds good、See you then、No rush、come、as soon as（场景 v2 的 sc3-as-soon-as）、shopping list、bread、That's too bad、instead、buy、price、Pretty much、a bit、cheap、bag、please、milk、left（向左，L06-V05）、help。",
+    "易混义项已分卡或避开：book a table 不同于 grab a table；they're full 不是 I am full；look for 不同于 look + 形容词、也不同于 take a look；We're out of 不是 outside；on the left 不是“剩下”；get her 是去接人，不用 pick up（阅读稿是取、领取）；不用 I'll take this one，改用 I'll buy this one；不用 works for me；不用 make it（避免与 sc3-make-it“赶上、能来”或 Can we make it 7:30“改到七点半”混在一张卡里），改用 Could we eat a little later? 和 7:15 is fine。",
+    "室友晚饭样课和场景 v2 仍单独保留，不要和本包一次堆上全部稿件。",
+    "接入时以本 JSON 为源并固定版本号 everyday-scenes-pack-v3。点词范围见同目录 content-text-anchors-scenes-v3.json，应合并进现有 anchors，不得替换 content-text-anchors-v1.1，不得改写旧 unit id 或 REVIEW_UNIT_ID_PREFIX（independent-vocab-review-pack-v1）。保留既有学习进度和存储键；不要改旧卡 ID。字段需由开发者映射。无云同步、无虚假AI对话、无口语评分。",
+    "本轮只在 box 的 /workspace/doliguo-content/nov12-extension/ 准备稿件，未改七号页面、未改一号根入口、未写入用户电脑项目目录。本稿本身不能证明已写入网站。实现方在可维护的项目目录内再追加接入，并与 v1.1、v2、阅读稿、晚饭样课分开安排。"
+  ],
+  "scenes": [
+    {
+      "id": "scene-change-dinner-time",
+      "title": "晚饭改个时间",
+      "titleEn": "Can We Eat a Little Later?",
+      "levelSuggestionZh": "熟人之间商量晚饭时间，中间要改预订；不是商务预约课。建议难度大约 A2，未经认证分级。",
+      "settingZh": "两个朋友先说好今晚六点半一起吃晚饭，下午在网上发消息。",
+      "situationZh": "B 已经订好位子。A 的姐姐飞机到得晚，要先去接，希望改晚一点。B 去改预订：七点半没有位子，七点十五可以。两人改到七点十五，仍去原来那家。",
+      "narratorNote": "第一人称以外的两位虚构朋友；不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-change-dinner-time-l1",
+          "speaker": "A",
+          "en": "Hey. Is 6:30 still okay for dinner tonight?",
+          "zh": "嘿。晚饭还是六点半可以吗？"
+        },
+        {
+          "id": "scene-change-dinner-time-l2",
+          "speaker": "B",
+          "en": "Yeah. I already booked a table.",
+          "zh": "可以。我已经订好位子了。"
+        },
+        {
+          "id": "scene-change-dinner-time-l3",
+          "speaker": "A",
+          "en": "Something came up. My sister's plane arrives late, and I have to get her first. Could we eat a little later?",
+          "zh": "临时有点事。我姐姐的飞机到得晚，我得先去接她。咱们能晚一点吃吗？"
+        },
+        {
+          "id": "scene-change-dinner-time-l4",
+          "speaker": "B",
+          "en": "How much later? The table is for 6:30.",
+          "zh": "要晚多久？位子订的是六点半。"
+        },
+        {
+          "id": "scene-change-dinner-time-l5",
+          "speaker": "A",
+          "en": "7:30? I think I can be there by then.",
+          "zh": "七点半？我想那时候我能到。"
+        },
+        {
+          "id": "scene-change-dinner-time-l6",
+          "speaker": "B",
+          "en": "Let me see if I can change it. Give me a minute.",
+          "zh": "我看看能不能改。等我一下。"
+        },
+        {
+          "id": "scene-change-dinner-time-l7",
+          "speaker": "stage",
+          "en": "A little later.",
+          "zh": "过了一会儿。"
+        },
+        {
+          "id": "scene-change-dinner-time-l8",
+          "speaker": "B",
+          "en": "They can do 7:15, but not 7:30. After that, they're full.",
+          "zh": "他们可以改到七点十五，七点半不行。再晚就没有位子了。"
+        },
+        {
+          "id": "scene-change-dinner-time-l9",
+          "speaker": "A",
+          "en": "7:15 is fine. Thanks for checking.",
+          "zh": "七点十五可以。谢谢你帮我问了。"
+        },
+        {
+          "id": "scene-change-dinner-time-l10",
+          "speaker": "B",
+          "en": "Okay, I changed it. Same place as before.",
+          "zh": "好，我改好了。还是原来那家。"
+        },
+        {
+          "id": "scene-change-dinner-time-l11",
+          "speaker": "A",
+          "en": "Great. I'll text you when I leave.",
+          "zh": "太好了。我出门的时候给你发消息。"
+        },
+        {
+          "id": "scene-change-dinner-time-l12",
+          "speaker": "B",
+          "en": "Sounds good. See you then. No rush if traffic is slow.",
+          "zh": "好。到时候见。要是路上慢，也不着急。"
+        },
+        {
+          "id": "scene-change-dinner-time-l13",
+          "speaker": "A",
+          "en": "Okay. I'll come as soon as I can.",
+          "zh": "好。我会尽快过来。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "Something came up.",
+          "meaningZh": "临时有事、突然冒出一件要处理的事。不是“有东西上来了”。本段后面才说明是去接飞机晚到的姐姐。"
+        },
+        {
+          "expression": "I already booked a table.",
+          "meaningZh": "我已经订好位子了。book a table 是提前预订。场景 v2 的 grab a table（sc3-grab-a-table）是到了以后先占座，不是同一回事。table 仍用已有词卡 L01-V04（桌子）。already 只复现。"
+        },
+        {
+          "expression": "My sister's plane arrives late, and I have to get her first.",
+          "meaningZh": "姐姐的飞机到得晚，我得先去接她。arrives late 复用已有 arrive（到达）和 late（迟的/晚的），不是场景 v2 的 running late（人要迟到或活动结束得晚）。这里的 get her 是去接人，不是“得到她”；也故意不用 pick up，以免和阅读稿 pick up（取、领取）混义。"
+        },
+        {
+          "expression": "Could we eat a little later? / How much later?",
+          "meaningZh": "能不能晚一点吃？要晚多久？later 在扩展课里已经出现，本段只复现。Is 6:30 still okay 和 v2 里 Is three still okay? 同类，确认原定时间还行不行，不另建卡。dinner、tonight、still、okay 都只复现。"
+        },
+        {
+          "expression": "Let me see if I can change it. / Okay, I changed it.",
+          "meaningZh": "这里的 change it 指改这笔预订，不是换一家店或换衣服。Give me a minute、Thanks for checking 里的 minute、check 都只复现。"
+        },
+        {
+          "expression": "After that, they're full.",
+          "meaningZh": "再晚就没有位子了。这里的 full 是餐厅客满，不是 I am full（我吃饱了）。"
+        },
+        {
+          "expression": "Same place as before. / I'll text you when I leave.",
+          "meaningZh": "还是原来那家。place、text、leave、Sounds good、See you then、No rush、come 都只复现。See you then 和已有的 See you there 相近，都是道别约定，不必另建卡。"
+        },
+        {
+          "expression": "No rush if traffic is slow. / I'll come as soon as I can.",
+          "meaningZh": "路上慢也不着急。traffic 这里是路上的车流，本包只在讲解里说明，不强制先背。as soon as 已在场景 v2 写成 sc3-as-soon-as（一……就……），本包只复现，不新建词卡，本课点词也不另标。故意不用 works for me，以免和已有的 work（上班 / 东西能用）再混进“时间方便”这第三种意思；用 7:15 is fine 即可。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "Something came up.",
+          "zh": "临时有点事。先整句记。",
+          "required": false
+        },
+        {
+          "en": "I already booked a table.",
+          "zh": "我已经订好位子了。和到店以后先占座不是同一句。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 115,
+      "lineCount": 12
+    },
+    {
+      "id": "scene-store-out-of-stock",
+      "title": "这个没有了",
+      "titleEn": "We're Out of That One",
+      "levelSuggestionZh": "在超市向店员询问缺货和替代，不是商品目录课。建议难度大约 A2，未经认证分级。",
+      "settingZh": "一位顾客在超市货架前找不到清单上的面包，向店员询问。",
+      "situationZh": "A 要找常买的那种蓝袋面包，货架上没有。B 说今天已经卖完，明天会再有，并推荐另一个牌子、大小略小也稍便宜的替代。A 改买这个，又问了牛奶的位置。",
+      "narratorNote": "虚构的顾客与店员；不是助手或用户本人。人物和店铺均为虚构。",
+      "lines": [
+        {
+          "id": "scene-store-out-of-stock-l1",
+          "speaker": "A",
+          "en": "Excuse me. I'm looking for this bread. It's on my shopping list, but I don't see it.",
+          "zh": "不好意思。我在找这种面包。购物清单上有，可是我没看到。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l2",
+          "speaker": "B",
+          "en": "The one in the blue bag? We had it this morning.",
+          "zh": "蓝色袋子装的那种吗？今天早上还有。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l3",
+          "speaker": "A",
+          "en": "Yeah. I buy that one all the time.",
+          "zh": "对。我一直都买那种。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l4",
+          "speaker": "B",
+          "en": "We're out of it now. We should have more tomorrow.",
+          "zh": "现在卖完了。明天应该会再有。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l5",
+          "speaker": "A",
+          "en": "That's too bad. Do you have something else like it?",
+          "zh": "真遗憾。还有别的差不多的吗？"
+        },
+        {
+          "id": "scene-store-out-of-stock-l6",
+          "speaker": "B",
+          "en": "We have this one. It's a different brand, but a lot of people buy it instead.",
+          "zh": "有这种。牌子不一样，不过很多人改买这个。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l7",
+          "speaker": "A",
+          "en": "Is the price about the same?",
+          "zh": "价钱差不多吗？"
+        },
+        {
+          "id": "scene-store-out-of-stock-l8",
+          "speaker": "B",
+          "en": "Pretty much. It's a little smaller, and it's a bit cheaper too.",
+          "zh": "差不多。稍微小一点，也便宜一点。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l9",
+          "speaker": "A",
+          "en": "Okay. I'll buy this one then.",
+          "zh": "好。那我就买这个。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l10",
+          "speaker": "B",
+          "en": "Sure. Do you need a bag?",
+          "zh": "好。需要袋子吗？"
+        },
+        {
+          "id": "scene-store-out-of-stock-l11",
+          "speaker": "A",
+          "en": "Yes, please. One more thing — where is the milk?",
+          "zh": "要的，谢谢。还有一件事——牛奶在哪里？"
+        },
+        {
+          "id": "scene-store-out-of-stock-l12",
+          "speaker": "B",
+          "en": "Aisle three, on the left, next to the eggs.",
+          "zh": "第三通道，左边，鸡蛋旁边。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l13",
+          "speaker": "A",
+          "en": "Got it. Thanks for your help.",
+          "zh": "知道了。谢谢你帮忙。"
+        },
+        {
+          "id": "scene-store-out-of-stock-l14",
+          "speaker": "B",
+          "en": "No problem.",
+          "zh": "不客气。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "Excuse me. I'm looking for this bread.",
+          "meaningZh": "叫住店员时用 Excuse me（不好意思）。look for 是寻找某物，和扩展课 l11-w-look（看起来 + 形容词）以及 l15-w-take-a-look（看一眼、检查一下）不是同一个意思。bread、shopping list 只复现。"
+        },
+        {
+          "expression": "We're out of it now.",
+          "meaningZh": "现在卖完了、没有了。商店里也常说 It's sold out。本卡先记 be out of / We're out of。不是 outside（在外面）。tomorrow 只复现。"
+        },
+        {
+          "expression": "That's too bad. Do you have something else like it?",
+          "meaningZh": "真遗憾。还有别的差不多的吗？That's too bad 是已有语块，表示同情，不是指责“太坏了”。something else like it 是在问相近的替代，本包标为可选卡，不强制先背。"
+        },
+        {
+          "expression": "It's a different brand, but a lot of people buy it instead.",
+          "meaningZh": "牌子不一样，不过很多人改买这个。brand 是品牌、牌子。instead、buy 只复现。"
+        },
+        {
+          "expression": "Is the price about the same? / Pretty much. It's a little smaller, and it's a bit cheaper too.",
+          "meaningZh": "价钱差不多吗？Pretty much（差不多就是这样）是晚饭样课已有语块，本段只复现。price、cheap、a bit（有一点儿，修饰形容词）都只复现。"
+        },
+        {
+          "expression": "I'll buy this one then. / Do you need a bag? / Yes, please.",
+          "meaningZh": "那我就买这个。这里用 buy，不用 I'll take this one，以免和已有 take（带走）混义。bag、please（Yes, please 表示接受对方提供的东西）只复现。"
+        },
+        {
+          "expression": "Aisle three, on the left, next to the eggs.",
+          "meaningZh": "第三通道，左边，鸡蛋旁边。aisle 是超市里货架之间的通道。on the left 用的是已有词卡 L06-V05（向左），千万不要读成“剩下”。next to 和已有 by（在……旁边）相近，本包不另建卡。milk 只复现。"
+        },
+        {
+          "expression": "Got it. Thanks for your help.",
+          "meaningZh": "这里的 Got it 是“知道了、明白了”。场景 v1.1 里 Got it 是“收到了（邀请）”，用法接近，不必另建卡。help 只复现。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "We're out of it now.",
+          "zh": "现在卖完了。先整句记。",
+          "required": false
+        },
+        {
+          "en": "Do you have something else like it?",
+          "zh": "还有别的差不多的吗？可选，先会听、会用即可。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 129,
+      "lineCount": 14
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "sc5-something-came-up",
+      "headword": "Something came up",
+      "pos": "语块",
+      "senseZh": "临时有事、突然冒出一件要处理的事",
+      "collocation": "Something came up / Something came up at work",
+      "exampleEn": "Something came up. Could we eat a little later?",
+      "exampleZh": "临时有点事。咱们能晚一点吃吗？",
+      "transferEn": "I can't come to the movie tonight. Something came up at work.",
+      "transferZh": "我今晚去不了看电影了。单位里临时有点事。",
+      "sourceScene": "scene-change-dinner-time",
+      "sourceLine": "scene-change-dinner-time-l3",
+      "notesZh": "先整句记。不是“有东西上来了”。本段是先说有事，再说明要去接飞机晚到的姐姐。另境例句改到看电影和单位，不用本段订餐厅的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc5-book-a-table",
+      "headword": "book a table",
+      "pos": "动词短语",
+      "senseZh": "预订（餐厅的）位子",
+      "collocation": "book a table / I already booked a table",
+      "exampleEn": "Yeah. I already booked a table.",
+      "exampleZh": "可以。我已经订好位子了。",
+      "transferEn": "I booked a table at the noodle place for Saturday.",
+      "transferZh": "我在那家面馆订了周六的位子。",
+      "sourceScene": "scene-change-dinner-time",
+      "sourceLine": "scene-change-dinner-time-l2",
+      "notesZh": "这是提前预订。场景 v2 的 grab a table（sc3-grab-a-table）是到了以后先占座，不是同一回事。table 本身仍用已有词卡 L01-V04（桌子），本卡只学 book a table 这个动作。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc5-be-full",
+      "headword": "they're full",
+      "pos": "语块",
+      "senseZh": "（餐厅等）客满、没有空位",
+      "collocation": "they're full / they were full",
+      "exampleEn": "After that, they're full.",
+      "exampleZh": "再晚就没有位子了。",
+      "transferEn": "We wanted to eat there, but they were full.",
+      "transferZh": "我们想在那儿吃，可是已经客满了。",
+      "sourceScene": "scene-change-dinner-time",
+      "sourceLine": "scene-change-dinner-time-l8",
+      "notesZh": "这里指餐厅或类似地方没有空位，不是 I am full（我吃饱了）。不要学成“他们满了”的字面意思。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc6-look-for",
+      "headword": "look for",
+      "pos": "动词短语",
+      "senseZh": "寻找、找（某物或某人）",
+      "collocation": "look for / I'm looking for",
+      "exampleEn": "I'm looking for this bread.",
+      "exampleZh": "我在找这种面包。",
+      "transferEn": "I'm looking for my keys. Have you seen them?",
+      "transferZh": "我在找钥匙。你看见了吗？",
+      "sourceScene": "scene-store-out-of-stock",
+      "sourceLine": "scene-store-out-of-stock-l1",
+      "notesZh": "和扩展课 l11-w-look（看起来 + 形容词）不是同一个意思，也不是 l15-w-take-a-look（看一眼、检查一下）。本卡只学“寻找”。另境例句改到找钥匙，不用本段超市买面包的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc6-out-of",
+      "headword": "We're out of",
+      "pos": "语块",
+      "senseZh": "没有了、卖完了、用完了",
+      "collocation": "We're out of it / We're out of milk",
+      "exampleEn": "We're out of it now.",
+      "exampleZh": "现在卖完了。",
+      "transferEn": "We're out of milk at home. Can you get some?",
+      "transferZh": "家里牛奶没了。你能买一点吗？",
+      "sourceScene": "scene-store-out-of-stock",
+      "sourceLine": "scene-store-out-of-stock-l4",
+      "notesZh": "表示没有了、用完了或卖完了。商店里也常说 It's sold out。本卡先记 be out of / We're out of。不是 outside（在外面），也不是 out of stock 的术语讲法。另境例句改到家里牛奶，不用本段货架找面包的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc6-brand",
+      "headword": "brand",
+      "pos": "可数名词",
+      "senseZh": "品牌、牌子",
+      "collocation": "a different brand / this brand of tea",
+      "exampleEn": "It's a different brand, but a lot of people buy it instead.",
+      "exampleZh": "牌子不一样，不过很多人改买这个。",
+      "transferEn": "I usually buy this brand of tea.",
+      "transferZh": "我通常买这个牌子的茶。",
+      "sourceScene": "scene-store-out-of-stock",
+      "sourceLine": "scene-store-out-of-stock-l6",
+      "notesZh": "这里只学“品牌、牌子”，不讲商标法或营销术语。另境例句改到茶，不用本段面包。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc6-aisle",
+      "headword": "aisle",
+      "pos": "可数名词",
+      "senseZh": "超市里货架之间的通道",
+      "collocation": "aisle three / on aisle seven",
+      "exampleEn": "Aisle three, on the left, next to the eggs.",
+      "exampleZh": "第三通道，左边，鸡蛋旁边。",
+      "transferEn": "The toothpaste is on aisle seven.",
+      "transferZh": "牙膏在第七通道。",
+      "sourceScene": "scene-store-out-of-stock",
+      "sourceLine": "scene-store-out-of-stock-l12",
+      "notesZh": "指超市里两边是货架的走道，不是剧场座位之间的过道（那一层本卡不教）。本句 on the left 用的是已有词卡 L06-V05（向左），不是“剩下”。next to 和已有 by（在……旁边）相近，不另建卡。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc6-something-else-like-it",
+      "headword": "something else like it",
+      "pos": "语块",
+      "senseZh": "别的差不多的（东西）",
+      "collocation": "Do you have something else like it?",
+      "exampleEn": "Do you have something else like it?",
+      "exampleZh": "还有别的差不多的吗？",
+      "transferEn": "This jacket is too small. Do you have something else like it?",
+      "transferZh": "这件外套太小了。还有别的差不多的吗？",
+      "sourceScene": "scene-store-out-of-stock",
+      "sourceLine": "scene-store-out-of-stock-l5",
+      "notesZh": "用来询问功能或种类相近的替代。不是必背，先会听、会用即可。instead（改为、取而代之）是已有词卡，本段后文 buy it instead 只复现，不并进这张卡。另境例句改到外套尺寸，不用本段面包。",
+      "standalone": true,
+      "priority": "optional",
+      "provenance": "原创学习例句，非转载语料。"
+    }
+  ],
+  "stats": {
+    "scenes": 2,
+    "dialogueLines": 26,
+    "stageDirections": 1,
+    "spokenWords": [
+      115,
+      129
+    ],
+    "wordCards": 8,
+    "primaryWordCards": 7,
+    "optionalWordCards": 1,
+    "optionalQuestions": 0,
+    "optionalTakeaways": 4
+  },
+  "reusedExistingSenses": [
+    "L03-V12 dinner",
+    "l14-w-tonight tonight",
+    "l13-w-still still",
+    "L01-V12 okay",
+    "l11-w-already already",
+    "L01-V04 table",
+    "l17-w-arrive arrive",
+    "L05-V03 late",
+    "l12-w-later later",
+    "l15-w-minute minute",
+    "l15-w-check check",
+    "L01-V02 fine",
+    "L05-V09 place",
+    "l14-w-text text",
+    "l14-w-leave leave",
+    "L03-P02 Sounds good.",
+    "L05-P03 See you there!（相近：See you then，不另建）",
+    "l15-w-rush No rush",
+    "L06-V02 come",
+    "sc3-as-soon-as as soon as（场景 v2 已有，本包只复现、本课点词不标注）",
+    "rw2-shopping-list shopping list",
+    "L03-V08 bread",
+    "l11-w-too-bad That's too bad",
+    "reading-delivery-w07 instead",
+    "L04-V01 buy",
+    "L04-V07 price",
+    "dinner-pretty-much Pretty much",
+    "l10-w-a-bit a bit",
+    "L04-V08 cheap",
+    "L04-V10 bag",
+    "l14-w-please please",
+    "L03-V10 milk",
+    "L06-V05 left（向左）",
+    "L06-V04 help"
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "id": "sourced-reading-pack-shopping-nov18",
+  "version": "v1",
+  "status": "wired",
+  "createdAt": "2026-11-18T11:48:01+08:00",
+  "sources": [
+    {
+      "id": "src-voy-clothes-5332348",
+      "kind": "wikimedia-wiki",
+      "title": "Clothes",
+      "site": "en.wikivoyage.org",
+      "oldid": 5332348,
+      "permanentRevisionUrl": "https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348",
+      "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Clothes&action=history",
+      "sourceLicense": "CC BY-SA 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "wikitextSha256": "de52639a8cb385d0c3c2c8d36a23ca7cfc7ee1edf978e1c76aa1c5d1d38ac8cd",
+      "contributorsAttribution": "Volunteer contributors to the en.wikivoyage.org article “Clothes”; see the article history. Do not name a single author.",
+      "rightsEvidence": [
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "https://en.wikivoyage.org/wiki/Wikivoyage:Copyleft"
+      ],
+      "localCopy": "raw/voy-clothes.wikitext",
+      "plainCopy": "raw/voy-clothes.plain.txt",
+      "metaCopy": "raw/voy-clothes.meta.json",
+      "reviewedBy": "牛马六号",
+      "reviewedAt": "2026-11-18T11:48:01+08:00",
+      "url": "https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Volunteer contributors to the en.wikivoyage.org article “Clothes”; see the article history. Do not name a single author.",
+      "reuseDecision": "approved"
+    }
+  ],
+  "readings": [
+    {
+      "id": "reading-buying-clothes-in-a-store-depth",
+      "kind": "reading",
+      "title": "买衣服时可以注意什么",
+      "titleEn": "Things to notice when you buy clothes",
+      "topic": "shopping",
+      "register": "everyday-informative",
+      "levelSuggestionZh": "A2 建议，购物说明",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "en": "People often buy clothes because they need them, not only because they like something new. If you only need an item for a short time, it is wise not to spend too much.",
+          "zh": "人们常常因为需要而买衣服，而不只是因为喜欢新东西。如果一件衣服你只用很短一段时间，就不宜花太多钱。",
+          "sentences": [
+            {
+              "id": "p1-s1",
+              "en": "People often buy clothes because they need them, not only because they like something new.",
+              "zh": "人们常常因为需要而买衣服，而不只是因为喜欢新东西。",
+              "start": 0,
+              "end": 90
+            },
+            {
+              "id": "p1-s2",
+              "en": "If you only need an item for a short time, it is wise not to spend too much.",
+              "zh": "如果一件衣服你只用很短一段时间，就不宜花太多钱。",
+              "start": 91,
+              "end": 167
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "en": "Clothing size standards are not the same everywhere. A size called \"large\" in one place may not be large in another. Some numbering systems look similar but are still different. A shop assistant with a measuring tape can help you find a better fit.",
+          "zh": "各地的服装尺码标准并不相同。一个地方标成 large 的尺码，到了另一个地方未必还是 large。有些数字编号看起来差不多，其实仍有差别。店员拿着卷尺，可以帮助你找到更合适的尺寸。",
+          "sentences": [
+            {
+              "id": "p2-s1",
+              "en": "Clothing size standards are not the same everywhere.",
+              "zh": "各地的服装尺码标准并不相同。",
+              "start": 0,
+              "end": 52
+            },
+            {
+              "id": "p2-s2",
+              "en": "A size called \"large\" in one place may not be large in another.",
+              "zh": "一个地方标成 large 的尺码，到了另一个地方未必还是 large。",
+              "start": 53,
+              "end": 116
+            },
+            {
+              "id": "p2-s3",
+              "en": "Some numbering systems look similar but are still different.",
+              "zh": "有些数字编号看起来差不多，其实仍有差别。",
+              "start": 117,
+              "end": 177
+            },
+            {
+              "id": "p2-s4",
+              "en": "A shop assistant with a measuring tape can help you find a better fit.",
+              "zh": "店员拿着卷尺，可以帮助你找到更合适的尺寸。",
+              "start": 178,
+              "end": 248
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "en": "It is useful to try clothes on before you pay. A fitting room lets you see whether the size and the sleeves feel right; this is a learning example, not advice from one store.",
+          "zh": "付钱之前先试穿，往往很有用。试衣间可以让你看看尺码和袖子是否合适；这是学习情景示例，不是某家店的建议。",
+          "sentences": [
+            {
+              "id": "p3-s1",
+              "en": "It is useful to try clothes on before you pay.",
+              "zh": "付钱之前先试穿，往往很有用。",
+              "start": 0,
+              "end": 46
+            },
+            {
+              "id": "p3-s2",
+              "en": "A fitting room lets you see whether the size and the sleeves feel right;",
+              "zh": "试衣间可以让你看看尺码和袖子是否合适；",
+              "start": 47,
+              "end": 119
+            },
+            {
+              "id": "p3-s3",
+              "en": "this is a learning example, not advice from one store.",
+              "zh": "这是学习情景示例，不是某家店的建议。",
+              "start": 120,
+              "end": 174
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "en": "Second-hand shops can also be a way to buy clothes. Before you decide, check that there are no stains or other damage that matters to you. A small defect may be fine, or you may want to look at another item.",
+          "zh": "二手店也可以是买衣服的一种途径。决定之前，先检查有没有对你来说要紧的污渍或其他损坏。一个小瑕疵也许没关系，你也可能想再看另一件。",
+          "sentences": [
+            {
+              "id": "p4-s1",
+              "en": "Second-hand shops can also be a way to buy clothes.",
+              "zh": "二手店也可以是买衣服的一种途径。",
+              "start": 0,
+              "end": 51
+            },
+            {
+              "id": "p4-s2",
+              "en": "Before you decide, check that there are no stains or other damage that matters to you.",
+              "zh": "决定之前，先检查有没有对你来说要紧的污渍或其他损坏。",
+              "start": 52,
+              "end": 138
+            },
+            {
+              "id": "p4-s3",
+              "en": "A small defect may be fine, or you may want to look at another item.",
+              "zh": "一个小瑕疵也许没关系，你也可能想再看另一件。",
+              "start": 139,
+              "end": 207
+            }
+          ]
+        },
+        {
+          "id": "p5",
+          "en": "When you are ready to pay, you go to the checkout and pay at the counter. Keep the receipt. If you need to exchange the item later, the receipt is often useful. Some stores can also gift wrap an item if you are buying a present; this is a learning example, not a promise from a real store.",
+          "zh": "准备付钱时，你走到收银处，在柜台结账。把小票留着。如果以后需要换货，小票往往有用。有些店在你买礼物时还可以做礼品包装；这是学习情景示例，不是某家真实店铺的承诺。",
+          "sentences": [
+            {
+              "id": "p5-s1",
+              "en": "When you are ready to pay, you go to the checkout and pay at the counter.",
+              "zh": "准备付钱时，你走到收银处，在柜台结账。",
+              "start": 0,
+              "end": 73
+            },
+            {
+              "id": "p5-s2",
+              "en": "Keep the receipt.",
+              "zh": "把小票留着。",
+              "start": 74,
+              "end": 91
+            },
+            {
+              "id": "p5-s3",
+              "en": "If you need to exchange the item later, the receipt is often useful.",
+              "zh": "如果以后需要换货，小票往往有用。",
+              "start": 92,
+              "end": 160
+            },
+            {
+              "id": "p5-s4",
+              "en": "Some stores can also gift wrap an item if you are buying a present;",
+              "zh": "有些店在你买礼物时还可以做礼品包装；",
+              "start": 161,
+              "end": 228
+            },
+            {
+              "id": "p5-s5",
+              "en": "this is a learning example, not a promise from a real store.",
+              "zh": "这是学习情景示例，不是某家真实店铺的承诺。",
+              "start": 229,
+              "end": 289
+            }
+          ]
+        },
+        {
+          "id": "p6",
+          "en": "This article does not review any real store, brand, or city. It is general information for learning, and it can be read next to the earlier text about the clothes we wear.",
+          "zh": "本文不评价任何真实店铺、品牌或城市。这是供学习用的一般说明，也可以和先前那篇讲日常衣服的文章一起读。",
+          "sentences": [
+            {
+              "id": "p6-s1",
+              "en": "This article does not review any real store, brand, or city.",
+              "zh": "本文不评价任何真实店铺、品牌或城市。",
+              "start": 0,
+              "end": 60
+            },
+            {
+              "id": "p6-s2",
+              "en": "It is general information for learning, and it can be read next to the earlier text about the clothes we wear.",
+              "zh": "这是供学习用的一般说明，也可以和先前那篇讲日常衣服的文章一起读。",
+              "start": 61,
+              "end": 171
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "relatedSceneIds": [
+        "scene-have-the-receipt",
+        "scene-store-out-of-stock"
+      ],
+      "relatedPathId": "path-shopping",
+      "sourceId": "src-voy-clothes-5332348",
+      "textMode": "adapted",
+      "changeNotice": "Adapted from the English Wikivoyage article “Clothes”, permanent revision https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348 (CC BY-SA 4.0). Used the Buy and Second-hand shopping sections and rewrote them as short A2 explanatory prose. Omitted travel packing advice, destination-specific tips, named country size examples, cultural-appropriation debates, fur and endangered-species rules, formal dress codes, religious-site clothing rules, named slow-fashion districts, rent and repair travel tips, and intra-wiki links. Size-standard and measuring-tape lines were rewritten as general information, not as a comparison between named countries. Second-hand quality checks keep the general stain and defect advice. The fitting-room, checkout, receipt and gift-wrap lines were rewritten as a clearly marked learning example, not as a rule for a real store. No images or logos were used. Share-alike: this adapted text is also offered under CC BY-SA 4.0.",
+      "changeNoticeZh": "改编自英文 Wikivoyage 条目「Clothes」，永久修订 https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348（CC BY-SA 4.0）。取用 Buy 与 Second-hand shopping 两节，改写成适合 A2 的说明短文。删去旅行打包建议、目的地提示、具名国家尺码对照、文化挪用讨论、皮草与濒危物种规定、正装规范、宗教场所着装规定、具名慢时尚街区、租衣和修补出行建议，以及站内链接。尺码标准和卷尺改为一般说明，不是具名国家之间的对照。二手衣质量检查保留一般的污渍与瑕疵提示。试衣间、收银处、小票和礼品包装改写成标明的学习情景示例，不是某家真实商店的规定。未使用图片或标志。相同方式共享：本改编文本同样以 CC BY-SA 4.0 提供。",
+      "adaptedLicense": "CC BY-SA 4.0",
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "购物说明文体，词汇以常用店内用语为主，可与小票、缺货和收银处场景联读，也可与《每天穿的衣服》对照。",
+        "noteZh": "本篇整体标为常用；配套词仍按词卡三档混出，不替代 levelSuggestionZh。"
+      },
+      "wordCountEn": 242,
+      "wordCount": 242,
+      "source": {
+        "sourceType": "external-adaptation",
+        "sourceTitle": "Clothes",
+        "sourceSite": "en.wikivoyage.org",
+        "sourceArticleUrl": "https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348",
+        "permanentRevisionUrl": "https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348",
+        "sourceOldid": 5332348,
+        "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Clothes&action=history",
+        "contributorsAttribution": "Volunteer contributors to the en.wikivoyage.org article “Clothes”; see the article history. Do not name a single author.",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adaptedLicense": "CC BY-SA 4.0"
+      },
+      "sourceAttribution": {
+        "attributionEn": "Adapted from “Clothes” by volunteer contributors to en.wikivoyage.org. Permanent revision: https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348. Contributor history: https://en.wikivoyage.org/w/index.php?title=Clothes&action=history. Source and adapted English and Chinese text: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Images, logos and trademarks excluded. No endorsement is implied.",
+        "attributionZh": "改编自 en.wikivoyage.org 条目「Clothes」志愿者文稿。永久修订：https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348。贡献者历史：https://en.wikivoyage.org/w/index.php?title=Clothes&action=history。原文及改编中英文：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）。不含图片、标志或商标。不表示背书。",
+        "links": [
+          {
+            "label": "Permanent revision",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348"
+          },
+          {
+            "label": "History",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Clothes&action=history"
+          },
+          {
+            "label": "CC BY-SA 4.0",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        ],
+        "changeEn": "Adapted from the English Wikivoyage article “Clothes”, permanent revision https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348 (CC BY-SA 4.0). Used the Buy and Second-hand shopping sections and rewrote them as short A2 explanatory prose. Omitted travel packing advice, destination-specific tips, named country size examples, cultural-appropriation debates, fur and endangered-species rules, formal dress codes, religious-site clothing rules, named slow-fashion districts, rent and repair travel tips, and intra-wiki links. Size-standard and measuring-tape lines were rewritten as general information, not as a comparison between named countries. Second-hand quality checks keep the general stain and defect advice. The fitting-room, checkout, receipt and gift-wrap lines were rewritten as a clearly marked learning example, not as a rule for a real store. No images or logos were used. Share-alike: this adapted text is also offered under CC BY-SA 4.0.",
+        "changeZh": "改编自英文 Wikivoyage 条目「Clothes」，永久修订 https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348（CC BY-SA 4.0）。取用 Buy 与 Second-hand shopping 两节，改写成适合 A2 的说明短文。删去旅行打包建议、目的地提示、具名国家尺码对照、文化挪用讨论、皮草与濒危物种规定、正装规范、宗教场所着装规定、具名慢时尚街区、租衣和修补出行建议，以及站内链接。尺码标准和卷尺改为一般说明，不是具名国家之间的对照。二手衣质量检查保留一般的污渍与瑕疵提示。试衣间、收银处、小票和礼品包装改写成标明的学习情景示例，不是某家真实商店的规定。未使用图片或标志。相同方式共享：本改编文本同样以 CC BY-SA 4.0 提供。",
+        "translationEn": "Chinese text was written for this project to help learners follow the adapted English. It is not an official Wikimedia translation.",
+        "translationZh": "中文为本项目编写，方便学习者对照改编后的英文，不是维基媒体的官方译文。",
+        "noEndorsementEn": "Wikimedia, Wikivoyage and the original contributors do not endorse this adaptation.",
+        "noEndorsementZh": "维基媒体、Wikivoyage 和原文贡献者并不对本改编表示背书。"
+      },
+      "endOfReadingAttribution": {
+        "en": "Adapted from “Clothes” by volunteer contributors to en.wikivoyage.org. Permanent revision: https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348. Contributor history: https://en.wikivoyage.org/w/index.php?title=Clothes&action=history. Source and adapted English and Chinese text: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Images, logos and trademarks excluded. No endorsement is implied.",
+        "zh": "改编自 en.wikivoyage.org 条目「Clothes」志愿者文稿。永久修订：https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348。贡献者历史：https://en.wikivoyage.org/w/index.php?title=Clothes&action=history。原文及改编中英文：CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）。不含图片、标志或商标。不表示背书。"
+      }
+    }
+  ],
+  "note": "Shopping companion reading only. Does not replace reading-clothes-for-everyday-depth. CC BY-SA 4.0."
+}

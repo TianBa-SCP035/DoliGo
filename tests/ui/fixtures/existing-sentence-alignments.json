@@ -1,0 +1,430 @@
+{
+  "readings": [
+    {
+      "id": "reading-library-basics",
+      "title": "图书馆",
+      "paragraphs": [
+        {
+          "id": "reading-library-basics-p1",
+          "en": "A library is a place where many books are kept. Most public libraries let people borrow books and take them home for several weeks. Some libraries belong to schools, universities, or other institutions. The people who work there are called librarians. They take care of the library and help visitors find what they need.",
+          "zh": "图书馆是存放许多书籍的地方。大多数公共图书馆允许人们把书借回家，通常可以借几个星期。有些图书馆属于学校、大学或其他机构。在图书馆工作的人叫做图书管理员。他们照看图书馆，并帮助来访者找到需要的资料。",
+          "sentences": [
+            {
+              "en": "A library is a place where many books are kept.",
+              "zh": "图书馆是存放许多书籍的地方。",
+              "start": 0,
+              "end": 47
+            },
+            {
+              "en": "Most public libraries let people borrow books and take them home for several weeks.",
+              "zh": "大多数公共图书馆允许人们把书借回家，通常可以借几个星期。",
+              "start": 48,
+              "end": 131
+            },
+            {
+              "en": "Some libraries belong to schools, universities, or other institutions.",
+              "zh": "有些图书馆属于学校、大学或其他机构。",
+              "start": 132,
+              "end": 202
+            },
+            {
+              "en": "The people who work there are called librarians.",
+              "zh": "在图书馆工作的人叫做图书管理员。",
+              "start": 203,
+              "end": 251
+            },
+            {
+              "en": "They take care of the library and help visitors find what they need.",
+              "zh": "他们照看图书馆，并帮助来访者找到需要的资料。",
+              "start": 252,
+              "end": 320
+            }
+          ]
+        },
+        {
+          "id": "reading-library-basics-p2",
+          "en": "A library is not a bookstore. A bookstore sells books, but a library lends them. Many libraries also have magazines, music, maps, and computers with internet access. People come to read, to study, or to look something up. Students often use libraries to develop good study habits. Other people use them for work or for personal interests.",
+          "zh": "图书馆不是书店。书店卖书，图书馆则是把书借出去。许多图书馆还有杂志、音乐、地图，以及可以上网的电脑。人们来这里阅读、学习，或查阅资料。学生常常利用图书馆养成良好的学习习惯。也有人来这里工作，或了解自己感兴趣的事。",
+          "sentences": [
+            {
+              "en": "A library is not a bookstore.",
+              "zh": "图书馆不是书店。",
+              "start": 0,
+              "end": 29
+            },
+            {
+              "en": "A bookstore sells books, but a library lends them.",
+              "zh": "书店卖书，图书馆则是把书借出去。",
+              "start": 30,
+              "end": 80
+            },
+            {
+              "en": "Many libraries also have magazines, music, maps, and computers with internet access.",
+              "zh": "许多图书馆还有杂志、音乐、地图，以及可以上网的电脑。",
+              "start": 81,
+              "end": 165
+            },
+            {
+              "en": "People come to read, to study, or to look something up.",
+              "zh": "人们来这里阅读、学习，或查阅资料。",
+              "start": 166,
+              "end": 221
+            },
+            {
+              "en": "Students often use libraries to develop good study habits.",
+              "zh": "学生常常利用图书馆养成良好的学习习惯。",
+              "start": 222,
+              "end": 280
+            },
+            {
+              "en": "Other people use them for work or for personal interests.",
+              "zh": "也有人来这里工作，或了解自己感兴趣的事。",
+              "start": 281,
+              "end": 338
+            }
+          ]
+        },
+        {
+          "id": "reading-library-basics-p3",
+          "en": "In many places, anyone who lives in the area can join the public library. With a library card, you can usually borrow books without paying a fee. Books are kept on shelves in a special order so they are easier to find. Stories are often arranged by the writer's last name. Books about other subjects may have a number, such as the Dewey decimal system, and then stand in number order.",
+          "zh": "在许多地方，住在当地的人都可以办理公共图书馆的借书证。有了借书证，通常可以免费借书。图书会按一定顺序放在架子上，方便查找。故事类图书常常按作者姓氏排列。其他主题的书可能会有编号，比如杜威十进分类法，再按编号上架。",
+          "sentences": [
+            {
+              "en": "In many places, anyone who lives in the area can join the public library.",
+              "zh": "在许多地方，住在当地的人都可以办理公共图书馆的借书证。",
+              "start": 0,
+              "end": 73
+            },
+            {
+              "en": "With a library card, you can usually borrow books without paying a fee.",
+              "zh": "有了借书证，通常可以免费借书。",
+              "start": 74,
+              "end": 145
+            },
+            {
+              "en": "Books are kept on shelves in a special order so they are easier to find.",
+              "zh": "图书会按一定顺序放在架子上，方便查找。",
+              "start": 146,
+              "end": 218
+            },
+            {
+              "en": "Stories are often arranged by the writer's last name.",
+              "zh": "故事类图书常常按作者姓氏排列。",
+              "start": 219,
+              "end": 272
+            },
+            {
+              "en": "Books about other subjects may have a number, such as the Dewey decimal system, and then stand in number order.",
+              "zh": "其他主题的书可能会有编号，比如杜威十进分类法，再按编号上架。",
+              "start": 273,
+              "end": 384
+            }
+          ]
+        },
+        {
+          "id": "reading-library-basics-p4",
+          "en": "In some rural areas, a mobile library, or bookmobile, brings books to places that do not have a full library building. Libraries help people get information, and they also keep a record of culture to pass on to later generations.",
+          "zh": "在一些乡村地区，流动图书馆（有时叫做图书车）会把书送到没有完整馆舍的地方。图书馆帮助人们获取信息，也保存文化记录，并传给后来的人。",
+          "sentences": [
+            {
+              "en": "In some rural areas, a mobile library, or bookmobile, brings books to places that do not have a full library building.",
+              "zh": "在一些乡村地区，流动图书馆（有时叫做图书车）会把书送到没有完整馆舍的地方。",
+              "start": 0,
+              "end": 118
+            },
+            {
+              "en": "Libraries help people get information, and they also keep a record of culture to pass on to later generations.",
+              "zh": "图书馆帮助人们获取信息，也保存文化记录，并传给后来的人。",
+              "start": 119,
+              "end": 229
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-weather-everyday",
+      "title": "天气",
+      "paragraphs": [
+        {
+          "id": "reading-weather-everyday-p1",
+          "en": "Weather is the day-to-day, or even hour-to-hour, change in the air around us. It includes wind, rain, snow, storms, and many other conditions. Energy from the sun affects the weather too. Climate is different from weather. Climate tells us what kinds of weather usually happen in an area at different times of the year.",
+          "zh": "天气是我们周围空气一天一天、甚至一小时一小时的变化。它包括风、雨、雪、风暴，以及许多其他情况。来自太阳的能量也会影响天气。气候和天气不同。气候告诉我们，一个地区在一年中的不同时候通常会有什么样的天气。",
+          "sentences": [
+            {
+              "en": "Weather is the day-to-day, or even hour-to-hour, change in the air around us.",
+              "zh": "天气是我们周围空气一天一天、甚至一小时一小时的变化。",
+              "start": 0,
+              "end": 77
+            },
+            {
+              "en": "It includes wind, rain, snow, storms, and many other conditions.",
+              "zh": "它包括风、雨、雪、风暴，以及许多其他情况。",
+              "start": 78,
+              "end": 142
+            },
+            {
+              "en": "Energy from the sun affects the weather too.",
+              "zh": "来自太阳的能量也会影响天气。",
+              "start": 143,
+              "end": 187
+            },
+            {
+              "en": "Climate is different from weather.",
+              "zh": "气候和天气不同。",
+              "start": 188,
+              "end": 222
+            },
+            {
+              "en": "Climate tells us what kinds of weather usually happen in an area at different times of the year.",
+              "zh": "气候告诉我们，一个地区在一年中的不同时候通常会有什么样的天气。",
+              "start": 223,
+              "end": 319
+            }
+          ]
+        },
+        {
+          "id": "reading-weather-everyday-p2",
+          "en": "Changes in the weather affect daily life. People wear different clothes and do different things in different weather. They may also choose different food in different seasons. Weather stations around the world measure things such as wind speed, wind direction, temperature, and humidity. Scientists called meteorologists use these measurements, and computer models, to make weather forecasts.",
+          "zh": "天气变化会影响日常生活。人们在不同的天气里会穿不同的衣服、做不同的事，在不同的季节也可能选择不同的食物。世界各地的气象站会测量风速、风向、气温和湿度等。称为气象学家的科学家会利用这些测量结果和计算机模型，做出天气预报。",
+          "sentences": [
+            {
+              "en": "Changes in the weather affect daily life.",
+              "zh": "天气变化会影响日常生活。",
+              "start": 0,
+              "end": 41
+            },
+            {
+              "en": "People wear different clothes and do different things in different weather. They may also choose different food in different seasons.",
+              "zh": "人们在不同的天气里会穿不同的衣服、做不同的事，在不同的季节也可能选择不同的食物。",
+              "start": 42,
+              "end": 175
+            },
+            {
+              "en": "Weather stations around the world measure things such as wind speed, wind direction, temperature, and humidity.",
+              "zh": "世界各地的气象站会测量风速、风向、气温和湿度等。",
+              "start": 176,
+              "end": 287
+            },
+            {
+              "en": "Scientists called meteorologists use these measurements, and computer models, to make weather forecasts.",
+              "zh": "称为气象学家的科学家会利用这些测量结果和计算机模型，做出天气预报。",
+              "start": 288,
+              "end": 392
+            }
+          ]
+        },
+        {
+          "id": "reading-weather-everyday-p3",
+          "en": "Weather happens because different parts of the Earth get different amounts of heat from the sun. The tropics get more heat, and the poles get less. Warm air is lighter and can rise. The air always has some water in it, called humidity. When the air cools, that water can turn into drops and fall as rain or snow. When two large masses of air with different temperatures meet, we call that a front.",
+          "zh": "天气的出现，是因为地球不同地方从太阳得到的热量不同。热带得到的热量更多，极地更少。暖空气更轻，可以上升。空气里总是含有一些水，这叫做湿度。空气变冷时，这些水可以变成水滴，再以雨或雪的形式落下。当两团温度不同的大范围空气相遇时，我们称之为锋面。",
+          "sentences": [
+            {
+              "en": "Weather happens because different parts of the Earth get different amounts of heat from the sun.",
+              "zh": "天气的出现，是因为地球不同地方从太阳得到的热量不同。",
+              "start": 0,
+              "end": 96
+            },
+            {
+              "en": "The tropics get more heat, and the poles get less.",
+              "zh": "热带得到的热量更多，极地更少。",
+              "start": 97,
+              "end": 147
+            },
+            {
+              "en": "Warm air is lighter and can rise.",
+              "zh": "暖空气更轻，可以上升。",
+              "start": 148,
+              "end": 181
+            },
+            {
+              "en": "The air always has some water in it, called humidity.",
+              "zh": "空气里总是含有一些水，这叫做湿度。",
+              "start": 182,
+              "end": 235
+            },
+            {
+              "en": "When the air cools, that water can turn into drops and fall as rain or snow.",
+              "zh": "空气变冷时，这些水可以变成水滴，再以雨或雪的形式落下。",
+              "start": 236,
+              "end": 312
+            },
+            {
+              "en": "When two large masses of air with different temperatures meet, we call that a front.",
+              "zh": "当两团温度不同的大范围空气相遇时，我们称之为锋面。",
+              "start": 313,
+              "end": 397
+            }
+          ]
+        },
+        {
+          "id": "reading-weather-everyday-p4",
+          "en": "Severe weather, such as strong storms or heat waves, can cause problems. This short reading is only general background, not a safety guide. When the weather is severe, follow local forecasts and official advice.",
+          "zh": "强风暴或热浪等恶劣天气可能带来麻烦。这篇短文只是一般背景介绍，不是安全指南。遇到恶劣天气时，请遵循当地预报和官方建议。",
+          "sentences": [
+            {
+              "en": "Severe weather, such as strong storms or heat waves, can cause problems.",
+              "zh": "强风暴或热浪等恶劣天气可能带来麻烦。",
+              "start": 0,
+              "end": 72
+            },
+            {
+              "en": "This short reading is only general background, not a safety guide.",
+              "zh": "这篇短文只是一般背景介绍，不是安全指南。",
+              "start": 73,
+              "end": 139
+            },
+            {
+              "en": "When the weather is severe, follow local forecasts and official advice.",
+              "zh": "遇到恶劣天气时，请遵循当地预报和官方建议。",
+              "start": 140,
+              "end": 211
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-laundry-while-traveling",
+      "title": "旅行中的洗衣",
+      "paragraphs": [
+        {
+          "id": "reading-laundry-while-traveling-p1",
+          "en": "The longer you travel, the more likely you will need to wash your clothes. There are several common options. In some countries, you can use a coin-operated laundromat or laundrette. Some hotels and other places to stay have a washing machine, or they offer a laundry service. A hotel laundry service often costs more than an independent shop. In some places you can take clothes to a laundry or dry-cleaning business, or wash them yourself, for example in a bathroom, if the rules allow it.",
+          "zh": "旅行的时间越长，就越可能需要洗衣服。常见办法有几种。在一些国家，可以使用投币自助洗衣店。有些旅馆或其他住处有洗衣机，或提供洗衣服务。旅馆的洗衣服务往往比外面的独立店铺更贵。有的地方也可以把衣服送到洗衣店或干洗店，或者在允许的情况下自己洗，比如在卫生间里洗。",
+          "sentences": [
+            {
+              "en": "The longer you travel, the more likely you will need to wash your clothes.",
+              "zh": "旅行的时间越长，就越可能需要洗衣服。",
+              "start": 0,
+              "end": 74
+            },
+            {
+              "en": "There are several common options.",
+              "zh": "常见办法有几种。",
+              "start": 75,
+              "end": 108
+            },
+            {
+              "en": "In some countries, you can use a coin-operated laundromat or laundrette.",
+              "zh": "在一些国家，可以使用投币自助洗衣店。",
+              "start": 109,
+              "end": 181
+            },
+            {
+              "en": "Some hotels and other places to stay have a washing machine, or they offer a laundry service.",
+              "zh": "有些旅馆或其他住处有洗衣机，或提供洗衣服务。",
+              "start": 182,
+              "end": 275
+            },
+            {
+              "en": "A hotel laundry service often costs more than an independent shop.",
+              "zh": "旅馆的洗衣服务往往比外面的独立店铺更贵。",
+              "start": 276,
+              "end": 342
+            },
+            {
+              "en": "In some places you can take clothes to a laundry or dry-cleaning business, or wash them yourself, for example in a bathroom, if the rules allow it.",
+              "zh": "有的地方也可以把衣服送到洗衣店或干洗店，或者在允许的情况下自己洗，比如在卫生间里洗。",
+              "start": 343,
+              "end": 490
+            }
+          ]
+        },
+        {
+          "id": "reading-laundry-while-traveling-p2",
+          "en": "If a service charges by weight, wet clothes may cost more, so it is better to let them dry first, or to ask about the price before you leave the clothes. This article does not list current prices, because they change by city and over time.",
+          "zh": "如果按重量收费，湿衣服可能会更贵，所以最好先晾干，或者在留下衣服前先问清楚价格。本文不列出具体价格，因为各地价格会随时间和城市变化。",
+          "sentences": [
+            {
+              "en": "If a service charges by weight, wet clothes may cost more, so it is better to let them dry first, or to ask about the price before you leave the clothes.",
+              "zh": "如果按重量收费，湿衣服可能会更贵，所以最好先晾干，或者在留下衣服前先问清楚价格。",
+              "start": 0,
+              "end": 153
+            },
+            {
+              "en": "This article does not list current prices, because they change by city and over time.",
+              "zh": "本文不列出具体价格，因为各地价格会随时间和城市变化。",
+              "start": 154,
+              "end": 239
+            }
+          ]
+        },
+        {
+          "id": "reading-laundry-while-traveling-p3",
+          "en": "Washing clothes yourself can save money, but it takes time. If you stay in a hotel, check that hand washing is allowed. You can fill a sink with water and a small amount of soap, soak the clothes, rub the dirty areas, and rinse until the water runs clear. Wring them gently. Do not twist delicate fabrics such as wool.",
+          "zh": "自己洗手洗可以省钱，但比较花时间。如果住在旅馆，先确认是否允许手洗。你可以在洗手池里放水，加少量肥皂，把衣服浸一会儿，搓洗脏的地方，再冲洗到水流变清。轻轻拧干水分。羊毛等易损衣物不要拧绞。",
+          "sentences": [
+            {
+              "en": "Washing clothes yourself can save money, but it takes time.",
+              "zh": "自己洗手洗可以省钱，但比较花时间。",
+              "start": 0,
+              "end": 59
+            },
+            {
+              "en": "If you stay in a hotel, check that hand washing is allowed.",
+              "zh": "如果住在旅馆，先确认是否允许手洗。",
+              "start": 60,
+              "end": 119
+            },
+            {
+              "en": "You can fill a sink with water and a small amount of soap, soak the clothes, rub the dirty areas, and rinse until the water runs clear.",
+              "zh": "你可以在洗手池里放水，加少量肥皂，把衣服浸一会儿，搓洗脏的地方，再冲洗到水流变清。",
+              "start": 120,
+              "end": 255
+            },
+            {
+              "en": "Wring them gently.",
+              "zh": "轻轻拧干水分。",
+              "start": 256,
+              "end": 274
+            },
+            {
+              "en": "Do not twist delicate fabrics such as wool.",
+              "zh": "羊毛等易损衣物不要拧绞。",
+              "start": 275,
+              "end": 318
+            }
+          ]
+        },
+        {
+          "id": "reading-laundry-while-traveling-p4",
+          "en": "Hanging clothes is usually the best way to dry them. A clothes line, a shower rail, or a drying rack can work. Leave space around each item, and let clothes dry completely before you pack them. This may take overnight or longer. If they are still wet, pack them in a separate plastic bag and dry them again later.",
+          "zh": "通常最好把衣服挂起来晾干。晾衣绳、淋浴杆或晾衣架都可以。每件衣服周围留出空隙，并且完全干透再收拾进箱子。这可能需要一夜或更久。如果还是湿的，就单独装进塑料袋，之后再继续晾。",
+          "sentences": [
+            {
+              "en": "Hanging clothes is usually the best way to dry them.",
+              "zh": "通常最好把衣服挂起来晾干。",
+              "start": 0,
+              "end": 52
+            },
+            {
+              "en": "A clothes line, a shower rail, or a drying rack can work.",
+              "zh": "晾衣绳、淋浴杆或晾衣架都可以。",
+              "start": 53,
+              "end": 110
+            },
+            {
+              "en": "Leave space around each item, and let clothes dry completely before you pack them.",
+              "zh": "每件衣服周围留出空隙，并且完全干透再收拾进箱子。",
+              "start": 111,
+              "end": 193
+            },
+            {
+              "en": "This may take overnight or longer.",
+              "zh": "这可能需要一夜或更久。",
+              "start": 194,
+              "end": 228
+            },
+            {
+              "en": "If they are still wet, pack them in a separate plastic bag and dry them again later.",
+              "zh": "如果还是湿的，就单独装进塑料袋，之后再继续晾。",
+              "start": 229,
+              "end": 313
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

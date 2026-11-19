@@ -1,0 +1,397 @@
+{
+  "id": "content-text-anchors-scenes-v3",
+  "title": "场景补充稿 v3 点词范围（约饭改时间、商店缺货替代）",
+  "version": "v3",
+  "status": "仅覆盖 everyday-scenes-pack-v3 两段对白的可点范围；不是对 content-text-anchors-v1.1 的替换，也不是网站已更新。接入时应追加 units，不得覆盖 v1.1，不得改写旧 unit id。",
+  "createdAt": "2026-11-12T16:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "provenance": "与 everyday-scenes-pack-v3 同时编写；偏移按 Unicode 码位左闭右开计算。",
+  "basedOn": [
+    "everyday-scenes-pack-v3",
+    "content-text-anchors-v1.1 的 offsetSpec 与 unit 字段约定"
+  ],
+  "doesNotReplace": [
+    "content-text-anchors-v1.1"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于 textEn 按码位切开后的 [start:end]。本包全部字符都在基本多文种平面，因此在 JavaScript 里用 str.slice(start, end) 也一致。原文若改了，必须重算，不要手改下标。"
+  },
+  "integrationNotes": [
+    "这是 content-text-anchors-scenes-v3，只给 everyday-scenes-pack-v3 用。不要用它替换 content-text-anchors-v1.1，也不要重跑 build-content-text-anchors-v1.py。",
+    "场景只标注该场的本课词卡（含可选卡）。已有准确义项（含 273 张索引卡和场景 v2 的 as soon as）只在讲解中说明，本包不重复标注，以免和“本课卡”混淆。若产品希望复现词也可点，由加载器按 cardIndex 另议，不要改本文件去抢注旧卡范围。",
+    "点开后的词卡交互仍按独立背词稿：先揭释义，再按需展开例句和说明。查看中文、释义、例句或答案不记为掌握。",
+    "中文仍按句按需展开，不要在每一行固定放一个中文按钮。可点词是正文里的轻标记，不是句末按钮。",
+    "本轮未改网站源码，也未写入用户电脑项目目录。"
+  ],
+  "intentionallyUnanchored": [
+    {
+      "cardId": "sc3-as-soon-as",
+      "headword": "as soon as",
+      "sourcePack": "everyday-scenes-pack-v2",
+      "reasonZh": "本段 I'll come as soon as I can 只复现场景 v2 已有义项，不是本课新卡，因此不标可点范围。"
+    }
+  ],
+  "units": [
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l1",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l1",
+      "textEn": "Hey. Is 6:30 still okay for dinner tonight?",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l2",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l2",
+      "textEn": "Yeah. I already booked a table.",
+      "spans": [
+        {
+          "start": 16,
+          "end": 30,
+          "surface": "booked a table",
+          "cardId": "sc5-book-a-table",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l3",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l3",
+      "textEn": "Something came up. My sister's plane arrives late, and I have to get her first. Could we eat a little later?",
+      "spans": [
+        {
+          "start": 0,
+          "end": 17,
+          "surface": "Something came up",
+          "cardId": "sc5-something-came-up",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l4",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l4",
+      "textEn": "How much later? The table is for 6:30.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l5",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l5",
+      "textEn": "7:30? I think I can be there by then.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l6",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l6",
+      "textEn": "Let me see if I can change it. Give me a minute.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l7",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l7",
+      "textEn": "A little later.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l8",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l8",
+      "textEn": "They can do 7:15, but not 7:30. After that, they're full.",
+      "spans": [
+        {
+          "start": 44,
+          "end": 56,
+          "surface": "they're full",
+          "cardId": "sc5-be-full",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l9",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l9",
+      "textEn": "7:15 is fine. Thanks for checking.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l10",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l10",
+      "textEn": "Okay, I changed it. Same place as before.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l11",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l11",
+      "textEn": "Great. I'll text you when I leave.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l12",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l12",
+      "textEn": "Sounds good. See you then. No rush if traffic is slow.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-change-dinner-time-l13",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-change-dinner-time-l13",
+      "textEn": "Okay. I'll come as soon as I can.",
+      "spans": [],
+      "parentId": "scene-change-dinner-time"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l1",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l1",
+      "textEn": "Excuse me. I'm looking for this bread. It's on my shopping list, but I don't see it.",
+      "spans": [
+        {
+          "start": 15,
+          "end": 26,
+          "surface": "looking for",
+          "cardId": "sc6-look-for",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l2",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l2",
+      "textEn": "The one in the blue bag? We had it this morning.",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l3",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l3",
+      "textEn": "Yeah. I buy that one all the time.",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l4",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l4",
+      "textEn": "We're out of it now. We should have more tomorrow.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 12,
+          "surface": "We're out of",
+          "cardId": "sc6-out-of",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l5",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l5",
+      "textEn": "That's too bad. Do you have something else like it?",
+      "spans": [
+        {
+          "start": 28,
+          "end": 50,
+          "surface": "something else like it",
+          "cardId": "sc6-something-else-like-it",
+          "form": "exact",
+          "priority": "optional"
+        }
+      ],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l6",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l6",
+      "textEn": "We have this one. It's a different brand, but a lot of people buy it instead.",
+      "spans": [
+        {
+          "start": 35,
+          "end": 40,
+          "surface": "brand",
+          "cardId": "sc6-brand",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l7",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l7",
+      "textEn": "Is the price about the same?",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l8",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l8",
+      "textEn": "Pretty much. It's a little smaller, and it's a bit cheaper too.",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l9",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l9",
+      "textEn": "Okay. I'll buy this one then.",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l10",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l10",
+      "textEn": "Sure. Do you need a bag?",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l11",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l11",
+      "textEn": "Yes, please. One more thing — where is the milk?",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l12",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l12",
+      "textEn": "Aisle three, on the left, next to the eggs.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "Aisle",
+          "cardId": "sc6-aisle",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l13",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l13",
+      "textEn": "Got it. Thanks for your help.",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    },
+    {
+      "id": "everyday-scenes-pack-v3::scene-store-out-of-stock-l14",
+      "sourcePack": "everyday-scenes-pack-v3",
+      "sourceVersion": "v3",
+      "unitType": "scene-line",
+      "sourceId": "scene-store-out-of-stock-l14",
+      "textEn": "No problem.",
+      "spans": [],
+      "parentId": "scene-store-out-of-stock"
+    }
+  ],
+  "stats": {
+    "units": 27,
+    "unitsWithSpans": 8,
+    "spans": 8,
+    "byUnitType": {
+      "scene-line": {
+        "units": 27,
+        "spans": 8,
+        "unitsWithSpans": 8
+      }
+    },
+    "sceneCardsAnchored": 8,
+    "intentionallyUnanchored": 1,
+    "sourceTextMatches": true,
+    "allCharactersBmp": true
+  }
+}

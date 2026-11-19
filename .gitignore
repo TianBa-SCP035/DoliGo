@@ -1,0 +1,17 @@
+node_modules/
+dist/
+runtime/
+staging/
+handoff/
+app/
+docs/
+tests/e2e/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.local
+runtime-baseline.mjs
+runtime-bulk-gate.mjs

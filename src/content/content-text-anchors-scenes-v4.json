@@ -1,0 +1,431 @@
+{
+  "id": "content-text-anchors-scenes-v4",
+  "title": "场景 v4 点词范围",
+  "version": "v4",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-12T16:55:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-scenes-pack-v4 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l1",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l1",
+      "textEn": "Can you hear me? I can barely hear you.",
+      "spans": [
+        {
+          "start": 17,
+          "end": 38,
+          "surface": "I can barely hear you",
+          "cardId": "sc7-barely-hear",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l2",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l2",
+      "textEn": "Yeah, I can hear you, but you keep cutting out.",
+      "spans": [
+        {
+          "start": 30,
+          "end": 46,
+          "surface": "keep cutting out",
+          "cardId": "sc7-cutting-out",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l3",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l3",
+      "textEn": "That's weird. I'm not moving.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l4",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l4",
+      "textEn": "Try saying something again?",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l5",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l5",
+      "textEn": "One, two, three. How is that?",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l6",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l6",
+      "textEn": "A little better, but I still can't hear the last part.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l7",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l7",
+      "textEn": "I think my roommate just started a movie in the next room.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l8",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l8",
+      "textEn": "That would explain it. Want to just use messages for now?",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l9",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l9",
+      "textEn": "We can, but it's hard to play like that.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l10",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l10",
+      "textEn": "Yeah. Maybe we should stop for tonight.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l11",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l11",
+      "textEn": "Sorry. I didn't think it would be this noisy.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l12",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l12",
+      "textEn": "It's fine. Same time tomorrow?",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l13",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l13",
+      "textEn": "Tomorrow is better. I'll message you when the house is quiet.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l14",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l14",
+      "textEn": "Sounds good. No rush if you need a little later.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l15",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l15",
+      "textEn": "Okay. I'll text you before we start.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-voice-keeps-cutting-l16",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-voice-keeps-cutting-l16",
+      "textEn": "All right. See you then.",
+      "spans": [],
+      "parentId": "scene-voice-keeps-cutting"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l1",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l1",
+      "textEn": "Hey. Did you get a chance to look at the new form?",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l2",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l2",
+      "textEn": "Yeah, I tried it just now. The date doesn't show up.",
+      "spans": [
+        {
+          "start": 44,
+          "end": 51,
+          "surface": "show up",
+          "cardId": "sc8-show-up",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l3",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l3",
+      "textEn": "That's weird. It works on my computer.",
+      "spans": [
+        {
+          "start": 17,
+          "end": 22,
+          "surface": "works",
+          "cardId": "sc2-work",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l4",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l4",
+      "textEn": "I used the same link you sent me.",
+      "spans": [
+        {
+          "start": 16,
+          "end": 20,
+          "surface": "link",
+          "cardId": "sc2-link",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l5",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l5",
+      "textEn": "Can you try it again, but a little more slowly? I want to see what happens.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l6",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l6",
+      "textEn": "Sure. I'm opening it now. I click New, and then I choose the date.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l7",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l7",
+      "textEn": "Okay...",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l8",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l8",
+      "textEn": "See? After I click Save, the date is gone.",
+      "spans": [
+        {
+          "start": 19,
+          "end": 23,
+          "surface": "Save",
+          "cardId": "sc8-save",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l9",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l9",
+      "textEn": "Wait. Are you on the first page or the second one?",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l10",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l10",
+      "textEn": "The second one. Is that wrong?",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l11",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l11",
+      "textEn": "It should be the first page. I only changed that one.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l12",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l12",
+      "textEn": "Ah. That would explain it. Let me try the first page.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l13",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l13",
+      "textEn": "A little later.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l14",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l14",
+      "textEn": "You're right. It works there. I was on the wrong page.",
+      "spans": [
+        {
+          "start": 17,
+          "end": 22,
+          "surface": "works",
+          "cardId": "sc2-work",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l15",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l15",
+      "textEn": "Sorry, I should have said that earlier.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l16",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l16",
+      "textEn": "No problem. I'll look at the rest later.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l17",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l17",
+      "textEn": "Thanks for trying it with me.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    },
+    {
+      "id": "everyday-scenes-pack-v4::scene-try-it-again-l18",
+      "sourcePack": "everyday-scenes-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "scene-line",
+      "sourceId": "scene-try-it-again-l18",
+      "textEn": "Anytime. Message me if you change anything else.",
+      "spans": [],
+      "parentId": "scene-try-it-again"
+    }
+  ],
+  "stats": {
+    "units": 34,
+    "unitsWithSpans": 7,
+    "spans": 7
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "id": "nov18-learning-paths",
+  "createdAt": "2026-11-18T10:44:35+08:00",
+  "status": "draft-for-integration",
+  "continuePolicyZh": "不要按天锁死一组。用户学完当前词组或路径后，应能继续下一组或下一条路径。具体入口由一号接线，不改真实学习记录。",
+  "paths": [
+    {
+      "id": "path-shopping",
+      "titleZh": "购物",
+      "topic": "shopping",
+      "recommendedOrder": [
+        "words",
+        "optional-practice",
+        "scene",
+        "optional-practice",
+        "reading"
+      ],
+      "relatedWordTopic": "shopping",
+      "sceneIds": [
+        "scene-have-the-receipt",
+        "scene-store-out-of-stock"
+      ],
+      "sceneExtensionIds": [
+        "scene-store-out-of-stock-extension-1",
+        "scene-store-out-of-stock-extension-2"
+      ],
+      "readingIds": [
+        "reading-clothes-for-everyday-depth",
+        "reading-buying-clothes-in-a-store-depth"
+      ],
+      "practiceIds": [
+        "practice-nov18-shopping-spell-warranty",
+        "practice-nov18-shopping-enzh-fitting-room",
+        "practice-nov18-shopping-complete-try-on",
+        "practice-nov18-shopping-enzh-stain",
+        "practice-nov18-shopping-complete-counter",
+        "practice-nov18-shopping-zhen-exchange",
+        "practice-nov18-shopping-enzh-damaged",
+        "practice-nov18-shopping-enzh-second-hand",
+        "practice-nov18-shopping-spell-defect",
+        "practice-nov18-shopping-cloze-measuring-tape",
+        "practice-nov18-shopping-zhen-shop-assistant"
+      ],
+      "noteZh": "推荐顺序：词 → 可选练习 → 对话 → 可选练习 → 阅读。可随时只学其中一块；学完一组后可继续下一组或下一条路径。路径是推荐，不是必修课。"
+    },
+    {
+      "id": "path-dining",
+      "titleZh": "餐饮",
+      "topic": "dining",
+      "recommendedOrder": [
+        "words",
+        "optional-practice",
+        "scene",
+        "optional-practice",
+        "reading"
+      ],
+      "relatedWordTopic": "dining",
+      "sceneIds": [
+        "scene-change-dinner-time",
+        "scene-restaurant-is-full",
+        "scene-wrong-drink"
+      ],
+      "sceneExtensionIds": [
+        "scene-restaurant-is-full-extension-1",
+        "scene-wrong-drink-extension-1"
+      ],
+      "readingIds": [
+        "reading-choosing-restaurant-depth",
+        "reading-eating-out-when-you-go-depth",
+        "reading-buying-food-to-cook-depth",
+        "reading-eating-on-the-way-depth",
+        "reading-ordering-with-a-language-barrier-depth",
+        "reading-table-manners-when-you-eat-depth",
+        "reading-restaurant-ads-and-reviews-depth",
+        "reading-packing-food-to-take-with-you-depth",
+        "reading-food-customs-and-taboos-depth",
+        "reading-staying-healthy-around-food-depth"
+      ],
+      "practiceIds": [
+        "practice-nov18-dining-zhen-leftover",
+        "practice-nov18-dining-spell-tasty",
+        "practice-nov18-dining-complete-to-go",
+        "practice-nov18-dining-cloze-stuffed",
+        "practice-nov18-dining-enzh-greasy",
+        "practice-nov18-dining-zhen-takeaway",
+        "practice-nov18-dining-enzh-fast-casual",
+        "practice-nov18-dining-zhen-street-food",
+        "practice-nov18-dining-cloze-cover-charge",
+        "practice-nov18-dining-complete-drive-through",
+        "practice-nov18-dining-spell-oven",
+        "practice-nov18-dining-enzh-convenience-store",
+        "practice-nov18-dining-zhen-farmers-market",
+        "practice-nov18-dining-cloze-produce",
+        "practice-nov18-dining-complete-ready-made",
+        "practice-nov18-dining-enzh-produce",
+        "practice-nov18-dining-spell-sandwich",
+        "practice-nov18-dining-enzh-bottle",
+        "practice-nov18-dining-zhen-prohibited",
+        "practice-nov18-dining-cloze-smell",
+        "practice-nov18-dining-complete-prohibited",
+        "practice-nov18-dining-enzh-pack",
+        "practice-nov18-dining-spell-meat",
+        "practice-nov18-dining-enzh-staff",
+        "practice-nov18-dining-zhen-language-barrier",
+        "practice-nov18-dining-cloze-translation",
+        "practice-nov18-dining-complete-local",
+        "practice-nov18-dining-enzh-translation",
+        "practice-nov18-dining-spell-knife",
+        "practice-nov18-dining-enzh-rude",
+        "practice-nov18-dining-zhen-table-manners",
+        "practice-nov18-dining-cloze-wrist",
+        "practice-nov18-dining-complete-bite",
+        "practice-nov18-dining-enzh-table-manners",
+        "practice-nov18-dining-spell-tourist",
+        "practice-nov18-dining-enzh-review",
+        "practice-nov18-dining-zhen-word-of-mouth",
+        "practice-nov18-dining-cloze-sign",
+        "practice-nov18-dining-complete-reliable",
+        "practice-nov18-dining-enzh-tourist",
+        "practice-nov18-dining-spell-fresh",
+        "practice-nov18-dining-enzh-cookie",
+        "practice-nov18-dining-zhen-shelf-life",
+        "practice-nov18-dining-cloze-bulk",
+        "practice-nov18-dining-complete-ready-to-eat",
+        "practice-nov18-dining-enzh-fresh",
+        "practice-nov18-dining-spell-culture",
+        "practice-nov18-dining-enzh-custom",
+        "practice-nov18-dining-zhen-dairy",
+        "practice-nov18-dining-cloze-avoid",
+        "practice-nov18-dining-complete-dairy",
+        "practice-nov18-dining-enzh-religion",
+        "practice-nov18-dining-spell-healthy",
+        "practice-nov18-dining-enzh-treat",
+        "practice-nov18-dining-zhen-food-poisoning",
+        "practice-nov18-dining-cloze-safe",
+        "practice-nov18-dining-complete-stomach",
+        "practice-nov18-dining-enzh-healthy"
+      ],
+      "noteZh": "推荐顺序：词 → 可选练习 → 对话 → 可选练习 → 阅读。可随时只学其中一块；学完一组后可继续下一组或下一条路径。路径是推荐，不是必修课。"
+    },
+    {
+      "id": "path-travel",
+      "titleZh": "出行",
+      "topic": "travel",
+      "recommendedOrder": [
+        "words",
+        "optional-practice",
+        "scene",
+        "optional-practice",
+        "reading"
+      ],
+      "relatedWordTopic": "travel",
+      "sceneIds": [
+        "scene-next-bus-delayed"
+      ],
+      "sceneExtensionIds": [
+        "scene-next-bus-delayed-extension-1",
+        "scene-next-bus-delayed-extension-2"
+      ],
+      "readingIds": [
+        "reading-using-public-transport-depth",
+        "reading-transfers-and-leaving-depth",
+        "reading-trains-and-stations-depth",
+        "reading-city-and-long-distance-buses-depth"
+      ],
+      "practiceIds": [
+        "practice-nov18-travel-cloze-rush-hour",
+        "practice-nov18-travel-choice-announcement",
+        "practice-nov18-travel-enzh-delay",
+        "practice-nov18-travel-enzh-inspector",
+        "practice-nov18-travel-cloze-valid",
+        "practice-nov18-travel-spell-destination",
+        "practice-nov18-travel-enzh-tap",
+        "practice-nov18-travel-cloze-day-pass",
+        "practice-nov18-travel-zhen-day-pass",
+        "practice-nov18-travel-complete-maintenance",
+        "practice-nov18-travel-enzh-insert",
+        "practice-nov18-travel-zhen-priority-seat",
+        "practice-nov18-travel-complete-ticket-office",
+        "practice-nov18-travel-spell-reserve",
+        "practice-nov18-travel-enzh-boarding",
+        "practice-nov18-travel-cloze-in-advance",
+        "practice-nov18-travel-zhen-coach",
+        "practice-nov18-travel-complete-express",
+        "practice-nov18-travel-enzh-reserve",
+        "practice-nov18-travel-spell-signal",
+        "practice-nov18-travel-enzh-seat-belt",
+        "practice-nov18-travel-cloze-on-demand",
+        "practice-nov18-travel-zhen-long-distance",
+        "practice-nov18-travel-complete-overnight",
+        "practice-nov18-travel-enzh-signal"
+      ],
+      "noteZh": "推荐顺序：词 → 可选练习 → 对话 → 可选练习 → 阅读。可随时只学其中一块；学完一组后可继续下一组或下一条路径。路径是推荐，不是必修课。"
+    },
+    {
+      "id": "path-home",
+      "titleZh": "居家",
+      "topic": "home",
+      "recommendedOrder": [
+        "words",
+        "optional-practice",
+        "scene",
+        "optional-practice",
+        "reading"
+      ],
+      "relatedWordTopic": "home",
+      "sceneIds": [
+        "scene-ill-be-right-down",
+        "scene-package-at-the-door"
+      ],
+      "sceneExtensionIds": [
+        "scene-package-at-the-door-extension-1",
+        "scene-ill-be-right-down-extension-1"
+      ],
+      "readingIds": [
+        "reading-apartment-life-depth",
+        "reading-laundry-in-an-apartment-depth"
+      ],
+      "practiceIds": [
+        "practice-nov18-home-spell-deposit",
+        "practice-nov18-home-enzh-lease",
+        "practice-nov18-home-complete-leak",
+        "practice-nov18-home-enzh-intercom",
+        "practice-nov18-home-complete-upstairs",
+        "practice-nov18-home-enzh-recycling",
+        "practice-nov18-home-zhen-studio-apartment",
+        "practice-nov18-home-cloze-apartment-complex",
+        "practice-nov18-home-spell-laundry",
+        "practice-nov18-home-enzh-soap",
+        "practice-nov18-home-cloze-laundry-room",
+        "practice-nov18-home-zhen-washing-machine",
+        "practice-nov18-home-complete-coin",
+        "practice-nov18-home-enzh-laundry"
+      ],
+      "noteZh": "推荐顺序：词 → 可选练习 → 对话 → 可选练习 → 阅读。可随时只学其中一块；学完一组后可继续下一组或下一条路径。路径是推荐，不是必修课。"
+    },
+    {
+      "id": "path-game",
+      "titleZh": "游戏",
+      "topic": "game",
+      "recommendedOrder": [
+        "words",
+        "optional-practice",
+        "scene",
+        "optional-practice",
+        "reading"
+      ],
+      "relatedWordTopic": "game",
+      "sceneIds": [
+        "scene-one-more-round",
+        "scene-voice-keeps-cutting"
+      ],
+      "sceneExtensionIds": [
+        "scene-one-more-round-extension-1"
+      ],
+      "readingIds": [
+        "reading-what-a-video-game-is-depth"
+      ],
+      "practiceIds": [
+        "practice-nov18-game-complete-hang-on",
+        "practice-nov18-game-zhen-gg",
+        "practice-nov18-game-choice-voice-chat",
+        "practice-nov18-game-enzh-genre",
+        "practice-nov18-game-spell-console"
+      ],
+      "noteZh": "推荐顺序：词 → 可选练习 → 对话 → 可选练习 → 阅读。可随时只学其中一块；学完一组后可继续下一组或下一条路径。路径是推荐，不是必修课。"
+    },
+    {
+      "id": "path-formal",
+      "titleZh": "书信与新闻",
+      "topic": "formal",
+      "recommendedOrder": [
+        "words",
+        "optional-practice",
+        "scene",
+        "optional-practice",
+        "reading"
+      ],
+      "relatedWordTopic": "formal",
+      "sceneIds": [
+        "scene-reply-to-a-short-email",
+        "scene-write-a-readers-letter"
+      ],
+      "sceneExtensionIds": [],
+      "readingIds": [
+        "reading-writing-a-short-email-depth",
+        "reading-what-a-newspaper-does-depth"
+      ],
+      "practiceIds": [
+        "practice-nov18-formal-spell-attachment",
+        "practice-nov18-formal-complete-regards",
+        "practice-nov18-formal-cloze-editorial",
+        "practice-nov18-formal-choice-subject",
+        "practice-nov18-formal-spell-request",
+        "practice-nov18-formal-enzh-draft",
+        "practice-nov18-formal-complete-request",
+        "practice-nov18-formal-zhen-kind-regards",
+        "practice-nov18-formal-cloze-dear",
+        "practice-nov18-formal-enzh-inquiry",
+        "practice-nov18-formal-spell-editor",
+        "practice-nov18-formal-enzh-opinion",
+        "practice-nov18-formal-complete-editor",
+        "practice-nov18-formal-zhen-letter-to-the-editor",
+        "practice-nov18-formal-cloze-section",
+        "practice-nov18-formal-enzh-subscription"
+      ],
+      "noteZh": "较正式语体：先看主题相关套话和词，再读邮件与报纸两篇。没有绑定旧的日常口语场景，避免把新闻腔塞进街头对话。"
+    },
+    {
+      "id": "path-spoken",
+      "titleZh": "口语短句与类比",
+      "topic": "spoken",
+      "recommendedOrder": [
+        "words",
+        "optional-practice",
+        "scene",
+        "optional-practice",
+        "reading"
+      ],
+      "relatedWordTopic": "spoken",
+      "sceneIds": [
+        "scene-store-out-of-stock",
+        "scene-next-bus-delayed",
+        "scene-one-more-round",
+        "scene-voice-keeps-cutting",
+        "scene-restaurant-is-full",
+        "scene-package-at-the-door"
+      ],
+      "sceneExtensionIds": [
+        "scene-store-out-of-stock-extension-1",
+        "scene-next-bus-delayed-extension-1",
+        "scene-one-more-round-extension-1",
+        "scene-restaurant-is-full-extension-1",
+        "scene-package-at-the-door-extension-1",
+        "scene-wrong-drink-extension-1",
+        "scene-ill-be-right-down-extension-1"
+      ],
+      "readingIds": [],
+      "practiceIds": [
+        "practice-nov18-spoken-analogy-same-page"
+      ],
+      "noteZh": "这些短句、谚语和类比按现有购物、出行、游戏、餐饮、居家场景使用，不单独做成新的每日卡组。"
+    }
+  ],
+  "updatedAt": "2026-11-18T16:01:50+08:00"
+}

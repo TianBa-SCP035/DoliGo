@@ -1,0 +1,590 @@
+{
+  "id": "content-text-anchors-scenes-v7",
+  "title": "场景 v7 点词范围",
+  "version": "v7",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-16T11:20:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3",
+    "content-text-anchors-scenes-v4",
+    "content-text-anchors-reading-v3",
+    "content-text-anchors-scenes-v5",
+    "content-text-anchors-reading-v4",
+    "content-text-anchors-scenes-v6",
+    "content-text-anchors-reading-v5"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-scenes-pack-v7 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l1",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l1",
+      "textEn": "Hi. I bought this sweater yesterday, but it's too small.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l2",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l2",
+      "textEn": "I'm sorry to hear that. Do you have the receipt?",
+      "spans": [
+        {
+          "start": 40,
+          "end": 47,
+          "surface": "receipt",
+          "cardId": "sc13-receipt",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l3",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l3",
+      "textEn": "Yes, it's right here. I paid with my card.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l4",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l4",
+      "textEn": "Thanks. Let me take a look.",
+      "spans": [
+        {
+          "start": 15,
+          "end": 26,
+          "surface": "take a look",
+          "cardId": "l15-w-take-a-look",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l5",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l5",
+      "textEn": "Would you like to return it, or exchange it?",
+      "spans": [
+        {
+          "start": 18,
+          "end": 27,
+          "surface": "return it",
+          "cardId": "sc13-return-it",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 32,
+          "end": 43,
+          "surface": "exchange it",
+          "cardId": "sc13-exchange-it",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l6",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l6",
+      "textEn": "I'd like to exchange it, if you have a larger size.",
+      "spans": [
+        {
+          "start": 12,
+          "end": 23,
+          "surface": "exchange it",
+          "cardId": "sc13-exchange-it",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l7",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l7",
+      "textEn": "Let me check in the back. One moment.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l8",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l8",
+      "textEn": "We have one in the next size. It's the same color.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l9",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l9",
+      "textEn": "That's perfect. Can I try it on first?",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l10",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l10",
+      "textEn": "Of course. The fitting room is just over there.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l11",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l11",
+      "textEn": "This one fits much better. I'll exchange it for this.",
+      "spans": [
+        {
+          "start": 9,
+          "end": 13,
+          "surface": "fits",
+          "cardId": "sc13-fit",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 32,
+          "end": 43,
+          "surface": "exchange it",
+          "cardId": "sc13-exchange-it",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l12",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l12",
+      "textEn": "Great. I'll switch them in the system. You won't be charged again.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l13",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l13",
+      "textEn": "Thank you. Do I need a new receipt?",
+      "spans": [
+        {
+          "start": 27,
+          "end": 34,
+          "surface": "receipt",
+          "cardId": "sc13-receipt",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l14",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l14",
+      "textEn": "Yes. I'll print one for you, just in case.",
+      "spans": [
+        {
+          "start": 29,
+          "end": 41,
+          "surface": "just in case",
+          "cardId": "rd3-just-in-case",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l15",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l15",
+      "textEn": "That's helpful. Thanks for making this easy.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-have-the-receipt-l16",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-have-the-receipt-l16",
+      "textEn": "You're welcome. Have a good one.",
+      "spans": [],
+      "parentId": "scene-have-the-receipt"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l1",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l1",
+      "textEn": "Hi. I'm downstairs. Are you almost ready?",
+      "spans": [
+        {
+          "start": 8,
+          "end": 18,
+          "surface": "downstairs",
+          "cardId": "sc14-downstairs",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l2",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l2",
+      "textEn": "Almost. Just give me a minute. I can't find my keys.",
+      "spans": [
+        {
+          "start": 8,
+          "end": 29,
+          "surface": "Just give me a minute",
+          "cardId": "l15-w-minute",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l3",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l3",
+      "textEn": "No rush. I'll wait by the door.",
+      "spans": [
+        {
+          "start": 14,
+          "end": 18,
+          "surface": "wait",
+          "cardId": "L06-V03",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 19,
+          "end": 21,
+          "surface": "by",
+          "cardId": "l13-w-by",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 26,
+          "end": 30,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l4",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l4",
+      "textEn": "Thanks. I think I left my keys in the kitchen. I'll look there first.",
+      "spans": [
+        {
+          "start": 18,
+          "end": 30,
+          "surface": "left my keys",
+          "cardId": "rd5-left-behind",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l5",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l5",
+      "textEn": "Found them. I'll be right down.",
+      "spans": [
+        {
+          "start": 12,
+          "end": 30,
+          "surface": "I'll be right down",
+          "cardId": "sc14-ill-be-right-down",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l6",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l6",
+      "textEn": "Okay. We're not late yet, but the movie starts at two.",
+      "spans": [
+        {
+          "start": 16,
+          "end": 20,
+          "surface": "late",
+          "cardId": "L05-V03",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 34,
+          "end": 39,
+          "surface": "movie",
+          "cardId": "L07-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l7",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l7",
+      "textEn": "Two minutes. I'm just putting my shoes on.",
+      "spans": [],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l8",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l8",
+      "textEn": "I'll stay at the front door, so you don't have to look for me.",
+      "spans": [
+        {
+          "start": 23,
+          "end": 27,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l9",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l9",
+      "textEn": "Perfect. I'm coming down now.",
+      "spans": [],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l10",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l10",
+      "textEn": "I can see the stairs. Take your time.",
+      "spans": [
+        {
+          "start": 14,
+          "end": 20,
+          "surface": "stairs",
+          "cardId": "rd6-take-the-stairs",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l11",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l11",
+      "textEn": "I'm downstairs. Where are you?",
+      "spans": [
+        {
+          "start": 4,
+          "end": 14,
+          "surface": "downstairs",
+          "cardId": "sc14-downstairs",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l12",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l12",
+      "textEn": "On the left, by the plants.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 11,
+          "surface": "On the left",
+          "cardId": "L06-V05",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "surface": "by",
+          "cardId": "l13-w-by",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l13",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l13",
+      "textEn": "I see you. Sorry to keep you waiting.",
+      "spans": [
+        {
+          "start": 29,
+          "end": 36,
+          "surface": "waiting",
+          "cardId": "L06-V03",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l14",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l14",
+      "textEn": "It's fine. Did you lock the door?",
+      "spans": [
+        {
+          "start": 28,
+          "end": 32,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l15",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l15",
+      "textEn": "Yes. Let's go. We still have time.",
+      "spans": [],
+      "parentId": "scene-ill-be-right-down"
+    },
+    {
+      "id": "everyday-scenes-pack-v7::scene-ill-be-right-down-l16",
+      "sourcePack": "everyday-scenes-pack-v7",
+      "sourceVersion": "v7",
+      "unitType": "scene-line",
+      "sourceId": "scene-ill-be-right-down-l16",
+      "textEn": "Good. If we leave now, we won't be late.",
+      "spans": [
+        {
+          "start": 12,
+          "end": 17,
+          "surface": "leave",
+          "cardId": "l14-w-leave",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 35,
+          "end": 39,
+          "surface": "late",
+          "cardId": "L05-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-ill-be-right-down"
+    }
+  ],
+  "stats": {
+    "units": 32,
+    "unitsWithSpans": 20,
+    "spans": 27
+  }
+}

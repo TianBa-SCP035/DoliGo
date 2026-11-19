@@ -1,0 +1,2395 @@
+{
+  "id": "content-text-anchors-v1.1",
+  "title": "正文可点词标注·待接入 v1.1（义项修订）",
+  "version": "v1.1",
+  "status": "待接入设计稿的义项修订，不是已经上线的页面，不代表网站已更新或已修复",
+  "createdAt": "2026-11-12T11:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "provenance": "根据已审定的场景稿 v1.1、阅读稿 v2.1、独立背词与复习稿 v1.1 的英文原文标注可点范围。本包在 anchors v1 上修订了 last 的错挂，并去掉重复的 wait 句。标注本身是学习产品数据，不是真实聊天记录。",
+  "basedOn": [
+    {
+      "id": "everyday-scenes-pack-v1.1",
+      "file": "everyday-scenes-pack-v1.1.json"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1",
+      "file": "everyday-reading-pack-v2.1.json"
+    },
+    {
+      "id": "independent-vocab-review-pack-v1.1",
+      "file": "independent-vocab-review-pack-v1.1.json"
+    }
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于 textEn[start:end]。本包全部字符都在基本多文种平面，因此在 JavaScript 里用 str.slice(start, end) 也一致。原文若改了，必须重算，不要手改下标。"
+  },
+  "integrationNotes": [
+    "这是 content-text-anchors-v1.1，在 v1 上修订了两处数据，不是重新生成全部标注。不是已经上线的页面，不代表网站已更新或已修复，也未改网站源码。",
+    "正文仍以各包 JSON 为准。复习句以 independent-vocab-review-pack-v1.1 为源。不要重跑 build-content-text-anchors-v1.py 来生成或覆盖本文件：该脚本只写 content-text-anchors-v1.json，且会按 encounter 级目标标注，使 last weekend 再次错挂。",
+    "场景只标注该场的本课词卡（含可选卡）。阅读标注本包词卡，同一词在另一篇里复现也可点，仍打开同一张卡。复习必须按该句的 sentences[].targetCardIds 标注；不能再用 encounter 级合集去标全部句子。",
+    "点开后的词卡交互仍按独立背词稿：先揭释义，再按需展开例句和说明。查看中文、释义、例句或答案不记为掌握。",
+    "中文仍按句或按段按需展开，不要在每一行固定放一个中文按钮。可点词是正文里的轻标记，不是句末按钮。",
+    "阅读稿里 hold on to、manage to 有意不出现在正文，本包不为它们标正文范围；它们仍可作为见过卡留在读后说明。",
+    "场景稿开场 I'm already in the game 仍可能被读成已经在打一局。这是原文可选润色，本包不改那一句。",
+    "目录权限恢复后，由开发负责人把本包和词卡翻面一并接入；本稿不能证明网站已更新。"
+  ],
+  "intentionallyUnanchored": [
+    {
+      "cardId": "rw2-hold-on-to",
+      "headword": "hold on to",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "reasonZh": "阅读稿 v2.1 已把骑车段正文改成 hold her，本卡只作为见过、不强制先背，保留在读后说明里。正文没有 hold on to，因此不标可点范围。"
+    },
+    {
+      "cardId": "rw2-manage-to",
+      "headword": "manage to",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "reasonZh": "阅读稿 v2.1 正文写的是 rode past，本卡只作为见过、不强制先背，保留在读后说明里。正文没有 manage to，因此不标可点范围。"
+    }
+  ],
+  "units": [
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l1",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l1",
+      "textEn": "You free tonight? I'm already in the game.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l2",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l2",
+      "textEn": "Give me ten minutes? I'm just finishing something.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l3",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l3",
+      "textEn": "No rush. I'll wait for you.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l4",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l4",
+      "textEn": "Okay, I'm here. Did you send me an invite?",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l5",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l5",
+      "textEn": "Yeah, a minute ago. You don't see it?",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l6",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l6",
+      "textEn": "Not yet. Can you send it again?",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l7",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l7",
+      "textEn": "Sent. It should be there now.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l8",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l8",
+      "textEn": "Got it. Wait — it says I can't get in.",
+      "spans": [
+        {
+          "start": 31,
+          "end": 37,
+          "surface": "get in",
+          "cardId": "sc1-get-in",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l9",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l9",
+      "textEn": "That's weird. Try again? It does that sometimes.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 12,
+          "surface": "That's weird",
+          "cardId": "sc1-thats-weird",
+          "form": "exact",
+          "priority": "optional"
+        },
+        {
+          "start": 25,
+          "end": 47,
+          "surface": "It does that sometimes",
+          "cardId": "sc1-does-that-sometimes",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l10",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l10",
+      "textEn": "Okay, I'm in your party now.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l11",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l11",
+      "textEn": "Great. Ready to start?",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l12",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l12",
+      "textEn": "Yeah, let's go.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l13",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l13",
+      "textEn": "A little later.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l14",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l14",
+      "textEn": "One more round?",
+      "spans": [
+        {
+          "start": 0,
+          "end": 14,
+          "surface": "One more round",
+          "cardId": "sc1-one-more-round",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l15",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l15",
+      "textEn": "I would, but it's getting late. I have to get up early tomorrow.",
+      "spans": [
+        {
+          "start": 13,
+          "end": 30,
+          "surface": "it's getting late",
+          "cardId": "sc1-getting-late",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l16",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l16",
+      "textEn": "Fair enough. Same time tomorrow?",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l17",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l17",
+      "textEn": "Yeah. I'll message you when I'm free.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-one-more-round-l18",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-one-more-round-l18",
+      "textEn": "Okay. I'll wait for you next time.",
+      "spans": [],
+      "parentId": "scene-one-more-round"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l1",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l1",
+      "textEn": "I just sent you a link. Can you open it?",
+      "spans": [
+        {
+          "start": 18,
+          "end": 22,
+          "surface": "link",
+          "cardId": "sc2-link",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l2",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l2",
+      "textEn": "The page won't load. It just keeps spinning.",
+      "spans": [
+        {
+          "start": 9,
+          "end": 19,
+          "surface": "won't load",
+          "cardId": "sc2-wont-load",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l3",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l3",
+      "textEn": "That's weird. It works on my phone.",
+      "spans": [
+        {
+          "start": 17,
+          "end": 22,
+          "surface": "works",
+          "cardId": "sc2-work",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l4",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l4",
+      "textEn": "I tried again. Still nothing.",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l5",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l5",
+      "textEn": "Did you try refreshing the page?",
+      "spans": [
+        {
+          "start": 12,
+          "end": 22,
+          "surface": "refreshing",
+          "cardId": "sc2-refresh",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l6",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l6",
+      "textEn": "Yeah. I refreshed it twice.",
+      "spans": [
+        {
+          "start": 8,
+          "end": 17,
+          "surface": "refreshed",
+          "cardId": "sc2-refresh",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l7",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l7",
+      "textEn": "Maybe it's the Wi-Fi?",
+      "spans": [
+        {
+          "start": 15,
+          "end": 20,
+          "surface": "Wi-Fi",
+          "cardId": "sc2-wifi",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l8",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l8",
+      "textEn": "I don't think so. Everything else is fine. Let me try restarting my browser.",
+      "spans": [
+        {
+          "start": 54,
+          "end": 64,
+          "surface": "restarting",
+          "cardId": "sc2-restart",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l9",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l9",
+      "textEn": "Okay. I'll be here.",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l10",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l10",
+      "textEn": "A little later.",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l11",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l11",
+      "textEn": "I restarted the browser and signed in again. I can see the page now.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 11,
+          "surface": "restarted",
+          "cardId": "sc2-restart",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 28,
+          "end": 37,
+          "surface": "signed in",
+          "cardId": "sc2-sign-in",
+          "form": "inflected",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l12",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l12",
+      "textEn": "Great, thanks for trying that.",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l13",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l13",
+      "textEn": "All good. What did you want me to look at?",
+      "spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "All good",
+          "cardId": "sc2-all-good",
+          "form": "exact",
+          "priority": "optional"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l14",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l14",
+      "textEn": "The time on the first page. Does it look right to you?",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l15",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l15",
+      "textEn": "Almost — it says three, but we said three thirty.",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l16",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l16",
+      "textEn": "Oh. I'll fix that. Thanks for catching it.",
+      "spans": [
+        {
+          "start": 30,
+          "end": 38,
+          "surface": "catching",
+          "cardId": "sc2-catch",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l17",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l17",
+      "textEn": "No problem. I'll stay on the page if you want me to check again.",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-scenes-pack-v1.1::scene-page-wont-load-l18",
+      "sourcePack": "everyday-scenes-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "scene-line",
+      "sourceId": "scene-page-wont-load-l18",
+      "textEn": "That'd be great. Give me a minute.",
+      "spans": [],
+      "parentId": "scene-page-wont-load"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p1",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p1",
+      "textEn": "At half past twelve on Saturday, I left home with a short shopping list: bread, milk, and dish soap. I planned to buy everything at the supermarket and come straight back. Outside the entrance, I met my neighbor, Anna.",
+      "spans": [
+        {
+          "start": 58,
+          "end": 71,
+          "surface": "shopping list",
+          "cardId": "rw2-shopping-list",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 136,
+          "end": 147,
+          "surface": "supermarket",
+          "cardId": "rw2-supermarket",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p2",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p2",
+      "textEn": "She was looking at the bent handle of her umbrella. It got caught in a bus door the day before. She wanted a stronger one from a shop near the station, but the shop was closed until two.",
+      "spans": [
+        {
+          "start": 55,
+          "end": 65,
+          "surface": "got caught",
+          "cardId": "rw2-get-caught",
+          "form": "inflected",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p3",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p3",
+      "textEn": "“I'm going to have lunch while I wait,” she said. “Have you eaten?”\n\nI hadn't. My shopping could wait, and I hadn't bought anything yet, so we went to a café together.",
+      "spans": [
+        {
+          "start": 91,
+          "end": 101,
+          "surface": "could wait",
+          "cardId": "rw2-could-wait",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p4",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p4",
+      "textEn": "We found a table at the back, away from the coffee machine. Anna ordered soup. I chose a cheese sandwich, then wished I'd ordered the soup when hers arrived with warm bread. She pushed the bread basket between us.",
+      "spans": [
+        {
+          "start": 65,
+          "end": 72,
+          "surface": "ordered",
+          "cardId": "rw2-order",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 122,
+          "end": 129,
+          "surface": "ordered",
+          "cardId": "rw2-order",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p5",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p5",
+      "textEn": "Over lunch, we talked about our building. Someone had put plants beside the front door, making the entrance feel less empty. Anna knew who it was. We also talked about the upstairs washing machine, which always seemed to start just as she went to bed.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "Over lunch",
+          "cardId": "rw2-over-lunch",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p6",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p6",
+      "textEn": "At two, we walked to the umbrella shop. She opened both, and I stood with her under each one to see how much they covered. The wider one covered us both, but she said she didn't want to carry something that large every day. She chose the smaller one.",
+      "spans": [],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p7",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p7",
+      "textEn": "Neither of us was in a hurry. The river was only a few streets away, so we walked there and sat on a bench. A man was teaching his daughter to ride a bike. Each time he let go, she shouted for him to hold her again. We stayed until she rode past our bench on her own.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "Neither of us",
+          "cardId": "rw2-neither-of-us",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 169,
+          "end": 175,
+          "surface": "let go",
+          "cardId": "rw2-let-go",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 256,
+          "end": 266,
+          "surface": "on her own",
+          "cardId": "rw2-on-ones-own",
+          "form": "inflected",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-shops-afternoon-p8",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-shops-afternoon-p8",
+      "textEn": "It was after three when I finally returned to the supermarket. I bought everything on my list, picking up the milk last. Back home, I put it straight in the fridge. My quick shopping trip had filled most of the afternoon.",
+      "spans": [
+        {
+          "start": 50,
+          "end": 61,
+          "surface": "supermarket",
+          "cardId": "rw2-supermarket",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 157,
+          "end": 163,
+          "surface": "fridge",
+          "cardId": "rw2-fridge",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-shops-afternoon"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-lunch-later-p1",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-lunch-later-p1",
+      "textEn": "On Sunday, Ben was coming to my apartment for lunch at twelve thirty. We planned to eat pasta and then watch a movie. At twelve, I had chopped the vegetables, but I hadn't started cooking.",
+      "spans": [],
+      "parentId": "reading-lunch-later"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-lunch-later-p2",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-lunch-later-p2",
+      "textEn": "Five minutes later, he sent a message. His bus had broken down, and he was waiting for another one. He thought he could arrive at about one fifteen.",
+      "spans": [
+        {
+          "start": 51,
+          "end": 62,
+          "surface": "broken down",
+          "cardId": "rw2-break-down",
+          "form": "inflected",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-lunch-later"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-lunch-later-p3",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-lunch-later-p3",
+      "textEn": "I was already hungry. For a moment, I thought about eating without him. Instead, I had some toast and put the vegetables in the fridge. I messaged him: \"No rush. Just tell me when you're nearby.\"",
+      "spans": [
+        {
+          "start": 128,
+          "end": 134,
+          "surface": "fridge",
+          "cardId": "rw2-fridge",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-lunch-later"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-lunch-later-p4",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-lunch-later-p4",
+      "textEn": "At one, his next message arrived. He was ten minutes away. I started the sauce and put a pan of water on the stove.",
+      "spans": [
+        {
+          "start": 41,
+          "end": 57,
+          "surface": "ten minutes away",
+          "cardId": "rw2-ten-minutes-away",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-lunch-later"
+    },
+    {
+      "id": "everyday-reading-pack-v2.1::reading-lunch-later-p5",
+      "sourcePack": "everyday-reading-pack-v2.1",
+      "sourceVersion": "v2.1",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-lunch-later-p5",
+      "textEn": "Ben arrived carrying a small bag of tomatoes from his garden. While the pasta cooked, he cut them for a salad. We ate at half past one. The movie started later than planned, but we still had time to finish it before he went home.",
+      "spans": [],
+      "parentId": "reading-lunch-later"
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-01::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-01::s0",
+      "textEn": "It's a bit windy.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "surface": "a bit",
+          "cardId": "l10-w-a-bit",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-01",
+      "encounterId": "v4-transfer-01",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-01::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-01::s1",
+      "textEn": "I'm a bit tired.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 9,
+          "surface": "a bit",
+          "cardId": "l10-w-a-bit",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-01",
+      "encounterId": "v4-transfer-01",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-02::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-02::s0",
+      "textEn": "I'm going to wear a jacket.",
+      "spans": [
+        {
+          "start": 13,
+          "end": 17,
+          "surface": "wear",
+          "cardId": "l10-w-wear",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-02",
+      "encounterId": "v4-transfer-02",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-02::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-02::s1",
+      "textEn": "I wear these shoes at home.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "surface": "wear",
+          "cardId": "l10-w-wear",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-02",
+      "encounterId": "v4-transfer-02",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-03::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-03::s0",
+      "textEn": "I feel better now.",
+      "spans": [
+        {
+          "start": 7,
+          "end": 13,
+          "surface": "better",
+          "cardId": "l11-w-better",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-03",
+      "encounterId": "v4-transfer-03",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-03::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-03::s1",
+      "textEn": "Do you feel better today?",
+      "spans": [
+        {
+          "start": 12,
+          "end": 18,
+          "surface": "better",
+          "cardId": "l11-w-better",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-03",
+      "encounterId": "v4-transfer-03",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-04::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-04::s0",
+      "textEn": "I already have some medicine.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "surface": "already",
+          "cardId": "l11-w-already",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-04",
+      "encounterId": "v4-transfer-04",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-04::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-04::s1",
+      "textEn": "I already have a ticket.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "surface": "already",
+          "cardId": "l11-w-already",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-04",
+      "encounterId": "v4-transfer-04",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-05::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-05::s0",
+      "textEn": "I'll reply later.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "surface": "reply",
+          "cardId": "l12-w-reply",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-05",
+      "encounterId": "v4-transfer-05",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-05::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-05::s1",
+      "textEn": "I can't reply right away.",
+      "spans": [
+        {
+          "start": 8,
+          "end": 13,
+          "surface": "reply",
+          "cardId": "l12-w-reply",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-05",
+      "encounterId": "v4-transfer-05",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-06::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-06::s0",
+      "textEn": "Is this the right number?",
+      "spans": [
+        {
+          "start": 12,
+          "end": 17,
+          "surface": "right",
+          "cardId": "l12-w-right-adj",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-06",
+      "encounterId": "v4-transfer-06",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-06::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-06::s1",
+      "textEn": "Is this the right bus?",
+      "spans": [
+        {
+          "start": 12,
+          "end": 17,
+          "surface": "right",
+          "cardId": "l12-w-right-adj",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-06",
+      "encounterId": "v4-transfer-06",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-07::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-07::s0",
+      "textEn": "Put the bowls on the table.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "Put",
+          "cardId": "l13-w-put",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-07",
+      "encounterId": "v4-transfer-07",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-07::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-07::s1",
+      "textEn": "Put the keys in the bag.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "Put",
+          "cardId": "l13-w-put",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-07",
+      "encounterId": "v4-transfer-07",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-08::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-08::s0",
+      "textEn": "I still need to clean the kitchen.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "surface": "still",
+          "cardId": "l13-w-still",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-08",
+      "encounterId": "v4-transfer-08",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-08::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-08::s1",
+      "textEn": "I'm still waiting.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 9,
+          "surface": "still",
+          "cardId": "l13-w-still",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-08",
+      "encounterId": "v4-transfer-08",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-09::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-09::s0",
+      "textEn": "Can you bring me my phone?",
+      "spans": [
+        {
+          "start": 8,
+          "end": 13,
+          "surface": "bring",
+          "cardId": "l14-w-bring",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-09",
+      "encounterId": "v4-transfer-09",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-09::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-09::s1",
+      "textEn": "Can you bring some water?",
+      "spans": [
+        {
+          "start": 8,
+          "end": 13,
+          "surface": "bring",
+          "cardId": "l14-w-bring",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-09",
+      "encounterId": "v4-transfer-09",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-10::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-10::s0",
+      "textEn": "I'll take the keys too.",
+      "spans": [
+        {
+          "start": 19,
+          "end": 22,
+          "surface": "too",
+          "cardId": "l14-w-too",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-10",
+      "encounterId": "v4-transfer-10",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-10::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-10::s1",
+      "textEn": "I want some noodles too.",
+      "spans": [
+        {
+          "start": 20,
+          "end": 23,
+          "surface": "too",
+          "cardId": "l14-w-too",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-10",
+      "encounterId": "v4-transfer-10",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-11::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-11::s0",
+      "textEn": "Can you take a look at this?",
+      "spans": [
+        {
+          "start": 8,
+          "end": 19,
+          "surface": "take a look",
+          "cardId": "l15-w-take-a-look",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-11",
+      "encounterId": "v4-transfer-11",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-11::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-11::s1",
+      "textEn": "Can I take a look?",
+      "spans": [
+        {
+          "start": 6,
+          "end": 17,
+          "surface": "take a look",
+          "cardId": "l15-w-take-a-look",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-11",
+      "encounterId": "v4-transfer-11",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-12::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-12::s0",
+      "textEn": "Give me a minute.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 16,
+          "surface": "Give me a minute",
+          "cardId": "l15-w-minute",
+          "form": "variant"
+        }
+      ],
+      "parentId": "v4-transfer-12",
+      "encounterId": "v4-transfer-12",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-12::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-12::s1",
+      "textEn": "Can you wait a minute?",
+      "spans": [
+        {
+          "start": 13,
+          "end": 21,
+          "surface": "a minute",
+          "cardId": "l15-w-minute",
+          "form": "variant"
+        }
+      ],
+      "parentId": "v4-transfer-12",
+      "encounterId": "v4-transfer-12",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-13::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-13::s0",
+      "textEn": "Do we have enough oil?",
+      "spans": [
+        {
+          "start": 11,
+          "end": 17,
+          "surface": "enough",
+          "cardId": "l16-w-enough",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-13",
+      "encounterId": "v4-transfer-13",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-13::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-13::s1",
+      "textEn": "Do we have enough time?",
+      "spans": [
+        {
+          "start": 11,
+          "end": 17,
+          "surface": "enough",
+          "cardId": "l16-w-enough",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-13",
+      "encounterId": "v4-transfer-13",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-14::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-14::s0",
+      "textEn": "Turn off the stove.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "Turn off",
+          "cardId": "l16-w-turn-off",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-14",
+      "encounterId": "v4-transfer-14",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-14::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-14::s1",
+      "textEn": "The stove is on. Turn it off.",
+      "spans": [
+        {
+          "start": 17,
+          "end": 28,
+          "surface": "Turn it off",
+          "cardId": "l16-w-turn-off",
+          "form": "split-particle"
+        }
+      ],
+      "parentId": "v4-transfer-14",
+      "encounterId": "v4-transfer-14",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-15::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-15::s0",
+      "textEn": "We can catch the bus.",
+      "spans": [
+        {
+          "start": 7,
+          "end": 12,
+          "surface": "catch",
+          "cardId": "l17-w-catch",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-15",
+      "encounterId": "v4-transfer-15",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-15::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-15::s1",
+      "textEn": "We can catch the train.",
+      "spans": [
+        {
+          "start": 7,
+          "end": 12,
+          "surface": "catch",
+          "cardId": "l17-w-catch",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-15",
+      "encounterId": "v4-transfer-15",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-16::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-16::s0",
+      "textEn": "The last bus is at ten.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "surface": "last",
+          "cardId": "l17-w-last",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-16",
+      "encounterId": "v4-transfer-16",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::v4-transfer-16::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "v4-transfer-16::s1",
+      "textEn": "I was home last weekend.",
+      "spans": [
+        {
+          "start": 11,
+          "end": 15,
+          "surface": "last",
+          "cardId": "L08-V02",
+          "form": "exact"
+        }
+      ],
+      "parentId": "v4-transfer-16",
+      "encounterId": "v4-transfer-16",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L01-P01::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L01-P01::s0",
+      "textEn": "I want to go home.",
+      "spans": [
+        {
+          "start": 10,
+          "end": 17,
+          "surface": "go home",
+          "cardId": "L01-P01",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L01-P01",
+      "encounterId": "rv-cross-L01-P01",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L01-P01::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L01-P01::s1",
+      "textEn": "I'm going home.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 14,
+          "surface": "going home",
+          "cardId": "L01-P01",
+          "form": "inflected"
+        }
+      ],
+      "parentId": "rv-cross-L01-P01",
+      "encounterId": "rv-cross-L01-P01",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L04-P01::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L04-P01::s0",
+      "textEn": "Let's go to the store.",
+      "spans": [
+        {
+          "start": 6,
+          "end": 21,
+          "surface": "go to the store",
+          "cardId": "L04-P01",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L04-P01",
+      "encounterId": "rv-cross-L04-P01",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L04-P01::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L04-P01::s1",
+      "textEn": "I'm going to the store.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 22,
+          "surface": "going to the store",
+          "cardId": "L04-P01",
+          "form": "inflected"
+        }
+      ],
+      "parentId": "rv-cross-L04-P01",
+      "encounterId": "rv-cross-L04-P01",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-V01::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-V01::s0",
+      "textEn": "Go straight on this street.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "surface": "Go",
+          "cardId": "L06-V01",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L06-V01",
+      "encounterId": "rv-cross-L06-V01",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-V01::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-V01::s1",
+      "textEn": "I didn't go out.",
+      "spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "surface": "go",
+          "cardId": "L06-V01",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L06-V01",
+      "encounterId": "rv-cross-L06-V01",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-V03::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-V03::s0",
+      "textEn": "You can wait there.",
+      "spans": [
+        {
+          "start": 8,
+          "end": 12,
+          "surface": "wait",
+          "cardId": "L06-V03",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L06-V03",
+      "encounterId": "rv-cross-L06-V03",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-V03::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-V03::s1",
+      "textEn": "I'm waiting for the bus.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 11,
+          "surface": "waiting",
+          "cardId": "L06-V03",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-cross-L06-V03",
+      "encounterId": "rv-cross-L06-V03",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-V04::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-V04::s0",
+      "textEn": "Can you help me?",
+      "spans": [
+        {
+          "start": 8,
+          "end": 12,
+          "surface": "help",
+          "cardId": "L06-V04",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L06-V04",
+      "encounterId": "rv-cross-L06-V04",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-V04::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-V04::s1",
+      "textEn": "I can help after this.",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "surface": "help",
+          "cardId": "L06-V04",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L06-V04",
+      "encounterId": "rv-cross-L06-V04",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-P04::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-P04::s0",
+      "textEn": "I can walk there.",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "surface": "walk",
+          "cardId": "L06-P04",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L06-P04",
+      "encounterId": "rv-cross-L06-P04",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L06-P04::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L06-P04::s1",
+      "textEn": "If we walk now, we can catch it.",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "surface": "walk",
+          "cardId": "L06-P04",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-cross-L06-P04",
+      "encounterId": "rv-cross-L06-P04",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L07-V10::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L07-V10::s0",
+      "textEn": "He's cooking dinner.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 12,
+          "surface": "cooking",
+          "cardId": "L07-V10",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-cross-L07-V10",
+      "encounterId": "rv-cross-L07-V10",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-L07-V10::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-L07-V10::s1",
+      "textEn": "We cooked in the evening.",
+      "spans": [
+        {
+          "start": 3,
+          "end": 9,
+          "surface": "cooked",
+          "cardId": "L07-V10",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-cross-L07-V10",
+      "encounterId": "rv-cross-L07-V10",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-l15-w-minute::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-l15-w-minute::s0",
+      "textEn": "Just give me a minute.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 21,
+          "surface": "give me a minute",
+          "cardId": "l15-w-minute",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-cross-l15-w-minute",
+      "encounterId": "rv-cross-l15-w-minute",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-cross-l15-w-minute::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-cross-l15-w-minute::s1",
+      "textEn": "Yeah. Give me a minute to change.",
+      "spans": [
+        {
+          "start": 6,
+          "end": 22,
+          "surface": "Give me a minute",
+          "cardId": "l15-w-minute",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-cross-l15-w-minute",
+      "encounterId": "rv-cross-l15-w-minute",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-01::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-01::s0",
+      "textEn": "Are you free tonight?",
+      "spans": [
+        {
+          "start": 8,
+          "end": 12,
+          "surface": "free",
+          "cardId": "L05-V02",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-01",
+      "encounterId": "rv-new-01",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-01::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-01::s1",
+      "textEn": "I am, but I'm a bit tired. I need to go to bed early.",
+      "spans": [
+        {
+          "start": 14,
+          "end": 19,
+          "surface": "a bit",
+          "cardId": "l10-w-a-bit",
+          "form": "exact"
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "surface": "tired",
+          "cardId": "L01-V01",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-01",
+      "encounterId": "rv-new-01",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-02::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-02::s0",
+      "textEn": "Can you check the fridge?",
+      "spans": [
+        {
+          "start": 18,
+          "end": 24,
+          "surface": "fridge",
+          "cardId": "rw2-fridge",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-02",
+      "encounterId": "rv-new-02",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-02::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-02::s1",
+      "textEn": "We don't have enough milk.",
+      "spans": [
+        {
+          "start": 14,
+          "end": 20,
+          "surface": "enough",
+          "cardId": "l16-w-enough",
+          "form": "exact"
+        },
+        {
+          "start": 21,
+          "end": 25,
+          "surface": "milk",
+          "cardId": "L03-V10",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-02",
+      "encounterId": "rv-new-02",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-03::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-03::s0",
+      "textEn": "My neighbor sent me a message.",
+      "spans": [
+        {
+          "start": 3,
+          "end": 11,
+          "surface": "neighbor",
+          "cardId": "reading-delivery-w04",
+          "form": "exact"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "surface": "message",
+          "cardId": "l12-w-message",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-03",
+      "encounterId": "rv-new-03",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-03::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-03::s1",
+      "textEn": "I'll reply later. I'm still on the bus.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "surface": "reply",
+          "cardId": "l12-w-reply",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-03",
+      "encounterId": "rv-new-03",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-04::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-04::s0",
+      "textEn": "If we leave now, we can still be on time.",
+      "spans": [
+        {
+          "start": 33,
+          "end": 40,
+          "surface": "on time",
+          "cardId": "l17-w-on-time",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-04",
+      "encounterId": "rv-new-04",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-04::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-04::s1",
+      "textEn": "I don't want to miss the bus.",
+      "spans": [
+        {
+          "start": 16,
+          "end": 20,
+          "surface": "miss",
+          "cardId": "l17-w-miss",
+          "form": "exact"
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "surface": "bus",
+          "cardId": "L06-V09",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-04",
+      "encounterId": "rv-new-04",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-05::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-05::s0",
+      "textEn": "Do you want to cook tonight?",
+      "spans": [
+        {
+          "start": 15,
+          "end": 19,
+          "surface": "cook",
+          "cardId": "L07-V10",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-05",
+      "encounterId": "rv-new-05",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-05::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-05::s1",
+      "textEn": "I don't feel like cooking.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 25,
+          "surface": "don't feel like cooking",
+          "cardId": "dinner-feel-like",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-new-05",
+      "encounterId": "rv-new-05",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-05::s2",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-05::s2",
+      "textEn": "Fair enough. Let's have noodles.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 11,
+          "surface": "Fair enough",
+          "cardId": "dinner-fair-enough",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-05",
+      "encounterId": "rv-new-05",
+      "sentenceIndex": 2
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-06::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-06::s0",
+      "textEn": "Don't forget the keys.",
+      "spans": [
+        {
+          "start": 6,
+          "end": 12,
+          "surface": "forget",
+          "cardId": "l14-w-forget",
+          "form": "exact"
+        },
+        {
+          "start": 17,
+          "end": 21,
+          "surface": "keys",
+          "cardId": "L01-V03",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-06",
+      "encounterId": "rv-new-06",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-06::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-06::s1",
+      "textEn": "I'll bring them. I won't forget.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "surface": "bring",
+          "cardId": "l14-w-bring",
+          "form": "exact"
+        },
+        {
+          "start": 25,
+          "end": 31,
+          "surface": "forget",
+          "cardId": "l14-w-forget",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-06",
+      "encounterId": "rv-new-06",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-07::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-07::s0",
+      "textEn": "It's a bit cold outside.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 10,
+          "surface": "a bit",
+          "cardId": "l10-w-a-bit",
+          "form": "exact"
+        },
+        {
+          "start": 11,
+          "end": 15,
+          "surface": "cold",
+          "cardId": "L01-V08",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-07",
+      "encounterId": "rv-new-07",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-07::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-07::s1",
+      "textEn": "I'm going to wear a jacket.",
+      "spans": [
+        {
+          "start": 20,
+          "end": 26,
+          "surface": "jacket",
+          "cardId": "l10-w-jacket",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-07",
+      "encounterId": "rv-new-07",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-08::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-08::s0",
+      "textEn": "Can you take a look at this email?",
+      "spans": [
+        {
+          "start": 8,
+          "end": 19,
+          "surface": "take a look",
+          "cardId": "l15-w-take-a-look",
+          "form": "exact"
+        },
+        {
+          "start": 28,
+          "end": 33,
+          "surface": "email",
+          "cardId": "l15-w-email",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-08",
+      "encounterId": "rv-new-08",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-08::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-08::s1",
+      "textEn": "Give me a minute.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 16,
+          "surface": "Give me a minute",
+          "cardId": "l15-w-minute",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-new-08",
+      "encounterId": "rv-new-08",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-09::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-09::s0",
+      "textEn": "I'm starving.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 12,
+          "surface": "I'm starving",
+          "cardId": "dinner-starving",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-09",
+      "encounterId": "rv-new-09",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-09::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-09::s1",
+      "textEn": "There's some rice in the fridge. We can eat that.",
+      "spans": [
+        {
+          "start": 13,
+          "end": 17,
+          "surface": "rice",
+          "cardId": "L03-V07",
+          "form": "exact"
+        },
+        {
+          "start": 25,
+          "end": 31,
+          "surface": "fridge",
+          "cardId": "rw2-fridge",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-09",
+      "encounterId": "rv-new-09",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-10::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-10::s0",
+      "textEn": "It's getting late.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 17,
+          "surface": "It's getting late",
+          "cardId": "sc1-getting-late",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-10",
+      "encounterId": "rv-new-10",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-10::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-10::s1",
+      "textEn": "Yeah. I need to get up early tomorrow.",
+      "spans": [
+        {
+          "start": 23,
+          "end": 28,
+          "surface": "early",
+          "cardId": "L02-V13",
+          "form": "exact"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "surface": "tomorrow",
+          "cardId": "L05-V05",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-10",
+      "encounterId": "rv-new-10",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-11::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-11::s0",
+      "textEn": "This link doesn't work.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "surface": "link",
+          "cardId": "sc2-link",
+          "form": "exact"
+        },
+        {
+          "start": 18,
+          "end": 22,
+          "surface": "work",
+          "cardId": "sc2-work",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-11",
+      "encounterId": "rv-new-11",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-11::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-11::s1",
+      "textEn": "Try refreshing the page.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 14,
+          "surface": "refreshing",
+          "cardId": "sc2-refresh",
+          "form": "variant"
+        }
+      ],
+      "parentId": "rv-new-11",
+      "encounterId": "rv-new-11",
+      "sentenceIndex": 1
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-12::s0",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-12::s0",
+      "textEn": "The door isn't open.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 8,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact"
+        },
+        {
+          "start": 15,
+          "end": 19,
+          "surface": "open",
+          "cardId": "L04-V12",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-12",
+      "encounterId": "rv-new-12",
+      "sentenceIndex": 0
+    },
+    {
+      "id": "independent-vocab-review-pack-v1::rv-new-12::s1",
+      "sourcePack": "independent-vocab-review-pack-v1.1",
+      "sourceVersion": "v1.1",
+      "unitType": "review-sentence",
+      "sourceId": "rv-new-12::s1",
+      "textEn": "I can't get in.",
+      "spans": [
+        {
+          "start": 8,
+          "end": 14,
+          "surface": "get in",
+          "cardId": "sc1-get-in",
+          "form": "exact"
+        }
+      ],
+      "parentId": "rv-new-12",
+      "encounterId": "rv-new-12",
+      "sentenceIndex": 1
+    }
+  ],
+  "stats": {
+    "units": 122,
+    "unitsWithSpans": 97,
+    "spans": 116,
+    "byUnitType": {
+      "scene-line": {
+        "units": 36,
+        "spans": 16,
+        "unitsWithSpans": 14
+      },
+      "reading-paragraph": {
+        "units": 13,
+        "spans": 15,
+        "unitsWithSpans": 10
+      },
+      "review-sentence": {
+        "units": 73,
+        "spans": 85,
+        "unitsWithSpans": 73
+      }
+    },
+    "sceneCardsAnchored": 14,
+    "readingCardsAnchoredInBody": 12,
+    "intentionallyUnanchored": 2,
+    "reviewEncountersCovered": 36,
+    "missingReviewTargets": [],
+    "sourceTextMatches": true,
+    "allCharactersBmp": true
+  },
+  "revisedFrom": {
+    "id": "content-text-anchors-v1",
+    "file": "content-text-anchors-v1.json",
+    "version": "v1"
+  }
+}

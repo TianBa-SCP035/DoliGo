@@ -1,0 +1,20 @@
+{
+  "id": "pronunciation-sources-nov18",
+  "status": "partial",
+  "createdAt": "2026-11-18T10:58:28+08:00",
+  "noteZh": "只收录已落盘且许可核过的录音。目前仅 leak（Public domain，录音者 Dvortygirl）。其余 61 条精确匹配尚未下载，31 条无完全匹配，一律不传播放源，也不用邻近词或系统语音顶上。",
+  "files": {
+    "depth-nov18-leak": {
+      "cardId": "depth-nov18-leak",
+      "headword": "leak",
+      "audioUrl": "/audio/depth-nov18-leak.ogg",
+      "localFile": "audio/depth-nov18-leak.ogg",
+      "sha256": "b5d250064867c1467bc7f8ac68e96429601e6f6247c49181b027208371d8ae47",
+      "licenseName": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "author": "Dvortygirl",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-us-leak.ogg",
+      "kind": "recording"
+    }
+  }
+}

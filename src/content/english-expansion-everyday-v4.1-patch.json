@@ -1,0 +1,72 @@
+{
+  "id": "english-expansion-everyday-v4.1-patch",
+  "title": "日常英语扩展八课 v4 的最小义项补丁（非完整包）",
+  "version": "v4.1-patch",
+  "status": "来源扩展 v4 的独立补丁，不替换完整源包，不是网站已更新或已修复。",
+  "createdAt": "2026-11-12T11:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "baseFile": "english-expansion-everyday-v4.json",
+  "baseId": "english-expansion-everyday-v4",
+  "baseSha256": "0f72a020966cb89a7a20c2060cb82298ecb99aca0869b9019556fbe164b470a1",
+  "doesNotReplaceFullPack": true,
+  "consumerNoteZh": "不要另拷整包。按 patches[].path 或 stableIds 把 after 写回 transfer。实现必须按 examples[].targetCardIds 按句取目标；若仍只用 taughtReference 匹配全部例句，缺陷会复发。",
+  "patches": [
+    {
+      "path": "/lessons/7/transferExamples/1",
+      "stableIds": {
+        "lessonId": "lesson-17",
+        "transferId": "v4-transfer-16"
+      },
+      "before": {
+        "id": "v4-transfer-16",
+        "expression": "last",
+        "taughtReference": "l17-w-last",
+        "examples": [
+          {
+            "setting": "班次",
+            "en": "The last bus is at ten.",
+            "zh": "末班公交车是十点。"
+          },
+          {
+            "setting": "过去时间",
+            "en": "I was home last weekend.",
+            "zh": "我上周末在家。"
+          }
+        ],
+        "noteZh": "the last bus 是末班；last weekend 是上周末，注意搭配而非逐词死译。",
+        "optionalPractice": false
+      },
+      "after": {
+        "id": "v4-transfer-16",
+        "expression": "last",
+        "taughtReference": "l17-w-last",
+        "examples": [
+          {
+            "setting": "班次",
+            "en": "The last bus is at ten.",
+            "zh": "末班公交车是十点。",
+            "targetCardIds": [
+              "l17-w-last"
+            ]
+          },
+          {
+            "setting": "过去时间",
+            "en": "I was home last weekend.",
+            "zh": "我上周末在家。",
+            "targetCardIds": [
+              "L08-V02"
+            ]
+          }
+        ],
+        "noteZh": "the last bus 是末班；last weekend 是上周末，注意搭配而非逐词死译。",
+        "optionalPractice": false,
+        "taughtReferences": [
+          "l17-w-last",
+          "L08-V02"
+        ],
+        "targetBinding": "per-example",
+        "consumerNoteZh": "taughtReference 仍记录本课所教卡 l17-w-last；taughtReferences 是各例目标的合集，仅作兼容。实现必须优先使用 examples[].targetCardIds：examples[0] The last bus is at ten. → l17-w-last；examples[1] I was home last weekend. → L08-V02。若仍用 taughtReference 或合集匹配全部例句，last weekend 会再次错挂到末班义。本补丁不是完整 v4 包，也不代表网站已更新或已修复。"
+      }
+    }
+  ]
+}

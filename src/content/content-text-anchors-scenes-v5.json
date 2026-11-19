@@ -1,0 +1,622 @@
+{
+  "id": "content-text-anchors-scenes-v5",
+  "title": "场景 v5 点词范围",
+  "version": "v5",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-12T17:25:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3",
+    "content-text-anchors-scenes-v4",
+    "content-text-anchors-reading-v3"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-scenes-pack-v5 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l1",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l1",
+      "textEn": "The bus is late again. We've been here for ten minutes.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "surface": "bus",
+          "cardId": "L06-V09",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 11,
+          "end": 15,
+          "surface": "late",
+          "cardId": "L05-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l2",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l2",
+      "textEn": "I know. We said we'd meet Lin at twelve, near the station.",
+      "spans": [
+        {
+          "start": 21,
+          "end": 25,
+          "surface": "meet",
+          "cardId": "L05-V01",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 50,
+          "end": 57,
+          "surface": "station",
+          "cardId": "L05-V10",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l3",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l3",
+      "textEn": "If this one doesn't come soon, we'll be late for lunch.",
+      "spans": [],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l4",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l4",
+      "textEn": "The sign says the next one is delayed. About twenty minutes.",
+      "spans": [
+        {
+          "start": 14,
+          "end": 26,
+          "surface": "the next one",
+          "cardId": "l17-w-next",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 30,
+          "end": 37,
+          "surface": "delayed",
+          "cardId": "sc9-be-delayed",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l5",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l5",
+      "textEn": "That's too long. I don't want her to wait.",
+      "spans": [
+        {
+          "start": 37,
+          "end": 41,
+          "surface": "wait",
+          "cardId": "L06-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l6",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l6",
+      "textEn": "The train station is ten minutes away. We can walk.",
+      "spans": [
+        {
+          "start": 21,
+          "end": 37,
+          "surface": "ten minutes away",
+          "cardId": "rw2-ten-minutes-away",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l7",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l7",
+      "textEn": "So we walk there and take the train?",
+      "spans": [
+        {
+          "start": 30,
+          "end": 35,
+          "surface": "train",
+          "cardId": "sc9-train",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l8",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l8",
+      "textEn": "Yes. We can buy a ticket at the station.",
+      "spans": [
+        {
+          "start": 18,
+          "end": 24,
+          "surface": "ticket",
+          "cardId": "l17-w-ticket",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 32,
+          "end": 39,
+          "surface": "station",
+          "cardId": "L05-V10",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l9",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l9",
+      "textEn": "Okay. I'll message Lin that we'll arrive a little later.",
+      "spans": [
+        {
+          "start": 34,
+          "end": 40,
+          "surface": "arrive",
+          "cardId": "l17-w-arrive",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "surface": "later",
+          "cardId": "l12-w-later",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l10",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l10",
+      "textEn": "Good. Tell her twelve twenty, if we catch the next train.",
+      "spans": [
+        {
+          "start": 36,
+          "end": 41,
+          "surface": "catch",
+          "cardId": "l17-w-catch",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 46,
+          "end": 50,
+          "surface": "next",
+          "cardId": "l17-w-next",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 51,
+          "end": 56,
+          "surface": "train",
+          "cardId": "sc9-train",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l11",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l11",
+      "textEn": "She said that's fine. She's still on the way herself.",
+      "spans": [
+        {
+          "start": 34,
+          "end": 44,
+          "surface": "on the way",
+          "cardId": "sc9-on-the-way",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l12",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l12",
+      "textEn": "Perfect. Let's walk before we miss that one too.",
+      "spans": [
+        {
+          "start": 30,
+          "end": 34,
+          "surface": "miss",
+          "cardId": "l17-w-miss",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l13",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l13",
+      "textEn": "Which stop do we get off at?",
+      "spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "surface": "stop",
+          "cardId": "L06-V10",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 17,
+          "end": 24,
+          "surface": "get off",
+          "cardId": "sc9-get-off",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l14",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l14",
+      "textEn": "The one after the river. I'll get off with you.",
+      "spans": [
+        {
+          "start": 30,
+          "end": 37,
+          "surface": "get off",
+          "cardId": "sc9-get-off",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l15",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l15",
+      "textEn": "All right. Lunch first, then we can look around.",
+      "spans": [],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-next-bus-delayed-l16",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-next-bus-delayed-l16",
+      "textEn": "Sounds good. I'm already hungry.",
+      "spans": [
+        {
+          "start": 25,
+          "end": 31,
+          "surface": "hungry",
+          "cardId": "L03-V01",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-next-bus-delayed"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l1",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l1",
+      "textEn": "Here we are. I hope we can get a table.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l2",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l2",
+      "textEn": "There's a line. I'll ask how long it is.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l3",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l3",
+      "textEn": "What did they say?",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l4",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l4",
+      "textEn": "They're full for about forty minutes.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 12,
+          "surface": "They're full",
+          "cardId": "sc5-be-full",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l5",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l5",
+      "textEn": "Forty minutes? I'm too hungry to wait that long.",
+      "spans": [
+        {
+          "start": 23,
+          "end": 29,
+          "surface": "hungry",
+          "cardId": "L03-V01",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "surface": "wait",
+          "cardId": "L06-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l6",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l6",
+      "textEn": "Same here. There's a noodle place around the corner.",
+      "spans": [
+        {
+          "start": 34,
+          "end": 51,
+          "surface": "around the corner",
+          "cardId": "sc10-around-the-corner",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l7",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l7",
+      "textEn": "Is it far?",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l8",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l8",
+      "textEn": "No, just a few minutes away. We went there last month.",
+      "spans": [
+        {
+          "start": 43,
+          "end": 53,
+          "surface": "last month",
+          "cardId": "L08-V02",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l9",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l9",
+      "textEn": "Let's go there instead. We can come back here another day.",
+      "spans": [
+        {
+          "start": 15,
+          "end": 22,
+          "surface": "instead",
+          "cardId": "reading-delivery-w07",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l10",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l10",
+      "textEn": "Okay. I'll tell them we won't wait.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l11",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l11",
+      "textEn": "They walk around the corner. A table by the window is free.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l12",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l12",
+      "textEn": "Oh good, they have a table.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l13",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l13",
+      "textEn": "Perfect. I'm going to order the soup and noodles.",
+      "spans": [
+        {
+          "start": 22,
+          "end": 27,
+          "surface": "order",
+          "cardId": "rw2-order",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l14",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l14",
+      "textEn": "I'll have the same. I don't want to think about it.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l15",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l15",
+      "textEn": "Do you want tea?",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l16",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l16",
+      "textEn": "Just water for me, thanks.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l17",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l17",
+      "textEn": "All right. This was a better idea.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    },
+    {
+      "id": "everyday-scenes-pack-v5::scene-restaurant-is-full-l18",
+      "sourcePack": "everyday-scenes-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "scene-line",
+      "sourceId": "scene-restaurant-is-full-l18",
+      "textEn": "Yeah. We can try the other place next time, when it's quieter.",
+      "spans": [],
+      "parentId": "scene-restaurant-is-full"
+    }
+  ],
+  "stats": {
+    "units": 34,
+    "unitsWithSpans": 20,
+    "spans": 29
+  }
+}

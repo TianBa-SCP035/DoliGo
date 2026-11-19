@@ -1,0 +1,463 @@
+{
+  "id": "everyday-scenes-pack-v6",
+  "title": "日常场景增量包 v6（门口收件、拿错饮料）",
+  "version": "v6",
+  "lang": "en",
+  "varietyNote": "General everyday American-leaning English, A2 spoken style.",
+  "levelNote": "教学建议大约 A2，未经认证分级。",
+  "provenance": "全部为原创虚构学习情景和原创例句，是学习示例，不是真人经历、真实聊天或转载语料。本轮仅作公开可引用语料的快速核验；未找到许可明确、且适合本课难度的现成对话或正文，故采用原创学习示例，并在此标明。人物不是助手或用户本人。本包不含新闻翻译或小说摘录。",
+  "status": "增量补充，不替换 everyday-scenes-pack-v1.1 / v3 / v4 / v5。v2 仍不接入。",
+  "createdAt": "2026-11-13T09:35:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-scenes-pack-v1.1",
+    "everyday-scenes-pack-v3",
+    "everyday-scenes-pack-v4",
+    "everyday-scenes-pack-v5"
+  ],
+  "selectionPrinciples": [
+    "在既有四大栏目下追加原创学习情景，不替换已有游戏、工作或其他日常篇，不设全站主题路径。",
+    "不收入新闻翻译或小说正文。",
+    "优先复用已有准确词卡，不为同义重复建卡。"
+  ],
+  "integrationNotes": [
+    "通过 loadLearningCatalog() 追加 scenes；不改 loadReviewCatalog()。",
+    "新词卡使用独立常量 NEW_SCENE_V6_CARD_IDS，不改变已有各组词卡标识的语义。"
+  ],
+  "scenes": [
+    {
+      "id": "scene-package-at-the-door",
+      "title": "快递在门口",
+      "titleEn": "It's at the Door.",
+      "levelSuggestionZh": "住在同一层的人商量怎么收包裹；建议难度大约 A2，未经认证分级。",
+      "settingZh": "两个住在同一层的邻居在网上发消息。A 刚回到楼里，没有赶上快递员。",
+      "situationZh": "A 没赶上收包裹。消息上说可以去门口快递柜取，B 下午在家，也可以代收。两人先请快递员交给邻居，不行再用快递柜。这是原创学习情景，不是真实聊天，也不重复坐过站或门口等公交的场面。",
+      "narratorNote": "两位虚构邻居的原创学习情景示例，不是真实聊天记录。人物不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-package-at-the-door-l1",
+          "speaker": "A",
+          "en": "I just missed the courier. I saw the van at the stairs.",
+          "zh": "我刚错过快递员。我走到楼梯口才看见那辆车。"
+        },
+        {
+          "id": "scene-package-at-the-door-l2",
+          "speaker": "B",
+          "en": "Did they leave the package?",
+          "zh": "他们把包裹留下了吗？"
+        },
+        {
+          "id": "scene-package-at-the-door-l3",
+          "speaker": "A",
+          "en": "No. They called, but I didn't get to the door in time.",
+          "zh": "没有。他们打了电话，可我没来得及走到门口。"
+        },
+        {
+          "id": "scene-package-at-the-door-l4",
+          "speaker": "B",
+          "en": "That's annoying. Are you going back down?",
+          "zh": "真够烦的。你还下楼去吗？"
+        },
+        {
+          "id": "scene-package-at-the-door-l5",
+          "speaker": "A",
+          "en": "They're gone. The message says I can pick it up from the locker by the gate.",
+          "zh": "他们已经走了。消息上说，我可以去门口快递柜取。"
+        },
+        {
+          "id": "scene-package-at-the-door-l6",
+          "speaker": "B",
+          "en": "Or I can take it for you. I'm home all afternoon.",
+          "zh": "或者我帮你收着。我一下午都在家。"
+        },
+        {
+          "id": "scene-package-at-the-door-l7",
+          "speaker": "A",
+          "en": "Would you? It's a small box. They can leave it with a neighbor.",
+          "zh": "可以吗？盒子不大。他们也可以交给邻居代收。"
+        },
+        {
+          "id": "scene-package-at-the-door-l8",
+          "speaker": "B",
+          "en": "Sure. Tell them I'm in 3B, just across the hall.",
+          "zh": "没问题。跟他们说我是 3B，就在对面。"
+        },
+        {
+          "id": "scene-package-at-the-door-l9",
+          "speaker": "A",
+          "en": "Okay, I'll reply now. If they can't do that, I'll use the locker.",
+          "zh": "好，我现在回消息。要是不行，我就用快递柜。"
+        },
+        {
+          "id": "scene-package-at-the-door-l10",
+          "speaker": "B",
+          "en": "Either way is fine. Just let me know.",
+          "zh": "都行。你告诉我就好。"
+        },
+        {
+          "id": "scene-package-at-the-door-l11",
+          "speaker": "A",
+          "en": "They said they can leave it with you in about ten minutes.",
+          "zh": "他们说大概十分钟后可以放到你这儿。"
+        },
+        {
+          "id": "scene-package-at-the-door-l12",
+          "speaker": "B",
+          "en": "Perfect. I'll wait by the door.",
+          "zh": "正好。我就在门口等着。"
+        },
+        {
+          "id": "scene-package-at-the-door-l13",
+          "speaker": "A",
+          "en": "Thank you. I owe you a coffee later.",
+          "zh": "谢谢你。回头请你喝杯咖啡。"
+        },
+        {
+          "id": "scene-package-at-the-door-l14",
+          "speaker": "B",
+          "en": "Don't worry about it. I'll message you when it's here.",
+          "zh": "没事。到了我会给你发消息。"
+        },
+        {
+          "id": "scene-package-at-the-door-l15",
+          "speaker": "A",
+          "en": "Great. I'll come back around five.",
+          "zh": "太好了。我大概五点回来。"
+        },
+        {
+          "id": "scene-package-at-the-door-l16",
+          "speaker": "B",
+          "en": "See you then. I'll put it inside, not in the hallway.",
+          "zh": "到时候见。我会放到屋里，不放在走廊里。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "I just missed the courier.",
+          "meaningZh": "我刚错过快递员。miss 复用已有“错过”义项，不是想念。courier 是送包裹的人。"
+        },
+        {
+          "expression": "leave the package / leave it with a neighbor",
+          "meaningZh": "把包裹留下，或交给邻居代收。这里的 leave it 是把东西先放着或交给别人，不是离开，也不是把人排除在外。"
+        },
+        {
+          "expression": "pick it up from the locker",
+          "meaningZh": "去快递柜取。locker 是寄存柜、快递柜。pick up 复用已有“取；领取”义项。"
+        },
+        {
+          "expression": "I'll wait by the door.",
+          "meaningZh": "我在门口等。door 和 by the door 复用已有词卡。"
+        },
+        {
+          "expression": "not in the hallway",
+          "meaningZh": "不放在走廊里。hallway 复用已有词卡。本段不是坐过站，也不是改乘火车。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "They can leave it with a neighbor.",
+          "zh": "他们可以交给邻居代收。",
+          "required": false
+        },
+        {
+          "en": "I can pick it up from the locker.",
+          "zh": "我可以去快递柜取。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 160,
+      "lineCount": 16
+    },
+    {
+      "id": "scene-wrong-drink",
+      "title": "这杯不是我的",
+      "titleEn": "This Isn't What I Ordered.",
+      "levelSuggestionZh": "在咖啡店发现拿错饮料，礼貌地说明并请对方重做；建议难度大约 A2，未经认证分级。",
+      "settingZh": "一位顾客在咖啡店柜台前，刚拿到一杯饮料。对面是店员。",
+      "situationZh": "A 要的是中杯热茶，拿到的却是大杯冰咖啡，杯子上还写了别人的名字。A 礼貌说明，店员道歉后重做热茶。也可以留下那杯，但 A 还是想要热茶。这是自然口语，不是生硬的客服脚本，也不是餐馆客满改去别处的那场。",
+      "narratorNote": "虚构顾客与店员的原创学习情景示例，不是真实聊天记录。人物不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-wrong-drink-l1",
+          "speaker": "A",
+          "en": "Excuse me. I think this isn't what I ordered.",
+          "zh": "不好意思。我觉得这杯不是我点的。"
+        },
+        {
+          "id": "scene-wrong-drink-l2",
+          "speaker": "B",
+          "en": "Oh, sorry. What did you get?",
+          "zh": "哦，抱歉。你拿到的是什么？"
+        },
+        {
+          "id": "scene-wrong-drink-l3",
+          "speaker": "A",
+          "en": "This is a large iced coffee. I asked for a medium hot tea.",
+          "zh": "这是一大杯冰咖啡。我要的是中杯热茶。"
+        },
+        {
+          "id": "scene-wrong-drink-l4",
+          "speaker": "B",
+          "en": "You're right. That's my mistake. I can make the tea now.",
+          "zh": "你说得对。是我弄错了。我现在就给你做茶。"
+        },
+        {
+          "id": "scene-wrong-drink-l5",
+          "speaker": "A",
+          "en": "How long will that take?",
+          "zh": "要多久？"
+        },
+        {
+          "id": "scene-wrong-drink-l6",
+          "speaker": "B",
+          "en": "Just a couple of minutes. Or you can keep it, if you'd rather.",
+          "zh": "两三分钟。或者你愿意的话，也可以就要这杯。"
+        },
+        {
+          "id": "scene-wrong-drink-l7",
+          "speaker": "A",
+          "en": "That's kind, but I really wanted the tea. It's cold out.",
+          "zh": "谢谢你，不过我其实想要热茶。外面挺冷的。"
+        },
+        {
+          "id": "scene-wrong-drink-l8",
+          "speaker": "B",
+          "en": "Of course. I'll make it again. You can have a seat, and I'll bring it over.",
+          "zh": "当然。我再做一杯。你可以先坐，做好我给你送过来。"
+        },
+        {
+          "id": "scene-wrong-drink-l9",
+          "speaker": "A",
+          "en": "Thanks. Should I leave this here?",
+          "zh": "谢谢。这杯要放这儿吗？"
+        },
+        {
+          "id": "scene-wrong-drink-l10",
+          "speaker": "B",
+          "en": "Yes, just leave it. Sorry again about the mix-up.",
+          "zh": "对，先放着就行。再次抱歉弄错了。"
+        },
+        {
+          "id": "scene-wrong-drink-l11",
+          "speaker": "A",
+          "en": "No problem. It happens.",
+          "zh": "没关系。这种事难免。"
+        },
+        {
+          "id": "scene-wrong-drink-l12",
+          "speaker": "B",
+          "en": "Here's your medium hot tea. I made sure it's the right one.",
+          "zh": "这是你的中杯热茶。我确认过了，是对的。"
+        },
+        {
+          "id": "scene-wrong-drink-l13",
+          "speaker": "A",
+          "en": "This looks right. Thank you.",
+          "zh": "看起来对了。谢谢。"
+        },
+        {
+          "id": "scene-wrong-drink-l14",
+          "speaker": "B",
+          "en": "Sorry for the wait. The first cup had the wrong name on it.",
+          "zh": "让你等了，抱歉。刚才那杯杯子上写的名字不对。"
+        },
+        {
+          "id": "scene-wrong-drink-l15",
+          "speaker": "A",
+          "en": "I wondered about that. The cup said Lin.",
+          "zh": "我就觉得奇怪。杯子上写的是 Lin。"
+        },
+        {
+          "id": "scene-wrong-drink-l16",
+          "speaker": "B",
+          "en": "That coffee was for someone else. Enjoy your tea.",
+          "zh": "那杯咖啡是别人的。请慢用。"
+        },
+        {
+          "id": "scene-wrong-drink-l17",
+          "speaker": "A",
+          "en": "I will. Thanks for fixing it.",
+          "zh": "好。谢谢你帮我改好了。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "this isn't what I ordered",
+          "meaningZh": "这不是我点的。ordered 这里是点餐，复用已有 order 义项，但本卡先整句记。不是网上买灯、订货的那个 order。"
+        },
+        {
+          "expression": "you can keep it",
+          "meaningZh": "你也可以就要这杯。keep it 在这里是留下这杯饮料，不是声音一直断开的 keep cutting out，也不是帮人收包裹。"
+        },
+        {
+          "expression": "I'll make it again",
+          "meaningZh": "我再做一杯、重做一份。比 remake 更常见、也更适合先学。"
+        },
+        {
+          "expression": "just leave it",
+          "meaningZh": "先放着就行。和把包裹交给邻居的 leave it 是同一个用法：把东西先放在某处。"
+        },
+        {
+          "expression": "a large iced coffee / a medium hot tea",
+          "meaningZh": "大杯冰咖啡 / 中杯热茶。coffee、tea、hot 复用已有词卡。不要把 drink 的动词义（喝）套到“这杯饮料”上。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "This isn't what I ordered.",
+          "zh": "这不是我点的。",
+          "required": false
+        },
+        {
+          "en": "I'll make it again.",
+          "zh": "我再做一杯。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 156,
+      "lineCount": 17
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "sc11-package",
+      "headword": "package",
+      "pos": "名词",
+      "posZh": "名词",
+      "senseZh": "包裹",
+      "collocation": "the package / leave the package / a package at the door",
+      "exampleEn": "Did they leave the package?",
+      "exampleZh": "他们把包裹留下了吗？",
+      "transferEn": "There's a package at the front desk. You can get it after lunch.",
+      "transferZh": "前台有一个包裹。你午饭后可以去取。",
+      "sourceScene": "scene-package-at-the-door",
+      "sourceLine": "scene-package-at-the-door-l2",
+      "notesZh": "package 指寄来的包裹。口语里也常把同一个东西叫 a box。另境例句改到前台取件，不用本段邻居代收的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc11-courier",
+      "headword": "courier",
+      "pos": "可数名词",
+      "posZh": "可数名词",
+      "senseZh": "快递员；送件的人",
+      "collocation": "missed the courier / the courier had come",
+      "exampleEn": "I just missed the courier.",
+      "exampleZh": "我刚错过快递员。",
+      "transferEn": "If I'm not home, the courier usually leaves a message.",
+      "transferZh": "如果我不在家，快递员通常会留一条消息。",
+      "sourceScene": "scene-package-at-the-door",
+      "sourceLine": "scene-package-at-the-door-l1",
+      "notesZh": "courier 指送包裹的人。miss the courier 是没赶上收件，miss 仍是“错过”，不是想念。另境例句改到自己不在家，不用本段楼梯口刚错过的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc11-locker",
+      "headword": "locker",
+      "pos": "可数名词",
+      "posZh": "可数名词",
+      "senseZh": "寄存柜；快递柜",
+      "collocation": "the locker / pick it up from the locker / the locker by the gate",
+      "exampleEn": "The message says I can pick it up from the locker by the gate.",
+      "exampleZh": "消息上说，我可以去门口快递柜取。",
+      "transferEn": "If no one is home, they put the food in the locker downstairs.",
+      "transferZh": "要是家里没人，他们就把食物放进楼下的寄存柜。",
+      "sourceScene": "scene-package-at-the-door",
+      "sourceLine": "scene-package-at-the-door-l5",
+      "notesZh": "locker 在本课指小区或楼门口的快递柜、寄存柜，不是学校体育馆更衣室的全部用法。pick up 复用已有“取；领取”。另境例句改到放食物，不用本段邻居代收的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc11-leave-it",
+      "headword": "leave it",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "把某物先放着；交给别人代收或先留在某处",
+      "collocation": "leave it / leave it with a neighbor / just leave it",
+      "exampleEn": "They can leave it with a neighbor.",
+      "exampleZh": "他们也可以交给邻居代收。",
+      "transferEn": "You can leave it at the front desk. I'll get it after class.",
+      "transferZh": "你可以先放到前台。我下了课再取。",
+      "sourceScene": "scene-package-at-the-door",
+      "sourceLine": "scene-package-at-the-door-l7",
+      "notesZh": "leave it 是把东西先放在某处或交给别人。不是离开某处的 leave，也不是把人排除在外的 leave someone out，更不是向左的 left。另境例句改到前台，不用本段门口收件的场面。同一用法也可说 just leave it（先放着就行）。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc12-isnt-what-i-ordered",
+      "headword": "This isn't what I ordered",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "这不是我点的",
+      "collocation": "this isn't what I ordered / that's not what I ordered",
+      "exampleEn": "Excuse me. I think this isn't what I ordered.",
+      "exampleZh": "不好意思。我觉得这杯不是我点的。",
+      "transferEn": "This isn't what I ordered. I asked for soup, not salad.",
+      "transferZh": "这不是我点的。我要的是汤，不是沙拉。",
+      "sourceScene": "scene-wrong-drink",
+      "sourceLine": "scene-wrong-drink-l1",
+      "notesZh": "用于发现餐食或饮料拿错时，礼貌地说明。这里的 ordered 是点餐，和已有 order 卡一致；不要用来表示网上订货。另境例句改到汤和沙拉，不用本段咖啡店的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc12-make-it-again",
+      "headword": "make it again",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "再做一份；重做",
+      "collocation": "I'll make it again / Can you make it again?",
+      "exampleEn": "Of course. I'll make it again.",
+      "exampleZh": "当然。我再做一杯。",
+      "transferEn": "The copy is too light. Could you make it again, a little darker?",
+      "transferZh": "这张印得太浅了。能再做一张、稍微深一点吗？",
+      "sourceScene": "scene-wrong-drink",
+      "sourceLine": "scene-wrong-drink-l8",
+      "notesZh": "make it again 是把同一份东西再做一次，口语里比 remake 更常见。另境例句改到复印，不用本段热茶的场面。不要和餐馆客满后改去别家混在一起。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc12-keep-it",
+      "headword": "keep it",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "就要这个；留下这个（常指已拿到的东西）",
+      "collocation": "you can keep it / I'll keep it",
+      "exampleEn": "Or you can keep it, if you'd rather.",
+      "exampleZh": "或者你愿意的话，也可以就要这杯。",
+      "transferEn": "The color is a little bright, but I like it. I'll keep it.",
+      "transferZh": "颜色稍微亮了点，不过我喜欢。我就要这个了。",
+      "sourceScene": "scene-wrong-drink",
+      "sourceLine": "scene-wrong-drink-l6",
+      "notesZh": "本卡是“就要这个/留下这个”。不是 keep cutting out（声音一直断），也不是帮人保管包裹的全部说法。另境例句改到颜色深浅，不用本段饮料拿错的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    }
+  ],
+  "stats": {
+    "scenes": 2,
+    "spokenWords": [
+      160,
+      156
+    ],
+    "spokenLines": [
+      16,
+      17
+    ],
+    "wordCards": 7
+  }
+}

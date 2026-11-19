@@ -1,0 +1,776 @@
+{
+  "id": "sourced-reading-pack-bulk-v1",
+  "title": "外部改编阅读批量包 v1（图书馆、天气、旅行洗衣）",
+  "version": "v1",
+  "lang": "en",
+  "status": "增量补充，不替换既有阅读包，也不把未审校原文接入。",
+  "createdAt": "2026-11-16T11:08:08+08:00",
+  "timezone": "Asia/Shanghai",
+  "provenance": "三篇均为对固定修订版的改编删节，英文与中文译文按 CC BY-SA 4.0 提供；相同方式共享只约束这些改编文本。署名指向修订历史中的志愿贡献者，不要写成单人作品。未审校的其余原文不在本包。",
+  "readings": [
+    {
+      "id": "reading-library-basics",
+      "title": "图书馆",
+      "titleEn": "Libraries",
+      "levelSuggestionZh": "教学建议大约 A2 到 B1，未经认证分级。本篇是改编、删节后的学习文本，不是逐字原文。",
+      "paragraphs": [
+        {
+          "id": "reading-library-basics-p1",
+          "en": "A library is a place where many books are kept. Most public libraries let people borrow books and take them home for several weeks. Some libraries belong to schools, universities, or other institutions. The people who work there are called librarians. They take care of the library and help visitors find what they need.",
+          "zh": "图书馆是存放许多书籍的地方。大多数公共图书馆允许人们把书借回家，通常可以借几个星期。有些图书馆属于学校、大学或其他机构。在图书馆工作的人叫做图书管理员。他们照看图书馆，并帮助来访者找到需要的资料。",
+          "sentences": [
+            {
+              "id": "reading-library-basics-p1-s1",
+              "en": "A library is a place where many books are kept.",
+              "zh": "图书馆是存放许多书籍的地方。",
+              "start": 0,
+              "end": 47
+            },
+            {
+              "id": "reading-library-basics-p1-s2",
+              "en": "Most public libraries let people borrow books and take them home for several weeks.",
+              "zh": "大多数公共图书馆允许人们把书借回家，通常可以借几个星期。",
+              "start": 48,
+              "end": 131
+            },
+            {
+              "id": "reading-library-basics-p1-s3",
+              "en": "Some libraries belong to schools, universities, or other institutions.",
+              "zh": "有些图书馆属于学校、大学或其他机构。",
+              "start": 132,
+              "end": 202
+            },
+            {
+              "id": "reading-library-basics-p1-s4",
+              "en": "The people who work there are called librarians.",
+              "zh": "在图书馆工作的人叫做图书管理员。",
+              "start": 203,
+              "end": 251
+            },
+            {
+              "id": "reading-library-basics-p1-s5",
+              "en": "They take care of the library and help visitors find what they need.",
+              "zh": "他们照看图书馆，并帮助来访者找到需要的资料。",
+              "start": 252,
+              "end": 320
+            }
+          ]
+        },
+        {
+          "id": "reading-library-basics-p2",
+          "en": "A library is not a bookstore. A bookstore sells books, but a library lends them. Many libraries also have magazines, music, maps, and computers with internet access. People come to read, to study, or to look something up. Students often use libraries to develop good study habits. Other people use them for work or for personal interests.",
+          "zh": "图书馆不是书店。书店卖书，图书馆则是把书借出去。许多图书馆还有杂志、音乐、地图，以及可以上网的电脑。人们来这里阅读、学习，或查阅资料。学生常常利用图书馆养成良好的学习习惯。也有人来这里工作，或了解自己感兴趣的事。",
+          "sentences": [
+            {
+              "id": "reading-library-basics-p2-s1",
+              "en": "A library is not a bookstore.",
+              "zh": "图书馆不是书店。",
+              "start": 0,
+              "end": 29
+            },
+            {
+              "id": "reading-library-basics-p2-s2",
+              "en": "A bookstore sells books, but a library lends them.",
+              "zh": "书店卖书，图书馆则是把书借出去。",
+              "start": 30,
+              "end": 80
+            },
+            {
+              "id": "reading-library-basics-p2-s3",
+              "en": "Many libraries also have magazines, music, maps, and computers with internet access.",
+              "zh": "许多图书馆还有杂志、音乐、地图，以及可以上网的电脑。",
+              "start": 81,
+              "end": 165
+            },
+            {
+              "id": "reading-library-basics-p2-s4",
+              "en": "People come to read, to study, or to look something up.",
+              "zh": "人们来这里阅读、学习，或查阅资料。",
+              "start": 166,
+              "end": 221
+            },
+            {
+              "id": "reading-library-basics-p2-s5",
+              "en": "Students often use libraries to develop good study habits.",
+              "zh": "学生常常利用图书馆养成良好的学习习惯。",
+              "start": 222,
+              "end": 280
+            },
+            {
+              "id": "reading-library-basics-p2-s6",
+              "en": "Other people use them for work or for personal interests.",
+              "zh": "也有人来这里工作，或了解自己感兴趣的事。",
+              "start": 281,
+              "end": 338
+            }
+          ]
+        },
+        {
+          "id": "reading-library-basics-p3",
+          "en": "In many places, anyone who lives in the area can join the public library. With a library card, you can usually borrow books without paying a fee. Books are kept on shelves in a special order so they are easier to find. Stories are often arranged by the writer's last name. Books about other subjects may have a number, such as the Dewey decimal system, and then stand in number order.",
+          "zh": "在许多地方，住在当地的人都可以办理公共图书馆的借书证。有了借书证，通常可以免费借书。图书会按一定顺序放在架子上，方便查找。故事类图书常常按作者姓氏排列。其他主题的书可能会有编号，比如杜威十进分类法，再按编号上架。",
+          "sentences": [
+            {
+              "id": "reading-library-basics-p3-s1",
+              "en": "In many places, anyone who lives in the area can join the public library.",
+              "zh": "在许多地方，住在当地的人都可以办理公共图书馆的借书证。",
+              "start": 0,
+              "end": 73
+            },
+            {
+              "id": "reading-library-basics-p3-s2",
+              "en": "With a library card, you can usually borrow books without paying a fee.",
+              "zh": "有了借书证，通常可以免费借书。",
+              "start": 74,
+              "end": 145
+            },
+            {
+              "id": "reading-library-basics-p3-s3",
+              "en": "Books are kept on shelves in a special order so they are easier to find.",
+              "zh": "图书会按一定顺序放在架子上，方便查找。",
+              "start": 146,
+              "end": 218
+            },
+            {
+              "id": "reading-library-basics-p3-s4",
+              "en": "Stories are often arranged by the writer's last name.",
+              "zh": "故事类图书常常按作者姓氏排列。",
+              "start": 219,
+              "end": 272
+            },
+            {
+              "id": "reading-library-basics-p3-s5",
+              "en": "Books about other subjects may have a number, such as the Dewey decimal system, and then stand in number order.",
+              "zh": "其他主题的书可能会有编号，比如杜威十进分类法，再按编号上架。",
+              "start": 273,
+              "end": 384
+            }
+          ]
+        },
+        {
+          "id": "reading-library-basics-p4",
+          "en": "In some rural areas, a mobile library, or bookmobile, brings books to places that do not have a full library building. Libraries help people get information, and they also keep a record of culture to pass on to later generations.",
+          "zh": "在一些乡村地区，流动图书馆（有时叫做图书车）会把书送到没有完整馆舍的地方。图书馆帮助人们获取信息，也保存文化记录，并传给后来的人。",
+          "sentences": [
+            {
+              "id": "reading-library-basics-p4-s1",
+              "en": "In some rural areas, a mobile library, or bookmobile, brings books to places that do not have a full library building.",
+              "zh": "在一些乡村地区，流动图书馆（有时叫做图书车）会把书送到没有完整馆舍的地方。",
+              "start": 0,
+              "end": 118
+            },
+            {
+              "id": "reading-library-basics-p4-s2",
+              "en": "Libraries help people get information, and they also keep a record of culture to pass on to later generations.",
+              "zh": "图书馆帮助人们获取信息，也保存文化记录，并传给后来的人。",
+              "start": 119,
+              "end": 229
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "optionalQuestions": [],
+      "wordCount": 222,
+      "targetWords": [
+        180,
+        300
+      ],
+      "narratorNote": "本篇是改编、删节后的学习文本，不是来源站点的原文或逐字转载。中文是对改编英文的翻译。教学建议未经认证分级。",
+      "sourceAttribution": {
+        "attributionEn": "This reading is an adapted and abridged study text, not a verbatim copy, and not an original work of the source site. It is based on the simple.wikipedia.org article “Library”, written by volunteer contributors (see the article history). Permanent revision: 2026-06-26T08:44:16Z (2026-06-26 16:44 Asia/Shanghai (UTC+8)), oldid 10901378. Article: https://simple.wikipedia.org/wiki/Library Permanent revision: https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378 History: https://simple.wikipedia.org/w/index.php?title=Library&action=history Source license: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ The adapted English and our Chinese translation are also offered under CC BY-SA 4.0. Adapted and abridged from the lead, importance, public-library, shelf-order, and mobile-library passages. Image leftovers, “copyright libraries”, later history sections, and lists of media types were shortened or omitted. Chinese is our translation of the adapted English. This use does not imply endorsement by the contributors, the source site, or the Wikimedia Foundation. Images, logos, and trademarks are not included. Share-alike applies to this adapted reading text, not automatically to the rest of the site. If published, this attribution should remain publicly visible.",
+        "attributionZh": "本篇是改编、删节后的学习文本，不是逐字原文，也不是来源站点的原创内容。它根据 simple.wikipedia.org 条目《Library》整理，由志愿贡献者撰写（请见修订历史）。固定版本：2026-06-26T08:44:16Z（2026-06-26 16:44 Asia/Shanghai (UTC+8)），oldid 10901378。条目：https://simple.wikipedia.org/wiki/Library 固定版本：https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378 修订历史：https://simple.wikipedia.org/w/index.php?title=Library&action=history。来源许可为 CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ 。改编英文和我们的中文译文同样依 CC BY-SA 4.0 提供。改编、删节自条目开头、作用、公共图书馆、排架和流动图书馆等段落。图片残留、所谓版权图书馆、后段历史以及媒体类型列举已压缩或省略。中文是我们对改编英文的翻译。 上述使用并不表示得到贡献者、来源站点或维基媒体基金会的背书。未收入图片、标识或商标。相同方式共享条件适用于本篇改编文本，并不自动适用于网站其他部分。如公开发布，此署名应保持可被读者看见。",
+        "links": [
+          {
+            "label": "条目",
+            "href": "https://simple.wikipedia.org/wiki/Library"
+          },
+          {
+            "label": "固定版本",
+            "href": "https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378"
+          },
+          {
+            "label": "修订历史",
+            "href": "https://simple.wikipedia.org/w/index.php?title=Library&action=history"
+          },
+          {
+            "label": "CC BY-SA 4.0",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        ],
+        "changeEn": "Adapted and abridged from the lead, importance, public-library, shelf-order, and mobile-library passages. Image leftovers, “copyright libraries”, later history sections, and lists of media types were shortened or omitted. Chinese is our translation of the adapted English.",
+        "changeZh": "改编、删节自条目开头、作用、公共图书馆、排架和流动图书馆等段落。图片残留、所谓版权图书馆、后段历史以及媒体类型列举已压缩或省略。中文是我们对改编英文的翻译。",
+        "translationEn": "The Chinese text is our translation of the adapted English reading. It is not an official or original Chinese version from the source site, and it should be attributed as a translation of this adaptation.",
+        "translationZh": "中文是我们对这篇改编英文的翻译，不是来源站点官方或原有的中文版本，署名时应标明这是对改编文本的译文。",
+        "noEndorsementEn": "Use of the source, the names of contributors, and the names of the source site or Wikimedia does not imply endorsement of this adapted study text or this product.",
+        "noEndorsementZh": "使用该来源、列出贡献者姓名，或提到来源站点、维基媒体，并不表示他们认可本改编学习文本或本产品。"
+      },
+      "source": {
+        "sourceType": "external-adaptation",
+        "sourceTitle": "Library",
+        "sourceSite": "Simple English Wikipedia",
+        "sourceArticleUrl": "https://simple.wikipedia.org/wiki/Library",
+        "permanentRevisionUrl": "https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378",
+        "sourceOldid": 10901378,
+        "revisionTimestamp": "2026-06-26T08:44:16Z",
+        "historyUrl": "https://simple.wikipedia.org/w/index.php?title=Library&action=history",
+        "contributorsAttribution": "Volunteer contributors to “Library”; see the history page. Do not name a single author.",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adaptedLicense": "CC BY-SA 4.0",
+        "title": "Library",
+        "site": "simple.wikipedia.org",
+        "pageId": 446,
+        "oldid": 10901378,
+        "articleUrl": "https://simple.wikipedia.org/wiki/Library",
+        "revisionTimestampUtc": "2026-06-26T08:44:16Z",
+        "revisionTimestampAsiaShanghai": "2026-06-26 16:44 Asia/Shanghai (UTC+8)",
+        "rightsEvidenceUrl": "https://simple.wikipedia.org/wiki/Wikipedia:Copyrights"
+      },
+      "endOfReadingAttribution": {
+        "en": "This reading is an adapted and abridged study text, not a verbatim copy, and not an original work of the source site. It is based on the simple.wikipedia.org article “Library”, written by volunteer contributors (see the article history). Permanent revision: 2026-06-26T08:44:16Z (2026-06-26 16:44 Asia/Shanghai (UTC+8)), oldid 10901378. Article: https://simple.wikipedia.org/wiki/Library Permanent revision: https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378 History: https://simple.wikipedia.org/w/index.php?title=Library&action=history Source license: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ The adapted English and our Chinese translation are also offered under CC BY-SA 4.0. Adapted and abridged from the lead, importance, public-library, shelf-order, and mobile-library passages. Image leftovers, “copyright libraries”, later history sections, and lists of media types were shortened or omitted. Chinese is our translation of the adapted English. This use does not imply endorsement by the contributors, the source site, or the Wikimedia Foundation. Images, logos, and trademarks are not included. Share-alike applies to this adapted reading text, not automatically to the rest of the site. If published, this attribution should remain publicly visible.",
+        "zh": "本篇是改编、删节后的学习文本，不是逐字原文，也不是来源站点的原创内容。它根据 simple.wikipedia.org 条目《Library》整理，由志愿贡献者撰写（请见修订历史）。固定版本：2026-06-26T08:44:16Z（2026-06-26 16:44 Asia/Shanghai (UTC+8)），oldid 10901378。条目：https://simple.wikipedia.org/wiki/Library 固定版本：https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378 修订历史：https://simple.wikipedia.org/w/index.php?title=Library&action=history。来源许可为 CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ 。改编英文和我们的中文译文同样依 CC BY-SA 4.0 提供。改编、删节自条目开头、作用、公共图书馆、排架和流动图书馆等段落。图片残留、所谓版权图书馆、后段历史以及媒体类型列举已压缩或省略。中文是我们对改编英文的翻译。 上述使用并不表示得到贡献者、来源站点或维基媒体基金会的背书。未收入图片、标识或商标。相同方式共享条件适用于本篇改编文本，并不自动适用于网站其他部分。如公开发布，此署名应保持可被读者看见。"
+      },
+      "tags": [
+        "图书馆",
+        "学习生活"
+      ],
+      "changeNotice": "Adapted and abridged from the lead, importance, public-library, shelf-order, and mobile-library passages. Image leftovers, “copyright libraries”, later history sections, and lists of media types were shortened or omitted. Chinese is our translation of the adapted English.",
+      "changeNoticeZh": "改编、删节自条目开头、作用、公共图书馆、排架和流动图书馆等段落。图片残留、所谓版权图书馆、后段历史以及媒体类型列举已压缩或省略。中文是我们对改编英文的翻译。",
+      "adaptedEnglishLicense": "CC BY-SA 4.0",
+      "chineseTranslationLicense": "CC BY-SA 4.0",
+      "shareAlikeScope": "Applies to this adapted English and Chinese text if published; not automatically to the whole site.",
+      "relationshipToSource": "adapted-abridged-not-verbatim",
+      "sourceOriginalRecord": {
+        "title": "Library",
+        "site": "simple.wikipedia.org",
+        "pageId": 446,
+        "oldid": 10901378,
+        "articleUrl": "https://simple.wikipedia.org/wiki/Library",
+        "permanentRevisionUrl": "https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378",
+        "historyUrl": "https://simple.wikipedia.org/w/index.php?title=Library&action=history",
+        "revisionTimestampUtc": "2026-06-26T08:44:16Z",
+        "revisionTimestampAsiaShanghai": "2026-06-26 16:44 Asia/Shanghai (UTC+8)",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rightsEvidenceUrl": "https://simple.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "contributorsAttribution": "Volunteer contributors to “Library”; see the history page. Do not name a single author."
+      },
+      "category": "学习生活"
+    },
+    {
+      "id": "reading-weather-everyday",
+      "title": "天气",
+      "titleEn": "Weather",
+      "levelSuggestionZh": "教学建议大约 A2 到 B1，未经认证分级。本篇是改编、删节后的学习文本，不是逐字原文。",
+      "paragraphs": [
+        {
+          "id": "reading-weather-everyday-p1",
+          "en": "Weather is the day-to-day, or even hour-to-hour, change in the air around us. It includes wind, rain, snow, storms, and many other conditions. Energy from the sun affects the weather too. Climate is different from weather. Climate tells us what kinds of weather usually happen in an area at different times of the year.",
+          "zh": "天气是我们周围空气一天一天、甚至一小时一小时的变化。它包括风、雨、雪、风暴，以及许多其他情况。来自太阳的能量也会影响天气。气候和天气不同。气候告诉我们，一个地区在一年中的不同时候通常会有什么样的天气。",
+          "sentences": [
+            {
+              "id": "reading-weather-everyday-p1-s1",
+              "en": "Weather is the day-to-day, or even hour-to-hour, change in the air around us.",
+              "zh": "天气是我们周围空气一天一天、甚至一小时一小时的变化。",
+              "start": 0,
+              "end": 77
+            },
+            {
+              "id": "reading-weather-everyday-p1-s2",
+              "en": "It includes wind, rain, snow, storms, and many other conditions.",
+              "zh": "它包括风、雨、雪、风暴，以及许多其他情况。",
+              "start": 78,
+              "end": 142
+            },
+            {
+              "id": "reading-weather-everyday-p1-s3",
+              "en": "Energy from the sun affects the weather too.",
+              "zh": "来自太阳的能量也会影响天气。",
+              "start": 143,
+              "end": 187
+            },
+            {
+              "id": "reading-weather-everyday-p1-s4",
+              "en": "Climate is different from weather.",
+              "zh": "气候和天气不同。",
+              "start": 188,
+              "end": 222
+            },
+            {
+              "id": "reading-weather-everyday-p1-s5",
+              "en": "Climate tells us what kinds of weather usually happen in an area at different times of the year.",
+              "zh": "气候告诉我们，一个地区在一年中的不同时候通常会有什么样的天气。",
+              "start": 223,
+              "end": 319
+            }
+          ]
+        },
+        {
+          "id": "reading-weather-everyday-p2",
+          "en": "Changes in the weather affect daily life. People wear different clothes and do different things in different weather. They may also choose different food in different seasons. Weather stations around the world measure things such as wind speed, wind direction, temperature, and humidity. Scientists called meteorologists use these measurements, and computer models, to make weather forecasts.",
+          "zh": "天气变化会影响日常生活。人们在不同的天气里会穿不同的衣服、做不同的事，在不同的季节也可能选择不同的食物。世界各地的气象站会测量风速、风向、气温和湿度等。称为气象学家的科学家会利用这些测量结果和计算机模型，做出天气预报。",
+          "sentences": [
+            {
+              "id": "reading-weather-everyday-p2-s1",
+              "en": "Changes in the weather affect daily life.",
+              "zh": "天气变化会影响日常生活。",
+              "start": 0,
+              "end": 41
+            },
+            {
+              "id": "reading-weather-everyday-p2-s2",
+              "en": "People wear different clothes and do different things in different weather. They may also choose different food in different seasons.",
+              "zh": "人们在不同的天气里会穿不同的衣服、做不同的事，在不同的季节也可能选择不同的食物。",
+              "start": 42,
+              "end": 175
+            },
+            {
+              "id": "reading-weather-everyday-p2-s3",
+              "en": "Weather stations around the world measure things such as wind speed, wind direction, temperature, and humidity.",
+              "zh": "世界各地的气象站会测量风速、风向、气温和湿度等。",
+              "start": 176,
+              "end": 287
+            },
+            {
+              "id": "reading-weather-everyday-p2-s4",
+              "en": "Scientists called meteorologists use these measurements, and computer models, to make weather forecasts.",
+              "zh": "称为气象学家的科学家会利用这些测量结果和计算机模型，做出天气预报。",
+              "start": 288,
+              "end": 392
+            }
+          ]
+        },
+        {
+          "id": "reading-weather-everyday-p3",
+          "en": "Weather happens because different parts of the Earth get different amounts of heat from the sun. The tropics get more heat, and the poles get less. Warm air is lighter and can rise. The air always has some water in it, called humidity. When the air cools, that water can turn into drops and fall as rain or snow. When two large masses of air with different temperatures meet, we call that a front.",
+          "zh": "天气的出现，是因为地球不同地方从太阳得到的热量不同。热带得到的热量更多，极地更少。暖空气更轻，可以上升。空气里总是含有一些水，这叫做湿度。空气变冷时，这些水可以变成水滴，再以雨或雪的形式落下。当两团温度不同的大范围空气相遇时，我们称之为锋面。",
+          "sentences": [
+            {
+              "id": "reading-weather-everyday-p3-s1",
+              "en": "Weather happens because different parts of the Earth get different amounts of heat from the sun.",
+              "zh": "天气的出现，是因为地球不同地方从太阳得到的热量不同。",
+              "start": 0,
+              "end": 96
+            },
+            {
+              "id": "reading-weather-everyday-p3-s2",
+              "en": "The tropics get more heat, and the poles get less.",
+              "zh": "热带得到的热量更多，极地更少。",
+              "start": 97,
+              "end": 147
+            },
+            {
+              "id": "reading-weather-everyday-p3-s3",
+              "en": "Warm air is lighter and can rise.",
+              "zh": "暖空气更轻，可以上升。",
+              "start": 148,
+              "end": 181
+            },
+            {
+              "id": "reading-weather-everyday-p3-s4",
+              "en": "The air always has some water in it, called humidity.",
+              "zh": "空气里总是含有一些水，这叫做湿度。",
+              "start": 182,
+              "end": 235
+            },
+            {
+              "id": "reading-weather-everyday-p3-s5",
+              "en": "When the air cools, that water can turn into drops and fall as rain or snow.",
+              "zh": "空气变冷时，这些水可以变成水滴，再以雨或雪的形式落下。",
+              "start": 236,
+              "end": 312
+            },
+            {
+              "id": "reading-weather-everyday-p3-s6",
+              "en": "When two large masses of air with different temperatures meet, we call that a front.",
+              "zh": "当两团温度不同的大范围空气相遇时，我们称之为锋面。",
+              "start": 313,
+              "end": 397
+            }
+          ]
+        },
+        {
+          "id": "reading-weather-everyday-p4",
+          "en": "Severe weather, such as strong storms or heat waves, can cause problems. This short reading is only general background, not a safety guide. When the weather is severe, follow local forecasts and official advice.",
+          "zh": "强风暴或热浪等恶劣天气可能带来麻烦。这篇短文只是一般背景介绍，不是安全指南。遇到恶劣天气时，请遵循当地预报和官方建议。",
+          "sentences": [
+            {
+              "id": "reading-weather-everyday-p4-s1",
+              "en": "Severe weather, such as strong storms or heat waves, can cause problems.",
+              "zh": "强风暴或热浪等恶劣天气可能带来麻烦。",
+              "start": 0,
+              "end": 72
+            },
+            {
+              "id": "reading-weather-everyday-p4-s2",
+              "en": "This short reading is only general background, not a safety guide.",
+              "zh": "这篇短文只是一般背景介绍，不是安全指南。",
+              "start": 73,
+              "end": 139
+            },
+            {
+              "id": "reading-weather-everyday-p4-s3",
+              "en": "When the weather is severe, follow local forecasts and official advice.",
+              "zh": "遇到恶劣天气时，请遵循当地预报和官方建议。",
+              "start": 140,
+              "end": 211
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "optionalQuestions": [],
+      "wordCount": 218,
+      "targetWords": [
+        180,
+        300
+      ],
+      "narratorNote": "本篇是改编、删节后的学习文本，不是来源站点的原文或逐字转载。中文是对改编英文的翻译。教学建议未经认证分级。",
+      "sourceAttribution": {
+        "attributionEn": "This reading is an adapted and abridged study text, not a verbatim copy, and not an original work of the source site. It is based on the simple.wikipedia.org article “Weather”, written by volunteer contributors (see the article history). Permanent revision: 2026-07-27T05:02:10Z (2026-07-27 13:02 Asia/Shanghai (UTC+8)), oldid 10942452. Article: https://simple.wikipedia.org/wiki/Weather Permanent revision: https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452 History: https://simple.wikipedia.org/w/index.php?title=Weather&action=history Source license: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ The adapted English and our Chinese translation are also offered under CC BY-SA 4.0. Adapted and abridged from the lead, measurement/forecast, causes, and severe-weather mentions. External-link lists and named forecast brands were omitted. A caveat was added so severe weather is not treated as a safety guide. Chinese is our translation of the adapted English. This use does not imply endorsement by the contributors, the source site, or the Wikimedia Foundation. Images, logos, and trademarks are not included. Share-alike applies to this adapted reading text, not automatically to the rest of the site. If published, this attribution should remain publicly visible.",
+        "attributionZh": "本篇是改编、删节后的学习文本，不是逐字原文，也不是来源站点的原创内容。它根据 simple.wikipedia.org 条目《Weather》整理，由志愿贡献者撰写（请见修订历史）。固定版本：2026-07-27T05:02:10Z（2026-07-27 13:02 Asia/Shanghai (UTC+8)），oldid 10942452。条目：https://simple.wikipedia.org/wiki/Weather 固定版本：https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452 修订历史：https://simple.wikipedia.org/w/index.php?title=Weather&action=history。来源许可为 CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ 。改编英文和我们的中文译文同样依 CC BY-SA 4.0 提供。改编、删节自开头、观测预报、成因和恶劣天气的说明。外链清单和预报品牌名称已省略。文中补充了但书，避免被当成安全指南。中文是我们对改编英文的翻译。 上述使用并不表示得到贡献者、来源站点或维基媒体基金会的背书。未收入图片、标识或商标。相同方式共享条件适用于本篇改编文本，并不自动适用于网站其他部分。如公开发布，此署名应保持可被读者看见。",
+        "links": [
+          {
+            "label": "条目",
+            "href": "https://simple.wikipedia.org/wiki/Weather"
+          },
+          {
+            "label": "固定版本",
+            "href": "https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452"
+          },
+          {
+            "label": "修订历史",
+            "href": "https://simple.wikipedia.org/w/index.php?title=Weather&action=history"
+          },
+          {
+            "label": "CC BY-SA 4.0",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        ],
+        "changeEn": "Adapted and abridged from the lead, measurement/forecast, causes, and severe-weather mentions. External-link lists and named forecast brands were omitted. A caveat was added so severe weather is not treated as a safety guide. Chinese is our translation of the adapted English.",
+        "changeZh": "改编、删节自开头、观测预报、成因和恶劣天气的说明。外链清单和预报品牌名称已省略。文中补充了但书，避免被当成安全指南。中文是我们对改编英文的翻译。",
+        "translationEn": "The Chinese text is our translation of the adapted English reading. It is not an official or original Chinese version from the source site, and it should be attributed as a translation of this adaptation.",
+        "translationZh": "中文是我们对这篇改编英文的翻译，不是来源站点官方或原有的中文版本，署名时应标明这是对改编文本的译文。",
+        "noEndorsementEn": "Use of the source, the names of contributors, and the names of the source site or Wikimedia does not imply endorsement of this adapted study text or this product.",
+        "noEndorsementZh": "使用该来源、列出贡献者姓名，或提到来源站点、维基媒体，并不表示他们认可本改编学习文本或本产品。"
+      },
+      "source": {
+        "sourceType": "external-adaptation",
+        "sourceTitle": "Weather",
+        "sourceSite": "Simple English Wikipedia",
+        "sourceArticleUrl": "https://simple.wikipedia.org/wiki/Weather",
+        "permanentRevisionUrl": "https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452",
+        "sourceOldid": 10942452,
+        "revisionTimestamp": "2026-07-27T05:02:10Z",
+        "historyUrl": "https://simple.wikipedia.org/w/index.php?title=Weather&action=history",
+        "contributorsAttribution": "Volunteer contributors to “Weather”; see the history page. Do not name a single author.",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adaptedLicense": "CC BY-SA 4.0",
+        "title": "Weather",
+        "site": "simple.wikipedia.org",
+        "pageId": 3399,
+        "oldid": 10942452,
+        "articleUrl": "https://simple.wikipedia.org/wiki/Weather",
+        "revisionTimestampUtc": "2026-07-27T05:02:10Z",
+        "revisionTimestampAsiaShanghai": "2026-07-27 13:02 Asia/Shanghai (UTC+8)",
+        "rightsEvidenceUrl": "https://simple.wikipedia.org/wiki/Wikipedia:Copyrights"
+      },
+      "endOfReadingAttribution": {
+        "en": "This reading is an adapted and abridged study text, not a verbatim copy, and not an original work of the source site. It is based on the simple.wikipedia.org article “Weather”, written by volunteer contributors (see the article history). Permanent revision: 2026-07-27T05:02:10Z (2026-07-27 13:02 Asia/Shanghai (UTC+8)), oldid 10942452. Article: https://simple.wikipedia.org/wiki/Weather Permanent revision: https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452 History: https://simple.wikipedia.org/w/index.php?title=Weather&action=history Source license: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ The adapted English and our Chinese translation are also offered under CC BY-SA 4.0. Adapted and abridged from the lead, measurement/forecast, causes, and severe-weather mentions. External-link lists and named forecast brands were omitted. A caveat was added so severe weather is not treated as a safety guide. Chinese is our translation of the adapted English. This use does not imply endorsement by the contributors, the source site, or the Wikimedia Foundation. Images, logos, and trademarks are not included. Share-alike applies to this adapted reading text, not automatically to the rest of the site. If published, this attribution should remain publicly visible.",
+        "zh": "本篇是改编、删节后的学习文本，不是逐字原文，也不是来源站点的原创内容。它根据 simple.wikipedia.org 条目《Weather》整理，由志愿贡献者撰写（请见修订历史）。固定版本：2026-07-27T05:02:10Z（2026-07-27 13:02 Asia/Shanghai (UTC+8)），oldid 10942452。条目：https://simple.wikipedia.org/wiki/Weather 固定版本：https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452 修订历史：https://simple.wikipedia.org/w/index.php?title=Weather&action=history。来源许可为 CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ 。改编英文和我们的中文译文同样依 CC BY-SA 4.0 提供。改编、删节自开头、观测预报、成因和恶劣天气的说明。外链清单和预报品牌名称已省略。文中补充了但书，避免被当成安全指南。中文是我们对改编英文的翻译。 上述使用并不表示得到贡献者、来源站点或维基媒体基金会的背书。未收入图片、标识或商标。相同方式共享条件适用于本篇改编文本，并不自动适用于网站其他部分。如公开发布，此署名应保持可被读者看见。"
+      },
+      "tags": [
+        "天气"
+      ],
+      "changeNotice": "Adapted and abridged from the lead, measurement/forecast, causes, and severe-weather mentions. External-link lists and named forecast brands were omitted. A caveat was added so severe weather is not treated as a safety guide. Chinese is our translation of the adapted English.",
+      "changeNoticeZh": "改编、删节自开头、观测预报、成因和恶劣天气的说明。外链清单和预报品牌名称已省略。文中补充了但书，避免被当成安全指南。中文是我们对改编英文的翻译。",
+      "adaptedEnglishLicense": "CC BY-SA 4.0",
+      "chineseTranslationLicense": "CC BY-SA 4.0",
+      "shareAlikeScope": "Applies to this adapted English and Chinese text if published; not automatically to the whole site.",
+      "relationshipToSource": "adapted-abridged-not-verbatim",
+      "sourceOriginalRecord": {
+        "title": "Weather",
+        "site": "simple.wikipedia.org",
+        "pageId": 3399,
+        "oldid": 10942452,
+        "articleUrl": "https://simple.wikipedia.org/wiki/Weather",
+        "permanentRevisionUrl": "https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452",
+        "historyUrl": "https://simple.wikipedia.org/w/index.php?title=Weather&action=history",
+        "revisionTimestampUtc": "2026-07-27T05:02:10Z",
+        "revisionTimestampAsiaShanghai": "2026-07-27 13:02 Asia/Shanghai (UTC+8)",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rightsEvidenceUrl": "https://simple.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "contributorsAttribution": "Volunteer contributors to “Weather”; see the history page. Do not name a single author."
+      },
+      "category": "天气"
+    },
+    {
+      "id": "reading-laundry-while-traveling",
+      "title": "旅行中的洗衣",
+      "titleEn": "Doing Laundry While Traveling",
+      "levelSuggestionZh": "教学建议大约 A2+ 到 B1，未经认证分级。本篇是改编、删节后的学习文本，不是逐字原文。",
+      "paragraphs": [
+        {
+          "id": "reading-laundry-while-traveling-p1",
+          "en": "The longer you travel, the more likely you will need to wash your clothes. There are several common options. In some countries, you can use a coin-operated laundromat or laundrette. Some hotels and other places to stay have a washing machine, or they offer a laundry service. A hotel laundry service often costs more than an independent shop. In some places you can take clothes to a laundry or dry-cleaning business, or wash them yourself, for example in a bathroom, if the rules allow it.",
+          "zh": "旅行的时间越长，就越可能需要洗衣服。常见办法有几种。在一些国家，可以使用投币自助洗衣店。有些旅馆或其他住处有洗衣机，或提供洗衣服务。旅馆的洗衣服务往往比外面的独立店铺更贵。有的地方也可以把衣服送到洗衣店或干洗店，或者在允许的情况下自己洗，比如在卫生间里洗。",
+          "sentences": [
+            {
+              "id": "reading-laundry-while-traveling-p1-s1",
+              "en": "The longer you travel, the more likely you will need to wash your clothes.",
+              "zh": "旅行的时间越长，就越可能需要洗衣服。",
+              "start": 0,
+              "end": 74
+            },
+            {
+              "id": "reading-laundry-while-traveling-p1-s2",
+              "en": "There are several common options.",
+              "zh": "常见办法有几种。",
+              "start": 75,
+              "end": 108
+            },
+            {
+              "id": "reading-laundry-while-traveling-p1-s3",
+              "en": "In some countries, you can use a coin-operated laundromat or laundrette.",
+              "zh": "在一些国家，可以使用投币自助洗衣店。",
+              "start": 109,
+              "end": 181
+            },
+            {
+              "id": "reading-laundry-while-traveling-p1-s4",
+              "en": "Some hotels and other places to stay have a washing machine, or they offer a laundry service.",
+              "zh": "有些旅馆或其他住处有洗衣机，或提供洗衣服务。",
+              "start": 182,
+              "end": 275
+            },
+            {
+              "id": "reading-laundry-while-traveling-p1-s5",
+              "en": "A hotel laundry service often costs more than an independent shop.",
+              "zh": "旅馆的洗衣服务往往比外面的独立店铺更贵。",
+              "start": 276,
+              "end": 342
+            },
+            {
+              "id": "reading-laundry-while-traveling-p1-s6",
+              "en": "In some places you can take clothes to a laundry or dry-cleaning business, or wash them yourself, for example in a bathroom, if the rules allow it.",
+              "zh": "有的地方也可以把衣服送到洗衣店或干洗店，或者在允许的情况下自己洗，比如在卫生间里洗。",
+              "start": 343,
+              "end": 490
+            }
+          ]
+        },
+        {
+          "id": "reading-laundry-while-traveling-p2",
+          "en": "If a service charges by weight, wet clothes may cost more, so it is better to let them dry first, or to ask about the price before you leave the clothes. This article does not list current prices, because they change by city and over time.",
+          "zh": "如果按重量收费，湿衣服可能会更贵，所以最好先晾干，或者在留下衣服前先问清楚价格。本文不列出具体价格，因为各地价格会随时间和城市变化。",
+          "sentences": [
+            {
+              "id": "reading-laundry-while-traveling-p2-s1",
+              "en": "If a service charges by weight, wet clothes may cost more, so it is better to let them dry first, or to ask about the price before you leave the clothes.",
+              "zh": "如果按重量收费，湿衣服可能会更贵，所以最好先晾干，或者在留下衣服前先问清楚价格。",
+              "start": 0,
+              "end": 153
+            },
+            {
+              "id": "reading-laundry-while-traveling-p2-s2",
+              "en": "This article does not list current prices, because they change by city and over time.",
+              "zh": "本文不列出具体价格，因为各地价格会随时间和城市变化。",
+              "start": 154,
+              "end": 239
+            }
+          ]
+        },
+        {
+          "id": "reading-laundry-while-traveling-p3",
+          "en": "Washing clothes yourself can save money, but it takes time. If you stay in a hotel, check that hand washing is allowed. You can fill a sink with water and a small amount of soap, soak the clothes, rub the dirty areas, and rinse until the water runs clear. Wring them gently. Do not twist delicate fabrics such as wool.",
+          "zh": "自己洗手洗可以省钱，但比较花时间。如果住在旅馆，先确认是否允许手洗。你可以在洗手池里放水，加少量肥皂，把衣服浸一会儿，搓洗脏的地方，再冲洗到水流变清。轻轻拧干水分。羊毛等易损衣物不要拧绞。",
+          "sentences": [
+            {
+              "id": "reading-laundry-while-traveling-p3-s1",
+              "en": "Washing clothes yourself can save money, but it takes time.",
+              "zh": "自己洗手洗可以省钱，但比较花时间。",
+              "start": 0,
+              "end": 59
+            },
+            {
+              "id": "reading-laundry-while-traveling-p3-s2",
+              "en": "If you stay in a hotel, check that hand washing is allowed.",
+              "zh": "如果住在旅馆，先确认是否允许手洗。",
+              "start": 60,
+              "end": 119
+            },
+            {
+              "id": "reading-laundry-while-traveling-p3-s3",
+              "en": "You can fill a sink with water and a small amount of soap, soak the clothes, rub the dirty areas, and rinse until the water runs clear.",
+              "zh": "你可以在洗手池里放水，加少量肥皂，把衣服浸一会儿，搓洗脏的地方，再冲洗到水流变清。",
+              "start": 120,
+              "end": 255
+            },
+            {
+              "id": "reading-laundry-while-traveling-p3-s4",
+              "en": "Wring them gently.",
+              "zh": "轻轻拧干水分。",
+              "start": 256,
+              "end": 274
+            },
+            {
+              "id": "reading-laundry-while-traveling-p3-s5",
+              "en": "Do not twist delicate fabrics such as wool.",
+              "zh": "羊毛等易损衣物不要拧绞。",
+              "start": 275,
+              "end": 318
+            }
+          ]
+        },
+        {
+          "id": "reading-laundry-while-traveling-p4",
+          "en": "Hanging clothes is usually the best way to dry them. A clothes line, a shower rail, or a drying rack can work. Leave space around each item, and let clothes dry completely before you pack them. This may take overnight or longer. If they are still wet, pack them in a separate plastic bag and dry them again later.",
+          "zh": "通常最好把衣服挂起来晾干。晾衣绳、淋浴杆或晾衣架都可以。每件衣服周围留出空隙，并且完全干透再收拾进箱子。这可能需要一夜或更久。如果还是湿的，就单独装进塑料袋，之后再继续晾。",
+          "sentences": [
+            {
+              "id": "reading-laundry-while-traveling-p4-s1",
+              "en": "Hanging clothes is usually the best way to dry them.",
+              "zh": "通常最好把衣服挂起来晾干。",
+              "start": 0,
+              "end": 52
+            },
+            {
+              "id": "reading-laundry-while-traveling-p4-s2",
+              "en": "A clothes line, a shower rail, or a drying rack can work.",
+              "zh": "晾衣绳、淋浴杆或晾衣架都可以。",
+              "start": 53,
+              "end": 110
+            },
+            {
+              "id": "reading-laundry-while-traveling-p4-s3",
+              "en": "Leave space around each item, and let clothes dry completely before you pack them.",
+              "zh": "每件衣服周围留出空隙，并且完全干透再收拾进箱子。",
+              "start": 111,
+              "end": 193
+            },
+            {
+              "id": "reading-laundry-while-traveling-p4-s4",
+              "en": "This may take overnight or longer.",
+              "zh": "这可能需要一夜或更久。",
+              "start": 194,
+              "end": 228
+            },
+            {
+              "id": "reading-laundry-while-traveling-p4-s5",
+              "en": "If they are still wet, pack them in a separate plastic bag and dry them again later.",
+              "zh": "如果还是湿的，就单独装进塑料袋，之后再继续晾。",
+              "start": 229,
+              "end": 313
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "optionalQuestions": [],
+      "wordCount": 250,
+      "targetWords": [
+        180,
+        300
+      ],
+      "narratorNote": "本篇是改编、删节后的学习文本，不是来源站点的原文或逐字转载。中文是对改编英文的翻译。教学建议未经认证分级。",
+      "sourceAttribution": {
+        "attributionEn": "This reading is an adapted and abridged study text, not a verbatim copy, and not an original work of the source site. It is based on the en.wikivoyage.org article “Laundry”, written by volunteer contributors (see the article history). Permanent revision: 2026-10-19T21:15:47Z (2026-10-20 05:15 Asia/Shanghai (UTC+8)), oldid 5395967. Article: https://en.wikivoyage.org/wiki/Laundry Permanent revision: https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967 History: https://en.wikivoyage.org/w/index.php?title=Laundry&action=history Source license: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ The adapted English and our Chinese translation are also offered under CC BY-SA 4.0. Adapted and abridged from the opening options, hand-washing, and drying advice. All listed prices and year-specific rates were omitted. Hairdryer, heater, and frozen-clothes tips were omitted. A note was added that prices go out of date. Chinese is our translation of the adapted English. This use does not imply endorsement by the contributors, the source site, or the Wikimedia Foundation. Images, logos, and trademarks are not included. Share-alike applies to this adapted reading text, not automatically to the rest of the site. If published, this attribution should remain publicly visible.",
+        "attributionZh": "本篇是改编、删节后的学习文本，不是逐字原文，也不是来源站点的原创内容。它根据 en.wikivoyage.org 条目《Laundry》整理，由志愿贡献者撰写（请见修订历史）。固定版本：2026-10-19T21:15:47Z（2026-10-20 05:15 Asia/Shanghai (UTC+8)），oldid 5395967。条目：https://en.wikivoyage.org/wiki/Laundry 固定版本：https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967 修订历史：https://en.wikivoyage.org/w/index.php?title=Laundry&action=history。来源许可为 CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ 。改编英文和我们的中文译文同样依 CC BY-SA 4.0 提供。改编、删节自开头的几种办法、手洗和晾干建议。所有具体价格和按年份列出的收费均已删除。吹风机、暖气片和冰冻晾衣等做法未收入。文中说明价格会过时。中文是我们对改编英文的翻译。 上述使用并不表示得到贡献者、来源站点或维基媒体基金会的背书。未收入图片、标识或商标。相同方式共享条件适用于本篇改编文本，并不自动适用于网站其他部分。如公开发布，此署名应保持可被读者看见。",
+        "links": [
+          {
+            "label": "条目",
+            "href": "https://en.wikivoyage.org/wiki/Laundry"
+          },
+          {
+            "label": "固定版本",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967"
+          },
+          {
+            "label": "修订历史",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Laundry&action=history"
+          },
+          {
+            "label": "CC BY-SA 4.0",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        ],
+        "changeEn": "Adapted and abridged from the opening options, hand-washing, and drying advice. All listed prices and year-specific rates were omitted. Hairdryer, heater, and frozen-clothes tips were omitted. A note was added that prices go out of date. Chinese is our translation of the adapted English.",
+        "changeZh": "改编、删节自开头的几种办法、手洗和晾干建议。所有具体价格和按年份列出的收费均已删除。吹风机、暖气片和冰冻晾衣等做法未收入。文中说明价格会过时。中文是我们对改编英文的翻译。",
+        "translationEn": "The Chinese text is our translation of the adapted English reading. It is not an official or original Chinese version from the source site, and it should be attributed as a translation of this adaptation.",
+        "translationZh": "中文是我们对这篇改编英文的翻译，不是来源站点官方或原有的中文版本，署名时应标明这是对改编文本的译文。",
+        "noEndorsementEn": "Use of the source, the names of contributors, and the names of the source site or Wikimedia does not imply endorsement of this adapted study text or this product.",
+        "noEndorsementZh": "使用该来源、列出贡献者姓名，或提到来源站点、维基媒体，并不表示他们认可本改编学习文本或本产品。"
+      },
+      "source": {
+        "sourceType": "external-adaptation",
+        "sourceTitle": "Laundry",
+        "sourceSite": "English Wikivoyage",
+        "sourceArticleUrl": "https://en.wikivoyage.org/wiki/Laundry",
+        "permanentRevisionUrl": "https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967",
+        "sourceOldid": 5395967,
+        "revisionTimestamp": "2026-10-19T21:15:47Z",
+        "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Laundry&action=history",
+        "contributorsAttribution": "Volunteer contributors to “Laundry”; see the history page. Do not name a single author.",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adaptedLicense": "CC BY-SA 4.0",
+        "title": "Laundry",
+        "site": "en.wikivoyage.org",
+        "pageId": 19224,
+        "oldid": 5395967,
+        "articleUrl": "https://en.wikivoyage.org/wiki/Laundry",
+        "revisionTimestampUtc": "2026-10-19T21:15:47Z",
+        "revisionTimestampAsiaShanghai": "2026-10-20 05:15 Asia/Shanghai (UTC+8)",
+        "rightsEvidenceUrl": "https://en.wikivoyage.org/wiki/Wikivoyage:Copyleft"
+      },
+      "endOfReadingAttribution": {
+        "en": "This reading is an adapted and abridged study text, not a verbatim copy, and not an original work of the source site. It is based on the en.wikivoyage.org article “Laundry”, written by volunteer contributors (see the article history). Permanent revision: 2026-10-19T21:15:47Z (2026-10-20 05:15 Asia/Shanghai (UTC+8)), oldid 5395967. Article: https://en.wikivoyage.org/wiki/Laundry Permanent revision: https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967 History: https://en.wikivoyage.org/w/index.php?title=Laundry&action=history Source license: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ The adapted English and our Chinese translation are also offered under CC BY-SA 4.0. Adapted and abridged from the opening options, hand-washing, and drying advice. All listed prices and year-specific rates were omitted. Hairdryer, heater, and frozen-clothes tips were omitted. A note was added that prices go out of date. Chinese is our translation of the adapted English. This use does not imply endorsement by the contributors, the source site, or the Wikimedia Foundation. Images, logos, and trademarks are not included. Share-alike applies to this adapted reading text, not automatically to the rest of the site. If published, this attribution should remain publicly visible.",
+        "zh": "本篇是改编、删节后的学习文本，不是逐字原文，也不是来源站点的原创内容。它根据 en.wikivoyage.org 条目《Laundry》整理，由志愿贡献者撰写（请见修订历史）。固定版本：2026-10-19T21:15:47Z（2026-10-20 05:15 Asia/Shanghai (UTC+8)），oldid 5395967。条目：https://en.wikivoyage.org/wiki/Laundry 固定版本：https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967 修订历史：https://en.wikivoyage.org/w/index.php?title=Laundry&action=history。来源许可为 CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ 。改编英文和我们的中文译文同样依 CC BY-SA 4.0 提供。改编、删节自开头的几种办法、手洗和晾干建议。所有具体价格和按年份列出的收费均已删除。吹风机、暖气片和冰冻晾衣等做法未收入。文中说明价格会过时。中文是我们对改编英文的翻译。 上述使用并不表示得到贡献者、来源站点或维基媒体基金会的背书。未收入图片、标识或商标。相同方式共享条件适用于本篇改编文本，并不自动适用于网站其他部分。如公开发布，此署名应保持可被读者看见。"
+      },
+      "tags": [
+        "出行",
+        "洗衣"
+      ],
+      "changeNotice": "Adapted and abridged from the opening options, hand-washing, and drying advice. All listed prices and year-specific rates were omitted. Hairdryer, heater, and frozen-clothes tips were omitted. A note was added that prices go out of date. Chinese is our translation of the adapted English.",
+      "changeNoticeZh": "改编、删节自开头的几种办法、手洗和晾干建议。所有具体价格和按年份列出的收费均已删除。吹风机、暖气片和冰冻晾衣等做法未收入。文中说明价格会过时。中文是我们对改编英文的翻译。",
+      "adaptedEnglishLicense": "CC BY-SA 4.0",
+      "chineseTranslationLicense": "CC BY-SA 4.0",
+      "shareAlikeScope": "Applies to this adapted English and Chinese text if published; not automatically to the whole site.",
+      "relationshipToSource": "adapted-abridged-not-verbatim",
+      "sourceOriginalRecord": {
+        "title": "Laundry",
+        "site": "en.wikivoyage.org",
+        "pageId": 19224,
+        "oldid": 5395967,
+        "articleUrl": "https://en.wikivoyage.org/wiki/Laundry",
+        "permanentRevisionUrl": "https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967",
+        "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Laundry&action=history",
+        "revisionTimestampUtc": "2026-10-19T21:15:47Z",
+        "revisionTimestampAsiaShanghai": "2026-10-20 05:15 Asia/Shanghai (UTC+8)",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rightsEvidenceUrl": "https://en.wikivoyage.org/wiki/Wikivoyage:Copyleft",
+        "contributorsAttribution": "Volunteer contributors to “Laundry”; see the history page. Do not name a single author."
+      },
+      "category": "出行"
+    }
+  ],
+  "wordCards": [],
+  "stats": {
+    "readings": 3,
+    "wordCounts": [
+      222,
+      218,
+      250
+    ],
+    "paragraphs": [
+      4,
+      4,
+      4
+    ],
+    "wordCards": 0
+  }
+}

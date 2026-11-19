@@ -1,0 +1,318 @@
+{
+  "id": "everyday-reading-pack-v4",
+  "title": "日常交流分级阅读增量包 v4（购物与改计划、出行）",
+  "version": "v4",
+  "lang": "en",
+  "varietyNote": "General everyday narrative English.",
+  "levelNote": "教学建议大约 A2 与 A2+，未经认证分级。",
+  "provenance": "全部为原创虚构学习情景和原创例句，是学习示例，不是真人经历、真实聊天或转载语料。本轮优先寻找可公开引用、来源与许可可核验的真实材料；因未找到许可明确、且适合本课难度与“日常交流（吃饭、购物、出行、改计划）”主题的现成对话或正文，故采用原创学习示例，并在此标明。人物不是助手或用户本人。本包不含新闻翻译或小说摘录。",
+  "status": "增量补充，不替换 everyday-reading-pack-v2.1 或 everyday-reading-pack-v3。",
+  "createdAt": "2026-11-12T17:25:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-reading-pack-v2.1",
+    "everyday-reading-pack-v3"
+  ],
+  "integrationNotes": [
+    "追加到 catalog.readings；readingPack 仍指向 everyday-reading-pack-v2.1。"
+  ],
+  "readings": [
+    {
+      "id": "reading-picnic-in-the-rain",
+      "title": "雨里的野餐计划",
+      "titleEn": "A Picnic Plan in the Rain",
+      "levelSuggestionZh": "教学建议：日常叙事，大约 A2，未经认证分级。先读英文，中文按段展开。",
+      "targetWords": [
+        280,
+        320
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。原创学习故事示例，不是真实经历，也不是新闻或小说摘录。",
+      "paragraphs": [
+        {
+          "id": "reading-picnic-in-the-rain-p1",
+          "en": "On Sunday morning, I had a simple plan. I would buy some fruit and bread at the street market, then meet my friend Jun at the park for a picnic.",
+          "zh": "周日早上，我有一个简单的计划。我先去街头的集市买点水果和面包，再去公园和朋友阿军会合，一起野餐。"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p2",
+          "en": "I left home a little after nine. The market was already busy, and I could smell fresh bread from the first stall. People stood close together, carrying bags of vegetables.",
+          "zh": "我九点刚过就出了门。集市已经很热闹，第一摊就能闻到刚出炉的面包香。人们挨得近近的，手里提着一袋袋蔬菜。"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p3",
+          "en": "Jun had asked for strawberries. I looked for them at the fruit stall, but the woman there shook her head. \"We're out of strawberries today,\" she said. \"Would you like peaches instead?\"",
+          "zh": "阿军想吃草莓。我在水果摊找，可摊主摇了摇头。“今天草莓没有了，”她说。“要不要改买桃子？”"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p4",
+          "en": "I bought the peaches and a small loaf of bread from the stall next door. They looked ripe, and they smelled sweet. Then I messaged Jun and started walking to the park.",
+          "zh": "我买了桃子，又在隔壁摊买了一小条面包。桃子看起来熟了，闻着也甜。然后我给阿军发了消息，朝公园走去。"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p5",
+          "en": "The bag was light, and I felt happy about the morning. Halfway there, the sky got dark. A few drops hit my hands, and then it started to rain hard. I had no umbrella.",
+          "zh": "袋子不沉，我走得很开心。走到一半，天突然暗了。几滴雨先打在手上，接着就下大了。我没带伞。"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p6",
+          "en": "I stood under a shop roof and called Jun. \"The picnic isn't going to work,\" I said. \"I'm already wet.\" The paper bag was getting soft.",
+          "zh": "我站在一家店门口的屋檐下，给阿军打电话。“野餐搞不成了，”我说。“我已经淋湿了。”纸袋也开始发软。"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p7",
+          "en": "He laughed and said he was still on the way. He was near a small bakery two streets from the park. \"Come here instead,\" he said. \"They have tables inside.\"",
+          "zh": "他笑了，说他自己也还在路上。他正在公园两街以外的一家小面包店附近。“你改来这儿吧，”他说。“里面有位子。”"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p8",
+          "en": "I ran those two streets. Jun had already bought tea, and he had a table by the window. We ate the peaches and bread there, and watched the street get wet.",
+          "zh": "我跑完那两街。阿军已经买好了茶，占了靠窗的位子。我们就在那儿吃桃子和面包，看着街上越来越湿。"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p9",
+          "en": "The bakery was warm, and neither of us wanted to go back out yet. We stayed until it stopped raining, then walked home slowly.",
+          "zh": "面包店里很暖和，我们谁也不想马上再出去。一直等到雨停，才慢慢走回家。"
+        },
+        {
+          "id": "reading-picnic-in-the-rain-p10",
+          "en": "It was not the picnic we had planned. But we still ate together. Jun said we could try the park next Sunday, if the weather was better. This time, I'll look at the sky before I leave.",
+          "zh": "这不是我们计划中的野餐。但我们还是一起吃了。阿军说，下周日要是天气好些，可以再去公园试试。下一次出门前，我会先看看天。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "street market",
+          "meaningZh": "街头的集市，常卖水果、蔬菜和日用品。和 supermarket（超市）不是同一个地方。"
+        },
+        {
+          "expression": "for a picnic",
+          "meaningZh": "去野餐。picnic 是带到户外吃的一顿，不是餐馆里点的饭。"
+        },
+        {
+          "expression": "We're out of strawberries today",
+          "meaningZh": "今天草莓没有了。复用已有词卡 We're out of，不是 outside。"
+        },
+        {
+          "expression": "it started to rain hard / it stopped raining",
+          "meaningZh": "开始下大雨 / 雨停了。rain 作动词，复用已有词卡。"
+        },
+        {
+          "expression": "he was still on the way / Come here instead",
+          "meaningZh": "他还在路上；改来这儿。on the way、instead 在本段复现。"
+        },
+        {
+          "expression": "if the weather was better",
+          "meaningZh": "要是天气再好一些。weather 复用已有词卡。这篇不是周末火车出行、也不是超市购物清单的那一篇。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "We're out of strawberries today.",
+          "zh": "今天草莓没有了。",
+          "required": false
+        },
+        {
+          "en": "He was still on the way.",
+          "zh": "他还在路上。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "wordCount": 306
+    },
+    {
+      "id": "reading-missed-my-stop",
+      "title": "坐过了站",
+      "titleEn": "I Missed My Stop",
+      "levelSuggestionZh": "教学建议：日常出行叙事，大约 A2+，未经认证分级。先读英文，中文按段展开。",
+      "targetWords": [
+        400,
+        440
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。原创学习故事示例，不是真实经历，也不是新闻或小说摘录。",
+      "paragraphs": [
+        {
+          "id": "reading-missed-my-stop-p1",
+          "en": "On Thursday afternoon, I had one thing I really wanted to do. My aunt, Hua, lives on the other side of the city, and I had promised to bring her a cake. Her birthday had been on Wednesday, so I baked it in the morning and planned to take it over after lunch.",
+          "zh": "周四下午，我心里只想做一件事。我阿姨华华住在城的另一头，我答应给她带一块蛋糕。她的生日是周三，那天我去不了，所以早上先烤好，打算午饭后再送过去。"
+        },
+        {
+          "id": "reading-missed-my-stop-p2",
+          "en": "I checked the time and left with the cake in a small box. The bus stop was only a few minutes from my building. When the right bus came, I got on and found a seat by the window.",
+          "zh": "我看了看时间，提着装蛋糕的小盒子出了门。公交站离我家只有几分钟。该坐的那班车来了，我上车，找到一个靠窗的位子。"
+        },
+        {
+          "id": "reading-missed-my-stop-p3",
+          "en": "I told myself I would watch for my stop. But a friend messaged me, and I started reading and typing. The bus moved through familiar streets, and I stopped looking out.",
+          "zh": "我跟自己说，一定要看着站。可是一个朋友给我发了消息，我就读着、回着。车从熟悉的街道开过，我也不再往窗外看。"
+        },
+        {
+          "id": "reading-missed-my-stop-p4",
+          "en": "When I finally looked up, I didn't know the shops outside. I asked the woman next to me, and she said we had already passed Green Street. That was my stop. I had missed it.",
+          "zh": "等我终于抬起头，外面的店我都不认识。我问旁边的女士，她说我们已经过了绿街。那正是我该下的站。我坐过了。"
+        },
+        {
+          "id": "reading-missed-my-stop-p5",
+          "en": "I got off at the next stop and started walking back. It was farther than I expected, and I was getting later with every street. I messaged Hua: \"I'm on the way, but I'll be a little late. Sorry.\"",
+          "zh": "我在下一站下了车，往回走。比我想的要远，每过一条街就更晚一点。我给华华发消息：“我在路上，不过会晚一点。抱歉。”"
+        },
+        {
+          "id": "reading-missed-my-stop-p6",
+          "en": "She replied almost right away. \"No rush. I'll put the water on.\" I felt a little better, but I still walked as fast as I could without running, because I didn't want to drop the cake.",
+          "zh": "她几乎马上回了。“不着急。我先烧上水。”我心里好受些，但还是走得尽快，又不敢跑，怕把蛋糕摔了。"
+        },
+        {
+          "id": "reading-missed-my-stop-p7",
+          "en": "I arrived about twenty minutes later than I had said. Hua opened the door, looked at my face, and laughed. \"You're here. That's what I wanted,\" she said. \"The cake can be a little late.\"",
+          "zh": "我比说好的时间大约晚了二十分钟才到。华华开门，看了看我的脸，笑了。“你来了。我就想着这个，”她说。“蛋糕晚一点没关系。”"
+        },
+        {
+          "id": "reading-missed-my-stop-p8",
+          "en": "I had thought she might be tired of waiting. Instead, she had already set out two cups, and the room smelled like tea. I told her about missing my stop. She said she had done the same thing last year, on the way to the market.",
+          "zh": "我本以为她会等得不耐烦。相反，她已经摆好了两只杯子，房间里都是茶香。我跟她说了坐过站的事。她说去年她去集市的路上，也做过一样的事。"
+        },
+        {
+          "id": "reading-missed-my-stop-p9",
+          "en": "After tea, we thought about walking to the little bakery next to her building. It was closed on Thursdays. We were still full from the cake, so we didn't mind. We stayed and talked about her garden instead.",
+          "zh": "喝完茶，我们想走到她楼旁边那家小面包店去。那家店周四不营业。蛋糕已经让我们吃饱了，所以也不在意。我们就留着，改聊她的院子。"
+        },
+        {
+          "id": "reading-missed-my-stop-p10",
+          "en": "Before I left, she packed a bag of tomatoes for me. I thanked her and said next time I would watch the stops. She told me to message her when I got on the bus home, so she would know I was all right.",
+          "zh": "临走前，她给我装了一袋番茄。我谢过她，说下次一定会看着站。她让我上了回家的车就给她发消息，好让她知道我没事。"
+        },
+        {
+          "id": "reading-missed-my-stop-p11",
+          "en": "I did. This time I stood near the door and watched every stop. I got off at the right place and walked home more slowly. The visit had not gone as I planned, but I was glad I had gone.",
+          "zh": "我发了。这一次，我站在车门附近，一站一站看着。我在对的地方下了车，回家的路也走得慢一些。这趟探望没有完全按计划进行，但我很高兴自己去了。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "I got on / I got off",
+          "meaningZh": "上车 / 下车。get on 和 get off 成对记。本篇写的是坐过站后再往回走，不是公交车半路抛锚。"
+        },
+        {
+          "expression": "I had missed it / missing my stop",
+          "meaningZh": "坐过了站、错过了该下的站。miss 复用已有“错过（车或站）”义项，不是“想念”。"
+        },
+        {
+          "expression": "I'm on the way",
+          "meaningZh": "我在路上，正在过来。和“在去集市的路上”（on the way to the market）是同一个语块。"
+        },
+        {
+          "expression": "It was closed on Thursdays.",
+          "meaningZh": "那家店周四不营业。closed 是“关门、不营业”，不是 close 作“靠近”或“关上去”。"
+        },
+        {
+          "expression": "We were still full from the cake",
+          "meaningZh": "蛋糕已经让我们吃饱了。这里的 full 是人吃饱，不要和 they're full（店里客满）那张卡混在一起。本段故意不点那张卡。"
+        },
+        {
+          "expression": "last year",
+          "meaningZh": "去年。这里的 last 是“上一个、刚过去的”，不是末班车。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "I got off at the next stop.",
+          "zh": "我在下一站下了车。",
+          "required": false
+        },
+        {
+          "en": "It was closed on Thursdays.",
+          "zh": "那家店周四不营业。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "wordCount": 436
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "rd4-market",
+      "headword": "market",
+      "pos": "名词",
+      "posZh": "名词",
+      "senseZh": "集市、市场（常指街头或露天卖菜和日用品的地方）",
+      "collocation": "street market / at the market / go to the market",
+      "exampleEn": "I would buy some fruit and bread at the street market, then meet my friend Jun at the park for a picnic.",
+      "exampleZh": "我先去街头的集市买点水果和面包，再去公园和朋友阿军会合，一起野餐。",
+      "transferEn": "We go to the market on Saturday morning for vegetables and fish.",
+      "transferZh": "我们周六早上会去集市买蔬菜和鱼。",
+      "sourceScene": "reading-picnic-in-the-rain",
+      "sourceLine": "reading-picnic-in-the-rain-p1",
+      "notesZh": "和 supermarket（超市）不同。market 更常指集市或菜市场。另境例句改到买菜和鱼，不用本篇野餐被雨打乱的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "rd4-picnic",
+      "headword": "picnic",
+      "pos": "可数名词",
+      "posZh": "可数名词",
+      "senseZh": "野餐",
+      "collocation": "a picnic / for a picnic / have a picnic",
+      "exampleEn": "I would buy some fruit and bread at the street market, then meet my friend Jun at the park for a picnic.",
+      "exampleZh": "我先去街头的集市买点水果和面包，再去公园和朋友阿军会合，一起野餐。",
+      "transferEn": "If the weather is good this Sunday, we'll have a picnic by the river.",
+      "transferZh": "这个周日要是天气好，我们就去河边野餐。",
+      "sourceScene": "reading-picnic-in-the-rain",
+      "sourceLine": "reading-picnic-in-the-rain-p1",
+      "notesZh": "picnic 是带到户外吃的一顿，不是在餐馆点的饭。另境例句改到河边，不用本篇集市买桃子的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "rd4-get-on",
+      "headword": "get on",
+      "pos": "动词短语",
+      "posZh": "动词短语",
+      "senseZh": "上车",
+      "collocation": "get on the bus / get on the train",
+      "exampleEn": "When the right bus came, I got on and found a seat by the window.",
+      "exampleZh": "该坐的那班车来了，我上车，找到一个靠窗的位子。",
+      "transferEn": "Hurry, or we won't get on this one. It's already crowded.",
+      "transferZh": "快点，不然这班我们上不去了。已经很挤了。",
+      "sourceScene": "reading-missed-my-stop",
+      "sourceLine": "reading-missed-my-stop-p2",
+      "notesZh": "get on the bus / get on the train。反义是 get off。本卡不教 get on with someone（相处）的意思。另境例句改到车门拥挤，不用本篇探访阿姨的场面。注意 transfer 不用 they're full，以免和餐厅客满混淆。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "rd4-closed",
+      "headword": "closed",
+      "pos": "形容词",
+      "posZh": "形容词",
+      "senseZh": "关门的、不营业的",
+      "collocation": "It's closed / closed on Thursdays / They're closed",
+      "exampleEn": "It was closed on Thursdays.",
+      "exampleZh": "那家店周四不营业。",
+      "transferEn": "We wanted noodles, but the restaurant is closed on Mondays.",
+      "transferZh": "我们想吃面，可那家餐馆星期一不营业。",
+      "sourceScene": "reading-missed-my-stop",
+      "sourceLine": "reading-missed-my-stop-p9",
+      "notesZh": "closed 指现在不营业。不要和 close 作“靠近”（close to）或“关上”（close the door）混在一起。另境例句改到星期一的餐馆，不用本篇探访阿姨的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    }
+  ],
+  "stats": {
+    "readings": 2,
+    "wordCounts": [
+      306,
+      436
+    ],
+    "paragraphs": [
+      10,
+      11
+    ],
+    "wordCards": 4
+  }
+}

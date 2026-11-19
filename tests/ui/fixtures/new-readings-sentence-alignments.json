@@ -1,0 +1,580 @@
+{
+  "readings": [
+    {
+      "id": "reading-apartment-life-depth",
+      "title": "住公寓要知道的事",
+      "paragraphs": [
+        {
+          "id": "reading-apartment-life-depth-p1",
+          "en": "An apartment is a home inside a larger building. In American English, people usually call it an apartment. In British English, the word flat is also common. An apartment may have several rooms, or it may be quite small.",
+          "zh": "公寓住房是大楼内部的一处住所。在美式英语里，人们通常称它为 apartment。在英式英语里，flat 这个词也很常见。一套公寓可能有好几个房间，也可能很小。",
+          "sentences": [
+            {
+              "en": "An apartment is a home inside a larger building.",
+              "zh": "公寓住房是大楼内部的一处住所。",
+              "start": 0,
+              "end": 48
+            },
+            {
+              "en": "In American English, people usually call it an apartment.",
+              "zh": "在美式英语里，人们通常称它为 apartment。",
+              "start": 49,
+              "end": 106
+            },
+            {
+              "en": "In British English, the word flat is also common.",
+              "zh": "在英式英语里，flat 这个词也很常见。",
+              "start": 107,
+              "end": 156
+            },
+            {
+              "en": "An apartment may have several rooms, or it may be quite small.",
+              "zh": "一套公寓可能有好几个房间，也可能很小。",
+              "start": 157,
+              "end": 219
+            }
+          ]
+        },
+        {
+          "id": "reading-apartment-life-depth-p2",
+          "en": "A studio apartment usually has one main room. People use that room for sleeping and everyday activities. The bathroom is usually separate. Other apartments have separate bedrooms and a living room.",
+          "zh": "单间公寓通常有一个主要房间。人们在这个房间睡觉，也在里面进行日常活动。浴室通常是独立的。另一些公寓有独立的卧室和客厅。",
+          "sentences": [
+            {
+              "en": "A studio apartment usually has one main room.",
+              "zh": "单间公寓通常有一个主要房间。",
+              "start": 0,
+              "end": 45
+            },
+            {
+              "en": "People use that room for sleeping and everyday activities.",
+              "zh": "人们在这个房间睡觉，也在里面进行日常活动。",
+              "start": 46,
+              "end": 104
+            },
+            {
+              "en": "The bathroom is usually separate.",
+              "zh": "浴室通常是独立的。",
+              "start": 105,
+              "end": 138
+            },
+            {
+              "en": "Other apartments have separate bedrooms and a living room.",
+              "zh": "另一些公寓有独立的卧室和客厅。",
+              "start": 139,
+              "end": 197
+            }
+          ]
+        },
+        {
+          "id": "reading-apartment-life-depth-p3",
+          "en": "Some people own their apartments, while others rent them. A person who rents a home is called a tenant. The owner who rents it out is the landlord. The tenant pays rent to live there.",
+          "zh": "有些人拥有自己的公寓，另一些人则租房住。租房住的人叫租户。把房子租出去的房主叫房东。租户通过付租金住在那里。",
+          "sentences": [
+            {
+              "en": "Some people own their apartments, while others rent them.",
+              "zh": "有些人拥有自己的公寓，另一些人则租房住。",
+              "start": 0,
+              "end": 57
+            },
+            {
+              "en": "A person who rents a home is called a tenant.",
+              "zh": "租房住的人叫租户。",
+              "start": 58,
+              "end": 103
+            },
+            {
+              "en": "The owner who rents it out is the landlord.",
+              "zh": "把房子租出去的房主叫房东。",
+              "start": 104,
+              "end": 147
+            },
+            {
+              "en": "The tenant pays rent to live there.",
+              "zh": "租户通过付租金住在那里。",
+              "start": 148,
+              "end": 183
+            }
+          ]
+        },
+        {
+          "id": "reading-apartment-life-depth-p4",
+          "en": "Living in an apartment also means sharing some spaces. Neighbors may use the same entrance and hallway. Some buildings have a shared laundry room or a place for bicycles. The exact facilities are different in each building.",
+          "zh": "住公寓也意味着共用一些空间。邻居可能使用同一个入口和走廊。有些楼里有共用洗衣房或自行车停放处。每栋楼的具体设施都不一样。",
+          "sentences": [
+            {
+              "en": "Living in an apartment also means sharing some spaces.",
+              "zh": "住公寓也意味着共用一些空间。",
+              "start": 0,
+              "end": 54
+            },
+            {
+              "en": "Neighbors may use the same entrance and hallway.",
+              "zh": "邻居可能使用同一个入口和走廊。",
+              "start": 55,
+              "end": 103
+            },
+            {
+              "en": "Some buildings have a shared laundry room or a place for bicycles.",
+              "zh": "有些楼里有共用洗衣房或自行车停放处。",
+              "start": 104,
+              "end": 170
+            },
+            {
+              "en": "The exact facilities are different in each building.",
+              "zh": "每栋楼的具体设施都不一样。",
+              "start": 171,
+              "end": 223
+            }
+          ]
+        },
+        {
+          "id": "reading-apartment-life-depth-p5",
+          "en": "The rent does not always include every cost. Tenants may need to pay separately for electricity or heating. In other buildings, some of these costs are included. It is useful to ask what is included before choosing a home.",
+          "zh": "租金不一定包含全部费用。租户可能需要另付电费或供暖费。在另一些楼里，其中一部分费用是包含在内的。选房前先问清楚包含哪些费用很有用。",
+          "sentences": [
+            {
+              "en": "The rent does not always include every cost.",
+              "zh": "租金不一定包含全部费用。",
+              "start": 0,
+              "end": 44
+            },
+            {
+              "en": "Tenants may need to pay separately for electricity or heating.",
+              "zh": "租户可能需要另付电费或供暖费。",
+              "start": 45,
+              "end": 107
+            },
+            {
+              "en": "In other buildings, some of these costs are included.",
+              "zh": "在另一些楼里，其中一部分费用是包含在内的。",
+              "start": 108,
+              "end": 161
+            },
+            {
+              "en": "It is useful to ask what is included before choosing a home.",
+              "zh": "选房前先问清楚包含哪些费用很有用。",
+              "start": 162,
+              "end": 222
+            }
+          ]
+        },
+        {
+          "id": "reading-apartment-life-depth-p6",
+          "en": "The same words can help in ordinary conversations. You might ask whether the laundry room is shared. You might also ask who to contact about a broken door. These are practical questions, not signs that you should already know everything.",
+          "zh": "这些词也能用在普通的交流里。你可以问洗衣房是不是共用的。也可以问门坏了该联系谁。这些都是实用的问题，不代表你本来就该什么都知道。",
+          "sentences": [
+            {
+              "en": "The same words can help in ordinary conversations.",
+              "zh": "这些词也能用在普通的交流里。",
+              "start": 0,
+              "end": 50
+            },
+            {
+              "en": "You might ask whether the laundry room is shared.",
+              "zh": "你可以问洗衣房是不是共用的。",
+              "start": 51,
+              "end": 100
+            },
+            {
+              "en": "You might also ask who to contact about a broken door.",
+              "zh": "也可以问门坏了该联系谁。",
+              "start": 101,
+              "end": 155
+            },
+            {
+              "en": "These are practical questions, not signs that you should already know everything.",
+              "zh": "这些都是实用的问题，不代表你本来就该什么都知道。",
+              "start": 156,
+              "end": 237
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-clothes-for-everyday-depth",
+      "title": "每天穿的衣服",
+      "paragraphs": [
+        {
+          "id": "reading-clothes-for-everyday-depth-p1",
+          "en": "Clothes do more than cover the body. They can help protect us from cold, heat, sun and dust. The clothes people choose often depend on the weather. A thick coat is useful on a cold day, but not on a hot afternoon.",
+          "zh": "衣服的作用不只是遮住身体。它们能帮助我们抵御寒冷、炎热、日晒和灰尘。人们选择什么衣服，常常取决于天气。厚外套适合冷天，却不适合炎热的下午。",
+          "sentences": [
+            {
+              "en": "Clothes do more than cover the body.",
+              "zh": "衣服的作用不只是遮住身体。",
+              "start": 0,
+              "end": 36
+            },
+            {
+              "en": "They can help protect us from cold, heat, sun and dust.",
+              "zh": "它们能帮助我们抵御寒冷、炎热、日晒和灰尘。",
+              "start": 37,
+              "end": 92
+            },
+            {
+              "en": "The clothes people choose often depend on the weather.",
+              "zh": "人们选择什么衣服，常常取决于天气。",
+              "start": 93,
+              "end": 147
+            },
+            {
+              "en": "A thick coat is useful on a cold day, but not on a hot afternoon.",
+              "zh": "厚外套适合冷天，却不适合炎热的下午。",
+              "start": 148,
+              "end": 213
+            }
+          ]
+        },
+        {
+          "id": "reading-clothes-for-everyday-depth-p2",
+          "en": "Different clothes cover different parts of the body. A shirt covers the upper body, while pants cover the legs. Sleeves cover the arms. People may also wear gloves, hats and other items when they need them.",
+          "zh": "不同的衣物遮盖身体的不同部位。衬衫遮盖上半身，裤子遮盖腿部。袖子遮盖手臂。需要时，人们还会戴手套、帽子等物品。",
+          "sentences": [
+            {
+              "en": "Different clothes cover different parts of the body.",
+              "zh": "不同的衣物遮盖身体的不同部位。",
+              "start": 0,
+              "end": 52
+            },
+            {
+              "en": "A shirt covers the upper body, while pants cover the legs.",
+              "zh": "衬衫遮盖上半身，裤子遮盖腿部。",
+              "start": 53,
+              "end": 111
+            },
+            {
+              "en": "Sleeves cover the arms.",
+              "zh": "袖子遮盖手臂。",
+              "start": 112,
+              "end": 135
+            },
+            {
+              "en": "People may also wear gloves, hats and other items when they need them.",
+              "zh": "需要时，人们还会戴手套、帽子等物品。",
+              "start": 136,
+              "end": 206
+            }
+          ]
+        },
+        {
+          "id": "reading-clothes-for-everyday-depth-p3",
+          "en": "Clothes are made from different materials. Cotton and wool are natural fibers. Other fabrics are made from materials such as polyester. The material is part of what makes one item different from another.",
+          "zh": "衣服由不同的材料制成。棉和羊毛是天然纤维。另一些织物由聚酯纤维等材料制成。材料是使一件衣物区别于另一件的因素之一。",
+          "sentences": [
+            {
+              "en": "Clothes are made from different materials.",
+              "zh": "衣服由不同的材料制成。",
+              "start": 0,
+              "end": 42
+            },
+            {
+              "en": "Cotton and wool are natural fibers.",
+              "zh": "棉和羊毛是天然纤维。",
+              "start": 43,
+              "end": 78
+            },
+            {
+              "en": "Other fabrics are made from materials such as polyester.",
+              "zh": "另一些织物由聚酯纤维等材料制成。",
+              "start": 79,
+              "end": 135
+            },
+            {
+              "en": "The material is part of what makes one item different from another.",
+              "zh": "材料是使一件衣物区别于另一件的因素之一。",
+              "start": 136,
+              "end": 203
+            }
+          ]
+        },
+        {
+          "id": "reading-clothes-for-everyday-depth-p4",
+          "en": "Clothing can also show something about the person wearing it. People may choose a style because they like it or because it suits a situation. What someone wears at work may be different from what they wear at home. Clothing customs also vary between cultures.",
+          "zh": "服装也能展现穿着者的一些特点。人们可能因为喜欢某种风格，或因为它适合某个场合而选择它。一个人上班穿的衣服可能与在家穿的不同。不同文化中的穿衣习惯也有所不同。",
+          "sentences": [
+            {
+              "en": "Clothing can also show something about the person wearing it.",
+              "zh": "服装也能展现穿着者的一些特点。",
+              "start": 0,
+              "end": 61
+            },
+            {
+              "en": "People may choose a style because they like it or because it suits a situation.",
+              "zh": "人们可能因为喜欢某种风格，或因为它适合某个场合而选择它。",
+              "start": 62,
+              "end": 141
+            },
+            {
+              "en": "What someone wears at work may be different from what they wear at home.",
+              "zh": "一个人上班穿的衣服可能与在家穿的不同。",
+              "start": 142,
+              "end": 214
+            },
+            {
+              "en": "Clothing customs also vary between cultures.",
+              "zh": "不同文化中的穿衣习惯也有所不同。",
+              "start": 215,
+              "end": 259
+            }
+          ]
+        },
+        {
+          "id": "reading-clothes-for-everyday-depth-p5",
+          "en": "These ideas are useful when you shop for clothes. You can describe the material, the size or a particular part of an item. For example, the sleeves may be too long even when the rest fits. A clear description helps another person understand what you mean.",
+          "zh": "买衣服时，这些概念很有用。你可以描述衣服的材质、尺码或某个部位。例如，衣服其他地方都合身，袖子却可能太长。描述清楚，别人就更容易明白你的意思。",
+          "sentences": [
+            {
+              "en": "These ideas are useful when you shop for clothes.",
+              "zh": "买衣服时，这些概念很有用。",
+              "start": 0,
+              "end": 49
+            },
+            {
+              "en": "You can describe the material, the size or a particular part of an item.",
+              "zh": "你可以描述衣服的材质、尺码或某个部位。",
+              "start": 50,
+              "end": 122
+            },
+            {
+              "en": "For example, the sleeves may be too long even when the rest fits.",
+              "zh": "例如，衣服其他地方都合身，袖子却可能太长。",
+              "start": 123,
+              "end": 188
+            },
+            {
+              "en": "A clear description helps another person understand what you mean.",
+              "zh": "描述清楚，别人就更容易明白你的意思。",
+              "start": 189,
+              "end": 255
+            }
+          ]
+        },
+        {
+          "id": "reading-clothes-for-everyday-depth-p6",
+          "en": "You do not need a long list of fashion words to start. Simple words such as shirt, coat, sleeve and cotton already describe a lot. Learn them in a situation you recognize. Then return to the text and notice how the words work together.",
+          "zh": "开始时，你不需要一长串时尚词汇。shirt、coat、sleeve 和 cotton 这样的简单词，已经能描述很多东西。在你熟悉的情境里学习这些词。然后回到文章，留意它们是怎样搭配使用的。",
+          "sentences": [
+            {
+              "en": "You do not need a long list of fashion words to start.",
+              "zh": "开始时，你不需要一长串时尚词汇。",
+              "start": 0,
+              "end": 54
+            },
+            {
+              "en": "Simple words such as shirt, coat, sleeve and cotton already describe a lot.",
+              "zh": "shirt、coat、sleeve 和 cotton 这样的简单词，已经能描述很多东西。",
+              "start": 55,
+              "end": 130
+            },
+            {
+              "en": "Learn them in a situation you recognize.",
+              "zh": "在你熟悉的情境里学习这些词。",
+              "start": 131,
+              "end": 171
+            },
+            {
+              "en": "Then return to the text and notice how the words work together.",
+              "zh": "然后回到文章，留意它们是怎样搭配使用的。",
+              "start": 172,
+              "end": 235
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-choosing-restaurant-depth",
+      "title": "不同的餐厅怎么选",
+      "paragraphs": [
+        {
+          "id": "reading-choosing-restaurant-depth-p1",
+          "en": "A restaurant is a place where people can buy a prepared meal. Many people sit down to eat there. They may also go to spend time with friends or family. Eating out is about the experience as well as the food.",
+          "zh": "餐厅是人们可以买到做好的饭菜的地方。许多人会坐在那里吃饭。他们也可能是为了和朋友或家人相聚而去。外出吃饭既关乎食物，也关乎用餐体验。",
+          "sentences": [
+            {
+              "en": "A restaurant is a place where people can buy a prepared meal.",
+              "zh": "餐厅是人们可以买到做好的饭菜的地方。",
+              "start": 0,
+              "end": 61
+            },
+            {
+              "en": "Many people sit down to eat there.",
+              "zh": "许多人会坐在那里吃饭。",
+              "start": 62,
+              "end": 96
+            },
+            {
+              "en": "They may also go to spend time with friends or family.",
+              "zh": "他们也可能是为了和朋友或家人相聚而去。",
+              "start": 97,
+              "end": 151
+            },
+            {
+              "en": "Eating out is about the experience as well as the food.",
+              "zh": "外出吃饭既关乎食物，也关乎用餐体验。",
+              "start": 152,
+              "end": 207
+            }
+          ]
+        },
+        {
+          "id": "reading-choosing-restaurant-depth-p2",
+          "en": "Restaurants are not all the same. Some belong to a chain, with several places using the same name. The food and style are often similar across those places. Other restaurants operate as individual businesses.",
+          "zh": "餐厅并不都一样。有些属于连锁店，多家店使用同一个名字。这些店的食物和风格通常相近。另一些餐厅则作为独立商家经营。",
+          "sentences": [
+            {
+              "en": "Restaurants are not all the same.",
+              "zh": "餐厅并不都一样。",
+              "start": 0,
+              "end": 33
+            },
+            {
+              "en": "Some belong to a chain, with several places using the same name.",
+              "zh": "有些属于连锁店，多家店使用同一个名字。",
+              "start": 34,
+              "end": 98
+            },
+            {
+              "en": "The food and style are often similar across those places.",
+              "zh": "这些店的食物和风格通常相近。",
+              "start": 99,
+              "end": 156
+            },
+            {
+              "en": "Other restaurants operate as individual businesses.",
+              "zh": "另一些餐厅则作为独立商家经营。",
+              "start": 157,
+              "end": 208
+            }
+          ]
+        },
+        {
+          "id": "reading-choosing-restaurant-depth-p3",
+          "en": "Fast food is prepared and served quickly. At some places, customers can collect an order from a window without leaving the car. This kind of service is called a drive-through. Not every restaurant offers it.",
+          "zh": "快餐制作和供应都很快。在有些店，顾客不用下车就能从窗口取餐。这种服务叫免下车服务。不是每家餐厅都提供这种服务。",
+          "sentences": [
+            {
+              "en": "Fast food is prepared and served quickly.",
+              "zh": "快餐制作和供应都很快。",
+              "start": 0,
+              "end": 41
+            },
+            {
+              "en": "At some places, customers can collect an order from a window without leaving the car.",
+              "zh": "在有些店，顾客不用下车就能从窗口取餐。",
+              "start": 42,
+              "end": 127
+            },
+            {
+              "en": "This kind of service is called a drive-through.",
+              "zh": "这种服务叫免下车服务。",
+              "start": 128,
+              "end": 175
+            },
+            {
+              "en": "Not every restaurant offers it.",
+              "zh": "不是每家餐厅都提供这种服务。",
+              "start": 176,
+              "end": 207
+            }
+          ]
+        },
+        {
+          "id": "reading-choosing-restaurant-depth-p4",
+          "en": "Other restaurants offer a slower, more formal meal. People sometimes call this fine dining. The food and service are important parts of that experience. The style may not be what you want for a quick lunch.",
+          "zh": "另一些餐厅提供节奏更慢、更正式的用餐体验。人们有时把它称为高级餐饮。食物和服务都是这种体验的重要部分。如果只想快速吃个午饭，这种形式可能并不合适。",
+          "sentences": [
+            {
+              "en": "Other restaurants offer a slower, more formal meal.",
+              "zh": "另一些餐厅提供节奏更慢、更正式的用餐体验。",
+              "start": 0,
+              "end": 51
+            },
+            {
+              "en": "People sometimes call this fine dining.",
+              "zh": "人们有时把它称为高级餐饮。",
+              "start": 52,
+              "end": 91
+            },
+            {
+              "en": "The food and service are important parts of that experience.",
+              "zh": "食物和服务都是这种体验的重要部分。",
+              "start": 92,
+              "end": 152
+            },
+            {
+              "en": "The style may not be what you want for a quick lunch.",
+              "zh": "如果只想快速吃个午饭，这种形式可能并不合适。",
+              "start": 153,
+              "end": 206
+            }
+          ]
+        },
+        {
+          "id": "reading-choosing-restaurant-depth-p5",
+          "en": "Knowing these differences can help when you make plans. One friend may want something quick, while another wants time to talk. You can discuss that before choosing a place. There does not have to be one perfect choice for every occasion.",
+          "zh": "安排聚餐时，了解这些差别会有帮助。一个朋友可能想快点吃完，另一个却想有时间聊天。选地方之前，你们可以先商量。不必每次都找出一家适合所有场合的完美餐厅。",
+          "sentences": [
+            {
+              "en": "Knowing these differences can help when you make plans.",
+              "zh": "安排聚餐时，了解这些差别会有帮助。",
+              "start": 0,
+              "end": 55
+            },
+            {
+              "en": "One friend may want something quick, while another wants time to talk.",
+              "zh": "一个朋友可能想快点吃完，另一个却想有时间聊天。",
+              "start": 56,
+              "end": 126
+            },
+            {
+              "en": "You can discuss that before choosing a place.",
+              "zh": "选地方之前，你们可以先商量。",
+              "start": 127,
+              "end": 172
+            },
+            {
+              "en": "There does not have to be one perfect choice for every occasion.",
+              "zh": "不必每次都找出一家适合所有场合的完美餐厅。",
+              "start": 173,
+              "end": 237
+            }
+          ]
+        },
+        {
+          "id": "reading-choosing-restaurant-depth-p6",
+          "en": "The vocabulary also helps you ask better questions. You can ask whether you order at the counter or at the table. You can ask how long the food usually takes. These are ordinary learning examples, not promises about a particular restaurant.",
+          "zh": "这些词也有助于你把问题问得更清楚。你可以问是在柜台点餐，还是在座位上点。也可以问通常多久能上菜。这些只是普通的学习示例，不是对某家餐厅的承诺。",
+          "sentences": [
+            {
+              "en": "The vocabulary also helps you ask better questions.",
+              "zh": "这些词也有助于你把问题问得更清楚。",
+              "start": 0,
+              "end": 51
+            },
+            {
+              "en": "You can ask whether you order at the counter or at the table.",
+              "zh": "你可以问是在柜台点餐，还是在座位上点。",
+              "start": 52,
+              "end": 113
+            },
+            {
+              "en": "You can ask how long the food usually takes.",
+              "zh": "也可以问通常多久能上菜。",
+              "start": 114,
+              "end": 158
+            },
+            {
+              "en": "These are ordinary learning examples, not promises about a particular restaurant.",
+              "zh": "这些只是普通的学习示例，不是对某家餐厅的承诺。",
+              "start": 159,
+              "end": 240
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "id": "everyday-scenes-depth-nov16",
+  "title": "既有场景后续（退换、聚餐、语音排障）",
+  "version": "v1",
+  "status": "作为原场景的可选后续接入，另有独立篇目 ID；不改旧场景 lines，也不新增背词组。",
+  "createdAt": "2026-11-16T16:20:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "scenes": [
+    {
+      "id": "scene-have-the-receipt-extension-1",
+      "title": "又发现袖口有问题",
+      "titleEn": "There's Also a Problem With the Sleeve",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "接在「有小票吗」之后的可选学习后续，不替换原场景句子或进度。人物：A（原场景顾客）、B（店员）、C（顾客的朋友）。旁白在台词里标记为 stage。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。",
+      "parentSceneId": "scene-have-the-receipt",
+      "speakers": {
+        "A": "原场景顾客",
+        "B": "店员",
+        "C": "顾客的朋友"
+      },
+      "lines": [
+        {
+          "id": "scene-have-the-receipt-extension-1-l1",
+          "speaker": "stage",
+          "en": "A few days later, the customer comes back with a friend.",
+          "zh": "几天后，顾客和朋友一起回到店里。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l2",
+          "speaker": "A",
+          "en": "Hi. I exchanged this sweater a few days ago.",
+          "zh": "你好。我前几天换了这件毛衣。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l3",
+          "speaker": "B",
+          "en": "Right. Is there another problem with it?",
+          "zh": "好的。它又有什么问题吗？"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l4",
+          "speaker": "A",
+          "en": "One of the sleeves is coming apart here.",
+          "zh": "这边一只袖子开线了。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l5",
+          "speaker": "C",
+          "en": "We noticed it when she tried it on at home.",
+          "zh": "她在家试穿的时候，我们发现的。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l6",
+          "speaker": "B",
+          "en": "Thanks for showing me. Have you washed it yet?",
+          "zh": "谢谢你指给我看。你已经洗过了吗？"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l7",
+          "speaker": "A",
+          "en": "No, I haven't worn it out yet either.",
+          "zh": "没有，我也还没穿出过门。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l8",
+          "speaker": "B",
+          "en": "Let me check whether we have another one.",
+          "zh": "我看看还有没有另一件。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l9",
+          "speaker": "C",
+          "en": "The size was good, wasn't it?",
+          "zh": "尺码挺合适的，对吧？"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l10",
+          "speaker": "A",
+          "en": "Yeah, but I'd rather get a refund this time.",
+          "zh": "嗯，不过这次我更想退款。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l11",
+          "speaker": "B",
+          "en": "Sure. Let me check our return policy first.",
+          "zh": "好的。我先核对一下我们的退货规定。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l12",
+          "speaker": "A",
+          "en": "I have the new receipt you gave me.",
+          "zh": "我带着你上次给我的新小票。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l13",
+          "speaker": "B",
+          "en": "Great. That helps. I'll ask my manager to check it.",
+          "zh": "好，那就方便了。我请经理核对一下。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l14",
+          "speaker": "stage",
+          "en": "The assistant comes back after checking.",
+          "zh": "店员核对后回来了。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l15",
+          "speaker": "B",
+          "en": "We can refund it. It will go back to your original payment method.",
+          "zh": "可以退款。会退回你原来付款的方式。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l16",
+          "speaker": "A",
+          "en": "Okay. How long does that usually take?",
+          "zh": "好。一般要多久？"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l17",
+          "speaker": "B",
+          "en": "It depends on the payment provider. The details are on this slip.",
+          "zh": "要看支付服务商。具体说明在这张凭条上。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l18",
+          "speaker": "C",
+          "en": "Let's keep that with the receipt.",
+          "zh": "我们把它和小票放在一起吧。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l19",
+          "speaker": "A",
+          "en": "Good idea. Thanks for your help.",
+          "zh": "好主意。谢谢你帮忙。"
+        },
+        {
+          "id": "scene-have-the-receipt-extension-1-l20",
+          "speaker": "B",
+          "en": "You're welcome. Sorry about the trouble.",
+          "zh": "不客气。给你添麻烦了。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "return policy",
+          "meaningZh": "退货规定，不把本例当成所有商店都能退款的承诺。"
+        },
+        {
+          "expression": "coming apart",
+          "meaningZh": "开线、散开；只作补充语块，不挤进旧词卡。"
+        },
+        {
+          "expression": "说明",
+          "meaningZh": "支付流程为虚构情境，不承诺统一到账时间。"
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 167,
+      "lineCount": 20
+    },
+    {
+      "id": "scene-change-dinner-time-extension-1",
+      "title": "到店后一起点餐",
+      "titleEn": "Ordering Together After They Arrive",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "接在「晚饭改个时间」之后的可选学习后续，不替换原场景句子或进度。人物：A（接姐姐的朋友）、B（原先订位的朋友）、C（A 的姐姐）、D（服务员）。旁白在台词里标记为 stage。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。",
+      "parentSceneId": "scene-change-dinner-time",
+      "speakers": {
+        "A": "接姐姐的朋友",
+        "B": "原先订位的朋友",
+        "C": "A 的姐姐",
+        "D": "服务员"
+      },
+      "lines": [
+        {
+          "id": "scene-change-dinner-time-extension-1-l1",
+          "speaker": "stage",
+          "en": "They meet at the restaurant at seven fifteen.",
+          "zh": "他们七点十五在餐厅见面。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l2",
+          "speaker": "B",
+          "en": "Hey, you found us.",
+          "zh": "嘿，你找到我们了。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l3",
+          "speaker": "A",
+          "en": "Yeah. This is my sister, Mia.",
+          "zh": "嗯。这是我姐姐 Mia。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l4",
+          "speaker": "C",
+          "en": "Hi. Thanks for waiting.",
+          "zh": "你好。谢谢你等我们。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l5",
+          "speaker": "B",
+          "en": "No problem. How was the flight?",
+          "zh": "没事。一路飞得怎么样？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l6",
+          "speaker": "C",
+          "en": "Long. I'm glad to be here.",
+          "zh": "挺久的。总算到了，真好。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l7",
+          "speaker": "D",
+          "en": "Hi. Can I get you something to drink?",
+          "zh": "你们好。先喝点什么？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l8",
+          "speaker": "B",
+          "en": "Just water for me, please.",
+          "zh": "我喝水就好，谢谢。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l9",
+          "speaker": "C",
+          "en": "Same for me. Could we have a few more minutes with the menu?",
+          "zh": "我也喝水。能让我们再看几分钟菜单吗？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l10",
+          "speaker": "D",
+          "en": "Of course. I'll come back in a bit.",
+          "zh": "当然。我过一会儿再来。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l11",
+          "speaker": "A",
+          "en": "Do you want to share a couple of dishes?",
+          "zh": "要不要点几道菜一起吃？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l12",
+          "speaker": "C",
+          "en": "Sure. Is the chicken spicy?",
+          "zh": "好。这道鸡肉辣吗？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l13",
+          "speaker": "B",
+          "en": "I haven't tried it. We can ask.",
+          "zh": "我没吃过。可以问问。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l14",
+          "speaker": "A",
+          "en": "There's a vegetable dish here too.",
+          "zh": "这儿还有一道蔬菜。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l15",
+          "speaker": "C",
+          "en": "That sounds good. I don't want anything too heavy.",
+          "zh": "听起来不错。我不想吃太油腻的。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l16",
+          "speaker": "D",
+          "en": "Are you ready to order, or do you need more time?",
+          "zh": "可以点餐了吗，还是还需要一点时间？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l17",
+          "speaker": "A",
+          "en": "Could you tell us how spicy the chicken is?",
+          "zh": "能告诉我们这道鸡肉有多辣吗？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l18",
+          "speaker": "D",
+          "en": "It's quite spicy. The fish is milder.",
+          "zh": "挺辣的。鱼这道口味清淡一些。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l19",
+          "speaker": "C",
+          "en": "Let's get the fish, then.",
+          "zh": "那我们点鱼吧。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l20",
+          "speaker": "B",
+          "en": "And the vegetables, with some rice?",
+          "zh": "再加蔬菜和米饭？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l21",
+          "speaker": "A",
+          "en": "Yeah. Is that enough for three people?",
+          "zh": "对。三个人吃够吗？"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l22",
+          "speaker": "D",
+          "en": "The fish is a large portion. You can always order more later.",
+          "zh": "鱼的分量挺大。之后还可以再加。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l23",
+          "speaker": "C",
+          "en": "Let's start with that.",
+          "zh": "那先点这些吧。"
+        },
+        {
+          "id": "scene-change-dinner-time-extension-1-l24",
+          "speaker": "D",
+          "en": "Great. I'll put that through.",
+          "zh": "好，我去下单。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "说明",
+          "meaningZh": "保留原场景七点十五约定，不把后续重新改回其他时间。"
+        },
+        {
+          "expression": "heavy",
+          "meaningZh": "形容餐食时可指油腻、顶饱，区别物体重量。"
+        },
+        {
+          "expression": "Could we have a few more minutes...?",
+          "meaningZh": "礼貌请求多一点时间。"
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 170,
+      "lineCount": 24
+    },
+    {
+      "id": "scene-voice-keeps-cutting-extension-1",
+      "title": "第三个队友加入后",
+      "titleEn": "After a Third Teammate Joins",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "接在「语音一直断」之后的可选学习后续，不替换原场景句子或进度。人物：A（网络不稳的玩家）、B（朋友）、C（刚加入的队友）。旁白在台词里标记为 stage。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。",
+      "parentSceneId": "scene-voice-keeps-cutting",
+      "speakers": {
+        "A": "网络不稳的玩家",
+        "B": "朋友",
+        "C": "刚加入的队友"
+      },
+      "lines": [
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l1",
+          "speaker": "stage",
+          "en": "A third player joins before the next match.",
+          "zh": "下一场开始前，第三位玩家加入了。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l2",
+          "speaker": "C",
+          "en": "Hey, am I in the right lobby?",
+          "zh": "嘿，我进对大厅了吗？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l3",
+          "speaker": "B",
+          "en": "Yeah. We're just sorting out the audio.",
+          "zh": "对。我们正在弄语音。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l4",
+          "speaker": "A",
+          "en": "Can you hear me now?",
+          "zh": "现在能听见我吗？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l5",
+          "speaker": "C",
+          "en": "I can, but you sound far away.",
+          "zh": "能，不过听着离麦克风很远。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l6",
+          "speaker": "A",
+          "en": "I might be using the wrong microphone.",
+          "zh": "我可能选错麦克风了。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l7",
+          "speaker": "B",
+          "en": "Check the input in your audio settings.",
+          "zh": "看看音频设置里的输入设备。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l8",
+          "speaker": "A",
+          "en": "Oh, it's using the laptop microphone.",
+          "zh": "哦，它用的是笔记本自带的麦克风。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l9",
+          "speaker": "C",
+          "en": "Try switching to your headset.",
+          "zh": "试着切到耳麦。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l10",
+          "speaker": "A",
+          "en": "Okay. How about now?",
+          "zh": "好了。现在呢？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l11",
+          "speaker": "B",
+          "en": "Much better. You're clear now.",
+          "zh": "好多了。现在声音清楚了。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l12",
+          "speaker": "C",
+          "en": "I can hear you too.",
+          "zh": "我也能听清。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l13",
+          "speaker": "A",
+          "en": "Great. Sorry, I thought it was my connection.",
+          "zh": "太好了。不好意思，我还以为是网络连接的问题。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l14",
+          "speaker": "B",
+          "en": "No worries. Are you both ready?",
+          "zh": "没事。你们都准备好了吗？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l15",
+          "speaker": "C",
+          "en": "Almost. The update is still downloading.",
+          "zh": "快了。更新还在下载。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l16",
+          "speaker": "A",
+          "en": "How much is left?",
+          "zh": "还剩多少？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l17",
+          "speaker": "C",
+          "en": "Not much. Maybe another minute.",
+          "zh": "不多了。大概再一分钟。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l18",
+          "speaker": "B",
+          "en": "We can wait. Don't start a match yet.",
+          "zh": "可以等。先别开局。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l19",
+          "speaker": "A",
+          "en": "I'll get some water while we wait.",
+          "zh": "趁等的时候，我去倒点水。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l20",
+          "speaker": "stage",
+          "en": "A little later.",
+          "zh": "过了一会儿。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l21",
+          "speaker": "C",
+          "en": "Done. Could you send me another invite?",
+          "zh": "下好了。能再邀请我一次吗？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l22",
+          "speaker": "B",
+          "en": "Sent. Let me know when you're in.",
+          "zh": "发了。进来告诉我。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-extension-1-l23",
+          "speaker": "C",
+          "en": "I'm in. Let's go.",
+          "zh": "进来了。开始吧。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "说明",
+          "meaningZh": "原创三人游戏学习情境，角色名不是用户或助手本人。"
+        },
+        {
+          "expression": "input",
+          "meaningZh": "输入设备、connection 连接可在工作英语材料中复现，不需要复制旧卡。"
+        },
+        {
+          "expression": "Done",
+          "meaningZh": "此处指下载结束，不泛指整个任务成功。"
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 138,
+      "lineCount": 23
+    }
+  ],
+  "wordCards": [],
+  "stats": {
+    "segments": 3,
+    "linesIncludingNarrator": 67
+  }
+}

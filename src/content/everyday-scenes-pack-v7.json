@@ -1,0 +1,432 @@
+{
+  "id": "everyday-scenes-pack-v7",
+  "title": "日常场景增量包 v7（退换有小票、我马上下来）",
+  "version": "v7",
+  "lang": "en",
+  "varietyNote": "General everyday American-leaning English, A2 spoken style.",
+  "levelNote": "教学建议大约 A2，未经认证分级。",
+  "provenance": "全部为原创虚构学习情景和原创例句，是学习示例，不是真人经历、真实聊天或转载语料。本轮仅作公开可引用语料的快速核验；未找到许可明确、且适合本课难度的现成对话或正文，故采用原创学习示例，并在此标明。人物不是助手或用户本人。本包不含新闻翻译或小说摘录。",
+  "status": "增量补充，不替换 everyday-scenes-pack-v1.1 / v3 / v4 / v5 / v6。v2 仍不接入。",
+  "createdAt": "2026-11-16T11:20:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-scenes-pack-v1.1",
+    "everyday-scenes-pack-v3",
+    "everyday-scenes-pack-v4",
+    "everyday-scenes-pack-v5",
+    "everyday-scenes-pack-v6"
+  ],
+  "selectionPrinciples": [
+    "在既有四大栏目下追加原创学习情景，不替换已有游戏、工作或其他日常篇，不设全站主题路径。",
+    "不收入新闻翻译或小说正文。",
+    "优先复用已有准确词卡，不为同义重复建卡。"
+  ],
+  "integrationNotes": [
+    "通过 loadLearningCatalog() 追加 scenes；不改 loadReviewCatalog()。",
+    "新词卡使用独立常量 NEW_SCENE_V7_CARD_IDS，不改变已有各组词卡标识的语义。"
+  ],
+  "scenes": [
+    {
+      "id": "scene-have-the-receipt",
+      "title": "有小票吗",
+      "titleEn": "Do You Have the Receipt.",
+      "levelSuggestionZh": "在店里礼貌地退换刚买的衣服；建议难度大约 A2，未经认证分级。",
+      "settingZh": "服装店柜台。A 昨天买了一件毛衣，今天回来换尺码。B 是店员。",
+      "situationZh": "毛衣买小了。A 带着小票，希望换一件大一号的。店员核对后让 A 试穿，再在系统里换货，并补打一张新小票。这是原创学习情景，不是真实服务对话，也不重复缺货、拿错饮料或客满改店的场面。",
+      "narratorNote": "虚构顾客和店员的原创学习情景示例，不是真实聊天记录。人物不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-have-the-receipt-l1",
+          "speaker": "A",
+          "en": "Hi. I bought this sweater yesterday, but it's too small.",
+          "zh": "你好。这件毛衣是我昨天买的，可是有点小。"
+        },
+        {
+          "id": "scene-have-the-receipt-l2",
+          "speaker": "B",
+          "en": "I'm sorry to hear that. Do you have the receipt?",
+          "zh": "真抱歉。你有小票吗？"
+        },
+        {
+          "id": "scene-have-the-receipt-l3",
+          "speaker": "A",
+          "en": "Yes, it's right here. I paid with my card.",
+          "zh": "有，就在这儿。我是刷卡付的。"
+        },
+        {
+          "id": "scene-have-the-receipt-l4",
+          "speaker": "B",
+          "en": "Thanks. Let me take a look.",
+          "zh": "谢谢。我看一下。"
+        },
+        {
+          "id": "scene-have-the-receipt-l5",
+          "speaker": "B",
+          "en": "Would you like to return it, or exchange it?",
+          "zh": "你想退掉，还是换一件？"
+        },
+        {
+          "id": "scene-have-the-receipt-l6",
+          "speaker": "A",
+          "en": "I'd like to exchange it, if you have a larger size.",
+          "zh": "我想换一件。你们还有大一号的吗？"
+        },
+        {
+          "id": "scene-have-the-receipt-l7",
+          "speaker": "B",
+          "en": "Let me check in the back. One moment.",
+          "zh": "我去后面查一下。稍等。"
+        },
+        {
+          "id": "scene-have-the-receipt-l8",
+          "speaker": "B",
+          "en": "We have one in the next size. It's the same color.",
+          "zh": "有大一号的，颜色也一样。"
+        },
+        {
+          "id": "scene-have-the-receipt-l9",
+          "speaker": "A",
+          "en": "That's perfect. Can I try it on first?",
+          "zh": "太好了。我能先试一下吗？"
+        },
+        {
+          "id": "scene-have-the-receipt-l10",
+          "speaker": "B",
+          "en": "Of course. The fitting room is just over there.",
+          "zh": "当然可以。试衣间就在那边。"
+        },
+        {
+          "id": "scene-have-the-receipt-l11",
+          "speaker": "A",
+          "en": "This one fits much better. I'll exchange it for this.",
+          "zh": "这件合身多了。我就换这件。"
+        },
+        {
+          "id": "scene-have-the-receipt-l12",
+          "speaker": "B",
+          "en": "Great. I'll switch them in the system. You won't be charged again.",
+          "zh": "好。我在系统里换一下。不会再收你一次钱。"
+        },
+        {
+          "id": "scene-have-the-receipt-l13",
+          "speaker": "A",
+          "en": "Thank you. Do I need a new receipt?",
+          "zh": "谢谢。还需要一张新小票吗？"
+        },
+        {
+          "id": "scene-have-the-receipt-l14",
+          "speaker": "B",
+          "en": "Yes. I'll print one for you, just in case.",
+          "zh": "需要。我给你打印一张，以防万一。"
+        },
+        {
+          "id": "scene-have-the-receipt-l15",
+          "speaker": "A",
+          "en": "That's helpful. Thanks for making this easy.",
+          "zh": "那就好。谢谢你办得这么顺利。"
+        },
+        {
+          "id": "scene-have-the-receipt-l16",
+          "speaker": "B",
+          "en": "You're welcome. Have a good one.",
+          "zh": "不客气。祝你今天愉快。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "Do you have the receipt?",
+          "meaningZh": "你有小票吗？receipt 是购物小票或收据。退换时店员常会先问这个。"
+        },
+        {
+          "expression": "return it / exchange it",
+          "meaningZh": "退掉或换一件。return 在这里是退货，不是回来；exchange 是换货，不是货币兑换的全部用法。"
+        },
+        {
+          "expression": "This one fits",
+          "meaningZh": "这件合身。本课的 fit 只学衣服或鞋子合身，不是“适合做某事”的全部用法。"
+        },
+        {
+          "expression": "take a look / just in case",
+          "meaningZh": "看一下；以防万一。这两处复用已有词卡，不另建新卡。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "Do you have the receipt?",
+          "zh": "你有小票吗？",
+          "required": false
+        },
+        {
+          "en": "I'd like to exchange it.",
+          "zh": "我想换一件。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 143,
+      "lineCount": 16
+    },
+    {
+      "id": "scene-ill-be-right-down",
+      "title": "我马上下来",
+      "titleEn": "I'll Be Right Down.",
+      "levelSuggestionZh": "朋友已在楼下等候，自己稍晚一点再下去会合；建议难度大约 A2，未经认证分级。",
+      "settingZh": "A 还在楼上找钥匙、穿鞋。B 已经到了楼下门口，两人用手机说话。",
+      "situationZh": "两人约好一起去看电影。B 先到了楼下，A 钥匙一时找不到，请对方稍等，找到后马上下来。这是原创学习情景，不是真实聊天，也不重复门口收快递、坐过站或等人改约的场面。",
+      "narratorNote": "两位虚构朋友的原创学习情景示例，不是真实聊天记录。人物不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-ill-be-right-down-l1",
+          "speaker": "B",
+          "en": "Hi. I'm downstairs. Are you almost ready?",
+          "zh": "嗨，我在楼下了。你快好了吗？"
+        },
+        {
+          "id": "scene-ill-be-right-down-l2",
+          "speaker": "A",
+          "en": "Almost. Just give me a minute. I can't find my keys.",
+          "zh": "快了。再给我一分钟。我找不到钥匙。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l3",
+          "speaker": "B",
+          "en": "No rush. I'll wait by the door.",
+          "zh": "不着急。我在门口等你。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l4",
+          "speaker": "A",
+          "en": "Thanks. I think I left my keys in the kitchen. I'll look there first.",
+          "zh": "谢谢。我好像把钥匙落在厨房了。我先去那儿找找。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l5",
+          "speaker": "A",
+          "en": "Found them. I'll be right down.",
+          "zh": "找到了。我马上下来。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l6",
+          "speaker": "B",
+          "en": "Okay. We're not late yet, but the movie starts at two.",
+          "zh": "好。我们还没晚，不过电影两点开始。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l7",
+          "speaker": "A",
+          "en": "Two minutes. I'm just putting my shoes on.",
+          "zh": "两分钟。我在穿鞋。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l8",
+          "speaker": "B",
+          "en": "I'll stay at the front door, so you don't have to look for me.",
+          "zh": "我就待在大门这儿，这样你就不用找我了。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l9",
+          "speaker": "A",
+          "en": "Perfect. I'm coming down now.",
+          "zh": "好。我现在下楼了。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l10",
+          "speaker": "B",
+          "en": "I can see the stairs. Take your time.",
+          "zh": "我能看见楼梯。你不用急。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l11",
+          "speaker": "A",
+          "en": "I'm downstairs. Where are you?",
+          "zh": "我到楼下了。你在哪儿？"
+        },
+        {
+          "id": "scene-ill-be-right-down-l12",
+          "speaker": "B",
+          "en": "On the left, by the plants.",
+          "zh": "在左边，花坛旁边。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l13",
+          "speaker": "A",
+          "en": "I see you. Sorry to keep you waiting.",
+          "zh": "看见你了。让你久等了，不好意思。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l14",
+          "speaker": "B",
+          "en": "It's fine. Did you lock the door?",
+          "zh": "没事。门锁了吗？"
+        },
+        {
+          "id": "scene-ill-be-right-down-l15",
+          "speaker": "A",
+          "en": "Yes. Let's go. We still have time.",
+          "zh": "锁了。走吧。我们还来得及。"
+        },
+        {
+          "id": "scene-ill-be-right-down-l16",
+          "speaker": "B",
+          "en": "Good. If we leave now, we won't be late.",
+          "zh": "好。现在走的话，就不会迟到。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "I'll be right down",
+          "meaningZh": "我马上下来。这里的 right 是“马上”，不是右边，也不等于已有词卡 right away 的全部用法。"
+        },
+        {
+          "expression": "I'm downstairs",
+          "meaningZh": "我在楼下。downstairs 指楼下这个位置，也可以说 come down / I'm coming down。"
+        },
+        {
+          "expression": "Just give me a minute",
+          "meaningZh": "再给我一分钟；请稍等一下。复用已有 minute 词卡，不一定精确一分钟。"
+        },
+        {
+          "expression": "I left my keys / On the left / If we leave now",
+          "meaningZh": "left my keys 是把钥匙忘在某处，复用已有“忘带、留在某处”的用法；On the left 才是向左；If we leave now 是离开。三种 left/leave 不要混。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "I'll be right down.",
+          "zh": "我马上下来。",
+          "required": false
+        },
+        {
+          "en": "Just give me a minute.",
+          "zh": "再给我一分钟。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 133,
+      "lineCount": 16
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "sc13-receipt",
+      "headword": "receipt",
+      "pos": "可数名词",
+      "posZh": "可数名词",
+      "senseZh": "小票；收据",
+      "collocation": "the receipt / Do you have the receipt? / a new receipt",
+      "exampleEn": "Do you have the receipt?",
+      "exampleZh": "你有小票吗？",
+      "transferEn": "I kept the receipt for the headphones, in case I need to return them.",
+      "transferZh": "耳机的小票我留着，以备以后要退。",
+      "sourceScene": "scene-have-the-receipt",
+      "sourceLine": "scene-have-the-receipt-l2",
+      "notesZh": "receipt 是购物小票或收据。退换时常会先问 Do you have the receipt? 另境例句改到耳机，不用本段换毛衣的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc13-return-it",
+      "headword": "return it",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "退掉；退货",
+      "collocation": "return it / I'd like to return it / Can I return it?",
+      "exampleEn": "Would you like to return it, or exchange it?",
+      "exampleZh": "你想退掉，还是换一件？",
+      "transferEn": "This lamp doesn't work. I'd like to return it.",
+      "transferZh": "这盏灯不能用。我想退掉。",
+      "sourceScene": "scene-have-the-receipt",
+      "sourceLine": "scene-have-the-receipt-l5",
+      "notesZh": "return it 在本课是把刚买的东西退回去。不是回来（return home），也不是还书的全部用法。另境例句改到退灯，不用本段换毛衣的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc13-exchange-it",
+      "headword": "exchange it",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "换一件；换货",
+      "collocation": "exchange it / I'd like to exchange it / exchange it for this",
+      "exampleEn": "I'd like to exchange it, if you have a larger size.",
+      "exampleZh": "我想换一件。你们还有大一号的吗？",
+      "transferEn": "Can I exchange it for a different color?",
+      "transferZh": "我能换一个别的颜色吗？",
+      "sourceScene": "scene-have-the-receipt",
+      "sourceLine": "scene-have-the-receipt-l6",
+      "notesZh": "exchange it 是换成另一件同类商品。本课不学货币兑换。另境例句改到换颜色，不用本段试穿毛衣的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc13-fit",
+      "headword": "fit",
+      "pos": "动词",
+      "posZh": "动词",
+      "senseZh": "合身；尺寸合适",
+      "collocation": "This one fits / it doesn't fit / These shoes don't fit",
+      "exampleEn": "This one fits much better.",
+      "exampleZh": "这件合身多了。",
+      "transferEn": "These shoes don't fit. They're too tight at the toes.",
+      "transferZh": "这双鞋不合脚。脚趾那儿太紧了。",
+      "sourceScene": "scene-have-the-receipt",
+      "sourceLine": "scene-have-the-receipt-l11",
+      "notesZh": "本课的 fit 只学衣服或鞋子合身。不是“适合做某事”（This job doesn't fit me）的全部用法。另境例句改到鞋子，不用本段毛衣的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc14-ill-be-right-down",
+      "headword": "I'll be right down",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "我马上下来",
+      "collocation": "I'll be right down / I'll be right down in a minute",
+      "exampleEn": "Found them. I'll be right down.",
+      "exampleZh": "找到了。我马上下来。",
+      "transferEn": "The taxi is here. I'll be right down.",
+      "transferZh": "出租车到了。我马上下来。",
+      "sourceScene": "scene-ill-be-right-down",
+      "sourceLine": "scene-ill-be-right-down-l5",
+      "notesZh": "I'll be right down 是人在楼上、马上到楼下。这里的 right 是“马上”，不是右边，也不等于已有 right away 的全部用法。另境例句改到出租车到了，不用本段找钥匙去看电影的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "sc14-downstairs",
+      "headword": "downstairs",
+      "pos": "副词",
+      "posZh": "副词",
+      "senseZh": "在楼下；到楼下",
+      "collocation": "I'm downstairs / wait downstairs / the laundry room is downstairs",
+      "exampleEn": "Hi. I'm downstairs. Are you almost ready?",
+      "exampleZh": "嗨，我在楼下了。你快好了吗？",
+      "transferEn": "The laundry room is downstairs, next to the back door.",
+      "transferZh": "洗衣房在楼下，后门旁边。",
+      "sourceScene": "scene-ill-be-right-down",
+      "sourceLine": "scene-ill-be-right-down-l1",
+      "notesZh": "downstairs 指楼下这个位置，也可以说 come down。不是 downstairs 作名词时“楼下那一层”的全部用法，本课先记位置。另境例句改到洗衣房，不用本段门口等人的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    }
+  ],
+  "stats": {
+    "scenes": 2,
+    "spokenWords": [
+      143,
+      133
+    ],
+    "spokenLines": [
+      16,
+      16
+    ],
+    "wordCards": 6
+  }
+}

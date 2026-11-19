@@ -1,0 +1,2656 @@
+{
+  "id": "english-expansion-everyday-v4",
+  "title": "日常英语扩展八课",
+  "lang": "zh-Hans",
+  "provenance": "原创学习情景示例，非真实聊天记录，不来自单词书或公开词库。选词按日常会说的情境，不声称精确频率排名。本包含天气穿衣、身体不适、打电话、家务、出门拜托、轻度工作寒暄、做饭细节、出行补充。",
+  "selectionPrinciples": [
+    "先补能把已学句子说完整的词和语块，再开新场景；不导入四六级、百词斩或字母词表。",
+    "优先动词、生活名词、常用形容词和话语功能语块，不优先书面或考试词。",
+    "一词多义按本课情境释义，并标明易混的另一常见义，避免只给一个字典义。",
+    "每词必须有中英例句；练习只测本课及已教内容；选择题在给定语境下只有一个合理答案。",
+    "不把另一语境里也能成立的说法判成普遍语法错误；理解题错项只说明与原文不符。"
+  ],
+  "assumesPriorLessons": "前序已教 be、一般现在时、a/an/some、there is、疑问词、can、现在进行时、过去时、be going to，以及约100个基础词（如 home, table, phone, keys, hungry, water, store, free, bus, wait, rain, dinner 等）。",
+  "lessons": [
+    {
+      "id": "lesson-10",
+      "title": "天气和衣服",
+      "titleEn": "Weather and clothes",
+      "objective": "用 It's + 天气形容词描述天气；询问今天天气和穿什么；认识 umbrella、jacket、wear 等出门用语。",
+      "setting": "朋友出门前发消息，普通日常口语。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "It's + 形容词描述天气；What's the weather like? 作为整句语块。",
+      "dialogue": [
+        {
+          "id": "l10-d1",
+          "speaker": "A",
+          "en": "What's the weather like today?",
+          "zh": "今天天气怎么样？"
+        },
+        {
+          "id": "l10-d2",
+          "speaker": "B",
+          "en": "It's sunny, but it's a bit windy.",
+          "zh": "是晴天，不过有点风。"
+        },
+        {
+          "id": "l10-d3",
+          "speaker": "A",
+          "en": "Is it cold?",
+          "zh": "冷吗？"
+        },
+        {
+          "id": "l10-d4",
+          "speaker": "B",
+          "en": "Not really. It's warm this afternoon.",
+          "zh": "不太冷。今天下午挺暖和的。"
+        },
+        {
+          "id": "l10-d5",
+          "speaker": "A",
+          "en": "What are you going to wear?",
+          "zh": "你打算穿什么？"
+        },
+        {
+          "id": "l10-d6",
+          "speaker": "B",
+          "en": "A jacket and my old shoes.",
+          "zh": "一件外套，还有我那双旧鞋。"
+        },
+        {
+          "id": "l10-d7",
+          "speaker": "A",
+          "en": "Do I need an umbrella?",
+          "zh": "我需要带伞吗？"
+        },
+        {
+          "id": "l10-d8",
+          "speaker": "B",
+          "en": "No. It isn't going to rain.",
+          "zh": "不用。不会下雨。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l10-w-weather",
+          "word": "weather",
+          "pos": "名词",
+          "sense": "天气",
+          "exampleEn": "What's the weather like today?",
+          "exampleZh": "今天天气怎么样？",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-sunny",
+          "word": "sunny",
+          "pos": "形容词",
+          "sense": "晴朗的",
+          "exampleEn": "It's sunny today.",
+          "exampleZh": "今天是晴天。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-cloudy",
+          "word": "cloudy",
+          "pos": "形容词",
+          "sense": "多云的",
+          "exampleEn": "It's cloudy this morning.",
+          "exampleZh": "今天早上多云。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-windy",
+          "word": "windy",
+          "pos": "形容词",
+          "sense": "有风的",
+          "exampleEn": "It's a bit windy.",
+          "exampleZh": "有点风。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-warm",
+          "word": "warm",
+          "pos": "形容词",
+          "sense": "暖和的",
+          "exampleEn": "It's warm this afternoon.",
+          "exampleZh": "今天下午挺暖和的。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-cool",
+          "word": "cool",
+          "pos": "形容词",
+          "sense": "凉爽的（本课不是「酷」）",
+          "exampleEn": "It's cool in the evening.",
+          "exampleZh": "傍晚挺凉爽的。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-wear",
+          "word": "wear",
+          "pos": "动词",
+          "sense": "穿、戴",
+          "exampleEn": "What are you going to wear?",
+          "exampleZh": "你打算穿什么？",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-jacket",
+          "word": "jacket",
+          "pos": "可数名词",
+          "sense": "外套、夹克",
+          "exampleEn": "I'm going to wear a jacket.",
+          "exampleZh": "我打算穿一件外套。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-shoes",
+          "word": "shoes",
+          "pos": "名词复数",
+          "sense": "鞋子；shoes 是复数，a shoe 指一只鞋。",
+          "exampleEn": "These are my old shoes.",
+          "exampleZh": "这是我的旧鞋。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-umbrella",
+          "word": "umbrella",
+          "pos": "可数名词",
+          "sense": "伞",
+          "exampleEn": "Do I need an umbrella?",
+          "exampleZh": "我需要带伞吗？",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-a-bit",
+          "word": "a bit",
+          "pos": "短语",
+          "sense": "有一点儿（修饰形容词）",
+          "exampleEn": "It's a bit windy.",
+          "exampleZh": "有点风。",
+          "note": "和 a little 接近；本课先用于 It's a bit + 形容词。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        },
+        {
+          "id": "l10-w-old",
+          "word": "old",
+          "pos": "形容词",
+          "sense": "旧的（本例句）；也可指年纪大，需看上下文",
+          "exampleEn": "These are my old shoes.",
+          "exampleZh": "这是我的旧鞋。",
+          "setting": "朋友出门前发消息，普通日常口语。"
+        }
+      ],
+      "grammar": {
+        "id": "l10-g",
+        "title": "描述天气：It's + 形容词；What's the weather like?",
+        "explanationZh": "谈天气常用 It 作主语：It's sunny. It's cold. What's the weather like? 整句记「天气怎么样？」，like 在这里不是「喜欢」。What are you going to wear? 沿用已教的 be going to。an umbrella 用 an，因为 umbrella 以元音发音开头。",
+        "affirmative": {
+          "en": "It's sunny today.",
+          "zh": "今天是晴天。",
+          "id": "l10-g-aff"
+        },
+        "negative": {
+          "en": "It isn't cold today.",
+          "zh": "今天不冷。",
+          "id": "l10-g-neg"
+        },
+        "question": {
+          "en": "What's the weather like today?",
+          "zh": "今天天气怎么样？",
+          "id": "l10-g-q"
+        },
+        "mistakes": [
+          {
+            "bad": "How's the weather like today?",
+            "good": "What's the weather like today? / How's the weather today?",
+            "why": "like 已经在 What's ... like 里，不要再写成 How's the weather like。How's the weather? 也正确，本课练习以对话出现的 What's the weather like? 为准，不要把另一句设为错误项。"
+          },
+          {
+            "bad": "I wear going to a jacket.",
+            "good": "I'm going to wear a jacket.",
+            "why": "wear 是主要动词，放在 going to 后面用原形。"
+          },
+          {
+            "bad": "I need a umbrella.",
+            "good": "I need an umbrella.",
+            "why": "umbrella 以元音发音开头，用 an。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l10-e1",
+          "promptZh": "用本课语块询问今天天气，选择与课文一致且语法正确的一句。",
+          "answerId": "l10-e1-a",
+          "taughtReference": "l10-d1",
+          "options": [
+            {
+              "id": "l10-e1-a",
+              "textEn": "What's the weather like today?",
+              "textZh": "今天天气怎么样？",
+              "explanationZh": "正确，与对话第1句一致。"
+            },
+            {
+              "id": "l10-e1-b",
+              "textEn": "How's the weather like today?",
+              "textZh": "（错误形式）",
+              "explanationZh": "What's ... like 或 How's the weather 都可以，但两者不要混成 How's the weather like。"
+            },
+            {
+              "id": "l10-e1-c",
+              "textEn": "What's the weather like you today?",
+              "textZh": "（错误形式）",
+              "explanationZh": "多了 you，结构不成立。"
+            }
+          ]
+        },
+        {
+          "id": "l10-e2",
+          "promptZh": "你想说「我打算穿一件外套」，选择语法正确的一句。",
+          "answerId": "l10-e2-a",
+          "taughtReference": "l10-w-jacket",
+          "options": [
+            {
+              "id": "l10-e2-b",
+              "textEn": "I'm going to wearing a jacket.",
+              "textZh": "（错误形式）",
+              "explanationZh": "going to 后用动词原形 wear，不是 wearing。"
+            },
+            {
+              "id": "l10-e2-c",
+              "textEn": "I going to wear a jacket.",
+              "textZh": "（错误形式）",
+              "explanationZh": "漏了 am。"
+            },
+            {
+              "id": "l10-e2-a",
+              "textEn": "I'm going to wear a jacket.",
+              "textZh": "我打算穿一件外套。",
+              "explanationZh": "正确：be going to + wear 原形。"
+            }
+          ]
+        },
+        {
+          "id": "l10-e3",
+          "promptZh": "按对话，今天下午天气如何？",
+          "answerId": "l10-e3-a",
+          "taughtReference": "l10-d4",
+          "options": [
+            {
+              "id": "l10-e3-c",
+              "textEn": "It's going to rain.",
+              "textZh": "会下雨。",
+              "explanationZh": "与原文不符。B 说不会下雨。"
+            },
+            {
+              "id": "l10-e3-a",
+              "textEn": "It's warm.",
+              "textZh": "挺暖和的。",
+              "explanationZh": "正确，对话里说今天下午暖和。"
+            },
+            {
+              "id": "l10-e3-b",
+              "textEn": "It's cold.",
+              "textZh": "很冷。",
+              "explanationZh": "与原文不符。B 说不太冷。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-01",
+          "expression": "a bit",
+          "taughtReference": "l10-w-a-bit",
+          "examples": [
+            {
+              "setting": "天气",
+              "en": "It's a bit windy.",
+              "zh": "有点风。"
+            },
+            {
+              "setting": "身体状态",
+              "en": "I'm a bit tired.",
+              "zh": "我有点累。"
+            }
+          ],
+          "noteZh": "a bit + 形容词，表示程度轻。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-02",
+          "expression": "wear",
+          "taughtReference": "l10-w-wear",
+          "examples": [
+            {
+              "setting": "出门",
+              "en": "I'm going to wear a jacket.",
+              "zh": "我打算穿外套。"
+            },
+            {
+              "setting": "在家",
+              "en": "I wear these shoes at home.",
+              "zh": "我在家穿这双鞋。"
+            }
+          ],
+          "noteZh": "wear 说穿戴状态；打算做与平时做区别来自句子结构。",
+          "optionalPractice": false
+        }
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "title": "身体不适",
+      "titleEn": "Feeling unwell",
+      "objective": "用 I feel / I have a ... 说明身体不适；提出休息和吃药的日常说法；区分 well 表示身体好与睡得好。",
+      "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "I feel + 形容词；I have a headache 等身体不适语块；Feel better soon. 作为整句。",
+      "dialogue": [
+        {
+          "id": "l11-d1",
+          "speaker": "A",
+          "en": "You don't look so well. Are you okay?",
+          "zh": "你看起来不太舒服。你还好吗？"
+        },
+        {
+          "id": "l11-d2",
+          "speaker": "B",
+          "en": "I feel sick. I have a headache.",
+          "zh": "我感觉不舒服。我头疼。"
+        },
+        {
+          "id": "l11-d3",
+          "speaker": "A",
+          "en": "That's too bad. Do you want to rest?",
+          "zh": "真不好受。你想休息吗？"
+        },
+        {
+          "id": "l11-d4",
+          "speaker": "B",
+          "en": "Yeah. I'm going to lie down for a bit.",
+          "zh": "嗯。我打算躺一会儿。"
+        },
+        {
+          "id": "l11-d5",
+          "speaker": "A",
+          "en": "Do you need any medicine?",
+          "zh": "你需要药吗？"
+        },
+        {
+          "id": "l11-d6",
+          "speaker": "B",
+          "en": "I already have some, thanks.",
+          "zh": "我已经有一些了，谢谢。"
+        },
+        {
+          "id": "l11-d7",
+          "speaker": "A",
+          "en": "Feel better soon.",
+          "zh": "祝你早日好起来。"
+        },
+        {
+          "id": "l11-d8",
+          "speaker": "B",
+          "en": "Thanks. Talk to you later.",
+          "zh": "谢谢。回头聊。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l11-w-sick",
+          "word": "sick",
+          "pos": "形容词",
+          "sense": "不舒服的、生病的",
+          "exampleEn": "I feel sick.",
+          "exampleZh": "我感觉不舒服。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-well",
+          "word": "well",
+          "pos": "形容词（本课）",
+          "sense": "身体好、气色好；先前课里也作副词，如 sleep well（睡得好），看句子区分",
+          "exampleEn": "You don't look so well.",
+          "exampleZh": "你看起来不太舒服。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-feel",
+          "word": "feel",
+          "pos": "动词",
+          "sense": "感觉（身体或状态）",
+          "exampleEn": "I feel sick.",
+          "exampleZh": "我感觉不舒服。",
+          "note": "feel like（想吃/想做）已在吃饭课出现，本课 feel 是「感觉如何」。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-headache",
+          "word": "headache",
+          "pos": "可数名词",
+          "sense": "头疼；常用 I have a headache",
+          "exampleEn": "I have a headache.",
+          "exampleZh": "我头疼。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-rest",
+          "word": "rest",
+          "pos": "动词",
+          "sense": "休息",
+          "exampleEn": "Do you want to rest?",
+          "exampleZh": "你想休息吗？",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。",
+          "note": "本例 rest 是动词。rest 也可作名词，如 get some rest（休息一下）；take a break 中的名词是 break，不是 rest。"
+        },
+        {
+          "id": "l11-w-lie-down",
+          "word": "lie down",
+          "pos": "动词短语",
+          "sense": "躺下",
+          "exampleEn": "I'm going to lie down for a bit.",
+          "exampleZh": "我打算躺一会儿。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-medicine",
+          "word": "medicine",
+          "pos": "名词（本课不可数常见）",
+          "sense": "药",
+          "exampleEn": "I already have some medicine.",
+          "exampleZh": "我已经有一些药了。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-already",
+          "word": "already",
+          "pos": "副词",
+          "sense": "已经",
+          "exampleEn": "I already have some.",
+          "exampleZh": "我已经有一些了。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-soon",
+          "word": "soon",
+          "pos": "副词",
+          "sense": "很快、不久",
+          "exampleEn": "Feel better soon.",
+          "exampleZh": "早日好起来。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-better",
+          "word": "better",
+          "pos": "形容词",
+          "sense": "更好、好些了（身体好转）",
+          "exampleEn": "I feel better now.",
+          "exampleZh": "我现在觉得好些了。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-too-bad",
+          "word": "that's too bad",
+          "pos": "语块",
+          "sense": "真遗憾/真不好受（表示同情，不是指责「太坏了」）",
+          "exampleEn": "That's too bad.",
+          "exampleZh": "真不好受。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        },
+        {
+          "id": "l11-w-look",
+          "word": "look",
+          "pos": "动词",
+          "sense": "看起来（后接形容词）",
+          "exampleEn": "You don't look so well.",
+          "exampleZh": "你看起来不太舒服。",
+          "setting": "朋友见你状态不好，普通关心口语，不是看病的正式对话。"
+        }
+      ],
+      "grammar": {
+        "id": "l11-g",
+        "title": "I feel + 形容词；I have a headache",
+        "explanationZh": "说明身体状态：I feel sick.（我感觉不舒服。）I feel better.（我觉得好些了。）I have a headache.（我头疼。）feel 后接形容词；一般现在时否定用 don't feel，问句用 Do you feel ...?。well 在 You don't look so well 中指身体好，在 sleep well 中是副词。I feel sick 在英式英语中也常指恶心、想吐，具体看语境。Feel better soon. 是祝愿，不是医疗建议。I already have some. 中 some 代指前面说的药。Talk to you later. 是结束聊天的语块。",
+        "affirmative": {
+          "en": "I feel sick. I have a headache.",
+          "zh": "我感觉不舒服。我头疼。",
+          "id": "l11-g-aff"
+        },
+        "negative": {
+          "en": "I don't feel well.",
+          "zh": "我感觉不太舒服。",
+          "id": "l11-g-neg"
+        },
+        "question": {
+          "en": "Do you feel better?",
+          "zh": "你感觉好些了吗？",
+          "id": "l11-g-q"
+        },
+        "mistakes": [
+          {
+            "bad": "I have headache.",
+            "good": "I have a headache.",
+            "why": "这是固定语块，需要 a。"
+          },
+          {
+            "bad": "I feel like sick.",
+            "good": "I feel sick.",
+            "why": "本课说明身体感觉用 feel + 形容词 sick。feel like 后通常接名词或 -ing；它既可说想要，也可表示感觉像，不能一概只译成想要。"
+          },
+          {
+            "bad": "I already has some medicine.",
+            "good": "I already have some medicine.",
+            "why": "主语 I 用 have，不用 has。already 表示已经，不决定动词的人称形式。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l11-e1",
+          "promptZh": "你想说「我头疼」，选择本课教过的自然说法。",
+          "answerId": "l11-e1-a",
+          "taughtReference": "l11-d2",
+          "options": [
+            {
+              "id": "l11-e1-b",
+              "textEn": "I have headache.",
+              "textZh": "（缺少 a）",
+              "explanationZh": "需要 a headache。"
+            },
+            {
+              "id": "l11-e1-c",
+              "textEn": "I feel like a headache.",
+              "textZh": "（错误搭配）",
+              "explanationZh": "feel like 不这样表示头疼。"
+            },
+            {
+              "id": "l11-e1-a",
+              "textEn": "I have a headache.",
+              "textZh": "我头疼。",
+              "explanationZh": "正确，本课语块。"
+            }
+          ]
+        },
+        {
+          "id": "l11-e2",
+          "promptZh": "选择与「你看起来不太舒服」相符且语法正确的一句。",
+          "answerId": "l11-e2-a",
+          "taughtReference": "l11-d1",
+          "options": [
+            {
+              "id": "l11-e2-c",
+              "textEn": "You don't looking so well.",
+              "textZh": "（错误形式）",
+              "explanationZh": "助动词 don't 后用原形 look。"
+            },
+            {
+              "id": "l11-e2-a",
+              "textEn": "You don't look so well.",
+              "textZh": "你看起来不太舒服。",
+              "explanationZh": "正确，well 在这里指身体状态。"
+            },
+            {
+              "id": "l11-e2-b",
+              "textEn": "You don't looks so well.",
+              "textZh": "（look 的形式错误）",
+              "explanationZh": "don't 后接动词原形 look，不用 looks。"
+            }
+          ]
+        },
+        {
+          "id": "l11-e3",
+          "promptZh": "按对话，B 还需要对方给药品吗？",
+          "answerId": "l11-e3-a",
+          "taughtReference": "l11-d6",
+          "options": [
+            {
+              "id": "l11-e3-a",
+              "textEn": "No. B already has some medicine.",
+              "textZh": "不需要。B 已经有一些药了。",
+              "explanationZh": "正确，与原文一致。"
+            },
+            {
+              "id": "l11-e3-b",
+              "textEn": "Yes. B needs medicine from A.",
+              "textZh": "需要，B 要向 A 要药。",
+              "explanationZh": "与原文不符。B 说已经有一些了。"
+            },
+            {
+              "id": "l11-e3-c",
+              "textEn": "B is going to work now.",
+              "textZh": "B 现在要去工作。",
+              "explanationZh": "与原文不符。B 打算躺一会儿。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-03",
+          "expression": "better",
+          "taughtReference": "l11-w-better",
+          "examples": [
+            {
+              "setting": "身体",
+              "en": "I feel better now.",
+              "zh": "我现在觉得好些了。"
+            },
+            {
+              "setting": "身体询问",
+              "en": "Do you feel better today?",
+              "zh": "你今天觉得好些了吗？"
+            }
+          ],
+          "noteZh": "仍是身体好转，不自动换成更擅长某事。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-04",
+          "expression": "already",
+          "taughtReference": "l11-w-already",
+          "examples": [
+            {
+              "setting": "药品",
+              "en": "I already have some medicine.",
+              "zh": "我已经有一些药了。"
+            },
+            {
+              "setting": "车票",
+              "en": "I already have a ticket.",
+              "zh": "我已经有一张票了。"
+            }
+          ],
+          "noteZh": "already 表示已经，不等于完成某动作。",
+          "optionalPractice": false
+        }
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "title": "打电话和发消息",
+      "titleEn": "Calls and messages",
+      "objective": "用 call、send、message、reply 约定稍后联系；区分 right（正确的）与第6课的 right（右边）。",
+      "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "call / send / reply 的常用搭配；right 的「正确」义；just 表示「只要/就」。",
+      "dialogue": [
+        {
+          "id": "l12-d1",
+          "speaker": "A",
+          "en": "Can I call you later?",
+          "zh": "我能稍后再给你打电话吗？"
+        },
+        {
+          "id": "l12-d2",
+          "speaker": "B",
+          "en": "Sure. I'm in a meeting right now.",
+          "zh": "当然。我现在在开会。"
+        },
+        {
+          "id": "l12-d3",
+          "speaker": "A",
+          "en": "I'll send you a message.",
+          "zh": "我给你发条消息。"
+        },
+        {
+          "id": "l12-d4",
+          "speaker": "B",
+          "en": "Okay. I may not reply right away.",
+          "zh": "好。我可能没法马上回。"
+        },
+        {
+          "id": "l12-d5",
+          "speaker": "A",
+          "en": "No problem. Just tell me when you're free.",
+          "zh": "没关系。你有空时告诉我就行。"
+        },
+        {
+          "id": "l12-d6",
+          "speaker": "B",
+          "en": "I will. Did I give you the right number?",
+          "zh": "会的。我给你的号码是对的吗？"
+        },
+        {
+          "id": "l12-d7",
+          "speaker": "A",
+          "en": "Yeah, I already have it.",
+          "zh": "对，我已经有了。"
+        },
+        {
+          "id": "l12-d8",
+          "speaker": "B",
+          "en": "Great. Talk later.",
+          "zh": "好。回头聊。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l12-w-call",
+          "word": "call",
+          "pos": "动词",
+          "sense": "打电话",
+          "exampleEn": "Can I call you later?",
+          "exampleZh": "我能稍后再给你打电话吗？",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-message",
+          "word": "message",
+          "pos": "可数名词",
+          "sense": "消息、短信",
+          "exampleEn": "I'll send you a message.",
+          "exampleZh": "我给你发条消息。",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-send",
+          "word": "send",
+          "pos": "动词",
+          "sense": "发送",
+          "exampleEn": "I'll send you a message.",
+          "exampleZh": "我给你发条消息。",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-reply",
+          "word": "reply",
+          "pos": "动词（也可作名词，本课先作动词）",
+          "sense": "回复",
+          "exampleEn": "I may not reply right away.",
+          "exampleZh": "我可能没法马上回。",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-number",
+          "word": "number",
+          "pos": "可数名词",
+          "sense": "电话号码（本课）",
+          "exampleEn": "Did I give you the right number?",
+          "exampleZh": "我给你的号码是对的吗？",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-meeting",
+          "word": "meeting",
+          "pos": "可数名词",
+          "sense": "会议",
+          "exampleEn": "I'm in a meeting right now.",
+          "exampleZh": "我现在在开会。",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-right-adj",
+          "word": "right",
+          "pos": "形容词（本课）",
+          "sense": "正确的；第6课 turn right 是「向右」，必须看上下文",
+          "exampleEn": "Did I give you the right number?",
+          "exampleZh": "我给你的号码是对的吗？",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-give",
+          "word": "give",
+          "pos": "动词",
+          "sense": "给",
+          "exampleEn": "Did I give you the right number?",
+          "exampleZh": "我给你的号码是对的吗？",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-just",
+          "word": "just",
+          "pos": "副词",
+          "sense": "只、就（本课：只要告诉我就行）",
+          "exampleEn": "Just tell me when you're free.",
+          "exampleZh": "你有空时告诉我就行。",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-tell",
+          "word": "tell",
+          "pos": "动词",
+          "sense": "告诉（tell someone something）",
+          "exampleEn": "Just tell me when you're free.",
+          "exampleZh": "你有空时告诉我就行。",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-right-away",
+          "word": "right away",
+          "pos": "短语",
+          "sense": "马上、立刻",
+          "exampleEn": "I may not reply right away.",
+          "exampleZh": "我可能没法马上回。",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        },
+        {
+          "id": "l12-w-later",
+          "word": "later",
+          "pos": "副词",
+          "sense": "稍后、回头",
+          "exampleEn": "Can I call you later?",
+          "exampleZh": "我能稍后再给你打电话吗？",
+          "setting": "白天无法立刻通话，朋友改用消息联系；可出现简单工作场合，仍是日常口语。"
+        }
+      ],
+      "grammar": {
+        "id": "l12-g",
+        "title": "call / send / tell 的搭配；right 的两种常见意思",
+        "explanationZh": "本课 focus 是动词和宾语的搭配：call you（给你打电话），send you a message（给你发消息），tell me（告诉我）。send a message to you 也正确。call to someone 可指朝某人喊话，不是本课的电话含义。right 在 the right number 中是正确的，在 turn right 中是向右，right now 是现在。I may not reply right away. 整句表示我可能不能马上回；may not + reply 原形，本课只认读，不测试 may 的新规则。I will. 在此答应会告诉对方；I'll 是 I will 的缩写。",
+        "affirmative": {
+          "en": "I'll send you a message.",
+          "zh": "我给你发条消息。",
+          "id": "l12-g-aff"
+        },
+        "negative": {
+          "en": "I may not reply right away.",
+          "zh": "我可能没法马上回。",
+          "id": "l12-g-neg"
+        },
+        "question": {
+          "en": "Can I call you later?",
+          "zh": "我能稍后再给你打电话吗？",
+          "id": "l12-g-q"
+        },
+        "mistakes": [
+          {
+            "bad": "Can I call to you later?",
+            "good": "Can I call you later?",
+            "why": "call 表示打电话时，直接接人，不必加 to。"
+          },
+          {
+            "bad": "Tell to me when you're free.",
+            "good": "Tell me when you're free.",
+            "why": "tell 后面直接跟人。"
+          },
+          {
+            "bad": "I'll send a message you.",
+            "good": "I'll send you a message. / I'll send a message to you.",
+            "why": "间接宾语 you 通常放在 message 前，或用 to you。本课练习认第一种。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l12-e1",
+          "promptZh": "你想礼貌地问能否稍后再打电话，选择语法正确的一句。",
+          "answerId": "l12-e1-a",
+          "taughtReference": "l12-d1",
+          "options": [
+            {
+              "id": "l12-e1-c",
+              "textEn": "Can I calling you later?",
+              "textZh": "（错误形式）",
+              "explanationZh": "can 后用原形 call。"
+            },
+            {
+              "id": "l12-e1-a",
+              "textEn": "Can I call you later?",
+              "textZh": "我能稍后再给你打电话吗？",
+              "explanationZh": "正确。"
+            },
+            {
+              "id": "l12-e1-b",
+              "textEn": "Can I call to you later?",
+              "textZh": "（多余的 to）",
+              "explanationZh": "call 后面直接接 you。"
+            }
+          ]
+        },
+        {
+          "id": "l12-e2",
+          "promptZh": "选择与「你有空时告诉我就行」相符的一句。",
+          "answerId": "l12-e2-a",
+          "taughtReference": "l12-d5",
+          "options": [
+            {
+              "id": "l12-e2-a",
+              "textEn": "Just tell me when you're free.",
+              "textZh": "你有空时告诉我就行。",
+              "explanationZh": "正确。"
+            },
+            {
+              "id": "l12-e2-b",
+              "textEn": "Just tell to me when you're free.",
+              "textZh": "（多余的 to）",
+              "explanationZh": "tell 后直接接 me。"
+            },
+            {
+              "id": "l12-e2-c",
+              "textEn": "Just tell me when you're right.",
+              "textZh": "你对的时候告诉我。",
+              "explanationZh": "free 是「有空」；right 在本课是「正确」，不能替换。"
+            }
+          ]
+        },
+        {
+          "id": "l12-e3",
+          "promptZh": "对话里 the right number 的 right 是什么意思？",
+          "answerId": "l12-e3-a",
+          "taughtReference": "l12-d6",
+          "options": [
+            {
+              "id": "l12-e3-b",
+              "textEn": "right →",
+              "textZh": "右边；向右",
+              "explanationZh": "right 可以表示右边，但在 the right number 中不是这个意思。"
+            },
+            {
+              "id": "l12-e3-c",
+              "textEn": "free",
+              "textZh": "有空的",
+              "explanationZh": "free 在 when you're free 中表示有空，不是本句 right 的意思。"
+            },
+            {
+              "id": "l12-e3-a",
+              "textEn": "right = correct",
+              "textZh": "正确的",
+              "explanationZh": "这里在确认电话号码对不对，right 表示正确的；correct 为辅助英文释义，不作为新词考查。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-05",
+          "expression": "reply",
+          "taughtReference": "l12-w-reply",
+          "examples": [
+            {
+              "setting": "朋友消息",
+              "en": "I'll reply later.",
+              "zh": "我稍后回复。"
+            },
+            {
+              "setting": "工作消息",
+              "en": "I can't reply right away.",
+              "zh": "我不能马上回复。"
+            }
+          ],
+          "noteZh": "reply 是回复；认读 can't reply，不新增评分题。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-06",
+          "expression": "right",
+          "taughtReference": "l12-w-right-adj",
+          "examples": [
+            {
+              "setting": "号码",
+              "en": "Is this the right number?",
+              "zh": "这是正确的号码吗？"
+            },
+            {
+              "setting": "路线",
+              "en": "Is this the right bus?",
+              "zh": "这是我们要坐的那班公交车吗？"
+            }
+          ],
+          "noteZh": "right 可表示正确或符合需要，不总是右边。",
+          "optionalPractice": false
+        }
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "title": "在家做事",
+      "titleEn": "Around the house",
+      "objective": "用 put、open、wash、start、still 谈论家务和物品位置；能拜托对方做一件小事。",
+      "setting": "室友在家收拾，普通随意口语。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "put + 物品 + 地点；open/close；still 表示「仍然」。",
+      "dialogue": [
+        {
+          "id": "l13-d1",
+          "speaker": "A",
+          "en": "Can you open the window? It's hot in here.",
+          "zh": "你能开一下窗吗？这里有点热。"
+        },
+        {
+          "id": "l13-d2",
+          "speaker": "B",
+          "en": "Sure. Where do I put these bowls?",
+          "zh": "当然。这些碗放哪儿？"
+        },
+        {
+          "id": "l13-d3",
+          "speaker": "A",
+          "en": "Just put them on the table. I'll wash them later.",
+          "zh": "先放桌上就行。我稍后洗。"
+        },
+        {
+          "id": "l13-d4",
+          "speaker": "B",
+          "en": "Do you want me to take out the trash?",
+          "zh": "要我把垃圾带出去吗？"
+        },
+        {
+          "id": "l13-d5",
+          "speaker": "A",
+          "en": "That would be great. The bag is by the door.",
+          "zh": "那太好了。袋子在门边。"
+        },
+        {
+          "id": "l13-d6",
+          "speaker": "B",
+          "en": "Okay. I'm going to start now.",
+          "zh": "好。我现在就开始。"
+        },
+        {
+          "id": "l13-d7",
+          "speaker": "A",
+          "en": "Thanks. I still need to clean the kitchen.",
+          "zh": "谢谢。我还得打扫厨房。"
+        },
+        {
+          "id": "l13-d8",
+          "speaker": "B",
+          "en": "I can help after this.",
+          "zh": "做完这个我可以来帮忙。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l13-w-open",
+          "word": "open",
+          "pos": "动词（先前也见过形容词 The store is open）",
+          "sense": "打开；形容词义是「开着的/营业的」，按句子区分",
+          "exampleEn": "Can you open the window?",
+          "exampleZh": "你能开一下窗吗？",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-close",
+          "word": "close",
+          "pos": "动词",
+          "sense": "关上",
+          "exampleEn": "Please close the window.",
+          "exampleZh": "请把窗关上。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-window",
+          "word": "window",
+          "pos": "可数名词",
+          "sense": "窗户",
+          "exampleEn": "Can you open the window?",
+          "exampleZh": "你能开一下窗吗？",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-door",
+          "word": "door",
+          "pos": "可数名词",
+          "sense": "门",
+          "exampleEn": "The bag is by the door.",
+          "exampleZh": "袋子在门边。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-put",
+          "word": "put",
+          "pos": "动词",
+          "sense": "放",
+          "exampleEn": "Just put them on the table.",
+          "exampleZh": "先放桌上就行。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-wash",
+          "word": "wash",
+          "pos": "动词",
+          "sense": "洗",
+          "exampleEn": "I'll wash them later.",
+          "exampleZh": "我稍后洗。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-trash",
+          "word": "trash",
+          "pos": "名词（本课不可数）",
+          "sense": "垃圾；take out the trash 是常用语块",
+          "exampleEn": "Do you want me to take out the trash?",
+          "exampleZh": "要我把垃圾带出去吗？",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-start",
+          "word": "start",
+          "pos": "动词",
+          "sense": "开始",
+          "exampleEn": "I'm going to start now.",
+          "exampleZh": "我现在就开始。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-still",
+          "word": "still",
+          "pos": "副词",
+          "sense": "仍然、还",
+          "exampleEn": "I still need to clean the kitchen.",
+          "exampleZh": "我还得打扫厨房。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-clean",
+          "word": "clean",
+          "pos": "动词（也可作形容词「干净的」）",
+          "sense": "打扫、弄干净",
+          "exampleEn": "I still need to clean the kitchen.",
+          "exampleZh": "我还得打扫厨房。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-by",
+          "word": "by",
+          "pos": "介词",
+          "sense": "在……旁边（本课：by the door）",
+          "exampleEn": "The bag is by the door.",
+          "exampleZh": "袋子在门边。",
+          "setting": "室友在家收拾，普通随意口语。"
+        },
+        {
+          "id": "l13-w-help",
+          "word": "help",
+          "pos": "动词（复现）",
+          "sense": "帮助",
+          "exampleEn": "I can help after this.",
+          "exampleZh": "做完这个我可以来帮忙。",
+          "setting": "室友在家收拾，普通随意口语。"
+        }
+      ],
+      "grammar": {
+        "id": "l13-g",
+        "title": "put + 物品 + 地点；still 与 already 对照",
+        "explanationZh": "本课重点：put + 物品 + 地点。Put them on the table.（把它们放桌上。）否定指示用 Don't put ...，问位置用 Where do I put ...?。them 指前文的 bowls。still 表示仍然：I still need to clean the kitchen.（我还得打扫厨房。）already 表示已经，不自带做完的意思，如 I already have some.（我已经有一些了。）Do you want me to ...? 和 That would be great. 作为主动帮忙与接受帮助的语块，暂不测试 would。take out the trash 是把垃圾带出去；in here 是在这屋里。",
+        "affirmative": {
+          "en": "Just put them on the table.",
+          "zh": "先放桌上就行。",
+          "id": "l13-g-aff"
+        },
+        "negative": {
+          "en": "Don't put the bowls on the table.",
+          "zh": "别把碗放在桌上。（独立语法例句，并非对话中的指示。）",
+          "id": "l13-g-neg"
+        },
+        "question": {
+          "en": "Where do I put these bowls?",
+          "zh": "这些碗放哪儿？",
+          "id": "l13-g-q"
+        },
+        "mistakes": [
+          {
+            "bad": "Put the table the bowls.",
+            "good": "Put the bowls on the table.",
+            "why": "先说物品，再说地点介词短语。"
+          },
+          {
+            "bad": "I still needs to clean the kitchen.",
+            "good": "I still need to clean the kitchen.",
+            "why": "主语 I 用 need 原形；still 不改变主谓搭配。already 与 still 含义不同，但 already need 在适当语境中也成立，不是普遍错误。"
+          },
+          {
+            "bad": "Can you open window?",
+            "good": "Can you open the window?",
+            "why": "特指这扇窗时通常要 the。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l13-e1",
+          "promptZh": "你想说「把它们放在桌上」，选择语序正确的一句。",
+          "answerId": "l13-e1-a",
+          "taughtReference": "l13-d3",
+          "options": [
+            {
+              "id": "l13-e1-a",
+              "textEn": "Put them on the table.",
+              "textZh": "把它们放在桌上。",
+              "explanationZh": "正确。"
+            },
+            {
+              "id": "l13-e1-b",
+              "textEn": "Put on the table them.",
+              "textZh": "（语序错误）",
+              "explanationZh": "them 要放在地点短语前面。"
+            },
+            {
+              "id": "l13-e1-c",
+              "textEn": "Put the table them.",
+              "textZh": "（缺少介词，语序也不对）",
+              "explanationZh": "需要 on the table。"
+            }
+          ]
+        },
+        {
+          "id": "l13-e2",
+          "promptZh": "选择语法正确、表达「我还得打扫厨房」的一句。",
+          "answerId": "l13-e2-a",
+          "taughtReference": "l13-d7",
+          "options": [
+            {
+              "id": "l13-e2-b",
+              "textEn": "I still needs to clean the kitchen.",
+              "textZh": "（need 的形式错误）",
+              "explanationZh": "主语 I 用 need，不用 needs。"
+            },
+            {
+              "id": "l13-e2-c",
+              "textEn": "I still need clean the kitchen.",
+              "textZh": "（缺少 to）",
+              "explanationZh": "need to + 原形。"
+            },
+            {
+              "id": "l13-e2-a",
+              "textEn": "I still need to clean the kitchen.",
+              "textZh": "我还得打扫厨房。",
+              "explanationZh": "still 表示仍然；need to clean 表示需要打扫，不表示已经做完。"
+            }
+          ]
+        },
+        {
+          "id": "l13-e3",
+          "promptZh": "按对话，垃圾袋现在在哪里？",
+          "answerId": "l13-e3-a",
+          "taughtReference": "l13-d5",
+          "options": [
+            {
+              "id": "l13-e3-c",
+              "textEn": "In the kitchen window.",
+              "textZh": "在厨房窗户里。",
+              "explanationZh": "与原文不符。"
+            },
+            {
+              "id": "l13-e3-a",
+              "textEn": "By the door.",
+              "textZh": "在门边。",
+              "explanationZh": "正确，与原文一致。"
+            },
+            {
+              "id": "l13-e3-b",
+              "textEn": "On the table.",
+              "textZh": "在桌上。",
+              "explanationZh": "与原文不符。桌上要放的是碗。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-07",
+          "expression": "put",
+          "taughtReference": "l13-w-put",
+          "examples": [
+            {
+              "setting": "厨房",
+              "en": "Put the bowls on the table.",
+              "zh": "把碗放在桌上。"
+            },
+            {
+              "setting": "出门前",
+              "en": "Put the keys in the bag.",
+              "zh": "把钥匙放包里。"
+            }
+          ],
+          "noteZh": "put + 物品 + 地点，介词按位置选择。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-08",
+          "expression": "still",
+          "taughtReference": "l13-w-still",
+          "examples": [
+            {
+              "setting": "家务",
+              "en": "I still need to clean the kitchen.",
+              "zh": "我还得打扫厨房。"
+            },
+            {
+              "setting": "等待",
+              "en": "I'm still waiting.",
+              "zh": "我还在等。"
+            }
+          ],
+          "noteZh": "still 放在主要动词前或 am 后；表示状态继续。",
+          "optionalPractice": false
+        }
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "title": "出门前拜托小事",
+      "titleEn": "A small favor before leaving",
+      "objective": "区分 bring（带来）和 take（带走）；使用 leave、forget、remember、also、too；礼貌拜托对方捎东西。",
+      "setting": "两位室友准备分别出门，A 在门口，B 在屋内；B 稍后也出门。普通随意口语。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "bring 与 take 的方向差异；leave；forget / remember；too 和 also 表示「也」。",
+      "dialogue": [
+        {
+          "id": "l14-d1",
+          "speaker": "A",
+          "en": "I'm leaving soon. Can you bring me my phone?",
+          "zh": "我马上要走了。你能把我的手机拿过来吗？"
+        },
+        {
+          "id": "l14-d2",
+          "speaker": "B",
+          "en": "It's on the table. I'll bring it.",
+          "zh": "在桌上。我拿过来。"
+        },
+        {
+          "id": "l14-d3",
+          "speaker": "A",
+          "en": "Thanks. Don't forget the keys.",
+          "zh": "谢谢。别忘了钥匙。"
+        },
+        {
+          "id": "l14-d4",
+          "speaker": "B",
+          "en": "Don't worry. I'll bring them over. I'm leaving soon too.",
+          "zh": "别担心。我会把钥匙拿过来。我也快出门了。"
+        },
+        {
+          "id": "l14-d5",
+          "speaker": "A",
+          "en": "Do you want me to take this bag too?",
+          "zh": "要我也把这个包带走吗？"
+        },
+        {
+          "id": "l14-d6",
+          "speaker": "B",
+          "en": "Yes, please. Can you also give this to Sam?",
+          "zh": "好的，麻烦你了。你还能把这个交给 Sam 吗？"
+        },
+        {
+          "id": "l14-d7",
+          "speaker": "A",
+          "en": "Sure. When are you coming back?",
+          "zh": "当然。你什么时候回来？"
+        },
+        {
+          "id": "l14-d8",
+          "speaker": "B",
+          "en": "Tonight. I'll text you.",
+          "zh": "今晚。我给你发消息。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l14-w-leave",
+          "word": "leave",
+          "pos": "动词",
+          "sense": "离开",
+          "exampleEn": "I'm leaving soon.",
+          "exampleZh": "我马上要走了。",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-bring",
+          "word": "bring",
+          "pos": "动词",
+          "sense": "带来、拿过来（朝说话人所在或目的地过来）",
+          "exampleEn": "Can you bring me my phone?",
+          "exampleZh": "你能把我的手机拿过来吗？",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-take",
+          "word": "take",
+          "pos": "动词",
+          "sense": "带走（从这里拿到别处）；先前 take out the trash 是「拿出去」",
+          "exampleEn": "Do you want me to take this bag too?",
+          "exampleZh": "要我也把这个包带走吗？",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-forget",
+          "word": "forget",
+          "pos": "动词",
+          "sense": "忘记",
+          "exampleEn": "Don't forget the keys.",
+          "exampleZh": "别忘了钥匙。",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-remember",
+          "word": "remember",
+          "pos": "动词",
+          "sense": "记得",
+          "exampleEn": "I remember where the keys are.",
+          "exampleZh": "我记得钥匙在哪儿。",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-also",
+          "word": "also",
+          "pos": "副词",
+          "sense": "也（常放在动词前或 be 后）",
+          "exampleEn": "Can you also give this to Sam?",
+          "exampleZh": "你也能把这个给 Sam 吗？",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-too",
+          "word": "too",
+          "pos": "副词",
+          "sense": "也（常放句末）；注意 That's too bad 里的 too 是「太」，不是「也」",
+          "exampleEn": "Do you want me to take this bag too?",
+          "exampleZh": "要我也把这个包带走吗？",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-please",
+          "word": "please",
+          "pos": "语用词",
+          "sense": "请；Yes, please. 可用于接受对方提供的东西或帮助，不是表示自己同意去帮忙。",
+          "exampleEn": "Yes, please.",
+          "exampleZh": "好的，麻烦你了。",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-back",
+          "word": "back",
+          "pos": "副词（本课）",
+          "sense": "回来；coming back = 回来",
+          "exampleEn": "When are you coming back?",
+          "exampleZh": "你什么时候回来？",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-tonight",
+          "word": "tonight",
+          "pos": "副词/名词",
+          "sense": "今晚",
+          "exampleEn": "I'm coming back tonight.",
+          "exampleZh": "我今晚回来。",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-text",
+          "word": "text",
+          "pos": "动词（也可作名词「短信」）",
+          "sense": "发消息、发短信",
+          "exampleEn": "I'll text you.",
+          "exampleZh": "我给你发消息。",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        },
+        {
+          "id": "l14-w-worry",
+          "word": "worry",
+          "pos": "动词",
+          "sense": "担心；Don't worry 是常用语块",
+          "exampleEn": "Don't worry.",
+          "exampleZh": "别担心。",
+          "setting": "你要出门，拜托室友帮忙拿东西，普通日常口语。"
+        }
+      ],
+      "grammar": {
+        "id": "l14-g",
+        "title": "bring 与 take；too / also；Don't forget ...",
+        "explanationZh": "本课把 bring / take 放在明确位置里学：A 在门口，请 B 把手机拿到 A 这边来，用 bring；A 把包带去别处，用 take。选择哪个动词还取决于说话人、听话人及约定目的地的视角，不是机械的远近规则。Don't forget the keys.（别忘钥匙。）I remember where the keys are.（我记得钥匙在哪儿。）too 在句末表示也；also 在 Can you also give ... 中位于 can 后、give 前。Yes, please. 表示接受对方提出的帮助。coming back 表示回来；本对话 B 也要出门，因此 A 问 B 什么时候回来。I'll text you. 整句表示我会给你发消息。",
+        "affirmative": {
+          "en": "I'll bring it.",
+          "zh": "我拿过来。",
+          "id": "l14-g-aff"
+        },
+        "negative": {
+          "en": "Don't forget the keys.",
+          "zh": "别忘了钥匙。",
+          "id": "l14-g-neg"
+        },
+        "question": {
+          "en": "Can you bring me my phone?",
+          "zh": "你能把我的手机拿过来吗？",
+          "id": "l14-g-q"
+        },
+        "mistakes": [
+          {
+            "bad": "Can you brings me my phone?",
+            "good": "Can you bring me my phone? / Can you bring my phone to me?",
+            "why": "can 后用 bring 原形。bring me my phone 和 bring my phone to me 都正确。"
+          },
+          {
+            "bad": "Don't forget remember the keys.",
+            "good": "Don't forget the keys. / I remember the keys.",
+            "why": "forget 和 remember 不要叠在同一祈使句里。"
+          },
+          {
+            "bad": "Can you give this Sam?",
+            "good": "Can you give this to Sam?",
+            "why": "给人时常用 give this to + 人。give Sam this 也可以，但本课认带 to 的形式；不要把后者列为错误项。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l14-e1",
+          "promptZh": "手机在另一间房间，你请对方拿到你这边来。选择更符合本课方向讲解的一句。",
+          "answerId": "l14-e1-a",
+          "taughtReference": "l14-d1",
+          "options": [
+            {
+              "id": "l14-e1-b",
+              "textEn": "Can you brings me my phone?",
+              "textZh": "（bring 的形式错误）",
+              "explanationZh": "can 后用动词原形 bring，不用 brings。"
+            },
+            {
+              "id": "l14-e1-c",
+              "textEn": "Can you bringing me my phone?",
+              "textZh": "（错误形式）",
+              "explanationZh": "can 后用原形 bring。不要把 take this bag 设为错误项，因为它在「带走」的语境里也成立。"
+            },
+            {
+              "id": "l14-e1-a",
+              "textEn": "Can you bring me my phone?",
+              "textZh": "你能把我的手机拿过来吗？",
+              "explanationZh": "正确。朝你这边拿过来用 bring。"
+            }
+          ]
+        },
+        {
+          "id": "l14-e2",
+          "promptZh": "你想提醒对方别忘了钥匙，选择正确的一句。",
+          "answerId": "l14-e2-a",
+          "taughtReference": "l14-d3",
+          "options": [
+            {
+              "id": "l14-e2-c",
+              "textEn": "Don't remember the keys.",
+              "textZh": "别记得钥匙。",
+              "explanationZh": "意思相反。要说记得用 I remember，或提醒别忘用 Don't forget。"
+            },
+            {
+              "id": "l14-e2-a",
+              "textEn": "Don't forget the keys.",
+              "textZh": "别忘了钥匙。",
+              "explanationZh": "正确。"
+            },
+            {
+              "id": "l14-e2-b",
+              "textEn": "Don't forgetting the keys.",
+              "textZh": "（错误形式）",
+              "explanationZh": "Don't 后用原形 forget。"
+            }
+          ]
+        },
+        {
+          "id": "l14-e3",
+          "promptZh": "按对话，B 什么时候回来？",
+          "answerId": "l14-e3-a",
+          "taughtReference": "l14-d8",
+          "options": [
+            {
+              "id": "l14-e3-a",
+              "textEn": "Tonight.",
+              "textZh": "今晚。",
+              "explanationZh": "正确，与原文一致。"
+            },
+            {
+              "id": "l14-e3-b",
+              "textEn": "Tomorrow morning.",
+              "textZh": "明天早上。",
+              "explanationZh": "与原文不符。"
+            },
+            {
+              "id": "l14-e3-c",
+              "textEn": "B is not coming back.",
+              "textZh": "B 不回来了。",
+              "explanationZh": "与原文不符。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-09",
+          "expression": "bring",
+          "taughtReference": "l14-w-bring",
+          "examples": [
+            {
+              "setting": "门口",
+              "en": "Can you bring me my phone?",
+              "zh": "你能把手机给我拿过来吗？"
+            },
+            {
+              "setting": "约饭",
+              "en": "Can you bring some water?",
+              "zh": "你能带些水来吗？"
+            }
+          ],
+          "noteZh": "bring 的方向可指说话人所在处或双方约定的目的地。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-10",
+          "expression": "too",
+          "taughtReference": "l14-w-too",
+          "examples": [
+            {
+              "setting": "带东西",
+              "en": "I'll take the keys too.",
+              "zh": "我也会把钥匙带上。"
+            },
+            {
+              "setting": "吃饭",
+              "en": "I want some noodles too.",
+              "zh": "我也想吃些面。"
+            }
+          ],
+          "noteZh": "句末 too 表示也，不是 too hot 中的太。",
+          "optionalPractice": false
+        }
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "title": "工作时的短招呼",
+      "titleEn": "Light work small talk",
+      "objective": "用简短口语询问进度、请人看一眼、说自己快做完了；不写正式邮件腔。",
+      "setting": "同事在工位或线上短聊，普通工作口语，不是汇报或正式邮件。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "almost / done / finish；Can you take a look?；in a minute 语块。",
+      "dialogue": [
+        {
+          "id": "l15-d1",
+          "speaker": "A",
+          "en": "Hey. How's it going?",
+          "zh": "嘿，进展怎么样？"
+        },
+        {
+          "id": "l15-d2",
+          "speaker": "B",
+          "en": "Pretty good. I'm almost done.",
+          "zh": "还不错。我快做完了。"
+        },
+        {
+          "id": "l15-d3",
+          "speaker": "A",
+          "en": "Can you take a look at this later?",
+          "zh": "你稍后能看一眼这个吗？"
+        },
+        {
+          "id": "l15-d4",
+          "speaker": "B",
+          "en": "Sure. Just give me a minute.",
+          "zh": "当然。稍等我一下。"
+        },
+        {
+          "id": "l15-d5",
+          "speaker": "A",
+          "en": "No rush. I can send it by email too.",
+          "zh": "不着急。我也可以用邮件发过去。"
+        },
+        {
+          "id": "l15-d6",
+          "speaker": "B",
+          "en": "Okay. Are you free after the meeting?",
+          "zh": "好。开完会你有空吗？"
+        },
+        {
+          "id": "l15-d7",
+          "speaker": "A",
+          "en": "Yeah. We can check it together then.",
+          "zh": "有空。到时候我们一起看。"
+        },
+        {
+          "id": "l15-d8",
+          "speaker": "B",
+          "en": "Great. I'll come by your desk.",
+          "zh": "好。我去你工位找你。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l15-w-hows-it-going",
+          "word": "How's it going?",
+          "pos": "语块",
+          "sense": "进展怎么样 / 最近怎么样（本课是问手头进展，也可作打招呼）",
+          "exampleEn": "Hey. How's it going?",
+          "exampleZh": "嘿，进展怎么样？",
+          "setting": "同事短聊"
+        },
+        {
+          "id": "l15-w-pretty-good",
+          "word": "pretty good",
+          "pos": "语块",
+          "sense": "还不错",
+          "exampleEn": "Pretty good.",
+          "exampleZh": "还不错。",
+          "setting": "回答近况或进展"
+        },
+        {
+          "id": "l15-w-almost",
+          "word": "almost",
+          "pos": "副词",
+          "sense": "几乎、快要",
+          "exampleEn": "I'm almost done.",
+          "exampleZh": "我快做完了。",
+          "setting": "说进度"
+        },
+        {
+          "id": "l15-w-done",
+          "word": "done",
+          "pos": "形容词",
+          "sense": "做完了",
+          "exampleEn": "I'm almost done.",
+          "exampleZh": "我快做完了。",
+          "setting": "说进度"
+        },
+        {
+          "id": "l15-w-finish",
+          "word": "finish",
+          "pos": "动词",
+          "sense": "完成",
+          "exampleEn": "I can finish this today.",
+          "exampleZh": "我今天能做完这个。",
+          "setting": "说能否完成"
+        },
+        {
+          "id": "l15-w-take-a-look",
+          "word": "take a look",
+          "pos": "语块",
+          "sense": "看一眼、检查一下",
+          "exampleEn": "Can you take a look at this later?",
+          "exampleZh": "你稍后能看一眼这个吗？",
+          "setting": "请同事帮忙看"
+        },
+        {
+          "id": "l15-w-minute",
+          "word": "minute",
+          "pos": "可数名词",
+          "sense": "分钟；give me a minute 通常是让我稍等一下，不一定精确一分钟。",
+          "exampleEn": "Just give me a minute.",
+          "exampleZh": "稍等我一下。",
+          "setting": "请人稍等"
+        },
+        {
+          "id": "l15-w-rush",
+          "word": "rush",
+          "pos": "名词（本课）",
+          "sense": "着急；No rush 是常用语块，表示不着急",
+          "exampleEn": "No rush.",
+          "exampleZh": "不着急。",
+          "setting": "让对方不用赶"
+        },
+        {
+          "id": "l15-w-email",
+          "word": "email",
+          "pos": "名词（也可作动词，本课先作名词）",
+          "sense": "电子邮件",
+          "exampleEn": "I can send it by email too.",
+          "exampleZh": "我也可以用邮件发过去。",
+          "setting": "工作联系"
+        },
+        {
+          "id": "l15-w-together",
+          "word": "together",
+          "pos": "副词",
+          "sense": "一起",
+          "exampleEn": "We can check it together then.",
+          "exampleZh": "到时候我们一起看。",
+          "setting": "约定一起看"
+        },
+        {
+          "id": "l15-w-check",
+          "word": "check",
+          "pos": "动词",
+          "sense": "查看、核对",
+          "exampleEn": "We can check it together then.",
+          "exampleZh": "到时候我们一起看。",
+          "setting": "一起核对内容"
+        },
+        {
+          "id": "l15-w-desk",
+          "word": "desk",
+          "pos": "可数名词",
+          "sense": "办公桌、工位",
+          "exampleEn": "I'll come by your desk.",
+          "exampleZh": "我去你工位找你。",
+          "setting": "办公室找人"
+        }
+      ],
+      "grammar": {
+        "id": "l15-g",
+        "title": "说进度：almost / done；请人看一眼",
+        "explanationZh": "本课重点：I'm almost done.（我快做完了。）done 在这里描述完成状态，不能把 finish 原形直接放到 I'm 后面。take a look at this 表示看看或检查这个；Can you see this? 则可问对方看不看得见，例如共享屏幕，两句用途不同，没有普遍的自然程度高低。Just give me a minute. 通常是稍等一下，不保证恰好一分钟。No rush. 是不着急。by email 是用邮件；come by your desk 是到你工位来。How's it going? 可问近况，也可结合手头任务问进度。",
+        "affirmative": {
+          "id": "l15-g-aff",
+          "en": "I'm almost done.",
+          "zh": "我快做完了。"
+        },
+        "negative": {
+          "id": "l15-g-neg",
+          "en": "No rush. I don't need it right away.",
+          "zh": "不着急。我不是马上就要。"
+        },
+        "question": {
+          "id": "l15-g-q",
+          "en": "Can you take a look at this later?",
+          "zh": "你稍后能看一眼这个吗？"
+        },
+        "mistakes": [
+          {
+            "bad": "I'm almost finish.",
+            "good": "I'm almost done.",
+            "why": "这里 am 后用 done 描述快完成的状态。I can finish this today. 表示今天能做完，是另一层意思，不把它当作快做完的同义替换。"
+          },
+          {
+            "bad": "Can you take look this?",
+            "good": "Can you take a look at this?",
+            "why": "语块是 take a look at。"
+          },
+          {
+            "bad": "Give me minute.",
+            "good": "Give me a minute.",
+            "why": "需要 a minute。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l15-e1",
+          "promptZh": "你想说自己快做完了，选择本课教过的自然说法。",
+          "answerId": "l15-e1-a",
+          "taughtReference": "l15-d2",
+          "options": [
+            {
+              "id": "l15-e1-c",
+              "textEn": "I'm almost to done.",
+              "textZh": "（错误形式）",
+              "explanationZh": "多余的 to。"
+            },
+            {
+              "id": "l15-e1-a",
+              "textEn": "I'm almost done.",
+              "textZh": "我快做完了。",
+              "explanationZh": "正确。"
+            },
+            {
+              "id": "l15-e1-b",
+              "textEn": "I'm almost finish.",
+              "textZh": "（错误形式）",
+              "explanationZh": "这里 am 后用 done 描述完成状态，不能直接接动词原形 finish；不是说 almost 后永远不能跟 finish。"
+            }
+          ]
+        },
+        {
+          "id": "l15-e2",
+          "promptZh": "请同事稍后看一眼这份东西，选择正确的一句。",
+          "answerId": "l15-e2-a",
+          "taughtReference": "l15-d3",
+          "options": [
+            {
+              "id": "l15-e2-a",
+              "textEn": "Can you take a look at this later?",
+              "textZh": "你稍后能看一眼这个吗？",
+              "explanationZh": "正确。"
+            },
+            {
+              "id": "l15-e2-b",
+              "textEn": "Can you take look at this later?",
+              "textZh": "（缺少 a）",
+              "explanationZh": "需要 a look。"
+            },
+            {
+              "id": "l15-e2-c",
+              "textEn": "Can you take a look this later?",
+              "textZh": "（缺少 at）",
+              "explanationZh": "需要 look at this。"
+            }
+          ]
+        },
+        {
+          "id": "l15-e3",
+          "promptZh": "按对话，B 打算在哪里和 A 会合？",
+          "answerId": "l15-e3-a",
+          "taughtReference": "l15-d8",
+          "options": [
+            {
+              "id": "l15-e3-b",
+              "textEn": "At the station.",
+              "textZh": "在车站。",
+              "explanationZh": "与原文不符。"
+            },
+            {
+              "id": "l15-e3-c",
+              "textEn": "B is not going to meet A.",
+              "textZh": "B 不打算见 A。",
+              "explanationZh": "与原文不符。"
+            },
+            {
+              "id": "l15-e3-a",
+              "textEn": "At A's desk.",
+              "textZh": "在 A 的工位。",
+              "explanationZh": "正确。B 说 I'll come by your desk。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-11",
+          "expression": "take a look",
+          "taughtReference": "l15-w-take-a-look",
+          "examples": [
+            {
+              "setting": "同事",
+              "en": "Can you take a look at this?",
+              "zh": "你能看看这个吗？"
+            },
+            {
+              "setting": "购物",
+              "en": "Can I take a look?",
+              "zh": "我能看看吗？"
+            }
+          ],
+          "noteZh": "take a look 后说对象常用 at；不说对象时可直接结束。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-12",
+          "expression": "a minute",
+          "taughtReference": "l15-w-minute",
+          "examples": [
+            {
+              "setting": "工作",
+              "en": "Give me a minute.",
+              "zh": "稍等我一下。"
+            },
+            {
+              "setting": "电话",
+              "en": "Can you wait a minute?",
+              "zh": "你能稍等一下吗？"
+            }
+          ],
+          "noteZh": "这里通常指短暂等待，不保证精确一分钟。",
+          "optionalPractice": false
+        }
+      ]
+    },
+    {
+      "id": "lesson-16",
+      "title": "做饭时的小细节",
+      "titleEn": "Cooking details",
+      "objective": "在做饭时使用 cut、add、enough、taste、turn off 等常用说法；能问盐够不够、提醒关火。",
+      "setting": "室友一起在厨房做饭，普通随意口语，不是菜谱书面语。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "enough；add ... to ...；turn off 语块；Don't 提醒。",
+      "dialogue": [
+        {
+          "id": "l16-d1",
+          "speaker": "A",
+          "en": "Can you cut the vegetables?",
+          "zh": "你能切一下蔬菜吗？"
+        },
+        {
+          "id": "l16-d2",
+          "speaker": "B",
+          "en": "Sure. Do we have enough oil?",
+          "zh": "当然。油够吗？"
+        },
+        {
+          "id": "l16-d3",
+          "speaker": "A",
+          "en": "Yes. Add a little oil to the pan.",
+          "zh": "够。往锅里加一点油。"
+        },
+        {
+          "id": "l16-d4",
+          "speaker": "B",
+          "en": "Should I add more salt?",
+          "zh": "还要再加盐吗？"
+        },
+        {
+          "id": "l16-d5",
+          "speaker": "A",
+          "en": "Taste it first. It may already be enough.",
+          "zh": "先尝尝。可能已经够了。"
+        },
+        {
+          "id": "l16-d6",
+          "speaker": "B",
+          "en": "You're right. It's good.",
+          "zh": "你说得对。味道不错。"
+        },
+        {
+          "id": "l16-d7",
+          "speaker": "A",
+          "en": "The water is boiling. Don't forget to turn off the stove.",
+          "zh": "水开了。别忘了把炉灶关掉。"
+        },
+        {
+          "id": "l16-d8",
+          "speaker": "B",
+          "en": "Okay. I'll put the food on the plates.",
+          "zh": "好。我来把食物盛到盘子里。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l16-w-cut",
+          "word": "cut",
+          "pos": "动词",
+          "sense": "切",
+          "exampleEn": "Can you cut the vegetables?",
+          "exampleZh": "你能切一下蔬菜吗？",
+          "setting": "厨房帮忙"
+        },
+        {
+          "id": "l16-w-vegetable",
+          "word": "vegetables",
+          "pos": "名词复数",
+          "sense": "蔬菜；日常常说 vegetables",
+          "exampleEn": "Can you cut the vegetables?",
+          "exampleZh": "你能切一下蔬菜吗？",
+          "setting": "做饭"
+        },
+        {
+          "id": "l16-w-enough",
+          "word": "enough",
+          "pos": "限定词/副词",
+          "sense": "足够",
+          "exampleEn": "Do we have enough oil?",
+          "exampleZh": "油够吗？",
+          "setting": "问材料是否足够"
+        },
+        {
+          "id": "l16-w-oil",
+          "word": "oil",
+          "pos": "名词（本课不可数）",
+          "sense": "食用油",
+          "exampleEn": "Add a little oil to the pan.",
+          "exampleZh": "往锅里加一点油。",
+          "setting": "做饭"
+        },
+        {
+          "id": "l16-w-add",
+          "word": "add",
+          "pos": "动词",
+          "sense": "加入",
+          "exampleEn": "Add a little oil to the pan.",
+          "exampleZh": "往锅里加一点油。",
+          "setting": "做饭"
+        },
+        {
+          "id": "l16-w-pan",
+          "word": "pan",
+          "pos": "可数名词",
+          "sense": "平底锅、锅",
+          "exampleEn": "Add a little oil to the pan.",
+          "exampleZh": "往锅里加一点油。",
+          "setting": "厨房"
+        },
+        {
+          "id": "l16-w-salt",
+          "word": "salt",
+          "pos": "名词（本课不可数）",
+          "sense": "盐",
+          "exampleEn": "Should I add more salt?",
+          "exampleZh": "还要再加盐吗？",
+          "setting": "调味"
+        },
+        {
+          "id": "l16-w-more",
+          "word": "more",
+          "pos": "限定词",
+          "sense": "更多、再一些",
+          "exampleEn": "Should I add more salt?",
+          "exampleZh": "还要再加盐吗？",
+          "setting": "问要不要再加"
+        },
+        {
+          "id": "l16-w-taste",
+          "word": "taste",
+          "pos": "动词（也可作名词「味道」）",
+          "sense": "品尝",
+          "exampleEn": "Taste it first.",
+          "exampleZh": "先尝尝。",
+          "setting": "调味前先试口味"
+        },
+        {
+          "id": "l16-w-boil",
+          "word": "boil",
+          "pos": "动词",
+          "sense": "煮沸；The water is boiling 表示水开了",
+          "exampleEn": "The water is boiling.",
+          "exampleZh": "水开了。",
+          "setting": "厨房"
+        },
+        {
+          "id": "l16-w-turn-off",
+          "word": "turn off",
+          "pos": "动词短语",
+          "sense": "关掉（火、灯、电器）",
+          "exampleEn": "Turn off the stove. Turn it off.",
+          "exampleZh": "把炉灶关掉。把它关掉。",
+          "setting": "提醒关火或关电器",
+          "note": "it 必须指前文明确提过的设备，不能把 the water 直接当成炉灶。"
+        },
+        {
+          "id": "l16-w-plate",
+          "word": "plate",
+          "pos": "可数名词",
+          "sense": "盘子",
+          "exampleEn": "I'll put the food on the plates.",
+          "exampleZh": "我来把食物盛到盘子里。",
+          "setting": "开饭前"
+        },
+        {
+          "id": "l16-w-stove",
+          "word": "stove",
+          "pos": "可数名词",
+          "sense": "炉灶；本课指烧水用的灶。",
+          "exampleEn": "Turn off the stove.",
+          "exampleZh": "把炉灶关掉。",
+          "setting": "厨房提醒；英式英语也常说 cooker。"
+        }
+      ],
+      "grammar": {
+        "id": "l16-g",
+        "title": "enough；add ... to ...；turn off",
+        "explanationZh": "本课重点：enough 放在名词前，如 enough oil（足够的油）；形容词后也可用 enough，如 warm enough（足够暖和），只作补充。Add a little oil to the pan. 是往锅里加一点油。Should I add more salt? 作为询问要不要加盐的语块，先认读，不测 should 的新规则。The water is boiling. 指水正在沸腾；不能因此把 turn it off 中的 it 硬说成炉火。对话明确说 turn off the stove（把炉灶关掉），先提 stove 才能用 Turn it off. 指代它。可分短语动词 turn off 接代词时放中间：turn it off。Don't forget to + 原形，是提醒别忘做某事。",
+        "affirmative": {
+          "id": "l16-g-aff",
+          "en": "Add a little oil to the pan.",
+          "zh": "往锅里加一点油。"
+        },
+        "negative": {
+          "id": "l16-g-neg",
+          "en": "Don't forget to turn off the stove.",
+          "zh": "别忘了把炉灶关掉。"
+        },
+        "question": {
+          "id": "l16-g-q",
+          "en": "Do we have enough oil?",
+          "zh": "油够吗？"
+        },
+        "mistakes": [
+          {
+            "bad": "Do we have enough oils?（这里指锅里用的食用油，不是多种油）",
+            "good": "Do we have enough oil?",
+            "why": "本句 oil 作不可数名词，不加 s。oils 在谈多种油等其他语境可以成立；不把不常见的 oil enough 一概判作语法错误。"
+          },
+          {
+            "bad": "Add the pan a little oil.",
+            "good": "Add a little oil to the pan.",
+            "why": "用 add + 材料 + to + 容器。"
+          },
+          {
+            "bad": "Don't forget turn off it.",
+            "good": "Don't forget to turn it off.",
+            "why": "forget to + 原形；代词 it 放在 turn 与 off 中间：turn it off。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l16-e1",
+          "promptZh": "你想说「往锅里加一点油」，选择正确的一句。",
+          "answerId": "l16-e1-a",
+          "taughtReference": "l16-d3",
+          "options": [
+            {
+              "id": "l16-e1-a",
+              "textEn": "Add a little oil to the pan.",
+              "textZh": "往锅里加一点油。",
+              "explanationZh": "正确。"
+            },
+            {
+              "id": "l16-e1-b",
+              "textEn": "Add the pan a little oil.",
+              "textZh": "（语序和介词不对）",
+              "explanationZh": "要用 add ... to the pan。"
+            },
+            {
+              "id": "l16-e1-c",
+              "textEn": "Add a little oil the pan.",
+              "textZh": "（缺少 to）",
+              "explanationZh": "需要 to the pan。"
+            }
+          ]
+        },
+        {
+          "id": "l16-e2",
+          "promptZh": "前文已明确说到炉灶 the stove。你想说「别忘了把它关掉」，选出正确的一句。",
+          "answerId": "l16-e2-a",
+          "taughtReference": "l16-g",
+          "options": [
+            {
+              "id": "l16-e2-b",
+              "textEn": "Don't forget turn off it.",
+              "textZh": "（缺少 to，代词位置也不对）",
+              "explanationZh": "需要 forget to，并且是 turn it off。"
+            },
+            {
+              "id": "l16-e2-c",
+              "textEn": "Don't forget to turn off it.",
+              "textZh": "（代词位置不自然）",
+              "explanationZh": "本课的可分短语动词 turn off 接代词 it 时，代词放中间：turn it off。"
+            },
+            {
+              "id": "l16-e2-a",
+              "textEn": "Don't forget to turn it off.",
+              "textZh": "别忘了把它关掉。",
+              "explanationZh": "it 指题干已经说明的炉灶；forget to + 原形；turn off 接 it 时要说 turn it off。"
+            }
+          ]
+        },
+        {
+          "id": "l16-e3",
+          "promptZh": "按对话，加盐之前 B 应该先做什么？",
+          "answerId": "l16-e3-a",
+          "taughtReference": "l16-d5",
+          "options": [
+            {
+              "id": "l16-e3-c",
+              "textEn": "Put the food on the plates first.",
+              "textZh": "先把食物盛到盘子里。",
+              "explanationZh": "与原文不符，盛盘是在后面提到的事，A 对加盐的回应是先尝尝。"
+            },
+            {
+              "id": "l16-e3-a",
+              "textEn": "Taste it first.",
+              "textZh": "先尝尝。",
+              "explanationZh": "正确，A 让 B 先尝，可能已经够咸了。"
+            },
+            {
+              "id": "l16-e3-b",
+              "textEn": "Add more salt right away.",
+              "textZh": "马上再加盐。",
+              "explanationZh": "与原文不符。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-13",
+          "expression": "enough",
+          "taughtReference": "l16-w-enough",
+          "examples": [
+            {
+              "setting": "做饭",
+              "en": "Do we have enough oil?",
+              "zh": "我们的油够吗？"
+            },
+            {
+              "setting": "出行",
+              "en": "Do we have enough time?",
+              "zh": "我们的时间够吗？"
+            }
+          ],
+          "noteZh": "enough + 名词；time 在这里是时间，作不可数名词。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-14",
+          "expression": "turn off",
+          "taughtReference": "l16-w-turn-off",
+          "examples": [
+            {
+              "setting": "厨房",
+              "en": "Turn off the stove.",
+              "zh": "把炉灶关掉。"
+            },
+            {
+              "setting": "同一设备",
+              "en": "The stove is on. Turn it off.",
+              "zh": "炉灶开着。把它关掉。"
+            }
+          ],
+          "noteZh": "先明确 stove，再用 it；代词在 turn 和 off 中间。",
+          "optionalPractice": false
+        }
+      ]
+    },
+    {
+      "id": "lesson-17",
+      "title": "出行补充",
+      "titleEn": "Getting around",
+      "objective": "用 arrive、miss、catch、ticket、on time 等补充出行表达；能说赶上或错过车、几点到。",
+      "setting": "朋友约好出门，在车站或出发前发消息，普通日常口语。",
+      "provenance": "原创学习情景示例，非真实聊天记录。",
+      "grammarFocus": "catch / miss the bus；arrive；on time；next / last 在班次里的意思。",
+      "dialogue": [
+        {
+          "id": "l17-d1",
+          "speaker": "A",
+          "en": "What time does the train arrive?",
+          "zh": "火车几点到？"
+        },
+        {
+          "id": "l17-d2",
+          "speaker": "B",
+          "en": "At two. If we walk now, we can catch it.",
+          "zh": "两点。我们现在走的话还能赶上。"
+        },
+        {
+          "id": "l17-d3",
+          "speaker": "A",
+          "en": "Do we need tickets?",
+          "zh": "我们需要票吗？"
+        },
+        {
+          "id": "l17-d4",
+          "speaker": "B",
+          "en": "Yeah. I already have mine. Do you have yours?",
+          "zh": "要。我已经有我的了。你有你的吗？"
+        },
+        {
+          "id": "l17-d5",
+          "speaker": "A",
+          "en": "Not yet. I don't want to miss it.",
+          "zh": "还没有。我不想错过这班。"
+        },
+        {
+          "id": "l17-d6",
+          "speaker": "B",
+          "en": "The next one is at three, but this one is usually on time.",
+          "zh": "下一班是三点，不过这一班通常准点。"
+        },
+        {
+          "id": "l17-d7",
+          "speaker": "A",
+          "en": "Okay. Let's take a taxi if we're late.",
+          "zh": "好。如果我们晚了就打车吧。"
+        },
+        {
+          "id": "l17-d8",
+          "speaker": "B",
+          "en": "Sounds good. The last bus back is at ten.",
+          "zh": "好。回来的末班公交车是十点。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "l17-w-arrive",
+          "word": "arrive",
+          "pos": "动词",
+          "sense": "到达；arrive 后不加 to，常用 arrive at two / arrive at the station",
+          "exampleEn": "What time does the train arrive?",
+          "exampleZh": "火车几点到？",
+          "setting": "问到达时间"
+        },
+        {
+          "id": "l17-w-catch",
+          "word": "catch",
+          "pos": "动词",
+          "sense": "赶上（车、船）",
+          "exampleEn": "We can catch it.",
+          "exampleZh": "我们还能赶上。",
+          "setting": "赶车"
+        },
+        {
+          "id": "l17-w-miss",
+          "word": "miss",
+          "pos": "动词",
+          "sense": "错过（车）；不是「想念」的本课义，想念是另一常见义，需看上下文",
+          "exampleEn": "I don't want to miss it.",
+          "exampleZh": "我不想错过这班。",
+          "setting": "赶车"
+        },
+        {
+          "id": "l17-w-ticket",
+          "word": "ticket",
+          "pos": "可数名词",
+          "sense": "票",
+          "exampleEn": "Do we need tickets?",
+          "exampleZh": "我们需要票吗？",
+          "setting": "出行购票"
+        },
+        {
+          "id": "l17-w-taxi",
+          "word": "taxi",
+          "pos": "可数名词",
+          "sense": "出租车；take a taxi 是常用语块",
+          "exampleEn": "Let's take a taxi if we're late.",
+          "exampleZh": "如果我们晚了就打车吧。",
+          "setting": "备选出行方式。"
+        },
+        {
+          "id": "l17-w-walk",
+          "word": "walk",
+          "pos": "动词",
+          "sense": "步行",
+          "exampleEn": "If we walk now, we can catch it.",
+          "exampleZh": "我们现在走的话还能赶上。",
+          "setting": "出发"
+        },
+        {
+          "id": "l17-w-on-time",
+          "word": "on time",
+          "pos": "短语",
+          "sense": "准时、准点",
+          "exampleEn": "This one is usually on time.",
+          "exampleZh": "这一班通常准点。",
+          "setting": "谈车次是否准时"
+        },
+        {
+          "id": "l17-w-next",
+          "word": "next",
+          "pos": "限定词/形容词",
+          "sense": "下一班、下一个；the next one 指下一班车",
+          "exampleEn": "The next one is at three.",
+          "exampleZh": "下一班是三点。",
+          "setting": "谈班次"
+        },
+        {
+          "id": "l17-w-last",
+          "word": "last",
+          "pos": "限定词/形容词",
+          "sense": "末班的、最后的（本课：the last bus）；先前 last weekend 是「上一个周末」，看搭配区分",
+          "exampleEn": "The last bus back is at ten.",
+          "exampleZh": "回来的末班公交车是十点。",
+          "setting": "回程"
+        },
+        {
+          "id": "l17-w-hour",
+          "word": "hour",
+          "pos": "可数名词",
+          "sense": "小时",
+          "exampleEn": "The trip takes about an hour.",
+          "exampleZh": "这趟大约要一个小时。",
+          "setting": "说行程时长；例句为补充，不在对话里作为未教点考试"
+        },
+        {
+          "id": "l17-w-mine",
+          "word": "mine",
+          "pos": "名词性物主代词",
+          "sense": "我的（那个）",
+          "exampleEn": "I already have mine.",
+          "exampleZh": "我已经有我的了。",
+          "setting": "说各自的票"
+        },
+        {
+          "id": "l17-w-yours",
+          "word": "yours",
+          "pos": "名词性物主代词",
+          "sense": "你的（那个）",
+          "exampleEn": "Do you have yours?",
+          "exampleZh": "你有你的吗？",
+          "setting": "说各自的票"
+        }
+      ],
+      "grammar": {
+        "id": "l17-g",
+        "title": "catch / miss；arrive；on time",
+        "explanationZh": "catch the train/bus 是赶上，miss the train/bus 是错过。arrive 表示到达，后面不加 to：The train arrives at two. / arrive at the station。on time 是准时。the next one 是下一班，the last bus 是末班车；last weekend 则是上个周末，意思随搭配变化。mine / yours 用来避免重复 tickets：I have mine. Do you have yours? take a taxi 是打车。If we walk now 和 if we're late 先整句理解条件，本课不展开 if 从句的全部规则。",
+        "affirmative": {
+          "id": "l17-g-aff",
+          "en": "We can catch it.",
+          "zh": "我们还能赶上。"
+        },
+        "negative": {
+          "id": "l17-g-neg",
+          "en": "I don't want to miss it.",
+          "zh": "我不想错过这班。"
+        },
+        "question": {
+          "id": "l17-g-q",
+          "en": "What time does the train arrive?",
+          "zh": "火车几点到？"
+        },
+        "mistakes": [
+          {
+            "bad": "What time does the train arrive to the station?",
+            "good": "What time does the train arrive? / What time does the train arrive at the station?",
+            "why": "arrive 不接 to，地点用 at（或较大地方用 in）。"
+          },
+          {
+            "bad": "I don't want miss it.",
+            "good": "I don't want to miss it.",
+            "why": "want to + 原形。"
+          },
+          {
+            "bad": "The train is on the time.",
+            "good": "The train is on time.",
+            "why": "语块是 on time，没有 the。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "l17-e1",
+          "promptZh": "你想问火车几点到，选择正确的一句。",
+          "answerId": "l17-e1-a",
+          "taughtReference": "l17-d1",
+          "options": [
+            {
+              "id": "l17-e1-b",
+              "textEn": "What time does the train arrive to?",
+              "textZh": "（多余或不完整的 to）",
+              "explanationZh": "arrive 后面不加 to。"
+            },
+            {
+              "id": "l17-e1-c",
+              "textEn": "What time the train arrive?",
+              "textZh": "（缺少 does）",
+              "explanationZh": "一般现在时疑问句需要 does。"
+            },
+            {
+              "id": "l17-e1-a",
+              "textEn": "What time does the train arrive?",
+              "textZh": "火车几点到？",
+              "explanationZh": "正确。"
+            }
+          ]
+        },
+        {
+          "id": "l17-e2",
+          "promptZh": "你不想错过这班车，选择正确的一句。",
+          "answerId": "l17-e2-a",
+          "taughtReference": "l17-d5",
+          "options": [
+            {
+              "id": "l17-e2-c",
+              "textEn": "I don't want to catch it.",
+              "textZh": "我不想赶上它。",
+              "explanationZh": "意思相反。catch 是赶上。"
+            },
+            {
+              "id": "l17-e2-a",
+              "textEn": "I don't want to miss it.",
+              "textZh": "我不想错过这班。",
+              "explanationZh": "正确。本课 miss 是错过，不是想念。"
+            },
+            {
+              "id": "l17-e2-b",
+              "textEn": "I don't want miss it.",
+              "textZh": "（缺少 to）",
+              "explanationZh": "需要 want to miss。"
+            }
+          ]
+        },
+        {
+          "id": "l17-e3",
+          "promptZh": "按对话，回来的末班公交车是几点？",
+          "answerId": "l17-e3-a",
+          "taughtReference": "l17-d8",
+          "options": [
+            {
+              "id": "l17-e3-a",
+              "textEn": "At ten.",
+              "textZh": "十点。",
+              "explanationZh": "正确，与原文一致。"
+            },
+            {
+              "id": "l17-e3-b",
+              "textEn": "At two.",
+              "textZh": "两点。",
+              "explanationZh": "与原文不符。两点是去程那班火车的到达时间。"
+            },
+            {
+              "id": "l17-e3-c",
+              "textEn": "At three.",
+              "textZh": "三点。",
+              "explanationZh": "与原文不符。三点是下一班，不是末班回来的公交车。"
+            }
+          ]
+        }
+      ],
+      "transferExamples": [
+        {
+          "id": "v4-transfer-15",
+          "expression": "catch",
+          "taughtReference": "l17-w-catch",
+          "examples": [
+            {
+              "setting": "公交",
+              "en": "We can catch the bus.",
+              "zh": "我们能赶上公交车。"
+            },
+            {
+              "setting": "火车",
+              "en": "We can catch the train.",
+              "zh": "我们能赶上火车。"
+            }
+          ],
+          "noteZh": "本课 catch 指赶上交通工具，不把其他含义混进练习。",
+          "optionalPractice": false
+        },
+        {
+          "id": "v4-transfer-16",
+          "expression": "last",
+          "taughtReference": "l17-w-last",
+          "examples": [
+            {
+              "setting": "班次",
+              "en": "The last bus is at ten.",
+              "zh": "末班公交车是十点。"
+            },
+            {
+              "setting": "过去时间",
+              "en": "I was home last weekend.",
+              "zh": "我上周末在家。"
+            }
+          ],
+          "noteZh": "the last bus 是末班；last weekend 是上周末，注意搭配而非逐词死译。",
+          "optionalPractice": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "lessons": 8,
+    "dialogueLines": 64,
+    "vocabularyEntries": 97,
+    "uniqueHeadwordsWithinPack": 97,
+    "exercises": 24,
+    "options": 72,
+    "transferPairs": 16,
+    "transferExampleSentences": 32,
+    "duplicateIds": [],
+    "missingReferences": []
+  },
+  "integrationNotes": [
+    "替换 v3，不与 v2/v3 累加导入。保留已有课程映射和学习记录；本稿 lesson-10 等原始 ID 不代表实际上线 ID。",
+    "transferExamples 是新增教学展示字段，尚需开发者映射；不得宣称已上线。",
+    "答案按 answerId 判断，不按选项位置。请在客户端安全打乱选项，不改答案身份。",
+    "前置 be going to 等是否已在现站教学，需集成者对照实际课程验证；本稿不能证明现站先教后测。",
+    "本次只复核共享电脑上的扩展稿，未读取用户电脑当前 pack.json，不能替代独立上线逐题验收。"
+  ]
+}

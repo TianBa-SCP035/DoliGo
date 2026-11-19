@@ -1,0 +1,566 @@
+{
+  "id": "content-text-anchors-reading-v6",
+  "title": "阅读 v6 点词范围",
+  "version": "v6",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-16T11:20:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3",
+    "content-text-anchors-scenes-v4",
+    "content-text-anchors-reading-v3",
+    "content-text-anchors-scenes-v5",
+    "content-text-anchors-reading-v4",
+    "content-text-anchors-scenes-v6",
+    "content-text-anchors-reading-v5"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-reading-pack-v6 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p1",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p1",
+      "textEn": "I live on the seventh floor of a small building. I go out almost every day, so I usually don't think about the elevator at all. I just press the button and wait. Most of the time, I don't even notice it.",
+      "spans": [
+        {
+          "start": 22,
+          "end": 27,
+          "surface": "floor",
+          "cardId": "rd3-floor",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 111,
+          "end": 119,
+          "surface": "elevator",
+          "cardId": "rd6-elevator-is-out",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 156,
+          "end": 160,
+          "surface": "wait",
+          "cardId": "L06-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p2",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p2",
+      "textEn": "Last Tuesday I came home from the store with two heavy bags of food. I pressed the button as usual, but nothing happened.",
+      "spans": [
+        {
+          "start": 34,
+          "end": 39,
+          "surface": "store",
+          "cardId": "L04-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p3",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p3",
+      "textEn": "A note on the elevator door said it was out, and someone would come to fix it in the afternoon. I looked at the stairs and then at my bags.",
+      "spans": [
+        {
+          "start": 14,
+          "end": 22,
+          "surface": "elevator",
+          "cardId": "rd6-elevator-is-out",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 23,
+          "end": 27,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 33,
+          "end": 43,
+          "surface": "it was out",
+          "cardId": "rd6-elevator-is-out",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 112,
+          "end": 118,
+          "surface": "stairs",
+          "cardId": "rd6-take-the-stairs",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p4",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p4",
+      "textEn": "I started walking up slowly, one floor at a time. I stopped on the third floor to rest, and again on the fifth. My arms were tired, but I did not want to make two trips.",
+      "spans": [
+        {
+          "start": 33,
+          "end": 38,
+          "surface": "floor",
+          "cardId": "rd3-floor",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p5",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p5",
+      "textEn": "On the sixth floor I met a man who was also walking up. He smiled and said, \"The elevator is out again.\" We didn't really talk. We just kept going.",
+      "spans": [
+        {
+          "start": 13,
+          "end": 18,
+          "surface": "floor",
+          "cardId": "rd3-floor",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 77,
+          "end": 96,
+          "surface": "The elevator is out",
+          "cardId": "rd6-elevator-is-out",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p6",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p6",
+      "textEn": "When I finally got home, I put the bags on the table, drank some water, and sat down for a few minutes. The walk had taken much longer than the elevator ever did.",
+      "spans": [
+        {
+          "start": 47,
+          "end": 52,
+          "surface": "table",
+          "cardId": "L01-V04",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 144,
+          "end": 152,
+          "surface": "elevator",
+          "cardId": "rd6-elevator-is-out",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p7",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p7",
+      "textEn": "In the afternoon I had planned to go back out for a short walk. I almost stayed in, because I did not want to face the stairs again.",
+      "spans": [
+        {
+          "start": 58,
+          "end": 62,
+          "surface": "walk",
+          "cardId": "L06-P04",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 119,
+          "end": 125,
+          "surface": "stairs",
+          "cardId": "rd6-take-the-stairs",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p8",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p8",
+      "textEn": "Then I thought about dinner. I still needed bread. I took only a small bag this time, went down more slowly, and tried not to carry too much.",
+      "spans": [],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p9",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p9",
+      "textEn": "The stairs were quiet, and the air in the stairwell was cool. I got the bread downstairs and climbed back up without stopping as long as before.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 10,
+          "surface": "stairs",
+          "cardId": "rd6-take-the-stairs",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 78,
+          "end": 88,
+          "surface": "downstairs",
+          "cardId": "sc14-downstairs",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-elevator-is-out-p10",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-elevator-is-out-p10",
+      "textEn": "The elevator was working again the next morning. I was glad. Still, I learned something simple: if I have to take the stairs, I should not carry too much at once.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 12,
+          "surface": "elevator",
+          "cardId": "rd6-elevator-is-out",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 109,
+          "end": 124,
+          "surface": "take the stairs",
+          "cardId": "rd6-take-the-stairs",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-elevator-is-out"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p1",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p1",
+      "textEn": "On Thursday I made a plan with my friend Owen. We would meet on Saturday at one, have coffee near the park, and then walk along the river if the weather stayed nice.",
+      "spans": [
+        {
+          "start": 117,
+          "end": 121,
+          "surface": "walk",
+          "cardId": "L06-P04",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 145,
+          "end": 152,
+          "surface": "weather",
+          "cardId": "l10-w-weather",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p2",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p2",
+      "textEn": "I was looking forward to it all week. We hadn't seen each other in a few weeks, and I had already checked the weather. Saturday looked fine.",
+      "spans": [
+        {
+          "start": 110,
+          "end": 117,
+          "surface": "weather",
+          "cardId": "l10-w-weather",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p3",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p3",
+      "textEn": "Friday evening, my cousin Mina called. She was moving a few things to a new apartment on Saturday morning, and the friend who had promised to help couldn't come. She sounded tired, and a little embarrassed to ask. She asked if I could give her two hours.",
+      "spans": [
+        {
+          "start": 31,
+          "end": 37,
+          "surface": "called",
+          "cardId": "l12-w-call",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p4",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p4",
+      "textEn": "I wanted to help her. I also did not want to cancel on Owen. For a while I just sat with the phone in my hand, trying to think of a time that could work for both of us.",
+      "spans": [],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p5",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p5",
+      "textEn": "Then I messaged Owen and told him the truth, even though I felt bad about changing the plan. Something had come up, and I asked if we could meet later, maybe at three thirty, after I finished helping Mina.",
+      "spans": [
+        {
+          "start": 7,
+          "end": 15,
+          "surface": "messaged",
+          "cardId": "l12-w-message",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 93,
+          "end": 114,
+          "surface": "Something had come up",
+          "cardId": "sc5-something-came-up",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 145,
+          "end": 150,
+          "surface": "later",
+          "cardId": "l12-w-later",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p6",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p6",
+      "textEn": "I was afraid he would be disappointed. He wrote back a few minutes later: \"That's fine. I'd rather go later than not go at all. Text me when you're on the way.\"",
+      "spans": [
+        {
+          "start": 67,
+          "end": 72,
+          "surface": "later",
+          "cardId": "l12-w-later",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 148,
+          "end": 158,
+          "surface": "on the way",
+          "cardId": "sc9-on-the-way",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p7",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p7",
+      "textEn": "Saturday morning I went to Mina's place a little after nine. The work was simple but slow: a narrow stair, a heavy bookshelf, and a few bags. We carried things down carefully and finished a little after two.",
+      "spans": [],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p8",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p8",
+      "textEn": "I went home, washed my hands, and changed my shirt. I sat down for a minute, then got ready. I was more tired than I had expected, and I almost asked to reschedule again. I didn't. I had already changed the time once.",
+      "spans": [
+        {
+          "start": 13,
+          "end": 19,
+          "surface": "washed",
+          "cardId": "l13-w-wash",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 153,
+          "end": 163,
+          "surface": "reschedule",
+          "cardId": "rd6-reschedule",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p9",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p9",
+      "textEn": "I left at three, walked most of the way, and got to the cafe a few minutes before three thirty. Owen was already there, with a table by the window. He had ordered tea for both of us.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "surface": "left",
+          "cardId": "l14-w-leave",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 17,
+          "end": 23,
+          "surface": "walked",
+          "cardId": "L06-P04",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 127,
+          "end": 132,
+          "surface": "table",
+          "cardId": "L01-V04",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 155,
+          "end": 162,
+          "surface": "ordered",
+          "cardId": "rw2-order",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 163,
+          "end": 166,
+          "surface": "tea",
+          "cardId": "L02-V09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p10",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p10",
+      "textEn": "I thanked him for changing the time. He shrugged and said plans change, as long as people say so early enough. We drank our tea slowly and talked about Mina's new place. Then we walked by the river until it started to get dark.",
+      "spans": [
+        {
+          "start": 124,
+          "end": 127,
+          "surface": "tea",
+          "cardId": "L02-V09",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 178,
+          "end": 184,
+          "surface": "walked",
+          "cardId": "L06-P04",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    },
+    {
+      "id": "everyday-reading-pack-v6::reading-had-to-reschedule-p11",
+      "sourcePack": "everyday-reading-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-had-to-reschedule-p11",
+      "textEn": "It was not the afternoon I had first imagined, but it was still a good one. Next time, I will look at my weekend more carefully before I say yes to two things. And I will say so sooner, if I have to reschedule.",
+      "spans": [
+        {
+          "start": 199,
+          "end": 209,
+          "surface": "reschedule",
+          "cardId": "rd6-reschedule",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-had-to-reschedule"
+    }
+  ],
+  "stats": {
+    "units": 21,
+    "unitsWithSpans": 18,
+    "spans": 38
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": "everyday-reading-pack-v5",
+  "title": "分级阅读增量包 v5（忘带充电器、邻居代收）",
+  "version": "v5",
+  "lang": "en",
+  "varietyNote": "General everyday narrative English.",
+  "levelNote": "教学建议大约 A2 与 A2+，未经认证分级。",
+  "provenance": "全部为原创虚构学习情景和原创例句，是学习示例，不是真人经历、真实聊天或转载语料。本轮仅作公开可引用语料的快速核验；未找到许可明确、且适合本课难度的现成对话或正文，故采用原创学习示例，并在此标明。人物不是助手或用户本人。本包不含新闻翻译或小说摘录。",
+  "status": "增量补充，不替换 everyday-reading-pack-v2.1 / v3 / v4。",
+  "createdAt": "2026-11-13T09:35:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-reading-pack-v2.1",
+    "everyday-reading-pack-v3",
+    "everyday-reading-pack-v4"
+  ],
+  "integrationNotes": [
+    "追加到 catalog.readings；readingPack 仍指向 everyday-reading-pack-v2.1。",
+    "新词卡使用独立常量 NEW_READING_V5_CARD_IDS。"
+  ],
+  "readings": [
+    {
+      "id": "reading-left-my-charger",
+      "title": "充电器没带",
+      "titleEn": "I Left My Charger.",
+      "levelSuggestionZh": "教学建议：日常叙事，大约 A2，未经认证分级。先读英文，中文按段展开。",
+      "targetWords": [
+        280,
+        320
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。原创学习故事示例，不是真实经历，也不是新闻或小说摘录。",
+      "paragraphs": [
+        {
+          "id": "reading-left-my-charger-p1",
+          "en": "On Saturday I had a simple plan. I would spend the afternoon at the small library near my apartment, then meet my friend Tara for dinner.",
+          "zh": "周六我有一个简单的计划。先在家附近的小图书馆待一下午，再和朋友塔拉会合吃晚饭。"
+        },
+        {
+          "id": "reading-left-my-charger-p2",
+          "en": "I packed my laptop, a notebook, and a bottle of water. The charger was on the kitchen table, but I did not put it in my bag. I only thought about it later.",
+          "zh": "我装了笔记本电脑、一本笔记本，还有一瓶水。充电器在厨房桌上，我却没放进包里。后来才想起来。"
+        },
+        {
+          "id": "reading-left-my-charger-p3",
+          "en": "The library was quiet, and I found a table by the window. For about two hours, I worked on a short presentation for a weekend class. My phone stayed in my bag.",
+          "zh": "图书馆很安静，我找了个靠窗的位子。大约两个小时里，我在做周末课的一个短汇报。手机一直放在包里。"
+        },
+        {
+          "id": "reading-left-my-charger-p4",
+          "en": "Then my laptop made a soft sound. The battery was low. I looked in every pocket of my bag, and then I remembered: I had left my charger at home.",
+          "zh": "后来电脑轻轻响了一声。电量低了。我把包里每个口袋都找过，这才想起来：我把充电器忘在家里了。"
+        },
+        {
+          "id": "reading-left-my-charger-p5",
+          "en": "I did not want to lose the table. I asked the woman next to me if she could watch my notebook for ten minutes, and she said yes.",
+          "zh": "我不想丢掉这个位子。我问旁边的女士能不能帮我看十分钟笔记本，她说可以。"
+        },
+        {
+          "id": "reading-left-my-charger-p6",
+          "en": "I walked home quickly. The charger was still on the table, next to a pile of mail. I grabbed it, locked the door, and walked back.",
+          "zh": "我很快走回了家。充电器还在桌上，旁边是一叠信件。我拿上它，锁好门，再走回去。"
+        },
+        {
+          "id": "reading-left-my-charger-p7",
+          "en": "My things were still there. I thanked the woman, plugged in the laptop, and sat down again. The rest of the afternoon went more slowly, but I finished what I needed.",
+          "zh": "我的东西还在。我谢过那位女士，插上电脑，重新坐下。后半下午过得慢了一些，但我把要做的做完了。"
+        },
+        {
+          "id": "reading-left-my-charger-p8",
+          "en": "At six, I packed up and met Tara at a noodle place down the street. I was only a little late, but I still felt rushed.",
+          "zh": "六点，我收拾好，去街边一家面馆和塔拉会合。只晚了一点，可我还是觉得自己在赶。"
+        },
+        {
+          "id": "reading-left-my-charger-p9",
+          "en": "I told her the story over dinner. She laughed and said she had done the same thing last month, with her camera, not her laptop.",
+          "zh": "吃饭时我把这件事告诉她。她笑了，说上个月她也干过一样的事，不过忘带的是相机，不是电脑。"
+        },
+        {
+          "id": "reading-left-my-charger-p10",
+          "en": "Next time, I will put the charger in my bag the night before, or look at the table once more before I leave. It was a small mistake, but I was glad I went back instead of giving up on the afternoon.",
+          "zh": "下一次，我会前一天晚上就把充电器放进包里，或者出门前再看一眼桌子。只是个小失误，但我很高兴自己还是回去取了，而没有放弃那个下午。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "I had left my charger at home",
+          "meaningZh": "我把充电器忘在家里了。这里的 left 是“忘带、留在某处”，不是离开（before I leave），也不是向左（left）。"
+        },
+        {
+          "expression": "charger",
+          "meaningZh": "充电器。put the charger in my bag 是把它放进包里。"
+        },
+        {
+          "expression": "before I leave",
+          "meaningZh": "在我离开之前。这里的 leave 复用已有“离开”义项，和上一段“忘带充电器”不是同一个意思。"
+        },
+        {
+          "expression": "last month",
+          "meaningZh": "上个月。这里的 last 是“上一个”，复用已有词卡。"
+        },
+        {
+          "expression": "instead of giving up",
+          "meaningZh": "而不是放弃。instead 复用已有词卡。这篇不是雨中野餐，也不是坐过站。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "I had left my charger at home.",
+          "zh": "我把充电器忘在家里了。",
+          "required": false
+        },
+        {
+          "en": "Look at the table once more before I leave.",
+          "zh": "出门前再看一眼桌子。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "wordCount": 299
+    },
+    {
+      "id": "reading-neighbor-kept-the-box",
+      "title": "邻居先帮收了",
+      "titleEn": "The Neighbor Took the Box.",
+      "levelSuggestionZh": "教学建议：日常邻里叙事，大约 A2+，未经认证分级。先读英文，中文按段展开。",
+      "targetWords": [
+        420,
+        440
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。原创学习故事示例，不是真实经历，也不是新闻或小说摘录。",
+      "paragraphs": [
+        {
+          "id": "reading-neighbor-kept-the-box-p1",
+          "en": "On Tuesday morning, I was waiting for a box. I had bought a small lamp online for my sister's birthday, and the shop said it would arrive that day. I wanted it to get here in time, because I was seeing her on Friday.",
+          "zh": "周二早上，我在等一个盒子。我在网上给妹妹买了一盏小台灯当生日礼物，店家说当天会到。我想让它赶得及，因为周五我就要见她。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p2",
+          "en": "I could not stay home and wait. I had already planned to go to the street market for fruit and bread, and my roommate was away that week. For a moment I thought about staying in, but I didn't want to waste the morning.",
+          "zh": "我没法一直在家等。我已经打算去街头集市买水果和面包，而且室友那一周不在。有那么一刻我想过干脆留在家里，但又不想把早上浪费掉。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p3",
+          "en": "The market took longer than I thought. When I came home around noon, there was nothing at my door and no message about a locker. I stood there with my bags, feeling uneasy. I thought I had missed the courier.",
+          "zh": "集市比我想的要久。中午前后回到家，门口什么也没有，也没有快递柜的消息。我提着袋子站了一会儿，心里不安。我以为自己错过了快递员。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p4",
+          "en": "I checked the stairs and the mailbox, then walked back up and looked again. Still nothing. I even walked to the locker by the gate, but it was empty, and my phone had no new messages.",
+          "zh": "我查了楼梯和信箱，又走回去看了一眼。还是没有。我甚至走到门口的快递柜，可里面是空的，手机上也没有新消息。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p5",
+          "en": "Then I saw a piece of paper under my door. It was a short note from a neighbor I usually only smiled at in the hallway. Her name was Mrs. Tan, in 4A.",
+          "zh": "这时我看见门底下有一张纸。是一张短短的留言，来自一位我在走廊里通常只点头微笑的邻居。她叫谭太太，住在 4A。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p6",
+          "en": "The note said the courier had come at ten, and she had taken the box so it would not sit in the hallway all morning. She said I could come over any time after lunch.",
+          "zh": "纸条上说，快递员十点来过，她先把盒子收了，免得在走廊里放一上午。她说午饭后我随时可以过去取。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p7",
+          "en": "I felt two things at once: relieved, and a little ashamed that I had never really learned her name, even after living here a year. I went down the hall and knocked.",
+          "zh": "我一下子有两种感觉：松了一口气，又有点不好意思——住在这儿一年了，我竟然一直没认真记住她的名字。我沿着走廊走过去敲门。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p8",
+          "en": "Mrs. Tan opened the door with a smile, as if this were a normal Tuesday. The box was on a chair behind her, still sealed. \"It's heavier than it looks,\" she said. \"I didn't want someone to walk into it.\"",
+          "zh": "谭太太开门时带着笑，好像这只是一个平常的周二。盒子在她身后的椅子上，还封着。“比看上去要沉，”她说。“我怕有人走过时撞上。”"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p9",
+          "en": "I thanked her more than once. She waved it off and asked if the lamp was for me. I told her it was for my sister, and that I had been worried it would not come in time.",
+          "zh": "我连着谢了她好几次。她摆摆手，问这盏灯是不是给我自己的。我告诉她是给妹妹的，我一直担心它赶不上。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p10",
+          "en": "That evening, I went back with a small bag of fruit from the market. She said I didn't need to do that, but she took two peaches, and we talked for a few minutes about the plants in her hallway window.",
+          "zh": "那天晚上，我又拿着从集市买的一小袋水果回去。她说不用这样，但还是收下了两只桃子。我们聊了几分钟她走廊窗台上的植物。"
+        },
+        {
+          "id": "reading-neighbor-kept-the-box-p11",
+          "en": "The lamp was fine, and I packed it carefully for Friday. What stayed with me was simpler: I live next to people, not just next to doors. The next time I pass 4A, I will say hello by name.",
+          "zh": "台灯没有问题，我仔细包好，准备周五带去。真正留下的是更简单的一件事：我隔壁住的是人，不只是一扇扇门。下次经过 4A，我会叫着名字打招呼。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "I thought I had missed the courier",
+          "meaningZh": "我以为自己错过了快递员。miss、courier 与场景里的用法一致。不是坐过站。"
+        },
+        {
+          "expression": "no message about a locker",
+          "meaningZh": "没有关于快递柜的消息。locker、message、door 复用已有或本包词卡。"
+        },
+        {
+          "expression": "a note from a neighbor",
+          "meaningZh": "邻居留的一张便条。neighbor、hallway 复用已有词卡。"
+        },
+        {
+          "expression": "I had bought a small lamp online",
+          "meaningZh": "我在网上买了一盏小台灯。这里的 bought 是购物，不要用“点餐”的 order 去点 bought 或订货。"
+        },
+        {
+          "expression": "still sealed",
+          "meaningZh": "还封着。故意不用 closed，以免和“不营业”的 closed 混在一起。"
+        },
+        {
+          "expression": "I live next to people, not just next to doors",
+          "meaningZh": "隔壁住的是人，不只是门。这篇写邻里帮忙收箱，不是工作日找错楼层，也不是门口临时商量怎么收件的那段对话。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "I thought I had missed the courier.",
+          "zh": "我以为自己错过了快递员。",
+          "required": false
+        },
+        {
+          "en": "She had taken the box so it would not sit in the hallway.",
+          "zh": "她先把盒子收了，免得一直放在走廊里。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "wordCount": 422
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "rd5-left-behind",
+      "headword": "I left my charger",
+      "pos": "语块",
+      "posZh": "语块",
+      "senseZh": "我把充电器忘带了；把某物留在某处而没带上",
+      "collocation": "I left my charger at home / I left my keys in the bag",
+      "exampleEn": "I remembered: I had left my charger at home.",
+      "exampleZh": "这才想起来：我把充电器忘在家里了。",
+      "transferEn": "I left my keys in the kitchen, so I had to go back upstairs.",
+      "transferZh": "我把钥匙忘在厨房了，所以只好再上楼一趟。",
+      "sourceScene": "reading-left-my-charger",
+      "sourceLine": "reading-left-my-charger-p4",
+      "notesZh": "I left my + 物品 + at home 是“忘带、留在某处”。不是离开（before I leave），也不是向左（left），也不是把人排除在外。和 forget 接近，但口语里常这样说 leave。另境例句改到钥匙，不用本篇图书馆的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    },
+    {
+      "id": "rd5-charger",
+      "headword": "charger",
+      "pos": "可数名词",
+      "posZh": "可数名词",
+      "senseZh": "充电器",
+      "collocation": "my charger / the charger / phone charger",
+      "exampleEn": "The charger was on the kitchen table, but I did not put it in my bag.",
+      "exampleZh": "充电器在厨房桌上，我却没放进包里。",
+      "transferEn": "Can I borrow your charger for ten minutes? My phone is almost dead.",
+      "transferZh": "充电器能借我十分钟吗？我手机快没电了。",
+      "sourceScene": "reading-left-my-charger",
+      "sourceLine": "reading-left-my-charger-p2",
+      "notesZh": "charger 指给手机或电脑充电的那个充电器。另境例句改到向人借充电器，不用本篇回家取充电器的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句与学习示例，非转载语料，来源非真实聊天。"
+    }
+  ],
+  "stats": {
+    "readings": 2,
+    "wordCounts": [
+      299,
+      422
+    ],
+    "paragraphs": [
+      10,
+      11
+    ],
+    "wordCards": 2
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "sourced-reading-pack-wikivoyage-v1",
+  "title": "外部改编阅读包 v1（到达一座新城市）",
+  "version": "v1",
+  "lang": "en",
+  "levelNote": "教学建议大约 A2+ 到 B1，未经认证分级。",
+  "provenance": "本包一篇课文是对英语维基导游（Wikivoyage）条目 Arriving in a new city 固定修订版 oldid 5414939 的改编删节，不是原创，也不是逐字转载。改编英文与中文译文按 CC BY-SA 4.0 提供；署名请指向条目修订历史中的志愿贡献者，不要写成单人作品。相同方式共享只约束这篇改编文本，不自动适用于网站其余部分。洗手篇和 FDA 正文不在本包。",
+  "status": "增量补充，不替换 everyday-reading-pack-v2.1 / v3 / v4 / v5 / v6。",
+  "createdAt": "2026-11-16T10:41:26+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-reading-pack-v2.1",
+    "everyday-reading-pack-v3",
+    "everyday-reading-pack-v4",
+    "everyday-reading-pack-v5",
+    "everyday-reading-pack-v6"
+  ],
+  "integrationNotes": [
+    "只把这一篇追加到 loadLearningCatalog().readings。不要改 readingPack / wiredReadingPackId 的旧语义，不要新增词卡、锚点或背词组。",
+    "sourceAttribution 供七号已有的 SourceAttributionBlock / pickSourceAttribution 直接消费；source 保存结构化来源与许可字段。",
+    "文末署名须保持读者可见。share-alike 仅约束本篇改编英文和中文译文。"
+  ],
+  "readings": [
+    {
+      "id": "reading-arriving-new-city",
+      "title": "到达一座新城市",
+      "titleEn": "Arriving in a New City",
+      "levelSuggestionZh": "教学建议大约 A2+ 到 B1，未经认证分级。本篇是改编、删节后的学习文本，不是逐字原文。",
+      "paragraphs": [
+        {
+          "id": "reading-arriving-new-city-p1",
+          "en": "Arriving in a new city can be the hardest part of a trip. You need a place to sleep, food, and a way to get around. If you are visiting friends or family, ask them to pick you up if they can. This can make arrival smoother, and may help with border checks.",
+          "zh": "到达一座新城市，往往是一次旅行里最难的一段。你需要睡觉的地方、吃的东西，以及出行的办法。如果你是去看朋友或家人，尽量请他们来接你。这样抵达会顺利得多，过边境检查时也可能更方便。"
+        },
+        {
+          "id": "reading-arriving-new-city-p2",
+          "en": "If you do not speak the local language, first learn a few phrases: \"Hello\", \"Please\", \"Thank you\", \"Sorry\", \"Yes\", and \"No\". Then learn some numbers. A translation app can help. If the internet may be weak on the first day, use apps that also work offline.",
+          "zh": "如果你不会当地的语言，先学当地语里的几句常用语，相当于英语的 “Hello”、“Please”、“Thank you”、“Sorry”、“Yes” 和 “No”（你好、请、谢谢、对不起、是、不是）。然后再学一些数字。翻译应用能帮上忙。如果第一天网络可能不好，就选用也能离线使用的应用。"
+        },
+        {
+          "id": "reading-arriving-new-city-p3",
+          "en": "Before you travel, check whether your phone and internet will work. If you need a local SIM card, find out where to get one. Download a map before you arrive. Also check whether you need an adapter, because plugs or voltage may be different after you cross a border.",
+          "zh": "出发前，先确认自己的手机和网络能不能用。如果需要当地的 SIM 卡，先打听清楚哪里可以办理。抵达前先下载好地图。还要看是否需要转换插头，因为过了边境之后，插头甚至电压都可能不同。"
+        },
+        {
+          "id": "reading-arriving-new-city-p4",
+          "en": "If you fly in, plan how you will leave the airport: a friend, a taxi, or a bus or train. Check the timetable, and try not to arrive in the middle of the night. At 2 a.m., an open hotel may be hard to find. An overnight ferry, a sleeper train, or waiting until the next day can sometimes help. This is general advice, not a plan for every city.",
+          "zh": "如果是乘飞机抵达，先计划好怎么离开机场：朋友来接、坐出租车，或乘坐公共汽车或火车。查好时刻表，尽量不要在半夜到达。凌晨两点，可能很难找到还在营业的旅馆。有时改乘夜间轮渡、卧铺火车，或把最后一段路程留到第二天，能够避开太晚抵达。这只是一般建议，不是适合每一座城市的固定方案。"
+        },
+        {
+          "id": "reading-arriving-new-city-p5",
+          "en": "If you arrive early, ask about an early check-in. If your room is not ready, ask whether the hotel or station has lockers or a guarded luggage room, so you do not have to carry everything while you wait.",
+          "zh": "如果到得很早，可以询问能否提前入住。如果房间还没准备好，问问旅馆或车站有没有储物柜，或有人看管的行李寄存处，这样等候时就不必一直拿着全部行李。"
+        },
+        {
+          "id": "reading-arriving-new-city-p6",
+          "en": "Think about how you will get around. Compare the cost and time of a taxi, a bus, or a train. If you have a reservation, ask about a shuttle from the airport or station. They may also be able to send someone to meet you.",
+          "zh": "再想一想在城里怎么走动。比较一下出租车、公共汽车或火车各自要花多少钱、需要多少时间。如果已经订好房间，可以询问对方是否提供从机场或车站出发的接驳车。他们也许还能派人来接你。"
+        },
+        {
+          "id": "reading-arriving-new-city-p7",
+          "en": "If you arrive after dark, or after noon in a busy season, a reservation for the first night can save time. Some arrival forms ask where you will stay that night, and an address can make this simpler. You can always go somewhere else in the morning.",
+          "zh": "如果你会在天黑以后到达，或在旅游旺季的中午之后到达，先订好第一晚的住处，可以节省时间。有些入境表格会询问当晚住在哪里，有一个地址会更省事。第二天早上，你随时可以换地方。"
+        },
+        {
+          "id": "reading-arriving-new-city-p8",
+          "en": "Confirm the reservation a few days ahead, and tell them your arrival time. In many smaller hotels or towns, the front desk is not open all night. Guest-houses and hostels can often be booked online too. Print the reservation, and keep the name and address in the local language and script.",
+          "zh": "提前几天确认预订，并告知到达时间。在许多较小的旅馆或小城镇，前台并不是通宵有人值班。民宿和旅舍也常常可以在网上预订。把预订凭证打印出来，并准备一份用当地语言和文字写的店名与地址。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "check-in",
+          "meaningZh": "办理入住；提前入住是 early check-in"
+        },
+        {
+          "expression": "shuttle",
+          "meaningZh": "接驳车，这里指旅馆提供的机场或车站接送"
+        },
+        {
+          "expression": "reservation",
+          "meaningZh": "预订，常指旅馆或住处的预订"
+        },
+        {
+          "expression": "front desk",
+          "meaningZh": "旅馆前台"
+        },
+        {
+          "expression": "locker",
+          "meaningZh": "储物柜；文中也可指有人看管的行李寄存处"
+        }
+      ],
+      "narratorNote": "本篇是根据公开旅行指南改编、删节后的学习文本，不是逐字原文；中文是我们的译文，不是来源站点的原文。文中关于抵达时间和住宿的说明只是一般建议，具体安排要因城市和行程而异，行前请自行核实。这还不是已上线或已验收的课文。",
+      "optionalTakeaways": [
+        "出发前先处理好通讯：电话、网络、离线地图和转换插头。",
+        "先计划好离开机场或车站的方式，并尽量避免在半夜抵达一座陌生城市。",
+        "天黑以后或旺季中午之后到达时，提前订好第一晚，并准备当地语言文字的店名与地址。"
+      ],
+      "optionalQuestions": [],
+      "wordCount": 400,
+      "targetWords": [
+        300,
+        400
+      ],
+      "sourceAttribution": {
+        "attributionEn": "This reading is an adapted and abridged study text. It is not a verbatim copy of the source, and it is not an original work of the source site. It is based on the English Wikivoyage article “Arriving in a new city”, written by volunteer contributors (see the article history). The permanent revision used is 2 November 2026, 10:49:31 UTC (18:49, 2 November 2026, Asia/Shanghai, UTC+8), oldid 5414939. That revision, saved by Ikan Kekek, restored the last version by Milom1221; do not treat Ikan Kekek as the sole author. Article: https://en.wikivoyage.org/wiki/Arriving_in_a_new_city Permanent revision: https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&oldid=5414939 History: https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&action=history The source text is available under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/ The adapted English text and our Chinese translation are also offered under CC BY-SA 4.0. The Chinese is our translation of the adapted English, not a Wikivoyage original. Changes: the text was simplified, shortened, and rearranged for A2+/B1 learners; some sections, examples, and brand names were omitted. This use does not imply endorsement by the contributors, Wikivoyage, or the Wikimedia Foundation. Images, logos, and trademarks from the source are not included and are not covered by this license. The share-alike condition applies to this adapted reading text, not automatically to the rest of the site. If this text is published, this attribution should remain publicly visible.",
+        "attributionZh": "本篇是改编、删节后的学习文本，不是来源文章的逐字原文，也不是来源站点的原创内容。它根据英语维基导游（Wikivoyage）条目《Arriving in a new city》整理，该条目由志愿贡献者撰写（请见条目修订历史）。所依据的固定版本为 2026-11-02 10:49:31 UTC（Asia/Shanghai 时区 UTC+8：2026年11月2日 18:49），oldid 5414939。该版本由 Ikan Kekek 保存，用于恢复 Milom1221 的上一版本；请勿把 Ikan Kekek 当作唯一作者。条目：https://en.wikivoyage.org/wiki/Arriving_in_a_new_city 固定版本：https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&oldid=5414939 修订历史：https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&action=history 来源文本依 CC BY-SA 4.0 许可提供：https://creativecommons.org/licenses/by-sa/4.0/ 本篇改编后的英文，以及我们提供的中文译文，同样依 CC BY-SA 4.0 许可提供。中文是我们对改编英文的翻译，不是维基导游的原文。改动说明：为适合大约 A2+ 到 B1 的学习者，文本经过简化、压缩和重新组织；部分章节、例证和品牌名称已被省略。上述使用并不表示得到条目贡献者、维基导游或维基媒体基金会的背书或认可。来源中的图片、标识和商标未收入本篇，也不在本许可范围内。相同方式共享（share-alike）条件适用于本篇改编文本，并不自动适用于网站的其他部分。如公开发布本篇，此署名说明应保持可被读者看见。",
+        "links": [
+          {
+            "label": "条目",
+            "href": "https://en.wikivoyage.org/wiki/Arriving_in_a_new_city"
+          },
+          {
+            "label": "固定版本",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&oldid=5414939"
+          },
+          {
+            "label": "修订历史",
+            "href": "https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&action=history"
+          },
+          {
+            "label": "CC BY-SA 4.0",
+            "href": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        ],
+        "changeEn": "Adapted and abridged, not original and not verbatim. English was rewritten in simpler language, shortened to a 400-word A2+/B1 reading, and limited to useful arrival steps: communications, transport from the airport or station, getting around, and first-night accommodation. Omitted from the body: Understand touristic framing and jet-lag colour; Wikivoyage phrasebook/self-promotion; podcasts and dictionary apps (translation apps kept); downloading a guidebook (a map was kept); transformers (adapters kept); waiting a while without a local phone or SIM; ride-sharing brand names and the generic ride-sharing sentence; time-zone examples (including Murmansk/Kirkenes); sightseeing and schedule advice; tourist-card, walking, and taxi-trust questions; the São Paulo-Guarulhos area claim; travelling-alone / night / cultural safety detail; the idea of spending the night in a station or airport as an option to choose; working-farm lodgings; Stay safe (scams and touts); See, Do, Eat, Buy, Cars, and Maps app names; all images, banners, and logos. Late-night arrival advice is kept only as general guide advice, with an explicit caveat that the best plan depends on the city and the trip. The source line about an “I am visiting X” story was not copied or presented as a quotation.",
+        "changeZh": "本篇为改编、删节文本，既不是原创冒充来源，也不是逐字转载。英文已改写成更简单的语言，压缩为 400 词、程度约 A2+ 到 B1 的阅读，并集中在有用的抵达步骤：通讯、离开机场或车站的交通、在城里出行，以及第一晚住宿。正文未收入的内容包括：Understand 中偏游览心情的表述；维基导游短语手册等自我推广；播客和词典应用（保留了翻译应用）；指南下载（保留了地图）；变压器（保留了转换插头）；暂时没有当地手机或 SIM 卡时如何撑过一段时间；网约车品牌名称及一句概括性的网约车说明；时区例子（包括 Murmansk/Kirkenes）；观光与行程安排；旅游卡、步行和能否信任出租车等问题；关于圣保罗瓜鲁柳斯机场周边的具体说法；独自或夜间出行及文化差异方面的安全细节；把在车站或机场过夜当成一种可选方案的说法；农场住宿；Stay safe 中的骗局与拉客；See、Do、Eat、Buy、Cars 以及地图应用名称；所有图片、横幅和标识。关于不要在半夜抵达的说明，仅作为旅行指南中的一般建议保留，并明确写明最好的安排因城市和行程而异。来源里 “I am visiting X” 这一说法没有被当作引语或事实写入学习文本。",
+        "translationEn": "The Chinese text is our translation of the adapted English reading. It is not an official or original Wikivoyage Chinese version, and it should be attributed as a translation of this adaptation. Translation is Adapted Material under CC BY-SA 4.0.",
+        "translationZh": "中文是我们对这篇改编英文的翻译，不是维基导游官方或原有的中文版本，署名时应标明这是对改编文本的译文。依 CC BY-SA 4.0，译文属于改编材料。",
+        "noEndorsementEn": "Use of the source, the names of contributors, and the names Wikivoyage or Wikimedia does not imply endorsement of this adapted study text, this product, or any travel plan. Contributors are not presented as recommending this abridgement.",
+        "noEndorsementZh": "使用该来源、列出贡献者姓名，或提到维基导游、维基媒体，并不表示他们认可本改编学习文本、本产品或任何具体旅行安排。贡献者不应被说成推荐了这篇删节文本。"
+      },
+      "source": {
+        "sourceType": "external-adaptation",
+        "sourceTitle": "Arriving in a new city",
+        "sourceSite": "English Wikivoyage",
+        "sourceArticleUrl": "https://en.wikivoyage.org/wiki/Arriving_in_a_new_city",
+        "permanentRevisionUrl": "https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&oldid=5414939",
+        "sourceOldid": 5414939,
+        "revisionTimestamp": "2026-11-02T10:49:31Z",
+        "historyUrl": "https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&action=history",
+        "contributorsAttribution": "Volunteer contributors to the English Wikivoyage article “Arriving in a new city”. Credit the community via the history page; do not name a single author. The saved revision used here was a revert by Ikan Kekek to the last version by Milom1221.",
+        "sourceLicense": "CC BY-SA 4.0",
+        "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adaptedLicense": "CC BY-SA 4.0"
+      },
+      "tags": [
+        "出行"
+      ]
+    }
+  ],
+  "wordCards": [],
+  "stats": {
+    "readings": 1,
+    "wordCounts": [
+      400
+    ],
+    "paragraphs": [
+      8
+    ],
+    "wordCards": 0
+  }
+}

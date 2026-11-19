@@ -1,0 +1,421 @@
+{
+  "id": "everyday-scenes-pack-v4",
+  "title": "日常场景对话与独立词卡·新增待接入稿 v4（游戏语音、同事复现问题）",
+  "version": "v4",
+  "lang": "zh-Hans",
+  "varietyNote": "用词按普通、偏美式日常英语统一。这不是唯一正确说法。",
+  "levelNote": "难度仅为教学建议，大约按 A2 日常口语来写，未经认证分级。",
+  "provenance": "全部为原创虚构学习情景和原创例句，不是真人经历、真实聊天或转载语料。人物不是助手或用户本人。",
+  "status": "增量待接入稿；不替换 everyday-scenes-pack-v1.1 或 v3，也不接入尚未接线的 v2。本稿不等于页面已改或产品验收。",
+  "createdAt": "2026-11-12T16:55:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-scenes-pack-v1.1",
+    "everyday-scenes-pack-v2",
+    "everyday-scenes-pack-v3"
+  ],
+  "selectionPrinciples": [
+    "每段对话只处理一件具体的事，允许计划不顺利，不按词表轮流分配台词。",
+    "已有准确义项只复现，不新建词卡；义项不同则另建并写明差别。",
+    "不强制做题，不把打开中文或讲解记为掌握。"
+  ],
+  "integrationNotes": [
+    "这是 everyday-scenes-pack-v4，两段新场景：游戏语音听不清后改约、请同事一起复现表格问题。不要覆盖 v1.1 或 v3，也不要把未接入的 v2 一并上线。",
+    "游戏段与 v1.1「再来一局」不同：两人已经在玩，问题是语音听不清，最后停今晚、改约明天，没有邀请、进不去或再来一局。",
+    "独立词卡可单独学。先揭释义，再展开例句和说明。查看中文或讲解不记为掌握。",
+    "本课新卡前缀为 sc7- / sc8-。That's weird、work（能用）、link、message、text、No rush、Sounds good、tomorrow、tonight、roommate、movie 只复现。"
+  ],
+  "scenes": [
+    {
+      "id": "scene-voice-keeps-cutting",
+      "title": "语音一直断",
+      "titleEn": "I Can Barely Hear You",
+      "levelSuggestionZh": "熟人一边玩游戏一边说话，语音听不清后改约；建议难度大约 A2，未经认证分级。",
+      "settingZh": "两个已经在同一局游戏里的朋友，正在用语音聊天。",
+      "situationZh": "A 的声音一直断开，几乎听不清。两人试着再说一遍，发现是 A 的室友在隔壁放电影。改用发消息不好一起玩，于是今晚先停，改约明天家里安静后再继续。不是重新组队或进不去的那场。",
+      "narratorNote": "第一人称以外的两位虚构朋友；不是助手或用户本人。原创学习情景，不是真实聊天记录。",
+      "lines": [
+        {
+          "id": "scene-voice-keeps-cutting-l1",
+          "speaker": "A",
+          "en": "Can you hear me? I can barely hear you.",
+          "zh": "你能听见我吗？我几乎听不清你说话。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l2",
+          "speaker": "B",
+          "en": "Yeah, I can hear you, but you keep cutting out.",
+          "zh": "能听见，可是你那边一直断。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l3",
+          "speaker": "A",
+          "en": "That's weird. I'm not moving.",
+          "zh": "奇怪。我人没动啊。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l4",
+          "speaker": "B",
+          "en": "Try saying something again?",
+          "zh": "你再试着说点什么？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l5",
+          "speaker": "A",
+          "en": "One, two, three. How is that?",
+          "zh": "一、二、三。现在怎么样？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l6",
+          "speaker": "B",
+          "en": "A little better, but I still can't hear the last part.",
+          "zh": "好一点了，不过最后那截我还是听不清。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l7",
+          "speaker": "A",
+          "en": "I think my roommate just started a movie in the next room.",
+          "zh": "我猜是室友刚在隔壁开始看电影。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l8",
+          "speaker": "B",
+          "en": "That would explain it. Want to just use messages for now?",
+          "zh": "那就说得通了。要不要先改用发消息？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l9",
+          "speaker": "A",
+          "en": "We can, but it's hard to play like that.",
+          "zh": "可以是可以，不过这样很难一起玩。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l10",
+          "speaker": "B",
+          "en": "Yeah. Maybe we should stop for tonight.",
+          "zh": "是啊。那今晚先到这儿？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l11",
+          "speaker": "A",
+          "en": "Sorry. I didn't think it would be this noisy.",
+          "zh": "抱歉。我没想到会这么吵。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l12",
+          "speaker": "B",
+          "en": "It's fine. Same time tomorrow?",
+          "zh": "没关系。还是明天同一个时间？"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l13",
+          "speaker": "A",
+          "en": "Tomorrow is better. I'll message you when the house is quiet.",
+          "zh": "明天更好。等家里安静了，我再给你发消息。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l14",
+          "speaker": "B",
+          "en": "Sounds good. No rush if you need a little later.",
+          "zh": "好。你要是需要再晚一点，也不着急。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l15",
+          "speaker": "A",
+          "en": "Okay. I'll text you before we start.",
+          "zh": "好。开始之前我会给你发消息。"
+        },
+        {
+          "id": "scene-voice-keeps-cutting-l16",
+          "speaker": "B",
+          "en": "All right. See you then.",
+          "zh": "行。到时候见。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "I can barely hear you.",
+          "meaningZh": "我几乎听不清你说话。barely 是“几乎不、刚好勉强”。不是“光着听”。"
+        },
+        {
+          "expression": "you keep cutting out",
+          "meaningZh": "你的声音一直断开，一会儿有一会儿没有。这里的 cut out 不是切东西（基础课的 cut），也不是车辆抛锚的 break down。"
+        },
+        {
+          "expression": "That's weird. / That would explain it.",
+          "meaningZh": "That's weird 是已有语块，表示情况不对劲。That would explain it 是“那就说得通了”，用来接受刚刚听到的原因。本包不另建卡。"
+        },
+        {
+          "expression": "Want to just use messages for now?",
+          "meaningZh": "要不要先改用发消息？for now 是“暂时先这样”。message / text 已有词卡，本段只复现。不是重新发游戏邀请或组队。"
+        },
+        {
+          "expression": "Maybe we should stop for tonight.",
+          "meaningZh": "那今晚先到这儿、先不玩了。后面改约明天同一个时间。tonight、tomorrow、Sounds good、No rush 都只复现。"
+        },
+        {
+          "expression": "I'll message you when the house is quiet.",
+          "meaningZh": "等家里安静了再联系。movie、roommate 也只复现。本段没有写进不去游戏或再来一局。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "I can barely hear you.",
+          "zh": "我几乎听不清你说话。先整句记。",
+          "required": false
+        },
+        {
+          "en": "You keep cutting out.",
+          "zh": "你那边一直断。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 131,
+      "lineCount": 16
+    },
+    {
+      "id": "scene-try-it-again",
+      "title": "你再试一遍？",
+      "titleEn": "Can You Try It Again?",
+      "levelSuggestionZh": "同事之间一起查看一个表格问题，不是技术课。建议难度大约 A2，未经认证分级。",
+      "settingZh": "两个同事在网上发消息，看一份刚改过的表格。",
+      "situationZh": "A 改过表格后请 B 看一看。B 说日期显示不出来。两人一起按步骤再试，发现 B 打开的是第二页，A 只改了第一页。B 换到第一页后就能用了。",
+      "narratorNote": "虚构的两位同事；不是助手或用户本人。原创学习情景，不是真实聊天或真实工作记录。",
+      "lines": [
+        {
+          "id": "scene-try-it-again-l1",
+          "speaker": "A",
+          "en": "Hey. Did you get a chance to look at the new form?",
+          "zh": "嘿。你有空看过新的表格了吗？"
+        },
+        {
+          "id": "scene-try-it-again-l2",
+          "speaker": "B",
+          "en": "Yeah, I tried it just now. The date doesn't show up.",
+          "zh": "看了，我刚才试过。日期没有显示出来。"
+        },
+        {
+          "id": "scene-try-it-again-l3",
+          "speaker": "A",
+          "en": "That's weird. It works on my computer.",
+          "zh": "奇怪。在我电脑上是可以用的。"
+        },
+        {
+          "id": "scene-try-it-again-l4",
+          "speaker": "B",
+          "en": "I used the same link you sent me.",
+          "zh": "我用的就是你发给我的那个链接。"
+        },
+        {
+          "id": "scene-try-it-again-l5",
+          "speaker": "A",
+          "en": "Can you try it again, but a little more slowly? I want to see what happens.",
+          "zh": "你能再试一遍，稍微慢一点吗？我想看看是怎么回事。"
+        },
+        {
+          "id": "scene-try-it-again-l6",
+          "speaker": "B",
+          "en": "Sure. I'm opening it now. I click New, and then I choose the date.",
+          "zh": "行。我现在打开了。我点“新建”，然后再选日期。"
+        },
+        {
+          "id": "scene-try-it-again-l7",
+          "speaker": "A",
+          "en": "Okay...",
+          "zh": "好……"
+        },
+        {
+          "id": "scene-try-it-again-l8",
+          "speaker": "B",
+          "en": "See? After I click Save, the date is gone.",
+          "zh": "你看？我一点保存，日期就没了。"
+        },
+        {
+          "id": "scene-try-it-again-l9",
+          "speaker": "A",
+          "en": "Wait. Are you on the first page or the second one?",
+          "zh": "等一下。你是在第一页，还是第二页？"
+        },
+        {
+          "id": "scene-try-it-again-l10",
+          "speaker": "B",
+          "en": "The second one. Is that wrong?",
+          "zh": "第二页。这样不对吗？"
+        },
+        {
+          "id": "scene-try-it-again-l11",
+          "speaker": "A",
+          "en": "It should be the first page. I only changed that one.",
+          "zh": "应该用第一页。我只改了那一页。"
+        },
+        {
+          "id": "scene-try-it-again-l12",
+          "speaker": "B",
+          "en": "Ah. That would explain it. Let me try the first page.",
+          "zh": "啊，那就说得通了。我去试第一页。"
+        },
+        {
+          "id": "scene-try-it-again-l13",
+          "speaker": "stage",
+          "en": "A little later.",
+          "zh": "过了一会儿。"
+        },
+        {
+          "id": "scene-try-it-again-l14",
+          "speaker": "B",
+          "en": "You're right. It works there. I was on the wrong page.",
+          "zh": "你说得对。在那儿可以用。我刚才进错页了。"
+        },
+        {
+          "id": "scene-try-it-again-l15",
+          "speaker": "A",
+          "en": "Sorry, I should have said that earlier.",
+          "zh": "抱歉，我该早一点告诉你。"
+        },
+        {
+          "id": "scene-try-it-again-l16",
+          "speaker": "B",
+          "en": "No problem. I'll look at the rest later.",
+          "zh": "没事。剩下的我稍后再看。"
+        },
+        {
+          "id": "scene-try-it-again-l17",
+          "speaker": "A",
+          "en": "Thanks for trying it with me.",
+          "zh": "谢谢你和我一起试。"
+        },
+        {
+          "id": "scene-try-it-again-l18",
+          "speaker": "B",
+          "en": "Anytime. Message me if you change anything else.",
+          "zh": "客气。你要是再改什么，给我发个消息就行。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "Did you get a chance to look at…?",
+          "meaningZh": "你有空看过……吗？是商量时间的客气问法，不是问“你有没有机会”。look at 这里是看一份东西，不是 look + 形容词（看起来……）。"
+        },
+        {
+          "expression": "The date doesn't show up.",
+          "meaningZh": "日期没有显示出来。show up 在这里是“出现在眼前或页面上”，不是“出席、到场”。"
+        },
+        {
+          "expression": "It works on my computer.",
+          "meaningZh": "在我这边是能用的。works 复用已有词卡 sc2-work（东西能用），不是上班的 work。link、send 也只复现。"
+        },
+        {
+          "expression": "After I click Save, the date is gone.",
+          "meaningZh": "一点保存，日期就没了。这里的 save 是保存表格或文件，不是省钱。按钮上常直接写 Save。"
+        },
+        {
+          "expression": "I was on the wrong page.",
+          "meaningZh": "我进错页了、当时在错误的那一页。right 在 You're right 里是“你说得对”（已有形容词义），不是向右。"
+        },
+        {
+          "expression": "Thanks for trying it with me. / Anytime.",
+          "meaningZh": "谢谢你和我一起试。Anytime 用来客气地回应道谢，意思接近“客气、没关系”。本包不另建卡。故意不用太多技术词。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "The date doesn't show up.",
+          "zh": "日期没有显示出来。",
+          "required": false
+        },
+        {
+          "en": "I was on the wrong page.",
+          "zh": "我刚才进错页了。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "spokenWordCount": 157,
+      "lineCount": 17
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "sc7-barely-hear",
+      "headword": "I can barely hear you",
+      "pos": "语块",
+      "senseZh": "我几乎听不清你说话",
+      "collocation": "I can barely hear you / I can barely see it",
+      "exampleEn": "Can you hear me? I can barely hear you.",
+      "exampleZh": "你能听见我吗？我几乎听不清你说话。",
+      "transferEn": "The radio is too quiet. I can barely hear the song.",
+      "transferZh": "收音机太小声了。我几乎听不清这首歌。",
+      "sourceScene": "scene-voice-keeps-cutting",
+      "sourceLine": "scene-voice-keeps-cutting-l1",
+      "notesZh": "barely 是“几乎不、勉强才”。I can barely hear you 常用来说明电话或语音里对方的声音太小或太不清楚。另境例句改到听歌，不用本段游戏语音的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc7-cutting-out",
+      "headword": "keep cutting out",
+      "pos": "语块",
+      "senseZh": "（声音或信号）一直断开、时有时无",
+      "collocation": "you keep cutting out / the call keeps cutting out",
+      "exampleEn": "Yeah, I can hear you, but you keep cutting out.",
+      "exampleZh": "能听见，可是你那边一直断。",
+      "transferEn": "I would call you back, but my phone keeps cutting out.",
+      "transferZh": "我本想打回去，可是电话一直断。",
+      "sourceScene": "scene-voice-keeps-cutting",
+      "sourceLine": "scene-voice-keeps-cutting-l2",
+      "notesZh": "指通话或语音里声音一阵有一阵没有。不是基础课里切食物的 cut，也不是阅读稿里车辆或机器的 break down。另境例句改到打电话，不用本段玩游戏的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc8-show-up",
+      "headword": "show up",
+      "pos": "动词短语",
+      "senseZh": "（在页面、名单等上面）显示出来、出现",
+      "collocation": "doesn't show up / it showed up later",
+      "exampleEn": "The date doesn't show up.",
+      "exampleZh": "日期没有显示出来。",
+      "transferEn": "His name didn't show up on the list.",
+      "transferZh": "名单上没有他的名字。",
+      "sourceScene": "scene-try-it-again",
+      "sourceLine": "scene-try-it-again-l2",
+      "notesZh": "本卡只学“出现在眼前、显示出来”。show up 还有“到场、出席”的意思，这里不教。另境例句改到名单，不用本段改表格的场面。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc8-save",
+      "headword": "save",
+      "pos": "动词",
+      "senseZh": "保存（文件、表格或页面上填好的内容）",
+      "collocation": "click Save / save the file",
+      "exampleEn": "After I click Save, the date is gone.",
+      "exampleZh": "我一点保存，日期就没了。",
+      "transferEn": "Don't forget to save the letter before you close it.",
+      "transferZh": "关掉之前别忘了保存这封信。",
+      "sourceScene": "scene-try-it-again",
+      "sourceLine": "scene-try-it-again-l8",
+      "notesZh": "这里是把已经填好或改好的内容存下来。不是“省钱”，也不是“拯救”。按钮上常直接写 Save。另境例句改到写信，不用本段表格。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    }
+  ],
+  "stats": {
+    "scenes": 2,
+    "dialogueLines": 33,
+    "stageDirections": 1,
+    "spokenWords": [
+      131,
+      157
+    ],
+    "wordCards": 4,
+    "primaryWordCards": 4,
+    "optionalWordCards": 0,
+    "optionalQuestions": 0
+  }
+}

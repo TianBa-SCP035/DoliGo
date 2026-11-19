@@ -1,0 +1,774 @@
+{
+  "id": "everyday-scenes-pack-v1.1",
+  "title": "日常场景对话与独立词卡·审校修订稿",
+  "version": "v1.1",
+  "lang": "zh-Hans",
+  "varietyNote": "用词按普通、偏美式日常英语统一。这不是唯一正确说法。",
+  "levelNote": "难度仅为教学建议，未经认证分级，不保证对应某一考试等级。对话按熟人之间的随意口语来写，不是听力录音转写。",
+  "provenance": "全部为原创虚构学习情景和原创例句，不是真人经历、真实聊天或转载语料；未从网上单词书或现成词库选词。人物不是助手或用户本人。",
+  "status": "已按审校修订，仍为待接入稿；不是网站已更新，也不是页面实测通过。",
+  "basedOn": [
+    "sample-lesson-dinner-roommates-v1（自然对话样课方向）",
+    "对照去重：english-foundation-8-lessons、english-expansion-everyday-v4、everyday-reading-and-words-v1、everyday-reading-pack-v2.1",
+    "everyday-scenes-pack-v1（对照 2026-11-11 15:26 文稿及 scenes-draft-v1-content-review.md）"
+  ],
+  "selectionPrinciples": [
+    "每段对话只处理一件具体的事，允许计划不顺利，不按词表轮流分配台词。",
+    "词卡可脱离对话单独学；一词一义；另境例句不用正在教的那个场面。",
+    "已在共享稿出现过的义项只复现，不新建词卡。义项不同则另建，并写明差别。",
+    "不强制做题，不把打开中文或讲解记为掌握。",
+    "选词按教师判断的真实生活实用性，不承诺频率排名或掌握数量。"
+  ],
+  "integrationNotes": [
+    "这是 everyday-scenes-pack-v1 经审校修订后的待接入稿（v1.1），不是已经上线的对话或背词页；不代表网站已更新。v1 原文仍保留作审校对照。室友晚饭样课仍单独保留，不要一次堆上全部稿件。",
+    "与现有18课里每人轮流抛出知识点的短对话不同：这两段更长，中间有等、重发、进不去、页面打不开等实际障碍，讲解放在读完之后。接入时不要把它们拆回8句配额问答。",
+    "独立词卡可从背词入口单独学，不必先读完对话或做题。词卡默认先藏意思，再回忆揭晓；中英例句分行写，不要排成一句待译练习。",
+    "正文先连续显示英文对白；中文按句展开，包括过场说明（A little later），讲解和可选理解按需打开。查看中文、讲解或答案不记为掌握。",
+    "词卡已按义项对照基础8课、扩展v4、阅读v1、阅读v2.1和室友晚饭样课做了去重；未读取用户电脑上的现网站 pack，不能代替现网词本核对，也不把词卡数说成净新增词数。",
+    "No rush、Fair enough、Give me a minute、send、message、look at、right（正确的）、try again 等已有义项只在对话里复现，不新建词卡。party（游戏队伍）只在读后讲解中说明，不另建必背卡。",
+    "阅读v1已有动词 invite（invite someone over）。本段 an invite 是同一意思的口语名词形式，只在读后讲解里说明，不另建必背卡。更正式时会说 invitation。",
+    "work 基础课是上班；本包 work 是“能用”。catch 扩展课是赶上车，阅读稿 get caught 是被夹住；本包 catch 是发现了错误。get in 不是 get caught。",
+    "接入时以本 JSON 为源并固定版本号 everyday-scenes-pack-v1.1。保留既有学习进度；不要把已经改变含义的旧题记录当作掌握证据。字段需由开发者映射。无云同步、无虚假AI对话、无口语评分。",
+    "目录权限仍可能阻塞网站改动，本稿本身不能证明已写入网站。实现方恢复读取后再接入，并与阅读稿、晚饭样课分开安排入口。",
+    "牛马六号 2026-11-11 已复核 v1.1：上一轮必改均已写入，衔接成立。状态仍是已按审校修订、待接入，不是通过或网站已更新。可选残留：开场 I'm already in the game 仍可能被读成已经在打一局；若接入时再收歧义，可改为 I'm already on. 或 I'm already in. 并说明对局未开始。不是必须再出一版。见 everyday-scenes-pack-v1.1-recheck.md。",
+    "接入时的学习流程（牛马七号走查预览后提出，写入接入标准，不是网站已改）：词卡不要一点「查看意思」就同时展开释义、例句和说明；先揭释义，让学习者先回忆，再展开例句与说明。对白正文里应能直接点开本课卡词查看，不要只靠每句一个中文按钮；接入时注意句子密度，避免连续对白被按钮打断得过密。"
+  ],
+  "scenes": [
+    {
+      "id": "scene-one-more-round",
+      "title": "今晚还打吗？",
+      "titleEn": "One More Round?",
+      "levelSuggestionZh": "熟人之间的随意晚上聊天，少量游戏里会听到的说法，不是术语课。",
+      "settingZh": "两个经常一起玩游戏的朋友，晚上在网上发消息。",
+      "situationZh": "A 已经在游戏里，想叫 B 一起打。B 先忙完手头的事，邀请没看到、后来又进不去，终于进了队伍。两人一起开局打了一局。A 想再来一局，B 因为明天要早起而婉拒，两人改约明天。",
+      "narratorNote": "第一人称以外的两位虚构朋友；不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-one-more-round-l1",
+          "speaker": "A",
+          "en": "You free tonight? I'm already in the game.",
+          "zh": "今晚有空吗？我已经在游戏里了。"
+        },
+        {
+          "id": "scene-one-more-round-l2",
+          "speaker": "B",
+          "en": "Give me ten minutes? I'm just finishing something.",
+          "zh": "再给我十分钟？我手头这点事快弄完了。"
+        },
+        {
+          "id": "scene-one-more-round-l3",
+          "speaker": "A",
+          "en": "No rush. I'll wait for you.",
+          "zh": "不着急，我等你。"
+        },
+        {
+          "id": "scene-one-more-round-l4",
+          "speaker": "B",
+          "en": "Okay, I'm here. Did you send me an invite?",
+          "zh": "好了，我来了。你邀请我了吗？"
+        },
+        {
+          "id": "scene-one-more-round-l5",
+          "speaker": "A",
+          "en": "Yeah, a minute ago. You don't see it?",
+          "zh": "发了，刚发的。你没看到吗？"
+        },
+        {
+          "id": "scene-one-more-round-l6",
+          "speaker": "B",
+          "en": "Not yet. Can you send it again?",
+          "zh": "还没有。能再发一次吗？"
+        },
+        {
+          "id": "scene-one-more-round-l7",
+          "speaker": "A",
+          "en": "Sent. It should be there now.",
+          "zh": "发了。这下应该有了。"
+        },
+        {
+          "id": "scene-one-more-round-l8",
+          "speaker": "B",
+          "en": "Got it. Wait — it says I can't get in.",
+          "zh": "看到了。等一下——上面写着我进不去。"
+        },
+        {
+          "id": "scene-one-more-round-l9",
+          "speaker": "A",
+          "en": "That's weird. Try again? It does that sometimes.",
+          "zh": "奇怪。再试一次？它有时候会这样。"
+        },
+        {
+          "id": "scene-one-more-round-l10",
+          "speaker": "B",
+          "en": "Okay, I'm in your party now.",
+          "zh": "好了，我进你队伍了。"
+        },
+        {
+          "id": "scene-one-more-round-l11",
+          "speaker": "A",
+          "en": "Great. Ready to start?",
+          "zh": "好，准备开了吗？"
+        },
+        {
+          "id": "scene-one-more-round-l12",
+          "speaker": "B",
+          "en": "Yeah, let's go.",
+          "zh": "好，开吧。"
+        },
+        {
+          "id": "scene-one-more-round-l13",
+          "speaker": "stage",
+          "en": "A little later.",
+          "zh": "过了一会儿。"
+        },
+        {
+          "id": "scene-one-more-round-l14",
+          "speaker": "A",
+          "en": "One more round?",
+          "zh": "再来一局？"
+        },
+        {
+          "id": "scene-one-more-round-l15",
+          "speaker": "B",
+          "en": "I would, but it's getting late. I have to get up early tomorrow.",
+          "zh": "想是想，不过有点晚了。我明天还要早起。"
+        },
+        {
+          "id": "scene-one-more-round-l16",
+          "speaker": "A",
+          "en": "Fair enough. Same time tomorrow?",
+          "zh": "也是。明天还这个点？"
+        },
+        {
+          "id": "scene-one-more-round-l17",
+          "speaker": "B",
+          "en": "Yeah. I'll message you when I'm free.",
+          "zh": "行。我有空了给你发消息。"
+        },
+        {
+          "id": "scene-one-more-round-l18",
+          "speaker": "A",
+          "en": "Okay. I'll wait for you next time.",
+          "zh": "好。那下次还等你。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "I'm already in / I'm in.",
+          "meaningZh": "我已经进入（游戏或房间）了。后面 B 说 I can't get in，是同一组说法的反面。I'm in your party now 是已经进了对方的队伍，还没有开始对局。"
+        },
+        {
+          "expression": "Did you send me an invite?",
+          "meaningZh": "你邀请我了吗？你可能已经见过动词 invite，比如 invite someone over（邀请某人来家里）。这里的 an invite 是口语里常用的名词。更正式时会说 invitation，本段不必先换。"
+        },
+        {
+          "expression": "I can't get in.",
+          "meaningZh": "我进不去。get in 是进入游戏、房间或一栋楼；不是阅读稿里的 get caught（被夹住）。"
+        },
+        {
+          "expression": "I'm in your party now.",
+          "meaningZh": "我现在进你队伍了。这里的 party 是游戏里的队伍，不是聚会，也不是中途加入一局已经开始的对局。"
+        },
+        {
+          "expression": "It does that sometimes.",
+          "meaningZh": "表示它有时会出现刚才那种情况；这里指偶发进不去。可能用于说明情况或安慰对方，不意味着问题不必排查，也不保证能重试成功。"
+        },
+        {
+          "expression": "One more round?",
+          "meaningZh": "再来一局吗？round 在这里是一局游戏，不是“圆形”。"
+        },
+        {
+          "expression": "I would, but…",
+          "meaningZh": "想是想，不过……这里用来客气地婉拒再打一局。先整句用，不要把它做成虚拟语气规则题。"
+        },
+        {
+          "expression": "It's getting late.",
+          "meaningZh": "时候不早了、有点晚了。说的是现在越来越晚，不是“已经迟到了”（I'm late）。"
+        },
+        {
+          "expression": "No rush / Fair enough / I'll message you",
+          "meaningZh": "这些说法在晚饭样课或共享课里已经出现过，本段只是再见到，不新建词卡。"
+        },
+        {
+          "expression": "Ready to start?",
+          "meaningZh": "准备开了吗？用在两人都已在队伍里、对局还没开始的时候。不另作必背词。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "Can you send it again?",
+          "zh": "能再发一次吗？",
+          "required": false
+        },
+        {
+          "en": "I would, but it's getting late.",
+          "zh": "想是想，不过有点晚了。先整句记。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [
+        {
+          "id": "scene-one-more-round-q1",
+          "promptZh": "B 为什么没有马上进入游戏？",
+          "options": [
+            {
+              "id": "scene-one-more-round-q1-o0",
+              "textZh": "B 手头还有点事要先做完。"
+            },
+            {
+              "id": "scene-one-more-round-q1-o1",
+              "textZh": "B 明天要早起，一开始就拒绝了。"
+            },
+            {
+              "id": "scene-one-more-round-q1-o2",
+              "textZh": "B 先去吃晚饭了。"
+            }
+          ],
+          "answerId": "scene-one-more-round-q1-o0",
+          "explanationZh": "B 先说再给十分钟，手头的事快弄完。明天早起是后来婉拒再打一局的理由；对话里没有写 B 去吃饭。"
+        },
+        {
+          "id": "scene-one-more-round-q2",
+          "promptZh": "B 一开始没进去，后来是怎么和 A 一起开局的？",
+          "options": [
+            {
+              "id": "scene-one-more-round-q2-o0",
+              "textZh": "A 帮 B 重启了电脑。"
+            },
+            {
+              "id": "scene-one-more-round-q2-o1",
+              "textZh": "A 重新发了邀请，B 再试后进了队伍，两人再一起开局。"
+            },
+            {
+              "id": "scene-one-more-round-q2-o2",
+              "textZh": "他们改到第二天再打。"
+            }
+          ],
+          "answerId": "scene-one-more-round-q2-o1",
+          "explanationZh": "B 先没看到邀请，A 又发了一次；B 看到后还是进不去，再试之后说 I'm in your party now，A 问准备开了吗，两人一起开局。改约明天是打完一局以后的事。这篇没有写重启电脑，也没有写中途加入已经开始的对局。"
+        },
+        {
+          "id": "scene-one-more-round-q3",
+          "promptZh": "最后他们为什么没有再打一局？",
+          "options": [
+            {
+              "id": "scene-one-more-round-q3-o0",
+              "textZh": "游戏又出问题了。"
+            },
+            {
+              "id": "scene-one-more-round-q3-o1",
+              "textZh": "A 不想再等 B。"
+            },
+            {
+              "id": "scene-one-more-round-q3-o2",
+              "textZh": "B 觉得有点晚了，明天还要早起。"
+            }
+          ],
+          "answerId": "scene-one-more-round-q3-o2",
+          "explanationZh": "B 说 I would, but it's getting late. I have to get up early tomorrow。A 接受了，并改约明天同一时间。文中没有写这时游戏又出问题，也没有写 A 不愿再等。"
+        }
+      ],
+      "spokenWordCount": 118,
+      "lineCount": 17
+    },
+    {
+      "id": "scene-page-wont-load",
+      "title": "这个页面打不开",
+      "titleEn": "The Page Won't Load",
+      "levelSuggestionZh": "同事或一起做事的人之间的短聊，含一点常用电脑说法，不是技术课。",
+      "settingZh": "两个人在网上短聊。A 请 B 打开一个链接，核对页面上的时间。不是报修工单，也不是正式邮件。",
+      "situationZh": "B 打不开页面，刷新也不行；不是无线网的问题。B 重启浏览器并重新登录后，页面能打开，但对话没有确定哪一步解决了问题。B 发现时间写成了三点，而他们说好的是三点半。A 去改，B 提出愿意留在页面上，方便再看一眼。",
+      "narratorNote": "两位虚构同事或合作者；不是助手或用户本人。",
+      "lines": [
+        {
+          "id": "scene-page-wont-load-l1",
+          "speaker": "A",
+          "en": "I just sent you a link. Can you open it?",
+          "zh": "我刚给你发了个链接。你能打开看看吗？"
+        },
+        {
+          "id": "scene-page-wont-load-l2",
+          "speaker": "B",
+          "en": "The page won't load. It just keeps spinning.",
+          "zh": "页面打不开。一直在转圈。"
+        },
+        {
+          "id": "scene-page-wont-load-l3",
+          "speaker": "A",
+          "en": "That's weird. It works on my phone.",
+          "zh": "奇怪。我手机上可以。"
+        },
+        {
+          "id": "scene-page-wont-load-l4",
+          "speaker": "B",
+          "en": "I tried again. Still nothing.",
+          "zh": "我又试了一次。还是不行。"
+        },
+        {
+          "id": "scene-page-wont-load-l5",
+          "speaker": "A",
+          "en": "Did you try refreshing the page?",
+          "zh": "你刷新过页面吗？"
+        },
+        {
+          "id": "scene-page-wont-load-l6",
+          "speaker": "B",
+          "en": "Yeah. I refreshed it twice.",
+          "zh": "刷新了，刷了两次。"
+        },
+        {
+          "id": "scene-page-wont-load-l7",
+          "speaker": "A",
+          "en": "Maybe it's the Wi-Fi?",
+          "zh": "会不会是无线网的问题？"
+        },
+        {
+          "id": "scene-page-wont-load-l8",
+          "speaker": "B",
+          "en": "I don't think so. Everything else is fine. Let me try restarting my browser.",
+          "zh": "应该不是。别的都正常。我重启浏览器试试。"
+        },
+        {
+          "id": "scene-page-wont-load-l9",
+          "speaker": "A",
+          "en": "Okay. I'll be here.",
+          "zh": "好。我在这儿等你。"
+        },
+        {
+          "id": "scene-page-wont-load-l10",
+          "speaker": "stage",
+          "en": "A little later.",
+          "zh": "过了一会儿。"
+        },
+        {
+          "id": "scene-page-wont-load-l11",
+          "speaker": "B",
+          "en": "I restarted the browser and signed in again. I can see the page now.",
+          "zh": "我重启了浏览器，又登了一次。现在能看到页面了。"
+        },
+        {
+          "id": "scene-page-wont-load-l12",
+          "speaker": "A",
+          "en": "Great, thanks for trying that.",
+          "zh": "好，谢谢你试了一下。"
+        },
+        {
+          "id": "scene-page-wont-load-l13",
+          "speaker": "B",
+          "en": "All good. What did you want me to look at?",
+          "zh": "没事。你想让我看什么？"
+        },
+        {
+          "id": "scene-page-wont-load-l14",
+          "speaker": "A",
+          "en": "The time on the first page. Does it look right to you?",
+          "zh": "第一页上的时间。你觉得对吗？"
+        },
+        {
+          "id": "scene-page-wont-load-l15",
+          "speaker": "B",
+          "en": "Almost — it says three, but we said three thirty.",
+          "zh": "差不多对，不过上面写的是三点，我们说好的是三点半。"
+        },
+        {
+          "id": "scene-page-wont-load-l16",
+          "speaker": "A",
+          "en": "Oh. I'll fix that. Thanks for catching it.",
+          "zh": "噢。我改一下。谢谢你看出来了。"
+        },
+        {
+          "id": "scene-page-wont-load-l17",
+          "speaker": "B",
+          "en": "No problem. I'll stay on the page if you want me to check again.",
+          "zh": "没事。你要是改完还想让我再看一眼，我先留在这个页面上。"
+        },
+        {
+          "id": "scene-page-wont-load-l18",
+          "speaker": "A",
+          "en": "That'd be great. Give me a minute.",
+          "zh": "那太好了。稍等我一下。"
+        }
+      ],
+      "notes": [
+        {
+          "expression": "The page won't load.",
+          "meaningZh": "页面加载不出来、打不开。这里的 won't 不是“不愿意”，而是“就是不行”。"
+        },
+        {
+          "expression": "It works on my phone.",
+          "meaningZh": "我手机上可以、能正常打开。这里的 work 不是“上班”，而是东西能用。"
+        },
+        {
+          "expression": "refreshing the page / I refreshed it twice.",
+          "meaningZh": "刷新页面。twice 是两次。刷新是重新载入这个页面，还不是重启整台电脑。"
+        },
+        {
+          "expression": "Maybe it's the Wi-Fi?",
+          "meaningZh": "会不会是无线网的问题？B 随后否定了，因为别的都正常。"
+        },
+        {
+          "expression": "Let me try restarting my browser.",
+          "meaningZh": "我重启浏览器试试。这里明确是重启浏览器，不是重启电脑。refresh 是重新载入这个页面；二者对象不同，不要只按动作大小区分，也不要靠讲解替正文补出对象。"
+        },
+        {
+          "expression": "I restarted the browser and signed in again.",
+          "meaningZh": "我重启了浏览器，又登了一次。sign in 和 log in 意思接近；again 表示要再登一次，不是在纸上签名。文中没有把重新登录说成页面能打开的确定原因。"
+        },
+        {
+          "expression": "Does it look right to you?",
+          "meaningZh": "你觉得这对吗？这里的 right 是“正确的”，不是“向右”。"
+        },
+        {
+          "expression": "Thanks for catching it.",
+          "meaningZh": "谢谢你发现了这个问题。这里的 catch 不是赶上车（catch a bus），也不是被夹住（get caught）。"
+        },
+        {
+          "expression": "That'd be great / Give me a minute / All good",
+          "meaningZh": "That'd 是 That would 的缩写，That'd be great 表示“那太好了”。这种缩写也可用于非正式文字聊天。Give me a minute 和类似的轻松回应在样课或共享课里见过，本段只复现。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "The page won't load.",
+          "zh": "页面加载不出来。",
+          "required": false
+        },
+        {
+          "en": "Thanks for catching it.",
+          "zh": "谢谢你发现了这个问题。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [
+        {
+          "id": "scene-page-wont-load-q1",
+          "promptZh": "B 一开始为什么打不开那个页面？对话有没有给出确定原因？",
+          "options": [
+            {
+              "id": "scene-page-wont-load-q1-o0",
+              "textZh": "确定是无线网坏了。"
+            },
+            {
+              "id": "scene-page-wont-load-q1-o1",
+              "textZh": "对话没有给出确定原因；刷新不行，B 后来重启浏览器并重新登录，之后页面能打开。"
+            },
+            {
+              "id": "scene-page-wont-load-q1-o2",
+              "textZh": "链接发错了，所以一直打不开。"
+            }
+          ],
+          "answerId": "scene-page-wont-load-q1-o1",
+          "explanationZh": "只知道这些操作之后能打开；无法据此确定哪一步解决了问题。A 猜过是无线网，但 B 说别的都正常。也没有写链接发错。"
+        },
+        {
+          "id": "scene-page-wont-load-q2",
+          "promptZh": "B 打开页面后，发现了什么问题？",
+          "options": [
+            {
+              "id": "scene-page-wont-load-q2-o0",
+              "textZh": "页面上的时间写成了三点，而他们说好的是三点半。"
+            },
+            {
+              "id": "scene-page-wont-load-q2-o1",
+              "textZh": "第一页是空的。"
+            },
+            {
+              "id": "scene-page-wont-load-q2-o2",
+              "textZh": "时间是对的，不需要改。"
+            }
+          ],
+          "answerId": "scene-page-wont-load-q2-o0",
+          "explanationZh": "B 说 Almost — it says three, but we said three thirty。A 随后说要改。文中没有写页面是空的。"
+        },
+        {
+          "id": "scene-page-wont-load-q3",
+          "promptZh": "发现时间有误之后，B 提出了什么帮助？",
+          "options": [
+            {
+              "id": "scene-page-wont-load-q3-o0",
+              "textZh": "B 自己把时间改掉了。"
+            },
+            {
+              "id": "scene-page-wont-load-q3-o1",
+              "textZh": "B 先关掉了页面。"
+            },
+            {
+              "id": "scene-page-wont-load-q3-o2",
+              "textZh": "愿意留着页面，方便改好后再看一眼。"
+            }
+          ],
+          "answerId": "scene-page-wont-load-q3-o2",
+          "explanationZh": "B 提出愿意留着页面，方便 A 改完后再看一眼；A 接受了，但故事没有描写实际复查。改时间的是 A。不要把提议当成已经检查完。"
+        }
+      ],
+      "spokenWordCount": 143,
+      "lineCount": 17
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "sc1-get-in",
+      "headword": "get in",
+      "pos": "动词短语",
+      "senseZh": "进入（游戏、房间、楼等）",
+      "collocation": "can't get in / I'm in",
+      "exampleEn": "It says I can't get in.",
+      "exampleZh": "上面写着我进不去。",
+      "transferEn": "The door was locked, so I couldn't get in.",
+      "transferZh": "门锁着，所以我进不去。",
+      "sourceScene": "scene-one-more-round",
+      "sourceLine": "scene-one-more-round-l8",
+      "notesZh": "I'm in 在本段先表示已经进入游戏；后来 I'm in your party now 是进了队伍，还没有开局。不是阅读稿里的 get caught（被夹住）。party 在这里是游戏里的队伍，不是聚会。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc1-does-that-sometimes",
+      "headword": "It does that sometimes",
+      "pos": "语块",
+      "senseZh": "它有时候会这样",
+      "collocation": "It does that sometimes",
+      "exampleEn": "Try again? It does that sometimes.",
+      "exampleZh": "再试一次？它有时候会这样。",
+      "transferEn": "The printer stopped again. It does that sometimes.",
+      "transferZh": "打印机又停了。它有时候会这样。",
+      "sourceScene": "scene-one-more-round",
+      "sourceLine": "scene-one-more-round-l9",
+      "notesZh": "表示它有时会出现刚才那种情况；这里指偶发进不去。可能用于说明情况或安慰对方，不意味着问题不必排查，也不保证能重试成功。that 指刚才发生的那种情况。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc1-one-more-round",
+      "headword": "one more round",
+      "pos": "语块",
+      "senseZh": "再来一局",
+      "collocation": "one more round",
+      "exampleEn": "One more round?",
+      "exampleZh": "再来一局？",
+      "transferEn": "They played two rounds and then stopped.",
+      "transferZh": "他们打了两局就停了。",
+      "sourceScene": "scene-one-more-round",
+      "sourceLine": "scene-one-more-round-l14",
+      "notesZh": "round 在这里是一局游戏，不是“圆形”。this round 则是“这一局”。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc1-getting-late",
+      "headword": "It's getting late",
+      "pos": "语块",
+      "senseZh": "时候不早了、有点晚了",
+      "collocation": "It's getting late",
+      "exampleEn": "I would, but it's getting late.",
+      "exampleZh": "想是想，不过有点晚了。",
+      "transferEn": "We should go home. It's getting late.",
+      "transferZh": "我们该回家了。时候不早了。",
+      "sourceScene": "scene-one-more-round",
+      "sourceLine": "scene-one-more-round-l15",
+      "notesZh": "说的是现在越来越晚。I'm late 才是“我迟到了”。基础课已有 late、tonight，本卡只学这一整句用法。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-wont-load",
+      "headword": "won't load",
+      "pos": "语块",
+      "senseZh": "（页面、图片等）加载不出来",
+      "collocation": "The page won't load",
+      "exampleEn": "The page won't load.",
+      "exampleZh": "页面打不开。",
+      "transferEn": "The photo won't load on my phone.",
+      "transferZh": "这张照片在我手机上加载不出来。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l2",
+      "notesZh": "won't 在这里表示就是做不到，不是主观不愿意。也可以说 It isn't loading。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-refresh",
+      "headword": "refresh",
+      "pos": "动词",
+      "senseZh": "刷新（页面）",
+      "collocation": "refresh the page",
+      "exampleEn": "Did you try refreshing the page?",
+      "exampleZh": "你刷新过页面吗？",
+      "transferEn": "Refresh the page if it looks wrong.",
+      "transferZh": "如果看起来不对，就刷新一下页面。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l5",
+      "notesZh": "刷新是重新载入这个页面，不是重启整台电脑。后面常接 the page。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-sign-in",
+      "headword": "sign in",
+      "pos": "动词短语",
+      "senseZh": "登录",
+      "collocation": "sign in again",
+      "exampleEn": "I restarted the browser and signed in again.",
+      "exampleZh": "我重启了浏览器，又登了一次。",
+      "transferEn": "I need to sign in before I can open the file.",
+      "transferZh": "我要先登录，才能打开这个文件。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l11",
+      "notesZh": "和 log in 意思接近。again 表示再登一次。不是在纸上签名。不要把重新登录写成页面能打开的确定原因。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-link",
+      "headword": "link",
+      "pos": "可数名词",
+      "senseZh": "链接",
+      "collocation": "send you a link",
+      "exampleEn": "I just sent you a link.",
+      "exampleZh": "我刚给你发了个链接。",
+      "transferEn": "Can you send me the link to the shop?",
+      "transferZh": "你能把那家店的链接发给我吗？",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l1",
+      "notesZh": "本卡只学网上的链接。open the link / send a link 都常见。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-work",
+      "headword": "work",
+      "pos": "动词",
+      "senseZh": "（机器、页面、方法）能用、正常运转",
+      "collocation": "It works on my phone",
+      "exampleEn": "It works on my phone.",
+      "exampleZh": "我手机上可以。",
+      "transferEn": "My phone isn't working.",
+      "transferZh": "我的手机坏了／用不了。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l3",
+      "notesZh": "基础课的 work 是上班或工作。本卡是东西能用。It's working now 表示现在可以用了。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-restart",
+      "headword": "restart",
+      "pos": "动词",
+      "senseZh": "重新启动（浏览器、程序或电脑）",
+      "collocation": "try restarting",
+      "exampleEn": "Let me try restarting my browser.",
+      "exampleZh": "我重启浏览器试试。",
+      "transferEn": "I restarted my computer, and the problem went away.",
+      "transferZh": "我重启了电脑，问题就没了。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l8",
+      "notesZh": "本段是重启浏览器，不是重启电脑。refresh 是重新载入这个页面；restart 是把浏览器关上再打开。不要只按动作大小区分，也不要把对象留给讲解去补。另境例句里的电脑是另一种常见对象。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-catch",
+      "headword": "catch",
+      "pos": "动词",
+      "senseZh": "发现（一个错误或问题）",
+      "collocation": "Thanks for catching it",
+      "exampleEn": "Thanks for catching it.",
+      "exampleZh": "谢谢你看出来了。",
+      "transferEn": "She caught a mistake in the email.",
+      "transferZh": "她发现了邮件里的一处错误。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l16",
+      "notesZh": "扩展课 catch 教的是赶上车（catch a bus）。阅读稿 get caught 是被夹住。本卡是发现了问题。不要写成同一个意思。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-wifi",
+      "headword": "Wi-Fi",
+      "pos": "不可数名词",
+      "senseZh": "无线网",
+      "collocation": "the Wi-Fi",
+      "exampleEn": "Maybe it's the Wi-Fi?",
+      "exampleZh": "会不会是无线网的问题？",
+      "transferEn": "The Wi-Fi is slow in the kitchen.",
+      "transferZh": "厨房里的无线网很慢。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l7",
+      "notesZh": "也有人写成 wifi 或 WiFi。本卡只学“无线网络”，不讲技术细节。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc1-thats-weird",
+      "headword": "That's weird",
+      "pos": "语块",
+      "senseZh": "奇怪、不对劲（对意外情况的反应）",
+      "collocation": "That's weird",
+      "exampleEn": "That's weird. Try again?",
+      "exampleZh": "奇怪。再试一次？",
+      "transferEn": "That's weird. It was here a minute ago.",
+      "transferZh": "奇怪。一分钟前它还在这儿。",
+      "sourceScene": "scene-one-more-round",
+      "sourceLine": "scene-one-more-round-l9",
+      "notesZh": "两段对话里都出现过，用来对意外情况作出反应。不是必背，先会听、会用即可。That's weird 和 That's strange 两句都可以回应意外情况，语气取决于场合与语调；本段是随意的熟人交流。",
+      "standalone": true,
+      "priority": "optional",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "sc2-all-good",
+      "headword": "All good",
+      "pos": "语块",
+      "senseZh": "没事、没问题",
+      "collocation": "All good",
+      "exampleEn": "All good. What did you want me to look at?",
+      "exampleZh": "没事。你想让我看什么？",
+      "transferEn": "Sorry I'm late. — All good.",
+      "transferZh": "抱歉，我晚了。——没事。",
+      "sourceScene": "scene-page-wont-load",
+      "sourceLine": "scene-page-wont-load-l13",
+      "notesZh": "常用来接受道歉，或表示情况已经没问题。本段里是页面能打开之后，接着问要看什么。不强制先背。",
+      "standalone": true,
+      "priority": "optional",
+      "provenance": "原创学习例句，非转载语料。"
+    }
+  ],
+  "stats": {
+    "scenes": 2,
+    "dialogueLines": 34,
+    "stageDirections": 2,
+    "spokenWords": [
+      118,
+      143
+    ],
+    "wordCards": 14,
+    "primaryWordCards": 12,
+    "optionalWordCards": 2,
+    "optionalQuestions": 6,
+    "optionalTakeaways": 4
+  },
+  "reviewedFrom": "everyday-scenes-pack-v1 / 多莉国场景对话稿 Canvas 自标 v1",
+  "editorialChangesFromV1": [
+    "游戏段去掉未交代的中途加入：l3 改为 I'll wait for you；l10 明确进队伍（party）；l11–l12 改为一起开局。",
+    "网页段 l8 写明重启浏览器；讲解和 restart 词卡不再把对象补成电脑。",
+    "网页段 l11 写明重启浏览器并重新登录后能看到页面；l12 改为感谢对方试了一下，不再暗示 A 早知道要登录。",
+    "q1 保留无法确定原因，解析不再把重新登录写成修复条件。",
+    "q3 改问 B 提出了什么帮助，正确项为愿意留着页面，不断言已经复查完。",
+    "It does that sometimes 的讲解不再说“不必再排查/不必解释原因”。",
+    "That's weird 不再与 That's strange 做固定语气比较。",
+    "That'd 只说明是 That would 的缩写，也可用于非正式文字聊天。",
+    "游戏理解题同步为：再试后进入队伍，再一起开局。"
+  ]
+}

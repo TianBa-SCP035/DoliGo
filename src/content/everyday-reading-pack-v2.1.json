@@ -1,0 +1,630 @@
+{
+  "id": "everyday-reading-pack-v2.1",
+  "title": "分级日常阅读与独立词卡·审校小改稿",
+  "basedOn": "everyday-reading-pack-v2（对照 2026-11-11 14:21 文稿及 everyday-reading-pack-v2-review.md）",
+  "provenance": "全部为原创虚构学习故事和原创例句，不是真人经历、真实聊天或转载语料；未从网上单词书或现成词库选词。",
+  "levelNote": "难度仅为教学建议，未经认证分级，不保证对应某一考试等级。较长一篇按日常叙事、略含需讲解的表达来写；较短一篇更直白。",
+  "varietyNote": "用词按普通、偏美式日常英语统一（如 neighbor、apartment、dish soap、movie、got caught）。这不是唯一正确说法。",
+  "integrationNotes": [
+    "这是 everyday-reading-pack-v2 经审校小改后的待接入稿（v2.1），不是已经上线的阅读或背词页；不代表网站已更新。v2 原文仍保留作审校对照。",
+    "独立词卡可从背词入口单独学，不必先读完文章或做题。词卡默认先藏意思，再回忆揭晓；中英例句分开写，不要排成一句待译练习。",
+    "正文连续呈现英文；中文按段展开（不要只能整篇开关），讲解和理解题按需展开。正文里可点词查看。查看中文、讲解或答案不记为掌握。",
+    "骑车段不要求先学完四张相关词卡；主推 let go 与 on her own，hold on to 与 manage to 仅见过、不强制先背。",
+    "可选理解不必立即回答，也不是过关条件。答案按 answerId 判断，不按选项位置。读完可带走的句子为可选，不作过关条件。",
+    "词卡已按义项对照共享稿中的基础8课、扩展v4、阅读v1词卡做了去重；未读取用户电脑上的现网站 pack，不能代替现网词本核对，也不把词卡数说成净新增词数。",
+    "come straight back、in a hurry、umbrella、message、stove、arrive 等已在共享稿出现过的义项，只在文中复现，不再新建词卡。picking up the milk 不要按 pick up some flowers 的义项直接复现。",
+    "接入时以本 JSON 为源并固定版本号 everyday-reading-pack-v2.1，避免预览页题目 id 与学习记录对不上。",
+    "阅读v1的两篇故事仍保留为另稿，与室友晚饭对话样课分开安排入口，不要一次堆上全部稿件。",
+    "集成时请保留既有学习进度；本稿字段需由开发者映射。无云同步、无虚假AI对话、无口语评分。退出后再进入，应能回到同一篇的阅读位置或词卡进度。"
+  ],
+  "editorialChangesFromPrototypesV2": [
+    "neighbour 改为 neighbor；washing-up liquid 改为 dish soap；flat 改为 apartment；film 改为 movie，与既有课稿及偏美式用法一致。",
+    "It had caught in a bus door 改为 It got caught in a bus door，更接近“被夹住”的常用说法。",
+    "discussed 改为 talked about；considered 改为 thought about，降低不必要的书面语气。",
+    "hold on again 改为 hold on to her again，避免理解成“等一下”。",
+    "补上独立词卡、第二情景例句、可选理解和“I wished I'd ordered…”的读后说明。"
+  ],
+  "readings": [
+    {
+      "id": "reading-shops-afternoon",
+      "title": "一次本想很快结束的购物",
+      "titleEn": "A Quick Shopping Trip",
+      "levelSuggestionZh": "教学建议：日常叙事，由较易的基础表达过渡到少量需讲解的句子。",
+      "targetWords": [
+        300,
+        380
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。",
+      "paragraphs": [
+        {
+          "id": "reading-shops-afternoon-p1",
+          "en": "At half past twelve on Saturday, I left home with a short shopping list: bread, milk, and dish soap. I planned to buy everything at the supermarket and come straight back. Outside the entrance, I met my neighbor, Anna.",
+          "zh": "星期六十二点半，我带着一张简短的购物清单出了门：面包、牛奶和洗洁精。我打算在超市买齐就直接回家。在超市入口外，我碰见了邻居安娜。"
+        },
+        {
+          "id": "reading-shops-afternoon-p2",
+          "en": "She was looking at the bent handle of her umbrella. It got caught in a bus door the day before. She wanted a stronger one from a shop near the station, but the shop was closed until two.",
+          "zh": "她正看着雨伞弯掉的伞柄。前一天，伞被公交车门夹了一下。她想去车站附近的一家店买把结实些的，不过那家店要到两点才开门。"
+        },
+        {
+          "id": "reading-shops-afternoon-p3",
+          "en": "“I'm going to have lunch while I wait,” she said. “Have you eaten?”\n\nI hadn't. My shopping could wait, and I hadn't bought anything yet, so we went to a café together.",
+          "zh": "“我打算等开门的时候先吃个午饭，”她说，“你吃过了吗？”\n\n我还没吃。买东西不着急，而且我也还什么都没买，于是我们一起去了家咖啡馆。"
+        },
+        {
+          "id": "reading-shops-afternoon-p4",
+          "en": "We found a table at the back, away from the coffee machine. Anna ordered soup. I chose a cheese sandwich, then wished I'd ordered the soup when hers arrived with warm bread. She pushed the bread basket between us.",
+          "zh": "我们在里面找了张桌子，离咖啡机远一些。安娜点了汤。我选了奶酪三明治，可她的汤配着热面包端上来时，我有点后悔，觉得自己刚才也该点汤。她把面包篮推到了我们中间。"
+        },
+        {
+          "id": "reading-shops-afternoon-p5",
+          "en": "Over lunch, we talked about our building. Someone had put plants beside the front door, making the entrance feel less empty. Anna knew who it was. We also talked about the upstairs washing machine, which always seemed to start just as she went to bed.",
+          "zh": "吃饭时，我们聊起住的那栋楼。有人在大门旁摆了些植物，让入口显得没那么空了。安娜知道是谁摆的。我们还聊了楼上的洗衣机——它似乎总是在她刚准备睡觉时启动。"
+        },
+        {
+          "id": "reading-shops-afternoon-p6",
+          "en": "At two, we walked to the umbrella shop. She opened both, and I stood with her under each one to see how much they covered. The wider one covered us both, but she said she didn't want to carry something that large every day. She chose the smaller one.",
+          "zh": "两点，我们走到卖伞的店里。她把两把伞都撑开，我和她分别站到每把伞下面，看看能遮住多少地方。大一点的能遮住我们两个人，不过她说，不想每天都带着那么大一把伞。她选了小一点的。"
+        },
+        {
+          "id": "reading-shops-afternoon-p7",
+          "en": "Neither of us was in a hurry. The river was only a few streets away, so we walked there and sat on a bench. A man was teaching his daughter to ride a bike. Each time he let go, she shouted for him to hold her again. We stayed until she rode past our bench on her own.",
+          "zh": "我们都不赶时间。河边只隔着几个街区，于是我们走过去，在长椅上坐了下来。一个男人正在教女儿骑自行车。他每次一松手，她就喊着让他再扶住她。我们一直待到她能自己骑过我们面前的长椅。"
+        },
+        {
+          "id": "reading-shops-afternoon-p8",
+          "en": "It was after three when I finally returned to the supermarket. I bought everything on my list, picking up the milk last. Back home, I put it straight in the fridge. My quick shopping trip had filled most of the afternoon.",
+          "zh": "等我终于回到超市，已经三点多了。我买齐了清单上的东西，最后才去拿牛奶。回到家，我马上把牛奶放进冰箱。本来只想很快买点东西，结果大半个下午就这样过去了。"
+        }
+      ],
+      "notes": [
+        {
+          "id": "reading-shops-afternoon-n1",
+          "expression": "come straight back",
+          "meaningZh": "直接回来，不在别处停留。这里的 straight 是“直接”，不是“笔直地”。共享稿已出现过类似用法，本篇作为复现。"
+        },
+        {
+          "id": "reading-shops-afternoon-n2",
+          "expression": "It got caught in a bus door.",
+          "meaningZh": "伞被公交车门夹住了。get caught 在这里是“被夹住、被卡住”，不是扩展课里 catch a bus（赶上车）的意思。the day before 已经说明这是故事开始前的事。"
+        },
+        {
+          "id": "reading-shops-afternoon-n3",
+          "expression": "My shopping could wait.",
+          "meaningZh": "买东西可以晚一点，不着急。不是说买不了了。"
+        },
+        {
+          "id": "reading-shops-afternoon-n4",
+          "expression": "I wished I'd ordered the soup.",
+          "meaningZh": "我后悔刚才没有点汤。I'd 在这里是 I had，表达对刚才那个选择的遗憾。本篇先整句理解，不把虚拟语气规则拿来测试。"
+        },
+        {
+          "id": "reading-shops-afternoon-n5",
+          "expression": "Over lunch",
+          "meaningZh": "吃午饭的时候，常用来引出席间的聊天。"
+        },
+        {
+          "id": "reading-shops-afternoon-n6",
+          "expression": "Neither of us was in a hurry.",
+          "meaningZh": "我们两个人都不赶时间。本课认 Neither of us was…。口语里也有人说 were，不要把 were 设为错误项。in a hurry 在阅读v1词卡中已出现，这里是复现。"
+        },
+        {
+          "id": "reading-shops-afternoon-n7",
+          "expression": "on her own",
+          "meaningZh": "她独自、没有别人帮助；这里指不用爸爸扶着骑车。"
+        },
+        {
+          "id": "reading-shops-afternoon-n8",
+          "expression": "picking up the milk last",
+          "meaningZh": "最后才从货架上拿牛奶。这里的 pick up 是在超市拿起、选购，不是去取已经准备好的东西（例如共享稿里的 pick up some flowers）。不要为此新建必背卡，也不要把两种用法写成同一个意思。"
+        },
+        {
+          "id": "reading-shops-afternoon-n9",
+          "expression": "hold on to / manage to（见过，不强制先背）",
+          "meaningZh": "写骑车这段时也可以说 hold on to her（扶住她）或 she managed to pass our bench（终于骑过了长椅）。本篇正文改成了更自然的 hold her / rode past，这两张不作为本课必背，看过该段也不算已经掌握这两个用法。"
+        }
+      ],
+      "optionalQuestions": [
+        {
+          "id": "reading-shops-afternoon-q1",
+          "promptZh": "叙述者为什么先没去购物，而是和安娜去了咖啡馆？",
+          "options": [
+            {
+              "id": "reading-shops-afternoon-q1-o0",
+              "textZh": "叙述者还没吃午饭，买东西可以晚一点。"
+            },
+            {
+              "id": "reading-shops-afternoon-q1-o1",
+              "textZh": "超市要到两点才开门。"
+            },
+            {
+              "id": "reading-shops-afternoon-q1-o2",
+              "textZh": "叙述者忘了带购物清单。"
+            }
+          ],
+          "answerId": "reading-shops-afternoon-q1-o0",
+          "explanationZh": "原文写叙述者还没吃，并且 My shopping could wait。关门到两点的是车站附近那家卖伞的店，不是超市。文中没有写叙述者忘了清单。",
+          "taughtReference": "reading-shops-afternoon-p3"
+        },
+        {
+          "id": "reading-shops-afternoon-q2",
+          "promptZh": "安娜最后为什么选了小一点的伞？",
+          "options": [
+            {
+              "id": "reading-shops-afternoon-q2-o0",
+              "textZh": "大伞遮不住两个人。"
+            },
+            {
+              "id": "reading-shops-afternoon-q2-o1",
+              "textZh": "她不想每天都带着那么大一把伞。"
+            },
+            {
+              "id": "reading-shops-afternoon-q2-o2",
+              "textZh": "小伞比较便宜。"
+            }
+          ],
+          "answerId": "reading-shops-afternoon-q2-o1",
+          "explanationZh": "大伞其实能遮住两个人，但她说不想每天带那么大的伞。文中没有提到价格。",
+          "taughtReference": "reading-shops-afternoon-p6"
+        },
+        {
+          "id": "reading-shops-afternoon-q3",
+          "promptZh": "他们在河边一直待到什么时候？",
+          "options": [
+            {
+              "id": "reading-shops-afternoon-q3-o0",
+              "textZh": "雨停了。"
+            },
+            {
+              "id": "reading-shops-afternoon-q3-o1",
+              "textZh": "那个女孩能自己骑过他们的长椅。"
+            },
+            {
+              "id": "reading-shops-afternoon-q3-o2",
+              "textZh": "超市要关门了。"
+            }
+          ],
+          "answerId": "reading-shops-afternoon-q3-o1",
+          "explanationZh": "原文 We stayed until she rode past our bench on her own。这篇没有写当时在下雨或超市要关门。",
+          "taughtReference": "reading-shops-afternoon-p7"
+        }
+      ],
+      "wordCount": 341,
+      "optionalTakeaways": [
+        {
+          "en": "Have you eaten?",
+          "zh": "你吃过了吗？",
+          "required": false
+        },
+        {
+          "en": "My shopping could wait.",
+          "zh": "买东西可以晚一点。",
+          "required": false
+        },
+        {
+          "en": "I wished I'd ordered the soup.",
+          "zh": "我后悔刚才没点汤。先整句记，不测虚拟语气。",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "reading-lunch-later",
+      "title": "午饭晚一点吃",
+      "titleEn": "Lunch a Little Later",
+      "levelSuggestionZh": "教学建议：较短、较直白的日常叙事，适合先连续读完。",
+      "targetWords": [
+        150,
+        200
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。",
+      "paragraphs": [
+        {
+          "id": "reading-lunch-later-p1",
+          "en": "On Sunday, Ben was coming to my apartment for lunch at twelve thirty. We planned to eat pasta and then watch a movie. At twelve, I had chopped the vegetables, but I hadn't started cooking.",
+          "zh": "星期天，本打算十二点半来我家吃午饭。我们约好吃意大利面，然后看部电影。十二点时，我已经切好了蔬菜，不过还没开始做饭。"
+        },
+        {
+          "id": "reading-lunch-later-p2",
+          "en": "Five minutes later, he sent a message. His bus had broken down, and he was waiting for another one. He thought he could arrive at about one fifteen.",
+          "zh": "五分钟后，他发来消息。他坐的公交车坏了，正在等下一班。他估计一点十五分左右能到。"
+        },
+        {
+          "id": "reading-lunch-later-p3",
+          "en": "I was already hungry. For a moment, I thought about eating without him. Instead, I had some toast and put the vegetables in the fridge. I messaged him: \"No rush. Just tell me when you're nearby.\"",
+          "zh": "我已经饿了。有那么一会儿，我想过不等他、自己先吃。后来，我吃了点吐司，把蔬菜放进冰箱。我给他发消息：「不用急。快到了跟我说一声就行。」"
+        },
+        {
+          "id": "reading-lunch-later-p4",
+          "en": "At one, his next message arrived. He was ten minutes away. I started the sauce and put a pan of water on the stove.",
+          "zh": "一点，他又发来消息，说还有十分钟就到。我开始做酱汁，又在炉子上放了一锅水。"
+        },
+        {
+          "id": "reading-lunch-later-p5",
+          "en": "Ben arrived carrying a small bag of tomatoes from his garden. While the pasta cooked, he cut them for a salad. We ate at half past one. The movie started later than planned, but we still had time to finish it before he went home.",
+          "zh": "本到的时候，手里提着一小袋自家种的番茄。煮面的时候，他切了番茄做沙拉。我们一点半吃上了饭。电影比原计划晚开始了，不过在他回家之前，我们还是来得及把它看完。"
+        }
+      ],
+      "notes": [
+        {
+          "id": "reading-lunch-later-n1",
+          "expression": "had broken down",
+          "meaningZh": "之前发生了故障；这里指公交车坏了，不是正常停站。和“休息一下”（have a break）不是同一个意思。"
+        },
+        {
+          "id": "reading-lunch-later-n2",
+          "expression": "Instead, I…",
+          "meaningZh": "我没有那样做，而是……这里是没先吃午饭，改为吃了点吐司。共享稿和阅读v1已出现过 instead，本篇作为复现。"
+        },
+        {
+          "id": "reading-lunch-later-n3",
+          "expression": "No rush / not to rush",
+          "meaningZh": "不用着急、不要赶。本段直接把消息写成 No rush. Just tell me when you're nearby. 扩展课里的 No rush 与 I told him not to rush 意思接近，本篇不另建词卡。"
+        },
+        {
+          "id": "reading-lunch-later-n4",
+          "expression": "ten minutes away",
+          "meaningZh": "还有十分钟路程，不是“十分钟前”。"
+        },
+        {
+          "id": "reading-lunch-later-n5",
+          "expression": "I had chopped the vegetables",
+          "meaningZh": "表示十二点时菜已经切好。这一时态说明“做饭开始之前，切菜已经完成”。先整句理解时间顺序，不要出过去完成时规则题。"
+        }
+      ],
+      "optionalQuestions": [
+        {
+          "id": "reading-lunch-later-q1",
+          "promptZh": "Ben 为什么会晚到？",
+          "options": [
+            {
+              "id": "reading-lunch-later-q1-o0",
+              "textZh": "他坐的公交车坏了，正在等下一班。"
+            },
+            {
+              "id": "reading-lunch-later-q1-o1",
+              "textZh": "他先去花园摘了番茄。"
+            },
+            {
+              "id": "reading-lunch-later-q1-o2",
+              "textZh": "他忘了约定的时间。"
+            }
+          ],
+          "answerId": "reading-lunch-later-q1-o0",
+          "explanationZh": "原文 His bus had broken down, and he was waiting for another one。番茄是他到了以后带来的；文中没有写他忘记时间。",
+          "taughtReference": "reading-lunch-later-p2"
+        },
+        {
+          "id": "reading-lunch-later-q2",
+          "promptZh": "等 Ben 的时候，叙述者做了什么？",
+          "options": [
+            {
+              "id": "reading-lunch-later-q2-o0",
+              "textZh": "叙述者把午饭先吃完了。"
+            },
+            {
+              "id": "reading-lunch-later-q2-o1",
+              "textZh": "叙述者吃了点吐司，把蔬菜放进冰箱。"
+            },
+            {
+              "id": "reading-lunch-later-q2-o2",
+              "textZh": "叙述者出门去接 Ben。"
+            }
+          ],
+          "answerId": "reading-lunch-later-q2-o1",
+          "explanationZh": "叙述者想过自己先吃，但后来只吃了吐司，并把蔬菜放进冰箱。文中没有写叙述者出门去接他。",
+          "taughtReference": "reading-lunch-later-p3"
+        },
+        {
+          "id": "reading-lunch-later-q3",
+          "promptZh": "他们最后还看上电影了吗？",
+          "options": [
+            {
+              "id": "reading-lunch-later-q3-o0",
+              "textZh": "没有，因为吃饭太晚了。"
+            },
+            {
+              "id": "reading-lunch-later-q3-o1",
+              "textZh": "看了；虽然开始得比计划晚，但在 Ben 回家前看完了。"
+            },
+            {
+              "id": "reading-lunch-later-q3-o2",
+              "textZh": "他们改成第二天再看。"
+            }
+          ],
+          "answerId": "reading-lunch-later-q3-o1",
+          "explanationZh": "最后一段写电影晚开始了，但 still had time to finish it before he went home。没有写取消或改期。",
+          "taughtReference": "reading-lunch-later-p5"
+        }
+      ],
+      "wordCount": 168,
+      "optionalTakeaways": [
+        {
+          "en": "His bus had broken down.",
+          "zh": "他坐的公交车坏了。先整句理解。",
+          "required": false
+        },
+        {
+          "en": "He was ten minutes away.",
+          "zh": "他还有十分钟就到。",
+          "required": false
+        },
+        {
+          "en": "No rush.",
+          "zh": "不用着急。",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "rw2-shopping-list",
+      "headword": "shopping list",
+      "pos": "可数名词",
+      "senseZh": "购物清单",
+      "collocation": "a short shopping list",
+      "exampleEn": "I left home with a short shopping list.",
+      "exampleZh": "我带着一张简短的购物清单出了门。",
+      "transferEn": "I forgot my shopping list at home.",
+      "transferZh": "我把购物清单忘在家里了。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p1",
+      "notesZh": "阅读v1故事结尾也出现过购物清单，但未单独做词卡。本卡只学“购物时要买的那张单子”这一义。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-supermarket",
+      "headword": "supermarket",
+      "pos": "可数名词",
+      "senseZh": "超市",
+      "collocation": "at the supermarket",
+      "exampleEn": "I planned to buy everything at the supermarket.",
+      "exampleZh": "我打算在超市买齐东西。",
+      "transferEn": "The supermarket is next to the station.",
+      "transferZh": "超市在车站旁边。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p1",
+      "notesZh": "基础课已有 store、shop。supermarket 特指超市，不是所有小店。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-get-caught",
+      "headword": "get caught",
+      "pos": "动词短语",
+      "senseZh": "被夹住、被卡住",
+      "collocation": "get caught in a door",
+      "exampleEn": "It got caught in a bus door the day before.",
+      "exampleZh": "前一天，它被公交车门夹住了。",
+      "transferEn": "My bag got caught in the door.",
+      "transferZh": "我的包被门夹住了。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p2",
+      "notesZh": "扩展课 catch 教的是赶上车（catch a bus）。本卡是“被夹住”，义项不同。caught 在这里不是“抓住某人”。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-order",
+      "headword": "order",
+      "pos": "动词",
+      "senseZh": "点（餐或饮料）",
+      "collocation": "order soup",
+      "exampleEn": "Anna ordered soup.",
+      "exampleZh": "安娜点了汤。",
+      "transferEn": "I ordered coffee and a sandwich.",
+      "transferZh": "我点了咖啡和一份三明治。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p4",
+      "notesZh": "本卡只学点餐这个意思，不是“命令”或“订单”的全部用法。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-over-lunch",
+      "headword": "over lunch",
+      "pos": "介词短语",
+      "senseZh": "吃午饭的时候",
+      "collocation": "talk over lunch",
+      "exampleEn": "Over lunch, we talked about our building.",
+      "exampleZh": "吃饭时，我们聊起住的那栋楼。",
+      "transferEn": "We can talk about it over lunch.",
+      "transferZh": "我们吃午饭的时候再谈这件事吧。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p5",
+      "notesZh": "这里的 over 不是“在……上方”。类似说法还有 over dinner（吃晚饭的时候）。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-neither-of-us",
+      "headword": "neither of us",
+      "pos": "代词短语",
+      "senseZh": "我们俩都不",
+      "collocation": "neither of us was…",
+      "exampleEn": "Neither of us was in a hurry.",
+      "exampleZh": "我们俩都不赶时间。",
+      "transferEn": "Neither of us wanted to cook.",
+      "transferZh": "我们俩都不想做饭。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p7",
+      "notesZh": "本课认 Neither of us was…。口语里也有人说 were，不要把 were 设为错误项。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-let-go",
+      "headword": "let go",
+      "pos": "动词短语",
+      "senseZh": "松手、放开",
+      "collocation": "let go",
+      "exampleEn": "Each time he let go, she shouted for him to hold her again.",
+      "exampleZh": "他每次一松手，她就喊着让他再扶住她。",
+      "transferEn": "Don't let go of the bag.",
+      "transferZh": "别松开那个袋子。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p7",
+      "notesZh": "let go 是放开；后面要说放开什么时，常用 let go of something。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true,
+      "priority": "primary"
+    },
+    {
+      "id": "rw2-hold-on-to",
+      "headword": "hold on to",
+      "pos": "动词短语",
+      "senseZh": "扶住、抓住",
+      "collocation": "hold on to someone",
+      "exampleEn": "She shouted for him to hold on to her again.",
+      "exampleZh": "她喊着让他再扶住她。（这是本场面的另一种说法，正文写的是 hold her。）",
+      "transferEn": "Hold on to the rail.",
+      "transferZh": "抓住扶手。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p7",
+      "notesZh": "这篇里见过相关场面，不强制先背。本卡是抓住、扶住。单独说 Hold on. 还常表示“等一下”，那是另一个用法，不要混进这个意思里。看过骑车这段不算已经掌握本卡。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": false,
+      "priority": "optional-seen"
+    },
+    {
+      "id": "rw2-manage-to",
+      "headword": "manage to",
+      "pos": "动词短语",
+      "senseZh": "成功做成（一件有点不容易的事）",
+      "collocation": "manage to do something",
+      "exampleEn": "She managed to pass our bench on her own.",
+      "exampleZh": "她终于自己骑过了我们面前的长椅。（这是本场面的另一种说法，正文写的是 rode past。）",
+      "transferEn": "I managed to get home before the rain.",
+      "transferZh": "我赶在下雨前到了家。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p7",
+      "notesZh": "这篇里见过相关场面，不强制先背。后面接动词原形，强调结果做成了，不是“管理一家公司”。看过骑车这段不算已经掌握本卡。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": false,
+      "priority": "optional-seen"
+    },
+    {
+      "id": "rw2-on-ones-own",
+      "headword": "on my own",
+      "pos": "介词短语",
+      "senseZh": "独自、靠自己（没有别人帮助）",
+      "collocation": "on my / her / his own",
+      "exampleEn": "She rode past our bench on her own.",
+      "exampleZh": "她自己骑过了我们面前的长椅。",
+      "transferEn": "I went to the shop on my own.",
+      "transferZh": "我自己去了商店。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p7",
+      "notesZh": "随主语换成 on my own / on her own / on his own。这里强调没有人帮忙，不是“拥有”。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true,
+      "priority": "primary"
+    },
+    {
+      "id": "rw2-fridge",
+      "headword": "fridge",
+      "pos": "可数名词",
+      "senseZh": "冰箱",
+      "collocation": "in the fridge / put something in the fridge",
+      "exampleEn": "I put it straight in the fridge.",
+      "exampleZh": "我马上把它放进了冰箱。",
+      "transferEn": "There's some milk in the fridge.",
+      "transferZh": "冰箱里有一些牛奶。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p8",
+      "notesZh": "两篇阅读里都出现了把食物放进冰箱。fridge 是口语里常用的说法；较长的 refrigerator 本卡不要求先记。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-break-down",
+      "headword": "break down",
+      "pos": "动词短语",
+      "senseZh": "（车辆或机器）出故障、抛锚",
+      "collocation": "the bus broke down",
+      "exampleEn": "His bus had broken down.",
+      "exampleZh": "他坐的公交车坏了。",
+      "transferEn": "The washing machine broke down this morning.",
+      "transferZh": "洗衣机今天早上坏了。",
+      "sourceReading": "reading-lunch-later",
+      "sourceParagraph": "reading-lunch-later-p2",
+      "notesZh": "基础课里的 break 是“休息”。本卡是机器或车辆坏了。另境例句用洗衣机，不用电脑（电脑更常说 stopped working 或 crashed）。人“情绪崩溃”是另一个用法，这里不学。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-ten-minutes-away",
+      "headword": "ten minutes away",
+      "pos": "短语",
+      "senseZh": "还有十分钟的路程",
+      "collocation": "be ten minutes away",
+      "exampleEn": "He was ten minutes away.",
+      "exampleZh": "他还有十分钟就到。",
+      "transferEn": "The station is ten minutes away.",
+      "transferZh": "车站离这儿还有十分钟。",
+      "sourceReading": "reading-lunch-later",
+      "sourceParagraph": "reading-lunch-later-p4",
+      "notesZh": "不是“十分钟前”。数字可换成 five minutes away、an hour away 等。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    },
+    {
+      "id": "rw2-could-wait",
+      "headword": "could wait",
+      "pos": "语块",
+      "senseZh": "可以晚点再做、不着急",
+      "collocation": "something could wait",
+      "exampleEn": "My shopping could wait.",
+      "exampleZh": "买东西可以晚一点。",
+      "transferEn": "The email can wait.",
+      "transferZh": "那封邮件可以晚点再回。",
+      "sourceReading": "reading-shops-afternoon",
+      "sourceParagraph": "reading-shops-afternoon-p3",
+      "notesZh": "主语通常是那件事情，不是人。I can wait 则是“我可以等”。",
+      "standalone": true,
+      "provenance": "原创学习例句，非转载语料。",
+      "requiredInReading": true
+    }
+  ],
+  "stats": {
+    "articles": 2,
+    "articleWords": [
+      341,
+      168
+    ],
+    "wordCards": 14,
+    "primaryWordCards": 12,
+    "optionalSeenWordCards": 2,
+    "paragraphs": 13,
+    "optionalQuestions": 6,
+    "afterTextNotes": 14
+  },
+  "reviewedFrom": "everyday-reading-pack-v2",
+  "editorialChangesFromV2": [
+    "英文标题改为 A Quick Shopping Trip，与全文偏美式用词一致；中文标题不动。",
+    "第4段中文改为点出 regretting the earlier choice：我有点后悔，觉得自己刚才也该点汤。",
+    "第6段略改站到伞下的写法，不再另加词卡。",
+    "第7段保留学骑车场面，但不再把 let go / hold on to / manage to / on her own 叠在同一两句里；主推词卡只留 let go 与 on her own，另外两张标为见过、不强制先背，并移入读后讲解。",
+    "读后说明：picking up the milk 是从货架上拿，不是去取已经准备好的东西；不要与 pick up some flowers 写成同一义项。",
+    "neither of us 本课认 was；口语里也有人说 were，练习不把 were 设为错误项。",
+    "理解题去掉多余句号；选项「放回冰箱」改为「放进冰箱」；叙述者不再无依据写成「他」。",
+    "午饭篇第3段改为直接写出那条消息（No rush），与已有讲解一致，不新增必背词。",
+    "读后补一句：I had chopped the vegetables 表示十二点时菜已经切好；不出过去完成时规则题。",
+    "break down 的另境例句改为洗衣机，不引入情绪崩溃义。"
+  ]
+}

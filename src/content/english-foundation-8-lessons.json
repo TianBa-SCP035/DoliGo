@@ -1,0 +1,3491 @@
+{
+  "schemaVersion": "1.0",
+  "id": "english-foundation-8-lessons",
+  "title": {
+    "zh": "日常英语基础八课",
+    "en": "Everyday English: Eight Foundation Lessons"
+  },
+  "language": {
+    "target": "en",
+    "gloss": "zh-Hans"
+  },
+  "levelNoteZh": "面向日常入门学习，不声称精确水平等级或词频排名。",
+  "provenance": {
+    "type": "original-study-example",
+    "zh": "全部对话与例句均为原创学习情景示例，不是真实聊天记录，无外部引用。",
+    "en": "All dialogues and examples are original study-situation material, not real conversations, and not taken from an external source."
+  },
+  "usageNotesZh": [
+    "先读中英对照和讲解，再做可选练习；练习不是必须先完成的考试。",
+    "每课只主测一个新语法点。对话里若出现尚未系统讲解的结构，只作整句理解，不出题。",
+    "选择题在给定语境下只有一个合理答案。开放作答时，I'm 与 I am、don't 与 do not 视为等价。",
+    "看过、看过答案或看过提示，不能自动算作掌握。",
+    "未配置真实音频时，不可把材料写成听说测评或真人录音。"
+  ],
+  "revisionsAppliedZh": [
+    "第2课就寝时间用 I go to bed at eleven（十一点上床）；sleep 词条例句改为 I sleep well at night，并随句教副词 well。不再使用 I sleep at eleven。",
+    "第3课明确“一只碗”用 a bowl；不把 some bowl 写成普遍语法错误（它有时可以表示“某个碗”）。正误对照与练习均改用 There's an bowl / There's bowl 这类本课可判定的形式。",
+    "free / early / outside / home / stop / last / fun 等词性按本条例句标注，不穷举全部词义。",
+    "继续区分 go home、at home 与 go to the store / go to the kitchen。",
+    "一般现在时与现在进行时的练习不再把另一语境里可能成立的句子判成绝对语法错误。",
+    "第5课练习3改为 be 问句语序：What time are you free? / What time you are free? / What time do you free?",
+    "第6课练习2改为 I can walk there / I can walks there / I can to walk there。",
+    "第7课习惯练习使用 I play / I plays / I playing；进行时练习使用 I'm waiting / I'm wait / I waiting。",
+    "第8课 friend 例句改为 I saw a friend yesterday，不引入 met；对话将模糊的 Was it nice? 改为 Were you home all day?，并教语块 all day。",
+    "第3、4、5、6课语法均提供带中文的肯定/否定/疑问完整组。",
+    "内容理解题的错项说明“与原文不符”，不把语法上能成立的别义句子说成普遍错误。",
+    "第9课（周末计划 / be going to）按最新要求不纳入本包。"
+  ],
+  "lessonOrder": [
+    {
+      "id": "lesson-01",
+      "titleZh": "在家与状态",
+      "grammarZh": "be 动词（am/is/are）"
+    },
+    {
+      "id": "lesson-02",
+      "titleZh": "日常作息与喜好",
+      "grammarZh": "一般现在时与 do/does"
+    },
+    {
+      "id": "lesson-03",
+      "titleZh": "吃饭",
+      "grammarZh": "a/an、some，可数/不可数入门"
+    },
+    {
+      "id": "lesson-04",
+      "titleZh": "购物",
+      "grammarZh": "there is/are，how much / how many"
+    },
+    {
+      "id": "lesson-05",
+      "titleZh": "约朋友",
+      "grammarZh": "疑问词与问句语序"
+    },
+    {
+      "id": "lesson-06",
+      "titleZh": "出行问路",
+      "grammarZh": "can，方向与地点介词"
+    },
+    {
+      "id": "lesson-07",
+      "titleZh": "正在做什么",
+      "grammarZh": "现在进行时，并与习惯对照"
+    },
+    {
+      "id": "lesson-08",
+      "titleZh": "昨天和周末",
+      "grammarZh": "过去时 was/were、did + 原形"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "order": 1,
+      "title": {
+        "en": "At Home and How You Feel",
+        "zh": "在家与状态"
+      },
+      "objective": {
+        "zh": "本课练习用 am/is/are 说自己的状态、询问物品位置。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "室友/家人，普通日常。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L01-D01",
+          "speaker": "A",
+          "en": "Are you tired?",
+          "zh": "你累了吗？"
+        },
+        {
+          "id": "L01-D02",
+          "speaker": "B",
+          "en": "A little. I'm fine, though.",
+          "zh": "有点儿。不过还行。"
+        },
+        {
+          "id": "L01-D03",
+          "speaker": "A",
+          "en": "Where are my keys?",
+          "zh": "我的钥匙在哪儿？"
+        },
+        {
+          "id": "L01-D04",
+          "speaker": "B",
+          "en": "They're on the table.",
+          "zh": "在桌上。"
+        },
+        {
+          "id": "L01-D05",
+          "speaker": "A",
+          "en": "Thanks. Is my phone in the kitchen?",
+          "zh": "谢谢。我的手机在厨房吗？"
+        },
+        {
+          "id": "L01-D06",
+          "speaker": "B",
+          "en": "No, it isn't. It's on the table too.",
+          "zh": "不在。它也在桌上。"
+        },
+        {
+          "id": "L01-D07",
+          "speaker": "A",
+          "en": "Okay. I'm ready to go.",
+          "zh": "好。我准备走了。"
+        },
+        {
+          "id": "L01-D08",
+          "speaker": "B",
+          "en": "It's cold outside. Are you okay?",
+          "zh": "外面挺冷的。你没问题吧？"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L01-V01",
+          "word": "tired",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "累的"
+          },
+          "exampleEn": "I'm tired.",
+          "exampleZh": "我累了。"
+        },
+        {
+          "id": "L01-V02",
+          "word": "fine",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "还好/没事"
+          },
+          "exampleEn": "I'm fine.",
+          "exampleZh": "我还好。",
+          "notesZh": "这里的 fine 是形容词“还好”，不是“罚款”。"
+        },
+        {
+          "id": "L01-V03",
+          "word": "keys",
+          "pos": "noun",
+          "posZh": "名词（常用复数）",
+          "lemma": "key",
+          "sense": {
+            "zh": "钥匙"
+          },
+          "exampleEn": "Where are my keys?",
+          "exampleZh": "我的钥匙在哪儿？",
+          "notesZh": "找钥匙时常用复数 keys。"
+        },
+        {
+          "id": "L01-V04",
+          "word": "table",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "桌子"
+          },
+          "exampleEn": "They're on the table.",
+          "exampleZh": "它们在桌上。"
+        },
+        {
+          "id": "L01-V05",
+          "word": "phone",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "手机"
+          },
+          "exampleEn": "My phone is here.",
+          "exampleZh": "我的手机在这儿。"
+        },
+        {
+          "id": "L01-V06",
+          "word": "kitchen",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "厨房"
+          },
+          "exampleEn": "Is it in the kitchen?",
+          "exampleZh": "它在厨房吗？"
+        },
+        {
+          "id": "L01-V07",
+          "word": "ready",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "准备好的"
+          },
+          "exampleEn": "I'm ready.",
+          "exampleZh": "我准备好了。"
+        },
+        {
+          "id": "L01-V08",
+          "word": "cold",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "冷的"
+          },
+          "exampleEn": "It's cold outside.",
+          "exampleZh": "外面很冷。"
+        },
+        {
+          "id": "L01-V09",
+          "word": "hot",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "热的/烫的"
+          },
+          "exampleEn": "The tea is hot.",
+          "exampleZh": "茶很烫。",
+          "notesZh": "本课先记“热/烫”，不引申“辣”。"
+        },
+        {
+          "id": "L01-V10",
+          "word": "home",
+          "pos": "place-expression",
+          "posZh": "地点表达（名词/副词随句而定）",
+          "sense": {
+            "zh": "家；在家/回家"
+          },
+          "exampleEn": "I'm at home.",
+          "exampleZh": "我在家。",
+          "notesZh": "先记 at home、go home，这两处都不加 to。go to the kitchen / go to the store 里的 to 要保留。不要笼统把所有 home 都标成名词。"
+        },
+        {
+          "id": "L01-V11",
+          "word": "busy",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "忙的"
+          },
+          "exampleEn": "Are you busy?",
+          "exampleZh": "你忙吗？"
+        },
+        {
+          "id": "L01-V12",
+          "word": "okay",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "可以/没事"
+          },
+          "exampleEn": "Are you okay?",
+          "exampleZh": "你还好吗？"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L01-P01",
+          "en": "go home",
+          "zh": "回家（不加 to）",
+          "exampleEn": "I want to go home.",
+          "exampleZh": "我想回家。"
+        },
+        {
+          "id": "L01-P02",
+          "en": "at home",
+          "zh": "在家（不加 to）",
+          "exampleEn": "I'm at home.",
+          "exampleZh": "我在家。"
+        },
+        {
+          "id": "L01-P03",
+          "en": "I'm ready to go.",
+          "zh": "我准备走了。（整句先记）",
+          "exampleEn": "I'm ready to go.",
+          "exampleZh": "我准备走了。"
+        }
+      ],
+      "grammar": {
+        "id": "L01-G",
+        "title": {
+          "en": "the verb be (am / is / are)",
+          "zh": "be 动词（am / is / are）"
+        },
+        "focus": "be",
+        "explanationZh": "先认人称：I 我；you 你/你们；he 他；she 她；it 它/这件事物；we 我们；they 他们/她们/它们。不明性别时不要默认 he/she。搭配：I am；you/we/they are；he/she/it is。有没有中文“是”并不决定用不用 be。缩写：I'm = I am；it's = it is；isn't = is not；they're = they are。",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L01-G-AFF1",
+              "en": "I'm tired.",
+              "zh": "我累了。"
+            },
+            {
+              "id": "L01-G-AFF2",
+              "en": "They're on the table.",
+              "zh": "它们在桌上。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L01-G-NEG1",
+              "en": "I'm not busy.",
+              "zh": "我不忙。"
+            },
+            {
+              "id": "L01-G-NEG2",
+              "en": "It isn't in the kitchen.",
+              "zh": "它不在厨房。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L01-G-Q1",
+              "en": "Are you tired?",
+              "zh": "你累了吗？"
+            },
+            {
+              "id": "L01-G-Q2",
+              "en": "Is my phone in the kitchen?",
+              "zh": "我的手机在厨房吗？"
+            }
+          ],
+          "shortAnswers": [
+            {
+              "id": "L01-G-SA1",
+              "en": "Yes, I am. / No, I'm not.",
+              "zh": "是的，我是。/ 不，我不是。"
+            },
+            {
+              "id": "L01-G-SA2",
+              "en": "Yes, it is. / No, it isn't.",
+              "zh": "是的。/ 不是。"
+            }
+          ]
+        },
+        "contrast": [
+          {
+            "id": "L01-G-ERR1",
+            "incorrectEn": "I tired.",
+            "correctEn": "I'm tired.",
+            "explanationZh": "形容词 tired 前面需要 be：I'm tired."
+          },
+          {
+            "id": "L01-G-ERR2",
+            "incorrectEn": "You is ready.",
+            "correctEn": "You're ready.",
+            "explanationZh": "you 搭配 are，不是 is。"
+          },
+          {
+            "id": "L01-G-ERR3",
+            "incorrectEn": "I'm go home.",
+            "correctEn": "I'm ready to go.",
+            "explanationZh": "本课先用 I'm ready to go. 说“我准备走了”。I'm going home.（我在回家）是现在进行时，第7课再练，这里不测验。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L01-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：说自己现在的状态“我累了”，选形式正确的一句。",
+          "options": [
+            {
+              "id": "L01-E01-A",
+              "textEn": "I'm tired.",
+              "textZh": "我累了。",
+              "explanationZh": "正确。I am / I'm 后面接形容词 tired。与 I am tired 等价。"
+            },
+            {
+              "id": "L01-E01-B",
+              "textEn": "I tired.",
+              "textZh": "（漏了 be）",
+              "explanationZh": "漏了 be。形容词前要有 am/is/are：I'm tired."
+            },
+            {
+              "id": "L01-E01-C",
+              "textEn": "I am tireds.",
+              "textZh": "（tired 不必加 s）",
+              "explanationZh": "tired 是形容词，不必加 s。"
+            }
+          ],
+          "answerId": "L01-E01-A",
+          "taughtReference": [
+            "L01-D01",
+            "L01-G-AFF1"
+          ]
+        },
+        {
+          "id": "L01-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：钥匙在桌上。按对话选择正确的一句。",
+          "options": [
+            {
+              "id": "L01-E02-A",
+              "textEn": "They're on the table.",
+              "textZh": "它们在桌上。",
+              "explanationZh": "正确。keys 是复数，用 they are / they're；“在桌上”是 on the table。"
+            },
+            {
+              "id": "L01-E02-B",
+              "textEn": "It's on the table.",
+              "textZh": "它在桌上。",
+              "explanationZh": "这句话本身可以指单数物品，但对话里说的是 keys（复数），应使用 they're，而不是 it。这与原文不符。"
+            },
+            {
+              "id": "L01-E02-C",
+              "textEn": "They're in the table.",
+              "textZh": "它们在桌子里面。",
+              "explanationZh": "“在桌上”是 on the table，不是 in the table。"
+            }
+          ],
+          "answerId": "L01-E02-A",
+          "taughtReference": [
+            "L01-D04",
+            "L01-G-AFF2"
+          ]
+        },
+        {
+          "id": "L01-E03",
+          "type": "multiple-choice",
+          "promptZh": "语境：有人问手机是否在厨房，你要给出否定回答。",
+          "options": [
+            {
+              "id": "L01-E03-A",
+              "textEn": "No, it isn't.",
+              "textZh": "不在。",
+              "explanationZh": "正确。主语是 it（手机），否定用 it isn't。"
+            },
+            {
+              "id": "L01-E03-B",
+              "textEn": "No, it aren't.",
+              "textZh": "（it 不配 aren't）",
+              "explanationZh": "it 搭配 is / isn't，不说 it aren't。"
+            },
+            {
+              "id": "L01-E03-C",
+              "textEn": "No, I'm not.",
+              "textZh": "不，我不是。",
+              "explanationZh": "这是对 Are you…? 的回答。本题问的是手机（it），不是 I。"
+            }
+          ],
+          "answerId": "L01-E03-A",
+          "taughtReference": [
+            "L01-D06",
+            "L01-G-NEG2",
+            "L01-G-SA2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "order": 2,
+      "title": {
+        "en": "Daily Routines and Likes",
+        "zh": "日常作息与喜好"
+      },
+      "objective": {
+        "zh": "本课练习用一般现在时说习惯，用 do/does 问喜好。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "朋友闲聊平时习惯。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L02-D01",
+          "speaker": "A",
+          "en": "Do you work from home?",
+          "zh": "你在家办公吗？"
+        },
+        {
+          "id": "L02-D02",
+          "speaker": "B",
+          "en": "Yeah, I do. I usually get up at seven.",
+          "zh": "嗯。我通常七点起床。"
+        },
+        {
+          "id": "L02-D03",
+          "speaker": "A",
+          "en": "What time do you have breakfast?",
+          "zh": "你几点吃早饭？"
+        },
+        {
+          "id": "L02-D04",
+          "speaker": "B",
+          "en": "Around eight. I don't eat much in the morning.",
+          "zh": "八点左右。我早上吃得不多。"
+        },
+        {
+          "id": "L02-D05",
+          "speaker": "A",
+          "en": "Do you like coffee?",
+          "zh": "你喜欢咖啡吗？"
+        },
+        {
+          "id": "L02-D06",
+          "speaker": "B",
+          "en": "No, I don't. I drink tea.",
+          "zh": "不喜欢。我喝茶。"
+        },
+        {
+          "id": "L02-D07",
+          "speaker": "A",
+          "en": "Does your roommate drink tea too?",
+          "zh": "你室友也喝茶吗？"
+        },
+        {
+          "id": "L02-D08",
+          "speaker": "B",
+          "en": "No, she doesn't. She likes coffee.",
+          "zh": "不，她喜欢咖啡。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L02-V01",
+          "word": "work",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "工作"
+          },
+          "exampleEn": "I work from home.",
+          "exampleZh": "我在家办公。"
+        },
+        {
+          "id": "L02-V02",
+          "word": "usually",
+          "pos": "adverb",
+          "posZh": "副词",
+          "sense": {
+            "zh": "通常"
+          },
+          "exampleEn": "I usually get up at seven.",
+          "exampleZh": "我通常七点起床。"
+        },
+        {
+          "id": "L02-V03",
+          "word": "get up",
+          "pos": "verb-phrase",
+          "posZh": "动词短语",
+          "sense": {
+            "zh": "起床"
+          },
+          "exampleEn": "I get up at seven.",
+          "exampleZh": "我七点起床。"
+        },
+        {
+          "id": "L02-V04",
+          "word": "breakfast",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "早餐"
+          },
+          "exampleEn": "I have breakfast at eight.",
+          "exampleZh": "我八点吃早餐。",
+          "notesZh": "have breakfast 是“吃早餐”这个语块，不必拆成“拥有早餐”。"
+        },
+        {
+          "id": "L02-V05",
+          "word": "morning",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "早上"
+          },
+          "exampleEn": "I don't eat much in the morning.",
+          "exampleZh": "我早上吃得不多。"
+        },
+        {
+          "id": "L02-V06",
+          "word": "night",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "晚上"
+          },
+          "exampleEn": "I often work at night.",
+          "exampleZh": "我经常晚上工作。"
+        },
+        {
+          "id": "L02-V07",
+          "word": "like",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "喜欢"
+          },
+          "exampleEn": "I like tea.",
+          "exampleZh": "我喜欢茶。",
+          "notesZh": "说喜欢用 I like，不要写成 I'm like（那是别的意思）。"
+        },
+        {
+          "id": "L02-V08",
+          "word": "coffee",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "咖啡"
+          },
+          "exampleEn": "She likes coffee.",
+          "exampleZh": "她喜欢咖啡。"
+        },
+        {
+          "id": "L02-V09",
+          "word": "tea",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "茶"
+          },
+          "exampleEn": "I drink tea.",
+          "exampleZh": "我喝茶。"
+        },
+        {
+          "id": "L02-V10",
+          "word": "drink",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "喝"
+          },
+          "exampleEn": "I don't drink coffee.",
+          "exampleZh": "我不喝咖啡。"
+        },
+        {
+          "id": "L02-V11",
+          "word": "often",
+          "pos": "adverb",
+          "posZh": "副词",
+          "sense": {
+            "zh": "经常"
+          },
+          "exampleEn": "I often work at night.",
+          "exampleZh": "我经常晚上工作。"
+        },
+        {
+          "id": "L02-V12",
+          "word": "sleep",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "睡觉"
+          },
+          "exampleEn": "I sleep well at night.",
+          "exampleZh": "我晚上睡得很好。",
+          "notesZh": "这里的 well 是副词，表示“好地/很好地”：I sleep well at night。说“几点上床”请用 I go to bed at eleven.（我十一点上床），不要写成 I sleep at eleven。"
+        },
+        {
+          "id": "L02-V13",
+          "word": "early",
+          "pos": "adverb",
+          "posZh": "副词",
+          "sense": {
+            "zh": "早（在 get up early 里作副词）"
+          },
+          "exampleEn": "I get up early.",
+          "exampleZh": "我起得早。",
+          "notesZh": "本条例句里 early 修饰 get up，按副词记。它也可以作形容词（an early bus），本课不测那种用法。"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L02-P01",
+          "en": "go to bed",
+          "zh": "上床睡觉",
+          "exampleEn": "I go to bed at eleven.",
+          "exampleZh": "我十一点上床。",
+          "notesZh": "说就寝时间用 go to bed，不用 I sleep at eleven。"
+        },
+        {
+          "id": "L02-P02",
+          "en": "work from home",
+          "zh": "在家办公",
+          "exampleEn": "I work from home.",
+          "exampleZh": "我在家办公。"
+        },
+        {
+          "id": "L02-P03",
+          "en": "have breakfast",
+          "zh": "吃早餐",
+          "exampleEn": "What time do you have breakfast?",
+          "exampleZh": "你几点吃早饭？"
+        },
+        {
+          "id": "L02-P04",
+          "en": "well",
+          "zh": "好地/很好地（副词；随 sleep 一起学）",
+          "exampleEn": "I sleep well at night.",
+          "exampleZh": "我晚上睡得很好。"
+        }
+      ],
+      "grammar": {
+        "id": "L02-G",
+        "title": {
+          "en": "the simple present with do / does",
+          "zh": "一般现在时与 do/does"
+        },
+        "focus": "simple-present-do-does",
+        "explanationZh": "一般现在时用于习惯或一般事实，不是“正在做”。I/you/we/they 后通常用动词原形；he/she/it 及单数名词后通常加 s/es：like→likes，work→works，go→goes。不要把所有第三人称都当成 he/she。do/does 在否定和疑问里帮助构成，不必硬译“做”。用了 does/doesn't 后，动词回到原形。缩写：don't = do not；doesn't = does not。What time do you have breakfast? 问的是习惯上的时间。",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L02-G-AFF1",
+              "en": "I drink tea.",
+              "zh": "我喝茶。"
+            },
+            {
+              "id": "L02-G-AFF2",
+              "en": "She likes coffee.",
+              "zh": "她喜欢咖啡。"
+            },
+            {
+              "id": "L02-G-AFF3",
+              "en": "I usually get up at seven.",
+              "zh": "我通常七点起床。"
+            },
+            {
+              "id": "L02-G-AFF4",
+              "en": "I go to bed at eleven.",
+              "zh": "我十一点上床。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L02-G-NEG1",
+              "en": "I don't drink coffee.",
+              "zh": "我不喝咖啡。"
+            },
+            {
+              "id": "L02-G-NEG2",
+              "en": "She doesn't drink tea.",
+              "zh": "她不喝茶。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L02-G-Q1",
+              "en": "Do you like coffee?",
+              "zh": "你喜欢咖啡吗？"
+            },
+            {
+              "id": "L02-G-Q2",
+              "en": "Does she like coffee?",
+              "zh": "她喜欢咖啡吗？"
+            },
+            {
+              "id": "L02-G-Q3",
+              "en": "What time do you have breakfast?",
+              "zh": "你几点吃早饭？"
+            }
+          ],
+          "shortAnswers": [
+            {
+              "id": "L02-G-SA1",
+              "en": "Yes, I do. / No, I don't.",
+              "zh": "是的。/ 不。"
+            },
+            {
+              "id": "L02-G-SA2",
+              "en": "Yes, she does. / No, she doesn't.",
+              "zh": "是的，她喜欢。/ 不，她不喜欢。"
+            }
+          ]
+        },
+        "contrast": [
+          {
+            "id": "L02-G-ERR1",
+            "incorrectEn": "Does she likes coffee?",
+            "correctEn": "Does she like coffee?",
+            "explanationZh": "用了 does 以后，主要动词用原形 like，不是 likes。"
+          },
+          {
+            "id": "L02-G-ERR2",
+            "incorrectEn": "She don't drink tea.",
+            "correctEn": "She doesn't drink tea.",
+            "explanationZh": "第三人称单数否定用 doesn't，不是 don't。"
+          },
+          {
+            "id": "L02-G-ERR3",
+            "incorrectEn": "I'm like tea.",
+            "correctEn": "I like tea.",
+            "explanationZh": "like 作“喜欢”时是实义动词，前面不加 am。"
+          },
+          {
+            "id": "L02-G-ERR4",
+            "incorrectEn": "I am drink tea.",
+            "correctEn": "I drink tea.",
+            "explanationZh": "说习惯时直接用动词原形，不要在 drink 前加 am。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L02-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：问对方习不习惯喝咖啡，选形式正确的问句。",
+          "options": [
+            {
+              "id": "L02-E01-A",
+              "textEn": "Do you like coffee?",
+              "textZh": "你喜欢咖啡吗？",
+              "explanationZh": "正确。主语是 you，疑问用 Do + 动词原形 like。"
+            },
+            {
+              "id": "L02-E01-B",
+              "textEn": "Does you like coffee?",
+              "textZh": "（you 不用 Does）",
+              "explanationZh": "you 用 Do，不是 Does。Does 用于 he/she/it 或单数名词。"
+            },
+            {
+              "id": "L02-E01-C",
+              "textEn": "Are you like coffee?",
+              "textZh": "（误把 like 配成 be）",
+              "explanationZh": "like 在这里是实义动词“喜欢”，不用 are like。这不是在练进行时，而是误用了 be。"
+            }
+          ],
+          "answerId": "L02-E01-A",
+          "taughtReference": [
+            "L02-D05",
+            "L02-G-Q1"
+          ]
+        },
+        {
+          "id": "L02-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：她不喝茶。选形式正确的一句。",
+          "options": [
+            {
+              "id": "L02-E02-A",
+              "textEn": "She doesn't drink tea.",
+              "textZh": "她不喝茶。",
+              "explanationZh": "正确。第三人称单数否定用 doesn't，后面动词用原形 drink。"
+            },
+            {
+              "id": "L02-E02-B",
+              "textEn": "She don't drink tea.",
+              "textZh": "（she 不用 don't）",
+              "explanationZh": "she 的否定要用 doesn't，不是 don't。"
+            },
+            {
+              "id": "L02-E02-C",
+              "textEn": "She doesn't drinks tea.",
+              "textZh": "（doesn't 后应是原形）",
+              "explanationZh": "用了 doesn't 以后，动词回到原形 drink，不是 drinks。"
+            }
+          ],
+          "answerId": "L02-E02-A",
+          "taughtReference": [
+            "L02-D08",
+            "L02-G-NEG2"
+          ]
+        },
+        {
+          "id": "L02-E03",
+          "type": "multiple-choice",
+          "promptZh": "语境：用一般现在时说自己的习惯“我通常七点起床”，选形式正确的一句。",
+          "options": [
+            {
+              "id": "L02-E03-A",
+              "textEn": "I usually get up at seven.",
+              "textZh": "我通常七点起床。",
+              "explanationZh": "正确。说习惯用一般现在时：I get up。"
+            },
+            {
+              "id": "L02-E03-B",
+              "textEn": "I usually getting up at seven.",
+              "textZh": "（getting 前缺少 be，也不是一般现在时）",
+              "explanationZh": "这不是完整的一般现在时。习惯说法是 I usually get up at seven。getting 缺少 be，形式不完整。"
+            },
+            {
+              "id": "L02-E03-C",
+              "textEn": "I'm usually get up at seven.",
+              "textZh": "（be 和原形动词叠在一起了）",
+              "explanationZh": "I'm 后面不能直接接原形 get up。说习惯用 I usually get up at seven。"
+            }
+          ],
+          "answerId": "L02-E03-A",
+          "taughtReference": [
+            "L02-D02",
+            "L02-G-AFF3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "order": 3,
+      "title": {
+        "en": "Getting Something to Eat",
+        "zh": "吃饭"
+      },
+      "objective": {
+        "zh": "本课练习区分 a/an 和 some 的入门用法，认识可数与不可数。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "室友在家商量晚饭，随意口语。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L03-D01",
+          "speaker": "A",
+          "en": "I'm hungry. Are you hungry too?",
+          "zh": "我饿了。你也饿了吗？"
+        },
+        {
+          "id": "L03-D02",
+          "speaker": "B",
+          "en": "Yeah, a little. What do you feel like?",
+          "zh": "嗯，有点儿。你想吃什么？"
+        },
+        {
+          "id": "L03-D03",
+          "speaker": "A",
+          "en": "I feel like noodles. There's some soup too.",
+          "zh": "我想吃面。还有些汤。"
+        },
+        {
+          "id": "L03-D04",
+          "speaker": "B",
+          "en": "Sounds good. Do you want some bread?",
+          "zh": "好啊。你要面包吗？"
+        },
+        {
+          "id": "L03-D05",
+          "speaker": "A",
+          "en": "Just a little, please. I don't want a lot of rice today.",
+          "zh": "只要一点。我今天不太想吃很多米饭。"
+        },
+        {
+          "id": "L03-D06",
+          "speaker": "B",
+          "en": "Okay. There's a bowl on the table.",
+          "zh": "好。桌上有一只碗。"
+        },
+        {
+          "id": "L03-D07",
+          "speaker": "A",
+          "en": "I need some water too.",
+          "zh": "我还要点水。"
+        },
+        {
+          "id": "L03-D08",
+          "speaker": "B",
+          "en": "Here you go. Let's eat.",
+          "zh": "给你。吃饭吧。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L03-V01",
+          "word": "hungry",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "饿的"
+          },
+          "exampleEn": "I'm hungry.",
+          "exampleZh": "我饿了。"
+        },
+        {
+          "id": "L03-V02",
+          "word": "thirsty",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "渴的"
+          },
+          "exampleEn": "I'm thirsty.",
+          "exampleZh": "我渴了。"
+        },
+        {
+          "id": "L03-V03",
+          "word": "eat",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "吃"
+          },
+          "exampleEn": "Let's eat.",
+          "exampleZh": "吃饭吧。"
+        },
+        {
+          "id": "L03-V04",
+          "word": "food",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "食物/吃的"
+          },
+          "exampleEn": "The food is good.",
+          "exampleZh": "这饭菜不错。"
+        },
+        {
+          "id": "L03-V05",
+          "word": "noodles",
+          "pos": "noun",
+          "posZh": "名词（常用复数形式）",
+          "lemma": "noodle",
+          "sense": {
+            "zh": "面条"
+          },
+          "exampleEn": "I feel like noodles.",
+          "exampleZh": "我想吃面。"
+        },
+        {
+          "id": "L03-V06",
+          "word": "soup",
+          "pos": "noun",
+          "posZh": "名词（本课不可数）",
+          "sense": {
+            "zh": "汤"
+          },
+          "exampleEn": "There's some soup.",
+          "exampleZh": "有些汤。"
+        },
+        {
+          "id": "L03-V07",
+          "word": "rice",
+          "pos": "noun",
+          "posZh": "名词（本课不可数）",
+          "sense": {
+            "zh": "米饭"
+          },
+          "exampleEn": "I don't want a lot of rice.",
+          "exampleZh": "我不太想吃很多米饭。"
+        },
+        {
+          "id": "L03-V08",
+          "word": "bread",
+          "pos": "noun",
+          "posZh": "名词（本课不可数）",
+          "sense": {
+            "zh": "面包"
+          },
+          "exampleEn": "Do you want some bread?",
+          "exampleZh": "你要面包吗？"
+        },
+        {
+          "id": "L03-V09",
+          "word": "water",
+          "pos": "noun",
+          "posZh": "名词（本课不可数）",
+          "sense": {
+            "zh": "水"
+          },
+          "exampleEn": "I need some water.",
+          "exampleZh": "我需要点水。",
+          "notesZh": "本课 water 作不可数，用 some water。餐厅点单有时会说 a water，指一杯水，那是另一场合，本课不测。"
+        },
+        {
+          "id": "L03-V10",
+          "word": "milk",
+          "pos": "noun",
+          "posZh": "名词（本课不可数）",
+          "sense": {
+            "zh": "牛奶"
+          },
+          "exampleEn": "I don't drink milk.",
+          "exampleZh": "我不喝牛奶。"
+        },
+        {
+          "id": "L03-V11",
+          "word": "bowl",
+          "pos": "noun",
+          "posZh": "名词（可数）",
+          "sense": {
+            "zh": "碗"
+          },
+          "exampleEn": "There's a bowl on the table.",
+          "exampleZh": "桌上有一只碗。",
+          "notesZh": "本课要说“一只碗”时用 a bowl。some bowl 在别的语境里可以表示“某个碗”，不要把它当成一律不合语法。"
+        },
+        {
+          "id": "L03-V12",
+          "word": "dinner",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "晚饭/主餐（先记晚饭）"
+          },
+          "exampleEn": "Dinner is ready.",
+          "exampleZh": "晚饭好了。"
+        },
+        {
+          "id": "L03-V13",
+          "word": "a little",
+          "pos": "phrase",
+          "posZh": "短语（程度或数量，随句而定）",
+          "sense": {
+            "zh": "一点儿"
+          },
+          "exampleEn": "Yeah, a little.",
+          "exampleZh": "嗯，有点儿。",
+          "notesZh": "既可回答程度（有点儿饿），也可说数量（只要一点）。"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L03-P01",
+          "en": "What do you feel like?",
+          "zh": "（谈吃饭时）你想吃什么？",
+          "exampleEn": "What do you feel like?",
+          "exampleZh": "你想吃什么？",
+          "notesZh": "feel like + 名词或动词-ing：I feel like noodles. / I feel like eating. 不教 feel like to eat。本课把整句当语块学，不引申 feel 的全部用法。"
+        },
+        {
+          "id": "L03-P02",
+          "en": "Sounds good.",
+          "zh": "好啊（同意提议）",
+          "exampleEn": "Sounds good.",
+          "exampleZh": "好啊。",
+          "notesZh": "常用来同意提议，不要每句都译成“听起来不错”。"
+        }
+      ],
+      "grammar": {
+        "id": "L03-G",
+        "title": {
+          "en": "a / an and some; countable and uncountable (first look)",
+          "zh": "a/an 与 some；可数/不可数入门"
+        },
+        "focus": "a-an-some-countable",
+        "explanationZh": "a/an 用于单数可数名词。用 a 还是 an，看后面那个词的发音，不是看字母：a bowl，an apple。some 表示一些/一点，在肯定句里常用于不可数名词或复数：some soup，some noodles。本课把 soup、rice、bread、water、milk 先记为不可数：不要说 a water / a rice / three milks。点单里 a water 以后再说明，本课不测。There's some soup. / There's a bowl on the table. 本课先整句理解“有”，there is 的细节第4课展开。问句里提议饮食时，Do you want some soup? 也很自然，不要教成“疑问句一律用 any”。",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L03-G-AFF1",
+              "en": "I have a bowl.",
+              "zh": "我有个碗。"
+            },
+            {
+              "id": "L03-G-AFF2",
+              "en": "I want some soup.",
+              "zh": "我想喝点汤。"
+            },
+            {
+              "id": "L03-G-AFF3",
+              "en": "There's a bowl on the table.",
+              "zh": "桌上有一只碗。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L03-G-NEG1",
+              "en": "I don't have a bowl.",
+              "zh": "我没有碗。"
+            },
+            {
+              "id": "L03-G-NEG2",
+              "en": "I don't want a lot of rice.",
+              "zh": "我不太想吃很多米饭。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L03-G-Q1",
+              "en": "Do you have a bowl?",
+              "zh": "你有碗吗？"
+            },
+            {
+              "id": "L03-G-Q2",
+              "en": "Do you want some soup?",
+              "zh": "你要汤吗？"
+            }
+          ]
+        },
+        "contrast": [
+          {
+            "id": "L03-G-ERR1",
+            "incorrectEn": "I feel like to eat noodles.",
+            "correctEn": "I feel like noodles. / I feel like eating noodles.",
+            "explanationZh": "feel like 后接名词或动词-ing，不接 to + 动词。"
+          },
+          {
+            "id": "L03-G-ERR2",
+            "incorrectEn": "I want a water.",
+            "correctEn": "I want some water.",
+            "explanationZh": "本课把 water 当不可数，用 some water。餐厅点单一杯水时有人说 a water，那是另一场合，不是本课要练的用法，也不当作这课的正确选项。"
+          },
+          {
+            "id": "L03-G-ERR3",
+            "incorrectEn": "I hungry.",
+            "correctEn": "I'm hungry.",
+            "explanationZh": "形容词 hungry 前面需要 be。"
+          },
+          {
+            "id": "L03-G-ERR4",
+            "incorrectEn": "There's an bowl.",
+            "correctEn": "There's a bowl.",
+            "explanationZh": "要说“一只普通的碗”时，用 a bowl。bowl 以辅音发音开头，不用 an。注意：some bowl 在别的语境里可以表示“某个碗”，所以不要把它写成绝对的语法错句。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L03-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：想吃面，用本课的 feel like 结构，选本课目标形式。",
+          "options": [
+            {
+              "id": "L03-E01-A",
+              "textEn": "I feel like noodles.",
+              "textZh": "我想吃面。",
+              "explanationZh": "正确。feel like 后面接名词 noodles。"
+            },
+            {
+              "id": "L03-E01-B",
+              "textEn": "I feel like to noodles.",
+              "textZh": "（feel like 不接 to + 名词）",
+              "explanationZh": "feel like 后接名词或 -ing，不接 to + noodles。"
+            },
+            {
+              "id": "L03-E01-C",
+              "textEn": "I feel like to eat noodles.",
+              "textZh": "（不教 feel like to do）",
+              "explanationZh": "不教 feel like to eat。可说 I feel like noodles 或 I feel like eating noodles。I want noodles 也很自然，所以不拿它当错误项来互斥。"
+            }
+          ],
+          "answerId": "L03-E01-A",
+          "taughtReference": [
+            "L03-D03",
+            "L03-P01"
+          ]
+        },
+        {
+          "id": "L03-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：按本课的不可数用法，表示“我需要点水”。",
+          "options": [
+            {
+              "id": "L03-E02-A",
+              "textEn": "I need some water.",
+              "textZh": "我需要点水。",
+              "explanationZh": "正确。本课 water 不可数，用 some water。"
+            },
+            {
+              "id": "L03-E02-B",
+              "textEn": "I need a water.",
+              "textZh": "（本课不这样说）",
+              "explanationZh": "本课把 water 当不可数，要用 some water。餐饮点单里 a water 有时指一杯水，那是另一场合，不是这题要选的用法。"
+            },
+            {
+              "id": "L03-E02-C",
+              "textEn": "I need waters.",
+              "textZh": "（本课不用 waters）",
+              "explanationZh": "本课不把 water 当作普通复数 waters。"
+            }
+          ],
+          "answerId": "L03-E02-A",
+          "taughtReference": [
+            "L03-D07",
+            "L03-V09"
+          ]
+        },
+        {
+          "id": "L03-E03",
+          "type": "multiple-choice",
+          "promptZh": "语境：桌上有一只普通的碗。选符合“一只碗”的说法。",
+          "options": [
+            {
+              "id": "L03-E03-A",
+              "textEn": "There's a bowl on the table.",
+              "textZh": "桌上有一只碗。",
+              "explanationZh": "正确。要说“一只碗”，单数可数名词用 a bowl。"
+            },
+            {
+              "id": "L03-E03-B",
+              "textEn": "There's an bowl on the table.",
+              "textZh": "（bowl 不用 an）",
+              "explanationZh": "bowl 以辅音发音开头，用 a，不用 an。"
+            },
+            {
+              "id": "L03-E03-C",
+              "textEn": "There's bowl on the table.",
+              "textZh": "（缺了冠词）",
+              "explanationZh": "单数可数名词前通常要有冠词：a bowl。本课明确“一只碗”用 a bowl。some bowl 有时可以表示“某个碗”，所以不把那句当作绝对错项列入本题。"
+            }
+          ],
+          "answerId": "L03-E03-A",
+          "taughtReference": [
+            "L03-D06",
+            "L03-G-AFF3",
+            "L03-G-ERR4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "order": 4,
+      "title": {
+        "en": "Shopping for Groceries",
+        "zh": "购物"
+      },
+      "objective": {
+        "zh": "本课练习用 there is/are 说哪里有东西，用 how much / how many 区分价格和数量。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "买菜前和朋友讨论，不是柜台标准台词。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L04-D01",
+          "speaker": "A",
+          "en": "I need to buy some groceries.",
+          "zh": "我得买点食品杂货。"
+        },
+        {
+          "id": "L04-D02",
+          "speaker": "B",
+          "en": "There's a small store near my place.",
+          "zh": "我住处附近有家小店。"
+        },
+        {
+          "id": "L04-D03",
+          "speaker": "A",
+          "en": "Do they have fruit?",
+          "zh": "他们有水果吗？"
+        },
+        {
+          "id": "L04-D04",
+          "speaker": "B",
+          "en": "Yeah. There are some apples today.",
+          "zh": "有。今天有些苹果。"
+        },
+        {
+          "id": "L04-D05",
+          "speaker": "A",
+          "en": "How much are they?",
+          "zh": "多少钱？"
+        },
+        {
+          "id": "L04-D06",
+          "speaker": "B",
+          "en": "They're cheap. How many do you want?",
+          "zh": "挺便宜的。你要几个？"
+        },
+        {
+          "id": "L04-D07",
+          "speaker": "A",
+          "en": "Four, please. I don't have a bag.",
+          "zh": "四个。我没带包。"
+        },
+        {
+          "id": "L04-D08",
+          "speaker": "B",
+          "en": "They have bags there. The store is open now.",
+          "zh": "他们那儿有袋子。店现在开着。"
+        },
+        {
+          "id": "L04-D09",
+          "speaker": "A",
+          "en": "Great. Let's go.",
+          "zh": "好。走吧。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L04-V01",
+          "word": "buy",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "买"
+          },
+          "exampleEn": "I need to buy some groceries.",
+          "exampleZh": "我得买点食品杂货。"
+        },
+        {
+          "id": "L04-V02",
+          "word": "groceries",
+          "pos": "noun",
+          "posZh": "名词（常用复数）",
+          "lemma": "grocery",
+          "sense": {
+            "zh": "食品杂货"
+          },
+          "exampleEn": "I need to buy groceries.",
+          "exampleZh": "我得买食品杂货。"
+        },
+        {
+          "id": "L04-V03",
+          "word": "store",
+          "pos": "noun",
+          "posZh": "名词（可数）",
+          "sense": {
+            "zh": "商店"
+          },
+          "exampleEn": "The store is open.",
+          "exampleZh": "商店开着门。",
+          "notesZh": "go to the store 里的 to 要保留；对比 go home 不加 to。"
+        },
+        {
+          "id": "L04-V04",
+          "word": "shop",
+          "pos": "verb",
+          "posZh": "动词（也可指店铺，本课先记动词）",
+          "sense": {
+            "zh": "购物"
+          },
+          "exampleEn": "I shop near my place.",
+          "exampleZh": "我在住处附近买东西。"
+        },
+        {
+          "id": "L04-V05",
+          "word": "fruit",
+          "pos": "noun",
+          "posZh": "名词（本课作总称，常用不可数/集合）",
+          "sense": {
+            "zh": "水果"
+          },
+          "exampleEn": "Do they have fruit?",
+          "exampleZh": "他们有水果吗？"
+        },
+        {
+          "id": "L04-V06",
+          "word": "apple",
+          "pos": "noun",
+          "posZh": "名词（可数）",
+          "sense": {
+            "zh": "苹果"
+          },
+          "exampleEn": "There are some apples.",
+          "exampleZh": "有些苹果。",
+          "notesZh": "apple 以元音发音开头，单数前用 an apple。"
+        },
+        {
+          "id": "L04-V07",
+          "word": "price",
+          "pos": "noun",
+          "posZh": "名词（可数）",
+          "sense": {
+            "zh": "价格"
+          },
+          "exampleEn": "What's the price?",
+          "exampleZh": "价格是多少？"
+        },
+        {
+          "id": "L04-V08",
+          "word": "cheap",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "便宜的"
+          },
+          "exampleEn": "They're cheap.",
+          "exampleZh": "它们很便宜。"
+        },
+        {
+          "id": "L04-V09",
+          "word": "near",
+          "pos": "preposition",
+          "posZh": "介词（在 near my place 里）",
+          "sense": {
+            "zh": "在……附近"
+          },
+          "exampleEn": "It's near my place.",
+          "exampleZh": "它在我住处附近。"
+        },
+        {
+          "id": "L04-V10",
+          "word": "bag",
+          "pos": "noun",
+          "posZh": "名词（可数）",
+          "sense": {
+            "zh": "包；袋子"
+          },
+          "exampleEn": "I don't have a bag.",
+          "exampleZh": "我没有包。"
+        },
+        {
+          "id": "L04-V11",
+          "word": "money",
+          "pos": "noun",
+          "posZh": "名词（本课不可数）",
+          "sense": {
+            "zh": "钱"
+          },
+          "exampleEn": "I need some money.",
+          "exampleZh": "我需要一些钱。"
+        },
+        {
+          "id": "L04-V12",
+          "word": "open",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "开着的；营业的"
+          },
+          "exampleEn": "The store is open now.",
+          "exampleZh": "店现在开着。"
+        },
+        {
+          "id": "L04-V13",
+          "word": "four",
+          "pos": "numeral",
+          "posZh": "基数词",
+          "sense": {
+            "zh": "四"
+          },
+          "exampleEn": "I want four apples.",
+          "exampleZh": "我要四个苹果。"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L04-P01",
+          "en": "go to the store",
+          "zh": "去商店（要有 to）",
+          "exampleEn": "Let's go to the store.",
+          "exampleZh": "我们去商店吧。"
+        },
+        {
+          "id": "L04-P02",
+          "en": "How much are they?",
+          "zh": "多少钱？（问价格）",
+          "exampleEn": "How much are they?",
+          "exampleZh": "多少钱？"
+        },
+        {
+          "id": "L04-P03",
+          "en": "How many do you want?",
+          "zh": "你要几个？（问可数数量）",
+          "exampleEn": "How many do you want?",
+          "exampleZh": "你要几个？"
+        }
+      ],
+      "grammar": {
+        "id": "L04-G",
+        "title": {
+          "en": "there is / there are; how much and how many",
+          "zh": "there is/are；how much / how many"
+        },
+        "focus": "there-is-are-how-much-many",
+        "explanationZh": "there is / there's 用于单数或不可数：There's a small store. / There's some soup. there are 用于复数：There are some apples. 本课否定和疑问里先记 any：There aren't any apples. / Are there any apples? 肯定句常用 some。先学会这一组，不把所有 some/any 规则一次考完。how much 用来问价格，或问不可数的量；how many 用来问可数名词的数量（几个）。How much do you want? 在问不可数的量时可以正确，不能把它说成普遍错误。问“几个苹果”时用 how many；问“这一袋/这些苹果多少钱”时用 how much。",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L04-G-AFF1",
+              "en": "There are some apples.",
+              "zh": "有些苹果。"
+            },
+            {
+              "id": "L04-G-AFF2",
+              "en": "There is a bag.",
+              "zh": "有一个包。"
+            },
+            {
+              "id": "L04-G-AFF3",
+              "en": "There's a small store near my place.",
+              "zh": "我住处附近有家小店。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L04-G-NEG1",
+              "en": "There aren't any apples.",
+              "zh": "没有苹果。"
+            },
+            {
+              "id": "L04-G-NEG2",
+              "en": "There isn't a bag.",
+              "zh": "没有包。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L04-G-Q1",
+              "en": "Are there any apples?",
+              "zh": "有苹果吗？"
+            },
+            {
+              "id": "L04-G-Q2",
+              "en": "Is there a bag?",
+              "zh": "有包吗？"
+            },
+            {
+              "id": "L04-G-Q3",
+              "en": "How much are they?",
+              "zh": "多少钱？"
+            },
+            {
+              "id": "L04-G-Q4",
+              "en": "How many do you want?",
+              "zh": "你要几个？"
+            }
+          ]
+        },
+        "contrast": [
+          {
+            "id": "L04-G-ERR1",
+            "incorrectEn": "There is some apples.",
+            "correctEn": "There are some apples.",
+            "explanationZh": "apples 是复数，用 there are。"
+          },
+          {
+            "id": "L04-G-ERR2",
+            "incorrectEn": "There are a bag.",
+            "correctEn": "There is a bag. / There's a bag.",
+            "explanationZh": "a bag 是单数，用 there is / there's。"
+          },
+          {
+            "id": "L04-G-ERR3",
+            "incorrectEn": "How many are they?",
+            "correctEn": "How much are they?",
+            "explanationZh": "问价格用 how much，不用 how many。how many 问的是可数的“几个”。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L04-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：说今天店里有一些苹果，选形式正确的一句。",
+          "options": [
+            {
+              "id": "L04-E01-A",
+              "textEn": "There are some apples today.",
+              "textZh": "今天有些苹果。",
+              "explanationZh": "正确。apples 是复数，用 there are。"
+            },
+            {
+              "id": "L04-E01-B",
+              "textEn": "There is some apples today.",
+              "textZh": "（复数不用 there is）",
+              "explanationZh": "apples 是复数，应使用 there are，不是 there is。"
+            },
+            {
+              "id": "L04-E01-C",
+              "textEn": "There are a apples today.",
+              "textZh": "（a 不能直接配复数 apples）",
+              "explanationZh": "复数 apples 前不用 a，可用 some apples。"
+            }
+          ],
+          "answerId": "L04-E01-A",
+          "taughtReference": [
+            "L04-D04",
+            "L04-G-AFF1"
+          ]
+        },
+        {
+          "id": "L04-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：询问对方要几个苹果（可数数量），选最合适的问句。",
+          "options": [
+            {
+              "id": "L04-E02-A",
+              "textEn": "How many do you want?",
+              "textZh": "你要几个？",
+              "explanationZh": "正确。这题问的是几个苹果，apple 可数，用 how many。"
+            },
+            {
+              "id": "L04-E02-B",
+              "textEn": "How much do you want?",
+              "textZh": "你要多少？（常问不可数的量）",
+              "explanationZh": "How much do you want? 问不可数的量时可以正确，所以不是普遍错误。但这题明确问的是几个苹果，apple 可数，应使用 how many。"
+            },
+            {
+              "id": "L04-E02-C",
+              "textEn": "How many does you want?",
+              "textZh": "（you 不用 does）",
+              "explanationZh": "主语是 you，疑问助动词用 do，不是 does。"
+            }
+          ],
+          "answerId": "L04-E02-A",
+          "taughtReference": [
+            "L04-D06",
+            "L04-G-Q4"
+          ]
+        },
+        {
+          "id": "L04-E03",
+          "type": "multiple-choice",
+          "promptZh": "语境：问这些苹果的价格（多少钱），选最合适的问句。",
+          "options": [
+            {
+              "id": "L04-E03-A",
+              "textEn": "How much are they?",
+              "textZh": "多少钱？",
+              "explanationZh": "正确。问价格用 how much。对话里 they 指那些苹果。"
+            },
+            {
+              "id": "L04-E03-B",
+              "textEn": "How many are they?",
+              "textZh": "它们是几个？",
+              "explanationZh": "how many 问的是可数数量（几个），不是价格。这题要问的是多少钱。"
+            },
+            {
+              "id": "L04-E03-C",
+              "textEn": "How much is you?",
+              "textZh": "（主语和搭配都不对）",
+              "explanationZh": "问这些苹果的价格，主语是 they，用 How much are they? 不说 How much is you?"
+            }
+          ],
+          "answerId": "L04-E03-A",
+          "taughtReference": [
+            "L04-D05",
+            "L04-G-Q3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "order": 5,
+      "title": {
+        "en": "Making Plans with a Friend",
+        "zh": "约朋友"
+      },
+      "objective": {
+        "zh": "本课练习按想问的信息选择疑问词，并区分 be 问句与 do 问句。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "熟人发消息约见面，普通日常口语。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L05-D01",
+          "speaker": "A",
+          "en": "What do you want to do this weekend?",
+          "zh": "这周末你想做什么？"
+        },
+        {
+          "id": "L05-D02",
+          "speaker": "B",
+          "en": "Maybe get a coffee. Are you free on Saturday?",
+          "zh": "也许喝杯咖啡。你周六有空吗？"
+        },
+        {
+          "id": "L05-D03",
+          "speaker": "A",
+          "en": "Yeah. What time are you free?",
+          "zh": "有空。你几点有空？"
+        },
+        {
+          "id": "L05-D04",
+          "speaker": "B",
+          "en": "How about two?",
+          "zh": "两点怎么样？"
+        },
+        {
+          "id": "L05-D05",
+          "speaker": "A",
+          "en": "Sounds good. Where do you want to meet?",
+          "zh": "好啊。你想在哪儿见？"
+        },
+        {
+          "id": "L05-D06",
+          "speaker": "B",
+          "en": "Outside the station.",
+          "zh": "车站外面。"
+        },
+        {
+          "id": "L05-D07",
+          "speaker": "A",
+          "en": "Which exit?",
+          "zh": "哪个出口？"
+        },
+        {
+          "id": "L05-D08",
+          "speaker": "B",
+          "en": "The north exit. See you there!",
+          "zh": "北出口。到时候见！"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L05-V01",
+          "word": "meet",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "见面"
+          },
+          "exampleEn": "Let's meet here.",
+          "exampleZh": "我们在这儿见吧。"
+        },
+        {
+          "id": "L05-V02",
+          "word": "free",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "有空的（本课不是“免费”）"
+          },
+          "exampleEn": "Are you free today?",
+          "exampleZh": "你今天有空吗？",
+          "notesZh": "free 另有“免费”的意思，本课只记“有空”。"
+        },
+        {
+          "id": "L05-V03",
+          "word": "late",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "迟的/晚的"
+          },
+          "exampleEn": "I'm late.",
+          "exampleZh": "我迟到了。"
+        },
+        {
+          "id": "L05-V04",
+          "word": "today",
+          "pos": "adverb",
+          "posZh": "副词（在 Are you free today? 里）",
+          "sense": {
+            "zh": "今天"
+          },
+          "exampleEn": "Are you free today?",
+          "exampleZh": "你今天有空吗？"
+        },
+        {
+          "id": "L05-V05",
+          "word": "tomorrow",
+          "pos": "adverb",
+          "posZh": "副词（在 See you tomorrow? 里）",
+          "sense": {
+            "zh": "明天"
+          },
+          "exampleEn": "See you tomorrow.",
+          "exampleZh": "明天见。"
+        },
+        {
+          "id": "L05-V06",
+          "word": "weekend",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "周末"
+          },
+          "exampleEn": "What do you want to do this weekend?",
+          "exampleZh": "这周末你想做什么？"
+        },
+        {
+          "id": "L05-V07",
+          "word": "Saturday",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "星期六"
+          },
+          "exampleEn": "Are you free on Saturday?",
+          "exampleZh": "你周六有空吗？"
+        },
+        {
+          "id": "L05-V08",
+          "word": "time",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "时间；钟点"
+          },
+          "exampleEn": "What time are you free?",
+          "exampleZh": "你几点有空？"
+        },
+        {
+          "id": "L05-V09",
+          "word": "place",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "地方"
+          },
+          "exampleEn": "This place is nice.",
+          "exampleZh": "这地方不错。"
+        },
+        {
+          "id": "L05-V10",
+          "word": "station",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "车站"
+          },
+          "exampleEn": "I'm at the station.",
+          "exampleZh": "我在车站。"
+        },
+        {
+          "id": "L05-V11",
+          "word": "exit",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "出口"
+          },
+          "exampleEn": "Which exit?",
+          "exampleZh": "哪个出口？",
+          "notesZh": "the north exit 先整块记为“北出口”，本课不单测 north。"
+        },
+        {
+          "id": "L05-V12",
+          "word": "outside",
+          "pos": "adverb-or-preposition",
+          "posZh": "副词或介词，按句区分",
+          "sense": {
+            "zh": "在外面；在……外面"
+          },
+          "exampleEn": "See you outside.",
+          "exampleZh": "外面见。",
+          "notesZh": "See you outside. 里的 outside 是副词。Outside the station. / outside the station 里的 outside 是介词。I'll wait outside 也可作副词用法，本课先整句理解，不测将来时 I'll。"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L05-P01",
+          "en": "What time are you free?",
+          "zh": "你几点有空？",
+          "exampleEn": "What time are you free?",
+          "exampleZh": "你几点有空？"
+        },
+        {
+          "id": "L05-P02",
+          "en": "How about two?",
+          "zh": "两点怎么样？",
+          "exampleEn": "How about two?",
+          "exampleZh": "两点怎么样？",
+          "notesZh": "基础课里时间也可说 at two / about two。"
+        },
+        {
+          "id": "L05-P03",
+          "en": "See you there!",
+          "zh": "到时候见！",
+          "exampleEn": "See you there!",
+          "exampleZh": "到时候见！"
+        }
+      ],
+      "grammar": {
+        "id": "L05-G",
+        "title": {
+          "en": "question words and question word order",
+          "zh": "疑问词与问句语序"
+        },
+        "focus": "question-words-and-order",
+        "explanationZh": "先想清楚要问什么：what 什么；where 哪里；when 何时；who 谁；why 为什么；how 怎样；which 哪个。what time 问几点；how much 问价格或不可数的量；how many 问可数数量。两类基础结构：1）疑问词 + be + 主语：Where are you? / What time are you free? 2）疑问词 + do/does + 主语 + 动词原形：Where do you want to meet? / What do you want to do? 不要把“疑问词后必有 do”当成通则：Who wants coffee? 里 who 本身在问主语，没有 do。独立直接问句里，be 要放在主语前面：What time are you free? 不说 What time you are free?",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L05-G-AFF1",
+              "en": "You're free at two.",
+              "zh": "你两点有空。"
+            },
+            {
+              "id": "L05-G-AFF2",
+              "en": "We meet at the station.",
+              "zh": "我们在车站见。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L05-G-NEG1",
+              "en": "You aren't free at two.",
+              "zh": "你两点没空。"
+            },
+            {
+              "id": "L05-G-NEG2",
+              "en": "We don't meet at three.",
+              "zh": "我们不是三点见。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L05-G-Q1",
+              "en": "What time are you free?",
+              "zh": "你几点有空？"
+            },
+            {
+              "id": "L05-G-Q2",
+              "en": "Are you free on Saturday?",
+              "zh": "你周六有空吗？"
+            },
+            {
+              "id": "L05-G-Q3",
+              "en": "Where do you want to meet?",
+              "zh": "你想在哪儿见？"
+            },
+            {
+              "id": "L05-G-Q4",
+              "en": "Where are you?",
+              "zh": "你在哪儿？"
+            }
+          ]
+        },
+        "contrast": [
+          {
+            "id": "L05-G-ERR1",
+            "incorrectEn": "What time you are free?",
+            "correctEn": "What time are you free?",
+            "explanationZh": "独立直接问句里，be 要放在主语前面。"
+          },
+          {
+            "id": "L05-G-ERR2",
+            "incorrectEn": "What time do you free?",
+            "correctEn": "What time are you free?",
+            "explanationZh": "这里的 free 是形容词“有空的”，要用 be，不用 do free。"
+          },
+          {
+            "id": "L05-G-ERR3",
+            "incorrectEn": "Where you want to meet?",
+            "correctEn": "Where do you want to meet?",
+            "explanationZh": "实义动词 want 的特殊疑问句需要 do：Where do you want to meet?"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L05-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：问朋友想在哪儿见面，选形式正确的问句。",
+          "options": [
+            {
+              "id": "L05-E01-A",
+              "textEn": "Where do you want to meet?",
+              "textZh": "你想在哪儿见？",
+              "explanationZh": "正确。疑问词 where + do + 主语 + 动词原形 want。"
+            },
+            {
+              "id": "L05-E01-B",
+              "textEn": "Where you want to meet?",
+              "textZh": "（缺少 do）",
+              "explanationZh": "实义动词 want 的问句需要 do：Where do you want to meet?"
+            },
+            {
+              "id": "L05-E01-C",
+              "textEn": "Where are you want to meet?",
+              "textZh": "（be 和 want 叠在一起了）",
+              "explanationZh": "want 是实义动词，这里用 do，不用 are want。"
+            }
+          ],
+          "answerId": "L05-E01-A",
+          "taughtReference": [
+            "L05-D05",
+            "L05-G-Q3"
+          ]
+        },
+        {
+          "id": "L05-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：问对方周六有没有空，选形式正确的问句。",
+          "options": [
+            {
+              "id": "L05-E02-A",
+              "textEn": "Are you free on Saturday?",
+              "textZh": "你周六有空吗？",
+              "explanationZh": "正确。free 在这里是形容词，疑问用 Are you free…?"
+            },
+            {
+              "id": "L05-E02-B",
+              "textEn": "Do you free on Saturday?",
+              "textZh": "（free 在此不是动词）",
+              "explanationZh": "这里的 free 是形容词“有空的”，不用 do you free。"
+            },
+            {
+              "id": "L05-E02-C",
+              "textEn": "Is you free on Saturday?",
+              "textZh": "（you 不配 is）",
+              "explanationZh": "you 搭配 are，不是 is。"
+            }
+          ],
+          "answerId": "L05-E02-A",
+          "taughtReference": [
+            "L05-D02",
+            "L05-G-Q2"
+          ]
+        },
+        {
+          "id": "L05-E03",
+          "type": "multiple-choice",
+          "promptZh": "语境：要问朋友几点方便，选择语序正确的问句。",
+          "options": [
+            {
+              "id": "L05-E03-A",
+              "textEn": "What time are you free?",
+              "textZh": "你几点有空？",
+              "explanationZh": "正确。独立直接问句里，be 放在主语前面：What time are you free?"
+            },
+            {
+              "id": "L05-E03-B",
+              "textEn": "What time you are free?",
+              "textZh": "（直接问句里 be 应前置）",
+              "explanationZh": "这是陈述语序。独立直接问句要把 are 放到 you 前面。"
+            },
+            {
+              "id": "L05-E03-C",
+              "textEn": "What time do you free?",
+              "textZh": "（free 在此是形容词）",
+              "explanationZh": "free 在此是形容词“有空的”，要用 are，不用 do free。"
+            }
+          ],
+          "answerId": "L05-E03-A",
+          "taughtReference": [
+            "L05-D03",
+            "L05-G-Q1",
+            "L05-G-AFF1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "order": 6,
+      "title": {
+        "en": "Asking for Directions",
+        "zh": "出行问路"
+      },
+      "objective": {
+        "zh": "本课练习用 can 礼貌请求帮助，并读懂方向和地点短语。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "街上向陌生人问路。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L06-D01",
+          "speaker": "A",
+          "en": "Excuse me, can you help me?",
+          "zh": "打扰一下，能帮我一下吗？"
+        },
+        {
+          "id": "L06-D02",
+          "speaker": "B",
+          "en": "Sure. Are you lost?",
+          "zh": "当然。你迷路了吗？"
+        },
+        {
+          "id": "L06-D03",
+          "speaker": "A",
+          "en": "Yeah. Is the station far from here?",
+          "zh": "嗯。车站离这儿远吗？"
+        },
+        {
+          "id": "L06-D04",
+          "speaker": "B",
+          "en": "No, it isn't. Go straight on this street.",
+          "zh": "不远。沿着这条街直走。"
+        },
+        {
+          "id": "L06-D05",
+          "speaker": "A",
+          "en": "Do I turn left or right?",
+          "zh": "我往左还是往右转？"
+        },
+        {
+          "id": "L06-D06",
+          "speaker": "B",
+          "en": "Turn left at the bus stop. There's a map there.",
+          "zh": "在公交站左转。那儿有一张地图。"
+        },
+        {
+          "id": "L06-D07",
+          "speaker": "A",
+          "en": "Can I walk there?",
+          "zh": "我能走着去吗？"
+        },
+        {
+          "id": "L06-D08",
+          "speaker": "B",
+          "en": "Yes, you can. You can wait there if you need to.",
+          "zh": "能。需要的话可以在那儿等。"
+        },
+        {
+          "id": "L06-D09",
+          "speaker": "A",
+          "en": "Thanks. I'll come this way.",
+          "zh": "谢谢。我走这边。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L06-V01",
+          "word": "go",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "去；走"
+          },
+          "exampleEn": "Go straight on this street.",
+          "exampleZh": "沿着这条街直走。"
+        },
+        {
+          "id": "L06-V02",
+          "word": "come",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "来"
+          },
+          "exampleEn": "Come this way.",
+          "exampleZh": "走这边。",
+          "notesZh": "对话里 I'll come this way. 是整句先理解的礼貌收尾，本课不测 I'll / 将来时。"
+        },
+        {
+          "id": "L06-V03",
+          "word": "wait",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "等"
+          },
+          "exampleEn": "You can wait there.",
+          "exampleZh": "你可以在那儿等。",
+          "notesZh": "wait for a friend 是“等朋友”，介词用 for。"
+        },
+        {
+          "id": "L06-V04",
+          "word": "help",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "帮助"
+          },
+          "exampleEn": "Can you help me?",
+          "exampleZh": "能帮我一下吗？"
+        },
+        {
+          "id": "L06-V05",
+          "word": "left",
+          "pos": "adverb",
+          "posZh": "副词（在 turn left 里）",
+          "sense": {
+            "zh": "向左"
+          },
+          "exampleEn": "Turn left at the bus stop.",
+          "exampleZh": "在公交站左转。"
+        },
+        {
+          "id": "L06-V06",
+          "word": "right",
+          "pos": "adverb",
+          "posZh": "副词（在 turn right 里）",
+          "sense": {
+            "zh": "向右"
+          },
+          "exampleEn": "Do I turn left or right?",
+          "exampleZh": "我往左还是往右转？"
+        },
+        {
+          "id": "L06-V07",
+          "word": "straight",
+          "pos": "adverb",
+          "posZh": "副词（在 go straight 里）",
+          "sense": {
+            "zh": "直直地"
+          },
+          "exampleEn": "Go straight on this street.",
+          "exampleZh": "沿着这条街直走。"
+        },
+        {
+          "id": "L06-V08",
+          "word": "street",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "街道"
+          },
+          "exampleEn": "Go straight on this street.",
+          "exampleZh": "沿着这条街直走。"
+        },
+        {
+          "id": "L06-V09",
+          "word": "bus",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "公交车"
+          },
+          "exampleEn": "Turn left at the bus stop.",
+          "exampleZh": "在公交站左转。"
+        },
+        {
+          "id": "L06-V10",
+          "word": "stop",
+          "pos": "noun",
+          "posZh": "名词（本课指 bus stop，不是动词“停下”）",
+          "sense": {
+            "zh": "车站（公交站）"
+          },
+          "exampleEn": "Wait at the bus stop.",
+          "exampleZh": "在公交站等。"
+        },
+        {
+          "id": "L06-V11",
+          "word": "map",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "地图"
+          },
+          "exampleEn": "There's a map there.",
+          "exampleZh": "那儿有一张地图。"
+        },
+        {
+          "id": "L06-V12",
+          "word": "lost",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "迷路的"
+          },
+          "exampleEn": "Are you lost?",
+          "exampleZh": "你迷路了吗？"
+        },
+        {
+          "id": "L06-V13",
+          "word": "far",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "远的"
+          },
+          "exampleEn": "Is the station far from here?",
+          "exampleZh": "车站离这儿远吗？"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L06-P01",
+          "en": "Can you help me?",
+          "zh": "能帮我一下吗？",
+          "exampleEn": "Excuse me, can you help me?",
+          "exampleZh": "打扰一下，能帮我一下吗？"
+        },
+        {
+          "id": "L06-P02",
+          "en": "turn left / turn right",
+          "zh": "左转 / 右转",
+          "exampleEn": "Turn left at the bus stop.",
+          "exampleZh": "在公交站左转。"
+        },
+        {
+          "id": "L06-P03",
+          "en": "go straight",
+          "zh": "直走",
+          "exampleEn": "Go straight on this street.",
+          "exampleZh": "沿着这条街直走。"
+        },
+        {
+          "id": "L06-P04",
+          "en": "walk",
+          "zh": "走；步行（随 can 一起学）",
+          "exampleEn": "I can walk there.",
+          "exampleZh": "我能走着去。"
+        },
+        {
+          "id": "L06-P05",
+          "en": "Come this way.",
+          "zh": "走这边。",
+          "exampleEn": "Come this way.",
+          "exampleZh": "走这边。"
+        }
+      ],
+      "grammar": {
+        "id": "L06-G",
+        "title": {
+          "en": "can, and direction / place phrases",
+          "zh": "can，以及方向和地点短语"
+        },
+        "focus": "can-directions-prepositions",
+        "explanationZh": "can 后面接动词原形，用来表示能力，或礼貌地请求帮助：I can walk there. / Can you help me? 否定用 can't / cannot：I can't walk there. 疑问把 can 放到主语前面：Can I walk there? 简答：Yes, you can. / No, you can't. can 后面不加 to，也不加第三人称 s。方向短语先整块记：go straight 直走，turn left 左转，turn right 右转。地点：on this street，at the bus stop。继续区分：go home 不加 to；go to the store / go to the station 要 to。",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L06-G-AFF1",
+              "en": "I can walk there.",
+              "zh": "我能走着去。"
+            },
+            {
+              "id": "L06-G-AFF2",
+              "en": "You can wait there.",
+              "zh": "你可以在那儿等。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L06-G-NEG1",
+              "en": "I can't walk there.",
+              "zh": "我没法走着去。"
+            },
+            {
+              "id": "L06-G-NEG2",
+              "en": "It isn't far.",
+              "zh": "不远。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L06-G-Q1",
+              "en": "Can I walk there?",
+              "zh": "我能走着去吗？"
+            },
+            {
+              "id": "L06-G-Q2",
+              "en": "Can you help me?",
+              "zh": "能帮我一下吗？"
+            },
+            {
+              "id": "L06-G-Q3",
+              "en": "Is the station far from here?",
+              "zh": "车站离这儿远吗？"
+            }
+          ],
+          "shortAnswers": [
+            {
+              "id": "L06-G-SA1",
+              "en": "Yes, you can. / No, you can't.",
+              "zh": "能。/ 不能。"
+            }
+          ]
+        },
+        "contrast": [
+          {
+            "id": "L06-G-ERR1",
+            "incorrectEn": "I can walks there.",
+            "correctEn": "I can walk there.",
+            "explanationZh": "can 后面用动词原形 walk，不加 s。"
+          },
+          {
+            "id": "L06-G-ERR2",
+            "incorrectEn": "I can to walk there.",
+            "correctEn": "I can walk there.",
+            "explanationZh": "can 后面直接接原形，不接 to。"
+          },
+          {
+            "id": "L06-G-ERR3",
+            "incorrectEn": "Do you can help me?",
+            "correctEn": "Can you help me?",
+            "explanationZh": "用 can 提问时，把 can 放到主语前面，不说 do you can。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L06-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：向别人礼貌请求帮助，选形式正确的问句。",
+          "options": [
+            {
+              "id": "L06-E01-A",
+              "textEn": "Can you help me?",
+              "textZh": "能帮我一下吗？",
+              "explanationZh": "正确。请求帮助用 Can you + 动词原形。"
+            },
+            {
+              "id": "L06-E01-B",
+              "textEn": "Can you helps me?",
+              "textZh": "（can 后应是原形）",
+              "explanationZh": "can 后面用原形 help，不加 s。"
+            },
+            {
+              "id": "L06-E01-C",
+              "textEn": "Do you can help me?",
+              "textZh": "（不说 do you can）",
+              "explanationZh": "用 can 提问时直接把 can 提前，不说 do you can。"
+            }
+          ],
+          "answerId": "L06-E01-A",
+          "taughtReference": [
+            "L06-D01",
+            "L06-G-Q2"
+          ]
+        },
+        {
+          "id": "L06-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：你想说自己能步行去那儿，选形式正确的一句。",
+          "options": [
+            {
+              "id": "L06-E02-A",
+              "textEn": "I can walk there.",
+              "textZh": "我能走着去。",
+              "explanationZh": "正确。can 后面接动词原形 walk。"
+            },
+            {
+              "id": "L06-E02-B",
+              "textEn": "I can walks there.",
+              "textZh": "（can 后不加 s）",
+              "explanationZh": "can 后面用动词原形 walk，不能写成 walks。"
+            },
+            {
+              "id": "L06-E02-C",
+              "textEn": "I can to walk there.",
+              "textZh": "（can 不接 to）",
+              "explanationZh": "can 后面不接 to，直接说 I can walk there。"
+            }
+          ],
+          "answerId": "L06-E02-A",
+          "taughtReference": [
+            "L06-D07",
+            "L06-G-AFF1"
+          ]
+        },
+        {
+          "id": "L06-E03",
+          "type": "multiple-choice",
+          "promptZh": "按对话内容：车站离这里远吗？",
+          "options": [
+            {
+              "id": "L06-E03-A",
+              "textEn": "No, it isn't.",
+              "textZh": "不远。",
+              "explanationZh": "正确。对话里 B 回答 No, it isn't. 车站不远。"
+            },
+            {
+              "id": "L06-E03-B",
+              "textEn": "Yes, it is.",
+              "textZh": "远。",
+              "explanationZh": "这句话语法成立，但与原文不符：B 说车站不远。"
+            },
+            {
+              "id": "L06-E03-C",
+              "textEn": "You need a bus.",
+              "textZh": "你需要坐公交。",
+              "explanationZh": "这句话语法可以成立，但原文没有这样说。B 的意思是可以走着去，并不远。"
+            }
+          ],
+          "answerId": "L06-E03-A",
+          "taughtReference": [
+            "L06-D03",
+            "L06-D04"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "order": 7,
+      "title": {
+        "en": "What Are You Doing?",
+        "zh": "正在做什么"
+      },
+      "objective": {
+        "zh": "本课练习用 be + -ing 说正在做的事，并把它和习惯说法区分开来。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "朋友下午发消息，普通随意口语。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L07-D01",
+          "speaker": "A",
+          "en": "Hey, what are you doing?",
+          "zh": "嘿，你在干什么？"
+        },
+        {
+          "id": "L07-D02",
+          "speaker": "B",
+          "en": "I'm taking a break. What about you?",
+          "zh": "我在休息。你呢？"
+        },
+        {
+          "id": "L07-D03",
+          "speaker": "A",
+          "en": "I'm waiting for the bus.",
+          "zh": "我在等公交车。"
+        },
+        {
+          "id": "L07-D04",
+          "speaker": "B",
+          "en": "Are you going home?",
+          "zh": "你在回家的路上吗？"
+        },
+        {
+          "id": "L07-D05",
+          "speaker": "A",
+          "en": "Not yet. I'm going to the store first.",
+          "zh": "还没。我先去趟商店。"
+        },
+        {
+          "id": "L07-D06",
+          "speaker": "B",
+          "en": "Is it raining there?",
+          "zh": "你那儿在下雨吗？"
+        },
+        {
+          "id": "L07-D07",
+          "speaker": "A",
+          "en": "No, it isn't. But it's getting cold.",
+          "zh": "没下。不过天开始冷了。"
+        },
+        {
+          "id": "L07-D08",
+          "speaker": "B",
+          "en": "Okay. I'm making dinner now. Talk later!",
+          "zh": "好。我现在在做晚饭。回头聊！"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L07-V01",
+          "word": "now",
+          "pos": "adverb",
+          "posZh": "副词",
+          "sense": {
+            "zh": "现在"
+          },
+          "exampleEn": "I'm making dinner now.",
+          "exampleZh": "我现在在做晚饭。"
+        },
+        {
+          "id": "L07-V02",
+          "word": "break",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "休息"
+          },
+          "exampleEn": "I need a break.",
+          "exampleZh": "我需要休息一下。",
+          "notesZh": "I'm taking a break. 先整句记为“我在休息”。"
+        },
+        {
+          "id": "L07-V03",
+          "word": "movie",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "电影"
+          },
+          "exampleEn": "I'm watching a movie.",
+          "exampleZh": "我正在看电影。"
+        },
+        {
+          "id": "L07-V04",
+          "word": "wait",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "等"
+          },
+          "exampleEn": "I'm waiting for the bus.",
+          "exampleZh": "我在等公交车。",
+          "notesZh": "wait for + 人或事物。本课是复现巩固。"
+        },
+        {
+          "id": "L07-V05",
+          "word": "make",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "制作；做"
+          },
+          "exampleEn": "I'm making dinner.",
+          "exampleZh": "我在做晚饭。"
+        },
+        {
+          "id": "L07-V06",
+          "word": "rain",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "下雨"
+          },
+          "exampleEn": "It's raining.",
+          "exampleZh": "正在下雨。"
+        },
+        {
+          "id": "L07-V07",
+          "word": "watch",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "看（电视、电影等）"
+          },
+          "exampleEn": "I'm watching a movie.",
+          "exampleZh": "我正在看电影。"
+        },
+        {
+          "id": "L07-V08",
+          "word": "read",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "读；看（书、文章）"
+          },
+          "exampleEn": "I'm reading at home.",
+          "exampleZh": "我正在家看书。"
+        },
+        {
+          "id": "L07-V09",
+          "word": "write",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "写"
+          },
+          "exampleEn": "She's writing now.",
+          "exampleZh": "她正在写东西。"
+        },
+        {
+          "id": "L07-V10",
+          "word": "cook",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "做饭"
+          },
+          "exampleEn": "He's cooking dinner.",
+          "exampleZh": "他正在做晚饭。"
+        },
+        {
+          "id": "L07-V11",
+          "word": "listen",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "听"
+          },
+          "exampleEn": "I'm listening to music.",
+          "exampleZh": "我正在听音乐。",
+          "notesZh": "listen to music 里的 to 要保留。"
+        },
+        {
+          "id": "L07-V12",
+          "word": "play",
+          "pos": "verb",
+          "posZh": "动词",
+          "sense": {
+            "zh": "玩；打（游戏等）"
+          },
+          "exampleEn": "I play games after dinner.",
+          "exampleZh": "我晚饭后玩游戏。"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L07-P01",
+          "en": "I'm taking a break.",
+          "zh": "我在休息。",
+          "exampleEn": "I'm taking a break.",
+          "exampleZh": "我在休息。"
+        },
+        {
+          "id": "L07-P02",
+          "en": "go home / going home",
+          "zh": "回家（不加 to）",
+          "exampleEn": "I'm going home.",
+          "exampleZh": "我在回家的路上。"
+        },
+        {
+          "id": "L07-P03",
+          "en": "go to the store / going to the store",
+          "zh": "去商店（要有 to）",
+          "exampleEn": "I'm going to the store.",
+          "exampleZh": "我正要去商店。"
+        },
+        {
+          "id": "L07-P04",
+          "en": "wait for",
+          "zh": "等待（某人/某物）",
+          "exampleEn": "I'm waiting for the bus.",
+          "exampleZh": "我在等公交车。"
+        }
+      ],
+      "grammar": {
+        "id": "L07-G",
+        "title": {
+          "en": "the present continuous, compared with habits",
+          "zh": "现在进行时，并与习惯对照"
+        },
+        "focus": "present-continuous",
+        "explanationZh": "说眼下正在做的事，用 am/is/are + 动词-ing。入门先学“此刻正在发生”；现在进行时也可以表示临时情况或已确定的安排，那不是这课要练完的全部用法，题目只考已经讲过的形式。构词先认几组明确例子：work→working；make→making（去掉末尾不发音的 e）；run→running（双写 n）。不要把“所有词都双写”或“所有词都去 e”当成绝对规则。对照：I play games after dinner.（晚饭后玩游戏，习惯）/ I'm playing a game right now.（现在正在打一局）。I'm going home. 通常不加 to；I'm going to the store 则要 to。对话里“我先去趟商店”按眼下行程理解，不在这课展开所有将来用法。know / like / want 等常见状态用法通常不用进行时：I know，不是 I'm knowing。",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L07-G-AFF1",
+              "en": "I'm waiting for the bus.",
+              "zh": "我在等公交车。"
+            },
+            {
+              "id": "L07-G-AFF2",
+              "en": "I'm making dinner now.",
+              "zh": "我现在在做晚饭。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L07-G-NEG1",
+              "en": "I'm not working now.",
+              "zh": "我现在没在工作。"
+            },
+            {
+              "id": "L07-G-NEG2",
+              "en": "It isn't raining.",
+              "zh": "没在下雨。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L07-G-Q1",
+              "en": "What are you doing?",
+              "zh": "你在做什么？"
+            },
+            {
+              "id": "L07-G-Q2",
+              "en": "Are you working?",
+              "zh": "你在工作吗？"
+            },
+            {
+              "id": "L07-G-Q3",
+              "en": "Are you going home?",
+              "zh": "你在回家的路上吗？"
+            }
+          ],
+          "shortAnswers": [
+            {
+              "id": "L07-G-SA1",
+              "en": "Yes, I am. / No, I'm not.",
+              "zh": "是的。/ 没有。"
+            }
+          ]
+        },
+        "compare": [
+          {
+            "id": "L07-G-CMP1",
+            "habitEn": "I play games after dinner.",
+            "habitZh": "我晚饭后玩游戏（习惯）。",
+            "progressiveEn": "I'm playing a game right now.",
+            "progressiveZh": "我现在正在打一局（正在发生）。"
+          },
+          {
+            "id": "L07-G-CMP2",
+            "habitEn": "I work from home.",
+            "habitZh": "我平时在家办公（习惯）。",
+            "progressiveEn": "I'm working from home today.",
+            "progressiveZh": "我今天在家办公（当前/临时）。"
+          }
+        ],
+        "contrast": [
+          {
+            "id": "L07-G-ERR1",
+            "incorrectEn": "What are you play?",
+            "correctEn": "What are you playing?",
+            "explanationZh": "进行时要用动词-ing：playing，不是 play。"
+          },
+          {
+            "id": "L07-G-ERR2",
+            "incorrectEn": "I'm wait for the bus.",
+            "correctEn": "I'm waiting for the bus.",
+            "explanationZh": "be 后面要接 waiting，不能只用原形 wait。"
+          },
+          {
+            "id": "L07-G-ERR3",
+            "incorrectEn": "I waiting for the bus.",
+            "correctEn": "I'm waiting for the bus.",
+            "explanationZh": "进行时不能省略 am/is/are。"
+          },
+          {
+            "id": "L07-G-ERR4",
+            "incorrectEn": "I'm go home.",
+            "correctEn": "I'm going home.",
+            "explanationZh": "进行时是 am/is/are + going。go home 不加 to。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L07-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：问对方眼下正在做什么，选形式正确的问句。",
+          "options": [
+            {
+              "id": "L07-E01-A",
+              "textEn": "What are you doing?",
+              "textZh": "你在做什么？",
+              "explanationZh": "正确。问眼下正在做的事用 What are you doing?"
+            },
+            {
+              "id": "L07-E01-B",
+              "textEn": "What are you do?",
+              "textZh": "（缺少 -ing）",
+              "explanationZh": "进行时要用 doing，不是 do。"
+            },
+            {
+              "id": "L07-E01-C",
+              "textEn": "What you doing?",
+              "textZh": "（缺少 are）",
+              "explanationZh": "进行时问句需要 are：What are you doing?"
+            }
+          ],
+          "answerId": "L07-E01-A",
+          "taughtReference": [
+            "L07-D01",
+            "L07-G-Q1"
+          ]
+        },
+        {
+          "id": "L07-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：用现在进行时说“我在等公交车”，选形式正确的一句。",
+          "options": [
+            {
+              "id": "L07-E02-A",
+              "textEn": "I'm waiting for the bus.",
+              "textZh": "我在等公交车。",
+              "explanationZh": "正确。am + waiting，并保留 wait for。"
+            },
+            {
+              "id": "L07-E02-B",
+              "textEn": "I'm wait for the bus.",
+              "textZh": "（缺 -ing）",
+              "explanationZh": "be 后面要接 waiting，不能只用原形 wait。"
+            },
+            {
+              "id": "L07-E02-C",
+              "textEn": "I waiting for the bus.",
+              "textZh": "（缺 am）",
+              "explanationZh": "进行时不能省略 am：I'm waiting。不再把 I wait for the bus now 一律判成绝对错误，因为那是另一种未在本题考查的形式。"
+            }
+          ],
+          "answerId": "L07-E02-A",
+          "taughtReference": [
+            "L07-D03",
+            "L07-G-AFF1"
+          ]
+        },
+        {
+          "id": "L07-E03",
+          "type": "multiple-choice",
+          "promptZh": "用简单一般现在时说平时晚饭后玩游戏，选符合指定时态且语法正确的一句。",
+          "options": [
+            {
+              "id": "L07-E03-A",
+              "textEn": "I play games after dinner.",
+              "textZh": "我晚饭后玩游戏。",
+              "explanationZh": "正确。说平时习惯用一般现在时：I play。"
+            },
+            {
+              "id": "L07-E03-B",
+              "textEn": "I plays games after dinner.",
+              "textZh": "（主语 I 不加 s）",
+              "explanationZh": "主语是 I，动词用原形 play，不加 s。"
+            },
+            {
+              "id": "L07-E03-C",
+              "textEn": "I playing games after dinner.",
+              "textZh": "（缺少 be，也不是一般现在时）",
+              "explanationZh": "这既不是一般现在时 I play，也不是完整的进行时 I'm playing。本题要求的是简单一般现在时。"
+            }
+          ],
+          "answerId": "L07-E03-A",
+          "taughtReference": [
+            "L07-G-CMP1",
+            "L07-V12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "order": 8,
+      "title": {
+        "en": "Yesterday and the Weekend",
+        "zh": "昨天和周末"
+      },
+      "objective": {
+        "zh": "本课练习用 was/were 和一般过去时描述经历，问句和否定用 did + 原形。目标只说明本课要练什么，不表示已经掌握。"
+      },
+      "setting": {
+        "zh": "周一闲聊上周末。"
+      },
+      "provenance": {
+        "type": "original-study-example",
+        "zh": "原创学习情景示例，非真实聊天记录，无外部引用。",
+        "en": "Original study-situation example, not a real conversation, and not adapted from an external source."
+      },
+      "dialogue": [
+        {
+          "id": "L08-D01",
+          "speaker": "A",
+          "en": "What did you do last weekend?",
+          "zh": "你上周末做了什么？"
+        },
+        {
+          "id": "L08-D02",
+          "speaker": "B",
+          "en": "I stayed home on Saturday.",
+          "zh": "我周六待在家。"
+        },
+        {
+          "id": "L08-D03",
+          "speaker": "A",
+          "en": "Were you home all day?",
+          "zh": "你一整天都在家吗？"
+        },
+        {
+          "id": "L08-D04",
+          "speaker": "B",
+          "en": "Yeah. I had dinner with my roommate.",
+          "zh": "对。我和室友吃了晚饭。"
+        },
+        {
+          "id": "L08-D05",
+          "speaker": "A",
+          "en": "I saw a friend yesterday.",
+          "zh": "我昨天见了一个朋友。"
+        },
+        {
+          "id": "L08-D06",
+          "speaker": "B",
+          "en": "Was it fun?",
+          "zh": "开心吗？"
+        },
+        {
+          "id": "L08-D07",
+          "speaker": "A",
+          "en": "Yeah, it was. We cooked in the evening.",
+          "zh": "开心。我们晚上一起做了饭。"
+        },
+        {
+          "id": "L08-D08",
+          "speaker": "B",
+          "en": "Nice. I didn't go out, but it was okay.",
+          "zh": "不错。我没出门，不过也还行。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "L08-V01",
+          "word": "yesterday",
+          "pos": "adverb",
+          "posZh": "副词",
+          "sense": {
+            "zh": "昨天"
+          },
+          "exampleEn": "I saw a friend yesterday.",
+          "exampleZh": "我昨天见了一个朋友。"
+        },
+        {
+          "id": "L08-V02",
+          "word": "last",
+          "pos": "determiner",
+          "posZh": "限定词/形容词性用法（在 last weekend 里）",
+          "sense": {
+            "zh": "上一个；刚过去的"
+          },
+          "exampleEn": "What did you do last weekend?",
+          "exampleZh": "你上周末做了什么？"
+        },
+        {
+          "id": "L08-V03",
+          "word": "fun",
+          "pos": "adjective",
+          "posZh": "形容词",
+          "sense": {
+            "zh": "有趣的；开心的"
+          },
+          "exampleEn": "It was fun.",
+          "exampleZh": "很开心。",
+          "notesZh": "这是入门教材里的常见分类。fun 也有名词用法，本课不在题目里测试词性边界。"
+        },
+        {
+          "id": "L08-V04",
+          "word": "go",
+          "pos": "verb",
+          "posZh": "动词（过去式 went）",
+          "lemma": "go",
+          "forms": {
+            "base": "go",
+            "past": "went"
+          },
+          "sense": {
+            "zh": "去；出门"
+          },
+          "exampleEn": "I didn't go out.",
+          "exampleZh": "我没出门。",
+          "notesZh": "本课是复现。过去式是 went；否定和疑问用 did + go。"
+        },
+        {
+          "id": "L08-V05",
+          "word": "have",
+          "pos": "verb",
+          "posZh": "动词（过去式 had）",
+          "lemma": "have",
+          "forms": {
+            "base": "have",
+            "past": "had"
+          },
+          "sense": {
+            "zh": "吃；度过（本句义）"
+          },
+          "exampleEn": "I had dinner with my roommate.",
+          "exampleZh": "我和室友吃了晚饭。"
+        },
+        {
+          "id": "L08-V06",
+          "word": "see",
+          "pos": "verb",
+          "posZh": "动词（过去式 saw）",
+          "lemma": "see",
+          "forms": {
+            "base": "see",
+            "past": "saw"
+          },
+          "sense": {
+            "zh": "看见；见到"
+          },
+          "exampleEn": "I saw a friend yesterday.",
+          "exampleZh": "我昨天见了一个朋友。"
+        },
+        {
+          "id": "L08-V07",
+          "word": "stay",
+          "pos": "verb",
+          "posZh": "动词（过去式 stayed）",
+          "lemma": "stay",
+          "forms": {
+            "base": "stay",
+            "past": "stayed"
+          },
+          "sense": {
+            "zh": "停留；待着"
+          },
+          "exampleEn": "I stayed home on Saturday.",
+          "exampleZh": "我周六待在家。",
+          "notesZh": "stayed home 和 stayed at home 都接受。"
+        },
+        {
+          "id": "L08-V08",
+          "word": "cook",
+          "pos": "verb",
+          "posZh": "动词（过去式 cooked）",
+          "lemma": "cook",
+          "forms": {
+            "base": "cook",
+            "past": "cooked"
+          },
+          "sense": {
+            "zh": "做饭"
+          },
+          "exampleEn": "We cooked in the evening.",
+          "exampleZh": "我们晚上做了饭。",
+          "notesZh": "本课是复现，并学习过去式 cooked。"
+        },
+        {
+          "id": "L08-V09",
+          "word": "friend",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "朋友"
+          },
+          "exampleEn": "I saw a friend yesterday.",
+          "exampleZh": "我昨天见了一个朋友。",
+          "notesZh": "本课用 saw，不引入尚未讲解的 met。"
+        },
+        {
+          "id": "L08-V10",
+          "word": "afternoon",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "下午"
+          },
+          "exampleEn": "I saw a friend in the afternoon.",
+          "exampleZh": "我下午见了一个朋友。"
+        },
+        {
+          "id": "L08-V11",
+          "word": "evening",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "傍晚；晚上"
+          },
+          "exampleEn": "We cooked in the evening.",
+          "exampleZh": "我们晚上做了饭。"
+        },
+        {
+          "id": "L08-V12",
+          "word": "Sunday",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "星期日"
+          },
+          "exampleEn": "I stayed home on Sunday.",
+          "exampleZh": "我周日待在家。"
+        },
+        {
+          "id": "L08-V13",
+          "word": "roommate",
+          "pos": "noun",
+          "posZh": "名词",
+          "sense": {
+            "zh": "室友"
+          },
+          "exampleEn": "I had dinner with my roommate.",
+          "exampleZh": "我和室友吃了晚饭。"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "L08-P01",
+          "en": "all day",
+          "zh": "整天",
+          "exampleEn": "Were you home all day?",
+          "exampleZh": "你一整天都在家吗？",
+          "notesZh": "all day 先作为语块学，表示“一整天”。"
+        },
+        {
+          "id": "L08-P02",
+          "en": "last weekend",
+          "zh": "上周末",
+          "exampleEn": "What did you do last weekend?",
+          "exampleZh": "你上周末做了什么？"
+        },
+        {
+          "id": "L08-P03",
+          "en": "stay home / stay at home",
+          "zh": "待在家（两种都接受）",
+          "exampleEn": "I stayed home on Saturday.",
+          "exampleZh": "我周六待在家。"
+        },
+        {
+          "id": "L08-P04",
+          "en": "go out",
+          "zh": "出门",
+          "exampleEn": "I didn't go out.",
+          "exampleZh": "我没出门。"
+        }
+      ],
+      "grammar": {
+        "id": "L08-G",
+        "title": {
+          "en": "the simple past: was / were and did + base form",
+          "zh": "过去时：was/were，以及 did + 原形"
+        },
+        "focus": "simple-past",
+        "explanationZh": "说过去的状态，用 was / were：I/he/she/it was；you/we/they were。说过去做了什么，许多动词用过去式：see→saw，have→had，go→went，stay→stayed，cook→cooked。问句和否定常用 did + 动词原形：What did you do? / I didn't go out. 不要写成 did + 过去式（What did you did / I didn't went）。本课动词先记这些明确例子，不要求一次背完整变化表。",
+        "examples": {
+          "affirmative": [
+            {
+              "id": "L08-G-AFF1",
+              "en": "It was good.",
+              "zh": "很好。"
+            },
+            {
+              "id": "L08-G-AFF2",
+              "en": "I saw a friend yesterday.",
+              "zh": "我昨天见了一个朋友。"
+            },
+            {
+              "id": "L08-G-AFF3",
+              "en": "I stayed home.",
+              "zh": "我待在家。"
+            },
+            {
+              "id": "L08-G-AFF4",
+              "en": "I had dinner with my roommate.",
+              "zh": "我和室友吃了晚饭。"
+            }
+          ],
+          "negative": [
+            {
+              "id": "L08-G-NEG1",
+              "en": "It wasn't bad.",
+              "zh": "不差。"
+            },
+            {
+              "id": "L08-G-NEG2",
+              "en": "I didn't go out.",
+              "zh": "我没出门。"
+            },
+            {
+              "id": "L08-G-NEG3",
+              "en": "I wasn't home all day.",
+              "zh": "我不是一整天都在家。"
+            }
+          ],
+          "question": [
+            {
+              "id": "L08-G-Q1",
+              "en": "Was it good?",
+              "zh": "好吗？"
+            },
+            {
+              "id": "L08-G-Q2",
+              "en": "Were you home all day?",
+              "zh": "你一整天都在家吗？"
+            },
+            {
+              "id": "L08-G-Q3",
+              "en": "What did you do last weekend?",
+              "zh": "你上周末做了什么？"
+            }
+          ],
+          "shortAnswers": [
+            {
+              "id": "L08-G-SA1",
+              "en": "Yes, it was. / No, it wasn't.",
+              "zh": "是的。/ 不是。"
+            },
+            {
+              "id": "L08-G-SA2",
+              "en": "Yes, I was. / No, I wasn't.",
+              "zh": "是的。/ 不是。"
+            },
+            {
+              "id": "L08-G-SA3",
+              "en": "Yes, I did. / No, I didn't.",
+              "zh": "做了。/ 没有。"
+            }
+          ]
+        },
+        "contrast": [
+          {
+            "id": "L08-G-ERR1",
+            "incorrectEn": "What do you do last weekend?",
+            "correctEn": "What did you do last weekend?",
+            "explanationZh": "问过去的事情用 did，不是现在时的 do。"
+          },
+          {
+            "id": "L08-G-ERR2",
+            "incorrectEn": "I didn't went out.",
+            "correctEn": "I didn't go out.",
+            "explanationZh": "用了 didn't 以后，动词回到原形 go，不是 went。"
+          },
+          {
+            "id": "L08-G-ERR3",
+            "incorrectEn": "I see a friend yesterday.",
+            "correctEn": "I saw a friend yesterday.",
+            "explanationZh": "yesterday 表示过去，要用过去式 saw。"
+          },
+          {
+            "id": "L08-G-ERR4",
+            "incorrectEn": "What did you did last weekend?",
+            "correctEn": "What did you do last weekend?",
+            "explanationZh": "did 后面用原形 do，不能再写 did。"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "L08-E01",
+          "type": "multiple-choice",
+          "promptZh": "语境：问对方上周末做了什么，选形式正确的问句。",
+          "options": [
+            {
+              "id": "L08-E01-A",
+              "textEn": "What did you do last weekend?",
+              "textZh": "你上周末做了什么？",
+              "explanationZh": "正确。问过去用 did + 动词原形 do。"
+            },
+            {
+              "id": "L08-E01-B",
+              "textEn": "What do you do last weekend?",
+              "textZh": "（last weekend 应用过去时）",
+              "explanationZh": "last weekend 是过去的时间，要用 did，不是现在时的 do。"
+            },
+            {
+              "id": "L08-E01-C",
+              "textEn": "What did you did last weekend?",
+              "textZh": "（did 后应是原形）",
+              "explanationZh": "用了 did 以后，动词用原形 do，不能再写 did。"
+            }
+          ],
+          "answerId": "L08-E01-A",
+          "taughtReference": [
+            "L08-D01",
+            "L08-G-Q3"
+          ]
+        },
+        {
+          "id": "L08-E02",
+          "type": "multiple-choice",
+          "promptZh": "语境：说“我上周末没出门”，选形式正确的一句。",
+          "options": [
+            {
+              "id": "L08-E02-A",
+              "textEn": "I didn't go out last weekend.",
+              "textZh": "我上周末没出门。",
+              "explanationZh": "正确。否定用 didn't + 动词原形 go。"
+            },
+            {
+              "id": "L08-E02-B",
+              "textEn": "I didn't went out last weekend.",
+              "textZh": "（didn't 后应是原形）",
+              "explanationZh": "用了 didn't 以后要用原形 go，不是 went。"
+            },
+            {
+              "id": "L08-E02-C",
+              "textEn": "I don't go out last weekend.",
+              "textZh": "（时间是过去，不用 don't）",
+              "explanationZh": "last weekend 是过去，否定用 didn't，不是现在时的 don't。"
+            }
+          ],
+          "answerId": "L08-E02-A",
+          "taughtReference": [
+            "L08-D08",
+            "L08-G-NEG2"
+          ]
+        },
+        {
+          "id": "L08-E03",
+          "type": "multiple-choice",
+          "promptZh": "按对话内容，哪一句说的是 A 昨天做的事？",
+          "options": [
+            {
+              "id": "L08-E03-A",
+              "textEn": "I saw a friend yesterday.",
+              "textZh": "我昨天见了一个朋友。",
+              "explanationZh": "正确。对话第5句是 A 说的：I saw a friend yesterday。"
+            },
+            {
+              "id": "L08-E03-B",
+              "textEn": "I stayed home all day.",
+              "textZh": "我一整天都待在家。",
+              "explanationZh": "这句话语法成立，但与原文不符：待在家、被问“你一整天都在家吗？”的是 B，不是 A。"
+            },
+            {
+              "id": "L08-E03-C",
+              "textEn": "I had dinner with my roommate.",
+              "textZh": "我和室友吃了晚饭。",
+              "explanationZh": "这句话语法可以成立，但与原文不符：和室友吃晚饭的是 B，不是 A。"
+            }
+          ],
+          "answerId": "L08-E03-A",
+          "taughtReference": [
+            "L08-D05",
+            "L08-G-AFF2",
+            "L08-V09"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+# Third-party notices
+
+This project includes original software and teaching material, plus
+adaptations of openly licensed texts, frequency data, and one recording.
+Adapted English readings and their Chinese translations are themselves
+adapted material under CC BY-SA 4.0. Naming a source or its contributors
+does not imply their endorsement of this study text or this product.
+
+Full per-item attribution also appears in the official content packs under
+`src/content/` and, for sourced readings, at the end of each adapted article
+in the app.
+
+## Frequency data
+
+Word selection uses [wordfreq](https://github.com/rspeer/wordfreq) 3.1.1
+English frequency data by Robyn Speer, with credit also to SUBTLEX, Google
+Books Ngrams, OpenSubtitles, Wikipedia, and other sources listed in the
+wordfreq NOTICE. Frequency data is licensed under CC BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/). Package code is
+Apache-2.0. Glosses and example sentences written for this project are
+original, not copied from wordfreq.
+
+## Adapted readings (CC BY-SA 4.0)
+
+The following source articles were adapted and abridged for study, then
+translated into Chinese. Source license: CC BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/). Credit volunteer
+contributors via each article's history page; do not treat any article as
+a single-author work.
+
+### Simple English Wikipedia
+
+- Library, revision 10901378 — https://simple.wikipedia.org/w/index.php?title=Library&oldid=10901378 — history: https://simple.wikipedia.org/w/index.php?title=Library&action=history
+- Weather, revision 10942452 — https://simple.wikipedia.org/w/index.php?title=Weather&oldid=10942452 — history: https://simple.wikipedia.org/w/index.php?title=Weather&action=history
+- E-mail, revision 10438437 — https://simple.wikipedia.org/w/index.php?title=E-mail&oldid=10438437 — history: https://simple.wikipedia.org/w/index.php?title=E-mail&action=history
+- Newspaper, revision 11035903 — https://simple.wikipedia.org/w/index.php?title=Newspaper&oldid=11035903 — history: https://simple.wikipedia.org/w/index.php?title=Newspaper&action=history
+- Apartment, revision 10975822 — https://simple.wikipedia.org/w/index.php?title=Apartment&oldid=10975822 — history: https://simple.wikipedia.org/w/index.php?title=Apartment&action=history
+- Clothing, revision 10962531 — https://simple.wikipedia.org/w/index.php?title=Clothing&oldid=10962531 — history: https://simple.wikipedia.org/w/index.php?title=Clothing&action=history
+- Restaurant, revision 11015033 — https://simple.wikipedia.org/w/index.php?title=Restaurant&oldid=11015033 — history: https://simple.wikipedia.org/w/index.php?title=Restaurant&action=history
+- Video game, revision 10959862 — https://simple.wikipedia.org/w/index.php?title=Video_game&oldid=10959862 — history: https://simple.wikipedia.org/w/index.php?title=Video_game&action=history
+
+### English Wikivoyage
+
+- Arriving in a new city, revision 5414939 — https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&oldid=5414939 — history: https://en.wikivoyage.org/w/index.php?title=Arriving_in_a_new_city&action=history
+- Laundry, revision 5395967 — https://en.wikivoyage.org/w/index.php?title=Laundry&oldid=5395967 — history: https://en.wikivoyage.org/w/index.php?title=Laundry&action=history
+- Public transportation, revision 5426949 — https://en.wikivoyage.org/w/index.php?title=Public_transportation&oldid=5426949 — history: https://en.wikivoyage.org/w/index.php?title=Public_transportation&action=history
+- Rail travel, revision 5341588 — https://en.wikivoyage.org/w/index.php?title=Rail_travel&oldid=5341588 — history: https://en.wikivoyage.org/w/index.php?title=Rail_travel&action=history
+- Bus travel, revision 5344241 — https://en.wikivoyage.org/w/index.php?title=Bus_travel&oldid=5344241 — history: https://en.wikivoyage.org/w/index.php?title=Bus_travel&action=history
+- Food and drink, revision 5407113 — https://en.wikivoyage.org/w/index.php?title=Food_and_drink&oldid=5407113 — history: https://en.wikivoyage.org/w/index.php?title=Food_and_drink&action=history
+- Clothes, revision 5332348 — https://en.wikivoyage.org/w/index.php?title=Clothes&oldid=5332348 — history: https://en.wikivoyage.org/w/index.php?title=Clothes&action=history
+
+## Pronunciation recording
+
+The word card for “leak” uses the recording
+[En-us-leak.ogg](https://commons.wikimedia.org/wiki/File:En-us-leak.ogg)
+by Dvortygirl, marked Public domain
+(https://creativecommons.org/publicdomain/mark/1.0/).

@@ -1,0 +1,2319 @@
+{
+  "id": "nov18-optional-practice",
+  "createdAt": "2026-11-18T10:44:35+08:00",
+  "status": "draft-for-integration",
+  "principles": [
+    "练习挂在路径节点上，默认收起，可跳过，可只做一部分。",
+    "不在学完一张词卡或一段对话后强制弹卷。",
+    "看过答案或做对都不自动写入掌握。",
+    "类型覆盖拼写、中选英、英选中、句子补全、选择题和短段完形，便于按现有主题接线。"
+  ],
+  "items": [
+    {
+      "id": "practice-nov18-shopping-spell-warranty",
+      "type": "spelling",
+      "pathId": "path-shopping",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。",
+      "promptEn": "Spell the word.",
+      "stemZh": "保修；保修期",
+      "answer": "warranty",
+      "relatedCardIds": [
+        "depth-nov18-warranty"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-enzh-fitting-room",
+      "type": "en-to-zh-choice",
+      "pathId": "path-shopping",
+      "after": "words",
+      "promptZh": "选出 fitting room 在本课里的意思。",
+      "stem": "fitting room",
+      "choices": [
+        "试衣间",
+        "收银台",
+        "仓库",
+        "退货处"
+      ],
+      "answer": "试衣间",
+      "relatedCardIds": [
+        "depth-nov18-fitting-room"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-complete-try-on",
+      "type": "completion",
+      "pathId": "path-shopping",
+      "after": "scene",
+      "promptZh": "补全店员的话。",
+      "stem": "You can ____ it on if you want.",
+      "answer": "try",
+      "acceptedAnswers": [
+        "try"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-try-on"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-leftover",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "“剩菜”在本课里对应哪个词？",
+      "stem": "剩菜；吃剩的食物",
+      "choices": [
+        "leftover",
+        "takeaway",
+        "napkin",
+        "stain"
+      ],
+      "answer": "leftover",
+      "relatedCardIds": [
+        "depth-nov18-leftover"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-tasty",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。",
+      "stemZh": "好吃的；美味的",
+      "answer": "tasty",
+      "relatedCardIds": [
+        "depth-nov18-tasty"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-cloze-rush-hour",
+      "type": "cloze",
+      "pathId": "path-travel",
+      "after": "scene",
+      "promptZh": "根据对话，补全短段中缺失的词。",
+      "stem": "This stop is always packed in ____ ____.",
+      "answers": [
+        "rush",
+        "hour"
+      ],
+      "answer": "rush hour",
+      "relatedCardIds": [
+        "depth-nov18-rush-hour"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-choice-announcement",
+      "type": "multiple-choice",
+      "pathId": "path-travel",
+      "after": "words",
+      "promptZh": "announcement 在本课里最接近哪一项？",
+      "stem": "announcement",
+      "choices": [
+        "广播通知；公告",
+        "售票处",
+        "靠窗座位",
+        "手推车"
+      ],
+      "answer": "广播通知；公告",
+      "relatedCardIds": [
+        "depth-nov18-announcement"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-spell-deposit",
+      "type": "spelling",
+      "pathId": "path-home",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。",
+      "stemZh": "押金",
+      "answer": "deposit",
+      "relatedCardIds": [
+        "depth-nov18-deposit"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-enzh-lease",
+      "type": "en-to-zh-choice",
+      "pathId": "path-home",
+      "after": "words",
+      "promptZh": "选出 lease 在本课里的意思。",
+      "stem": "lease",
+      "choices": [
+        "租约",
+        "押金",
+        "信箱",
+        "对讲机"
+      ],
+      "answer": "租约",
+      "relatedCardIds": [
+        "depth-nov18-lease"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-game-complete-hang-on",
+      "type": "completion",
+      "pathId": "path-game",
+      "after": "scene",
+      "promptZh": "补全这句口语。",
+      "stem": "____ on, my ping just jumped.",
+      "answer": "Hang",
+      "acceptedAnswers": [
+        "Hang",
+        "hang"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-hang-on"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-game-zhen-gg",
+      "type": "zh-to-en-choice",
+      "pathId": "path-game",
+      "after": "words",
+      "promptZh": "对局结束时常见的那句简短用语是？",
+      "stem": "结束时说的 good game",
+      "choices": [
+        "gg",
+        "ping",
+        "clutch",
+        "warmup"
+      ],
+      "answer": "gg",
+      "relatedCardIds": [
+        "depth-nov18-gg"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-spell-attachment",
+      "type": "spelling",
+      "pathId": "path-formal",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。",
+      "stemZh": "附件",
+      "answer": "attachment",
+      "relatedCardIds": [
+        "depth-nov18-attachment"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-complete-regards",
+      "type": "completion",
+      "pathId": "path-formal",
+      "after": "reading",
+      "promptZh": "补全较礼貌的信末用语。",
+      "stem": "I usually end work emails with kind ____.",
+      "answer": "regards",
+      "acceptedAnswers": [
+        "regards",
+        "Regards"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-regards"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-cloze-editorial",
+      "type": "cloze",
+      "pathId": "path-formal",
+      "after": "reading",
+      "promptZh": "根据文章，补全缺失的词。",
+      "stem": "Those pieces, which are usually about stories in the news, are called ____.",
+      "answers": [
+        "editorials"
+      ],
+      "answer": "editorials",
+      "relatedCardIds": [
+        "depth-nov18-editorial"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-choice-subject",
+      "type": "multiple-choice",
+      "pathId": "path-formal",
+      "after": "words",
+      "promptZh": "写邮件时，subject 在本课里指什么？",
+      "stem": "subject",
+      "choices": [
+        "邮件主题",
+        "附件",
+        "社论",
+        "订阅者"
+      ],
+      "answer": "邮件主题",
+      "relatedCardIds": [
+        "depth-nov18-subject"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-spoken-analogy-same-page",
+      "type": "en-to-zh-choice",
+      "pathId": "path-spoken",
+      "after": "words",
+      "promptZh": "选出 on the same page 在本课里的意思。",
+      "stem": "on the same page",
+      "choices": [
+        "想法一致；对上了",
+        "像对墙说话",
+        "轮到你做决定",
+        "极少；难得一次"
+      ],
+      "answer": "想法一致；对上了",
+      "relatedCardIds": [
+        "depth-nov18-on-the-same-page"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-to-go",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "scene",
+      "promptZh": "补全这句点餐口语。可跳过。",
+      "stem": "Want to take the leftovers ____ ____?",
+      "answer": "to go",
+      "acceptedAnswers": [
+        "to go",
+        "To go"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-to-go",
+        "depth-nov18-leftover"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-stuffed",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "scene",
+      "promptZh": "根据对话，补全短段中缺失的词。可跳过。",
+      "stem": "I'm ____. I can't eat another bite.",
+      "answers": [
+        "stuffed"
+      ],
+      "answer": "stuffed",
+      "relatedCardIds": [
+        "depth-nov18-stuffed"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-complete-leak",
+      "type": "completion",
+      "pathId": "path-home",
+      "after": "scene",
+      "promptZh": "补全这句居家对话。可跳过。",
+      "stem": "There's a ____ under the sink.",
+      "answer": "leak",
+      "acceptedAnswers": [
+        "leak",
+        "Leak"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-leak"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-enzh-intercom",
+      "type": "en-to-zh-choice",
+      "pathId": "path-home",
+      "after": "scene",
+      "promptZh": "选出 intercom 在本课里的意思。可跳过。",
+      "stem": "intercom",
+      "choices": [
+        "对讲机",
+        "信箱",
+        "租约",
+        "押金"
+      ],
+      "answer": "对讲机",
+      "relatedCardIds": [
+        "depth-nov18-intercom"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-delay",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "选出这段出行阅读里 delay 最接近的意思。可跳过。",
+      "stem": "delay",
+      "choices": [
+        "晚点；延误",
+        "售票处",
+        "高峰时段",
+        "路线"
+      ],
+      "answer": "晚点；延误",
+      "relatedCardIds": [
+        "depth-nov18-delay"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-game-choice-voice-chat",
+      "type": "multiple-choice",
+      "pathId": "path-game",
+      "after": "reading",
+      "promptZh": "根据阅读，一起在线玩时人们可能会使用什么？可跳过。",
+      "stem": "When people play together, they may use ____.",
+      "choices": [
+        "voice chat",
+        "a newspaper",
+        "a lease",
+        "gift wrap"
+      ],
+      "answer": "voice chat",
+      "relatedCardIds": [
+        "depth-nov18-lag-spike"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-greasy",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "scene",
+      "promptZh": "选出 greasy 在本课里的意思。可跳过。",
+      "stem": "greasy",
+      "choices": [
+        "油腻的",
+        "淡而无味的",
+        "脆的",
+        "好吃的"
+      ],
+      "answer": "油腻的",
+      "relatedCardIds": [
+        "depth-nov18-greasy"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-takeaway",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "scene",
+      "promptZh": "“外卖；带走的食物”在本课里对应哪个词？可跳过。",
+      "stemZh": "外卖；带走的食物",
+      "choices": [
+        "takeaway",
+        "leftover",
+        "napkin",
+        "deposit"
+      ],
+      "answer": "takeaway",
+      "relatedCardIds": [
+        "depth-nov18-takeaway"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-complete-upstairs",
+      "type": "completion",
+      "pathId": "path-home",
+      "after": "scene",
+      "promptZh": "补全这句居家对话。可跳过。",
+      "stem": "I think I left the tickets ____.",
+      "answer": "upstairs",
+      "acceptedAnswers": [
+        "upstairs",
+        "Upstairs"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-upstairs"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-enzh-recycling",
+      "type": "en-to-zh-choice",
+      "pathId": "path-home",
+      "after": "scene",
+      "promptZh": "选出 recycling 在本课里的意思。可跳过。",
+      "stem": "recycling",
+      "choices": [
+        "回收；可回收物",
+        "对讲机",
+        "押金",
+        "漏水"
+      ],
+      "answer": "回收；可回收物",
+      "relatedCardIds": [
+        "depth-nov18-recycling"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-inspector",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "选出 inspector 在本课里的意思。",
+      "promptEn": "Choose the meaning used in this lesson.",
+      "stem": "inspector",
+      "choices": [
+        "查票员；验票员",
+        "售票处",
+        "手推车",
+        "靠窗座位"
+      ],
+      "answer": "查票员；验票员",
+      "relatedCardIds": [
+        "depth-nov18-inspector"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-cloze-valid",
+      "type": "cloze",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。",
+      "promptEn": "Fill in the missing word from the reading.",
+      "stem": "If you travel without a ____ ticket, you may have to pay a fine.",
+      "answers": [
+        "valid"
+      ],
+      "answer": "valid",
+      "relatedCardIds": [
+        "depth-nov18-valid"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-game-enzh-genre",
+      "type": "en-to-zh-choice",
+      "pathId": "path-game",
+      "after": "reading",
+      "promptZh": "选出 genre 在本课里的意思。",
+      "promptEn": "Choose the meaning used in this lesson.",
+      "stem": "genre",
+      "choices": [
+        "类型（游戏种类）",
+        "游戏大厅",
+        "排位的",
+        "突然卡顿"
+      ],
+      "answer": "类型（游戏种类）",
+      "relatedCardIds": [
+        "depth-nov18-genre"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-game-spell-console",
+      "type": "spelling",
+      "pathId": "path-game",
+      "after": "reading",
+      "promptZh": "根据中文提示，拼出这个单词。",
+      "promptEn": "Spell the word.",
+      "stemZh": "游戏机（家用主机）",
+      "answer": "console",
+      "relatedCardIds": [
+        "depth-nov18-console"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-enzh-stain",
+      "type": "en-to-zh-choice",
+      "pathId": "path-shopping",
+      "after": "scene",
+      "promptZh": "选出 stain 在本课里的意思。可跳过。",
+      "stem": "stain",
+      "choices": [
+        "污渍",
+        "条纹",
+        "保修；保修期",
+        "柜台"
+      ],
+      "answer": "污渍",
+      "relatedCardIds": [
+        "depth-nov18-stain"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-complete-counter",
+      "type": "completion",
+      "pathId": "path-shopping",
+      "after": "scene",
+      "promptZh": "补全店员的话。可跳过。",
+      "stem": "Leave it on the ____.",
+      "answer": "counter",
+      "acceptedAnswers": [
+        "counter",
+        "Counter"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-counter"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-zhen-exchange",
+      "type": "zh-to-en-choice",
+      "pathId": "path-shopping",
+      "after": "scene",
+      "promptZh": "“换货；更换”在本课里对应哪个词？可跳过。",
+      "stemZh": "换货；更换",
+      "choices": [
+        "exchange",
+        "warranty",
+        "checkout",
+        "bargain"
+      ],
+      "answer": "exchange",
+      "relatedCardIds": [
+        "depth-nov18-exchange"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-enzh-damaged",
+      "type": "en-to-zh-choice",
+      "pathId": "path-shopping",
+      "after": "scene",
+      "promptZh": "选出 damaged 在本课里的意思。可跳过。",
+      "stem": "damaged",
+      "choices": [
+        "损坏的",
+        "宽松的",
+        "合身的",
+        "打折的"
+      ],
+      "answer": "损坏的",
+      "relatedCardIds": [
+        "depth-nov18-damaged"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-enzh-second-hand",
+      "type": "en-to-zh-choice",
+      "pathId": "path-shopping",
+      "after": "reading",
+      "promptZh": "选出 second-hand 在本课里的意思。可跳过。",
+      "promptEn": "Choose the meaning used in this lesson.",
+      "stem": "second-hand",
+      "choices": [
+        "二手的",
+        "合身的",
+        "损坏的",
+        "正式的"
+      ],
+      "answer": "二手的",
+      "relatedCardIds": [
+        "depth-nov18-second-hand"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-spell-defect",
+      "type": "spelling",
+      "pathId": "path-shopping",
+      "after": "reading",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "瑕疵；缺陷",
+      "answer": "defect",
+      "relatedCardIds": [
+        "depth-nov18-defect"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-cloze-measuring-tape",
+      "type": "cloze",
+      "pathId": "path-shopping",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "A shop assistant with a ____ ____ can help you find a better fit.",
+      "answers": [
+        "measuring",
+        "tape"
+      ],
+      "answer": "measuring tape",
+      "relatedCardIds": [
+        "depth-nov18-measuring-tape",
+        "depth-nov18-shop-assistant"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-shopping-zhen-shop-assistant",
+      "type": "zh-to-en-choice",
+      "pathId": "path-shopping",
+      "after": "reading",
+      "promptZh": "“店员”在本课里对应哪个说法？可跳过。",
+      "stem": "店员",
+      "choices": [
+        "shop assistant",
+        "gift wrap",
+        "fitting room",
+        "second-hand"
+      ],
+      "answer": "shop assistant",
+      "relatedCardIds": [
+        "depth-nov18-shop-assistant"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-spell-request",
+      "type": "spelling",
+      "pathId": "path-formal",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "请求；提出请求",
+      "answer": "request",
+      "relatedCardIds": [
+        "depth-nov18-request"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-enzh-draft",
+      "type": "en-to-zh-choice",
+      "pathId": "path-formal",
+      "after": "scene",
+      "promptZh": "选出 draft 在本课里的意思。可跳过。",
+      "stem": "draft",
+      "choices": [
+        "草稿",
+        "附件",
+        "主题行",
+        "收件人"
+      ],
+      "answer": "草稿",
+      "relatedCardIds": [
+        "depth-nov18-draft"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-complete-request",
+      "type": "completion",
+      "pathId": "path-formal",
+      "after": "scene",
+      "promptZh": "补全这封正式邮件里的句子。可跳过。",
+      "stem": "Could you please confirm whether I may still ____ a place?",
+      "answer": "request",
+      "acceptedAnswers": [
+        "request",
+        "Request"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-request"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-zhen-kind-regards",
+      "type": "zh-to-en-choice",
+      "pathId": "path-formal",
+      "after": "scene",
+      "promptZh": "“较正式的邮件结尾套话（此致敬礼）”在本课里对应哪个说法？可跳过。",
+      "stemZh": "较正式的邮件结尾套话（此致敬礼）",
+      "choices": [
+        "kind regards",
+        "for your information",
+        "carbon copy",
+        "subject"
+      ],
+      "answer": "kind regards",
+      "relatedCardIds": [
+        "depth-nov18-kind-regards"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-cloze-dear",
+      "type": "cloze",
+      "pathId": "path-formal",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "stem": "Formal messages often start with ____, followed by a name or a title.",
+      "answers": [
+        "Dear"
+      ],
+      "answer": "Dear",
+      "acceptedAnswers": [
+        "Dear",
+        "dear"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-dear"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-enzh-inquiry",
+      "type": "en-to-zh-choice",
+      "pathId": "path-formal",
+      "after": "reading",
+      "promptZh": "选出 inquiry 在本课里的意思。可跳过。",
+      "stem": "inquiry",
+      "choices": [
+        "询问；打听（较正式）",
+        "附件",
+        "垃圾邮件",
+        "抄送"
+      ],
+      "answer": "询问；打听（较正式）",
+      "relatedCardIds": [
+        "depth-nov18-inquiry"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-spell-editor",
+      "type": "spelling",
+      "pathId": "path-formal",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "编辑（负责稿件的人）",
+      "answer": "editor",
+      "relatedCardIds": [
+        "depth-nov18-editor"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-enzh-opinion",
+      "type": "en-to-zh-choice",
+      "pathId": "path-formal",
+      "after": "scene",
+      "promptZh": "选出 opinion 在本课里的意思。可跳过。",
+      "stem": "opinion",
+      "choices": [
+        "看法、意见（报纸评论版里的个人观点）",
+        "标题",
+        "订阅者",
+        "截止日期"
+      ],
+      "answer": "看法、意见（报纸评论版里的个人观点）",
+      "relatedCardIds": [
+        "depth-nov18-opinion"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-complete-editor",
+      "type": "completion",
+      "pathId": "path-formal",
+      "after": "scene",
+      "promptZh": "补全这封给编辑的正式短信里的句子。可跳过。",
+      "stem": "Dear ____, I am writing about the editorial in your latest issue.",
+      "answer": "Editor",
+      "acceptedAnswers": [
+        "Editor",
+        "editor"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-editor"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-zhen-letter-to-the-editor",
+      "type": "zh-to-en-choice",
+      "pathId": "path-formal",
+      "after": "scene",
+      "promptZh": "“读者来信（写给报纸编辑、希望刊登的短信）”在本课里对应哪个说法？可跳过。",
+      "stemZh": "读者来信（写给报纸编辑、希望刊登的短信）",
+      "choices": [
+        "letter to the editor",
+        "news report",
+        "subscription",
+        "headline"
+      ],
+      "answer": "letter to the editor",
+      "relatedCardIds": [
+        "depth-nov18-letter-to-the-editor"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-cloze-section",
+      "type": "cloze",
+      "pathId": "path-formal",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "stem": "Many newspapers have an opinion ____.",
+      "answers": [
+        "section"
+      ],
+      "answer": "section",
+      "acceptedAnswers": [
+        "section",
+        "Section"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-section"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-formal-enzh-subscription",
+      "type": "en-to-zh-choice",
+      "pathId": "path-formal",
+      "after": "reading",
+      "promptZh": "选出 subscription 在本课里的意思。可跳过。",
+      "stem": "subscription",
+      "choices": [
+        "订阅（把报纸或简报定期送到家里）",
+        "社论",
+        "标题",
+        "记者"
+      ],
+      "answer": "订阅（把报纸或简报定期送到家里）",
+      "relatedCardIds": [
+        "depth-nov18-subscription"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-spell-destination",
+      "type": "spelling",
+      "pathId": "path-travel",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "目的地",
+      "answer": "destination",
+      "relatedCardIds": [
+        "depth-nov18-destination"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-tap",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "words",
+      "promptZh": "选出 tap 在本课里的意思。可跳过。",
+      "stem": "tap",
+      "choices": [
+        "拍卡；把票或卡在验票机上轻触一下",
+        "目的地",
+        "检修",
+        "一日票"
+      ],
+      "answer": "拍卡；把票或卡在验票机上轻触一下",
+      "relatedCardIds": [
+        "depth-nov18-tap"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-cloze-day-pass",
+      "type": "cloze",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "You may not need to plan every line when you buy a ticket or a ____ ____.",
+      "answers": [
+        "day",
+        "pass"
+      ],
+      "answer": "day pass",
+      "relatedCardIds": [
+        "depth-nov18-day-pass"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-zhen-day-pass",
+      "type": "zh-to-en-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "“一日票；当天有效的乘车票”在本课里对应哪个说法？可跳过。",
+      "stemZh": "一日票；当天有效的乘车票",
+      "choices": [
+        "day pass",
+        "ticket office",
+        "priority seat",
+        "rush hour"
+      ],
+      "answer": "day pass",
+      "relatedCardIds": [
+        "depth-nov18-day-pass"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-complete-maintenance",
+      "type": "completion",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "stem": "Sometimes a line is closed for ____ or another reason.",
+      "answer": "maintenance",
+      "acceptedAnswers": [
+        "maintenance",
+        "Maintenance"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-maintenance"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-insert",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "选出 insert 在本课里的意思。可跳过。",
+      "stem": "insert",
+      "choices": [
+        "插入（把票或卡插进机器）",
+        "拍卡",
+        "目的地",
+        "晚点"
+      ],
+      "answer": "插入（把票或卡插进机器）",
+      "relatedCardIds": [
+        "depth-nov18-insert"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-zhen-priority-seat",
+      "type": "zh-to-en-choice",
+      "pathId": "path-travel",
+      "after": "scene",
+      "promptZh": "“优先座位”在本课里对应哪个说法？可跳过。",
+      "stem": "优先座位",
+      "choices": [
+        "priority seat",
+        "window seat",
+        "ticket office",
+        "rush hour"
+      ],
+      "answer": "priority seat",
+      "relatedCardIds": [
+        "depth-nov18-priority-seat"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-complete-ticket-office",
+      "type": "completion",
+      "pathId": "path-travel",
+      "after": "scene",
+      "promptZh": "补全朋友的话。可跳过。",
+      "stem": "The ____ ____ is just around the corner.",
+      "answer": "ticket office",
+      "acceptedAnswers": [
+        "ticket office",
+        "Ticket office"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-ticket-office"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-spell-reserve",
+      "type": "spelling",
+      "pathId": "path-travel",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "预订（座位或票）",
+      "answer": "reserve",
+      "relatedCardIds": [
+        "depth-nov18-reserve"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-boarding",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "words",
+      "promptZh": "选出 boarding 在本课里的意思。可跳过。",
+      "stem": "boarding",
+      "choices": [
+        "上车；登车",
+        "预订（座位或票）",
+        "提前；事先",
+        "特快的；少停或不停的（火车）"
+      ],
+      "answer": "上车；登车",
+      "relatedCardIds": [
+        "depth-nov18-boarding"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-cloze-in-advance",
+      "type": "cloze",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "If you can, reserve a seat, or buy your ticket in ____, because a popular train can be full.",
+      "answers": [
+        "advance"
+      ],
+      "answer": "advance",
+      "relatedCardIds": [
+        "depth-nov18-in-advance"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-zhen-coach",
+      "type": "zh-to-en-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "“车厢（火车的一节）”在本课里对应哪个说法？可跳过。",
+      "stemZh": "车厢（火车的一节）",
+      "choices": [
+        "coach",
+        "express",
+        "boarding",
+        "inspector"
+      ],
+      "answer": "coach",
+      "relatedCardIds": [
+        "depth-nov18-coach"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-complete-express",
+      "type": "completion",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "stem": "Stand back from the edge of the platform, especially when an ____ train goes through.",
+      "answer": "express",
+      "acceptedAnswers": [
+        "express",
+        "Express"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-express"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-reserve",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "选出 reserve 在本课里的意思。可跳过。",
+      "stem": "reserve",
+      "choices": [
+        "预订（座位或票）",
+        "上车；登车",
+        "车厢（火车的一节）",
+        "提前；事先"
+      ],
+      "answer": "预订（座位或票）",
+      "relatedCardIds": [
+        "depth-nov18-reserve"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-spell-signal",
+      "type": "spelling",
+      "pathId": "path-travel",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "示意；发信号（告诉司机要下车）",
+      "answer": "signal",
+      "relatedCardIds": [
+        "depth-nov18-signal"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-seat-belt",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "words",
+      "promptZh": "选出 seat belt 在本课里的意思。可跳过。",
+      "stem": "seat belt",
+      "choices": [
+        "安全带",
+        "示意；发信号（告诉司机要下车）",
+        "长途的",
+        "通宵的；过夜的"
+      ],
+      "answer": "安全带",
+      "relatedCardIds": [
+        "depth-nov18-seat-belt"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-cloze-on-demand",
+      "type": "cloze",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "Some stops are on ____ only, so the bus may not stop unless someone asks.",
+      "answers": [
+        "demand"
+      ],
+      "answer": "demand",
+      "relatedCardIds": [
+        "depth-nov18-on-demand"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-zhen-long-distance",
+      "type": "zh-to-en-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "“长途的”在本课里对应哪个说法？可跳过。",
+      "stemZh": "长途的",
+      "choices": [
+        "long-distance",
+        "overnight",
+        "on demand",
+        "seat belt"
+      ],
+      "answer": "long-distance",
+      "relatedCardIds": [
+        "depth-nov18-long-distance"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-complete-overnight",
+      "type": "completion",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "stem": "An ____ bus can save a night in a hotel, but it can be hard to sleep.",
+      "answer": "overnight",
+      "acceptedAnswers": [
+        "overnight",
+        "Overnight"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-overnight"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-travel-enzh-signal",
+      "type": "en-to-zh-choice",
+      "pathId": "path-travel",
+      "after": "reading",
+      "promptZh": "选出 signal 在本课里的意思。可跳过。",
+      "stem": "signal",
+      "choices": [
+        "示意；发信号（告诉司机要下车）",
+        "安全带",
+        "按需的；招呼了才停的",
+        "通宵的；过夜的"
+      ],
+      "answer": "示意；发信号（告诉司机要下车）",
+      "relatedCardIds": [
+        "depth-nov18-signal"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-fast-casual",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 fast casual 在本课里的意思。可跳过。",
+      "stem": "fast casual",
+      "choices": [
+        "介于快餐和更正式用餐之间的一种餐厅类型",
+        "免下车取餐服务",
+        "座位费",
+        "街头小吃"
+      ],
+      "answer": "介于快餐和更正式用餐之间的一种餐厅类型",
+      "relatedCardIds": [
+        "depth-nov18-fast-casual"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-street-food",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“街头小吃”在本课里对应哪个说法？可跳过。",
+      "stem": "街头小吃",
+      "choices": [
+        "street food",
+        "cover charge",
+        "drive-through",
+        "fine dining"
+      ],
+      "answer": "street food",
+      "relatedCardIds": [
+        "depth-nov18-street-food"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-cover-charge",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "In some places, a ____ ____ is an extra fee added to the bill.",
+      "answers": [
+        "cover",
+        "charge"
+      ],
+      "answer": "cover charge",
+      "relatedCardIds": [
+        "depth-nov18-cover-charge"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-drive-through",
+      "type": "complete",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "补全这个说法。可跳过。",
+      "stem": "This kind of service is called a ____.",
+      "answer": "drive-through",
+      "relatedCardIds": [
+        "depth-nov18-drive-through"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-zhen-studio-apartment",
+      "type": "zh-to-en-choice",
+      "pathId": "path-home",
+      "after": "reading",
+      "promptZh": "“单间公寓”在本课里对应哪个说法？可跳过。",
+      "stem": "单间公寓",
+      "choices": [
+        "studio apartment",
+        "apartment complex",
+        "quiet hours",
+        "housing estate"
+      ],
+      "answer": "studio apartment",
+      "relatedCardIds": [
+        "depth-nov18-studio-apartment"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-cloze-apartment-complex",
+      "type": "cloze",
+      "pathId": "path-home",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "An ____ ____, also called a housing estate, is a group of apartment buildings.",
+      "answers": [
+        "apartment",
+        "complex"
+      ],
+      "answer": "apartment complex",
+      "relatedCardIds": [
+        "depth-nov18-apartment-complex"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-spell-laundry",
+      "type": "spelling",
+      "pathId": "path-home",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "要洗的衣服；洗衣这件事",
+      "answer": "laundry",
+      "relatedCardIds": [
+        "depth-nov18-laundry"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-enzh-soap",
+      "type": "en-to-zh-choice",
+      "pathId": "path-home",
+      "after": "words",
+      "promptZh": "选出 soap 在本课里的意思。可跳过。",
+      "stem": "soap",
+      "choices": [
+        "肥皂；洗衣时用的洗涤用品",
+        "洗衣房",
+        "硬币",
+        "安静时段"
+      ],
+      "answer": "肥皂；洗衣时用的洗涤用品",
+      "relatedCardIds": [
+        "depth-nov18-soap"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-cloze-laundry-room",
+      "type": "cloze",
+      "pathId": "path-home",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "Many buildings have a shared ____ ____ with washing machines.",
+      "answers": [
+        "laundry",
+        "room"
+      ],
+      "answer": "laundry room",
+      "relatedCardIds": [
+        "depth-nov18-laundry-room"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-zhen-washing-machine",
+      "type": "zh-to-en-choice",
+      "pathId": "path-home",
+      "after": "reading",
+      "promptZh": "“洗衣机”在本课里对应哪个说法？可跳过。",
+      "stemZh": "洗衣机",
+      "choices": [
+        "washing machine",
+        "laundry room",
+        "quiet hours",
+        "mailbox"
+      ],
+      "answer": "washing machine",
+      "relatedCardIds": [
+        "depth-nov18-washing-machine"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-complete-coin",
+      "type": "completion",
+      "pathId": "path-home",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "stem": "If the machine takes ____, you may need the right ones.",
+      "answer": "coins",
+      "acceptedAnswers": [
+        "coins",
+        "Coins"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-coin"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-home-enzh-laundry",
+      "type": "en-to-zh-choice",
+      "pathId": "path-home",
+      "after": "reading",
+      "promptZh": "选出 laundry 在本课里的意思。可跳过。",
+      "stem": "laundry",
+      "choices": [
+        "要洗的衣服；洗衣这件事",
+        "肥皂",
+        "硬币",
+        "租金"
+      ],
+      "answer": "要洗的衣服；洗衣这件事",
+      "relatedCardIds": [
+        "depth-nov18-laundry"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-oven",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "烤箱",
+      "answer": "oven",
+      "relatedCardIds": [
+        "depth-nov18-oven"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-convenience-store",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 convenience store 在本课里的意思。可跳过。",
+      "stem": "convenience store",
+      "choices": [
+        "便利店",
+        "农夫市场（售卖当地农产品的集市）",
+        "现成的；预先做好的",
+        "农产品（蔬菜、水果等）"
+      ],
+      "answer": "便利店",
+      "relatedCardIds": [
+        "depth-nov18-convenience-store"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-farmers-market",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“农夫市场（售卖当地农产品的集市）”在本课里对应哪个说法？可跳过。",
+      "stemZh": "农夫市场（售卖当地农产品的集市）",
+      "choices": [
+        "farmers' market",
+        "convenience store",
+        "ready-made",
+        "produce"
+      ],
+      "answer": "farmers' market",
+      "relatedCardIds": [
+        "depth-nov18-farmers-market"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-produce",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "A farmers' market sells local ____, such as vegetables and fruit.",
+      "answers": [
+        "produce"
+      ],
+      "answer": "produce",
+      "relatedCardIds": [
+        "depth-nov18-produce"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-ready-made",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "stem": "Without a kitchen, you may need to buy ____ food instead.",
+      "answer": "ready-made",
+      "acceptedAnswers": [
+        "ready-made",
+        "Ready-made",
+        "ready made"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-ready-made"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-produce",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 produce 在本课里的意思。可跳过。",
+      "stem": "produce",
+      "choices": [
+        "农产品（蔬菜、水果等）",
+        "生产；制造",
+        "烤箱",
+        "现成的；预先做好的"
+      ],
+      "answer": "农产品（蔬菜、水果等）",
+      "relatedCardIds": [
+        "depth-nov18-produce"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-sandwich",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "三明治",
+      "answer": "sandwich",
+      "relatedCardIds": [
+        "depth-nov18-sandwich"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-bottle",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 bottle 在本课里的意思。可跳过。",
+      "stem": "bottle",
+      "choices": [
+        "瓶子",
+        "三明治",
+        "气味",
+        "把（食物等）装进包里；打包带上"
+      ],
+      "answer": "瓶子",
+      "relatedCardIds": [
+        "depth-nov18-bottle"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-prohibited",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“被禁止的”在本课里对应哪个说法？可跳过。",
+      "stemZh": "被禁止的",
+      "choices": [
+        "prohibited",
+        "sandwich",
+        "bottle",
+        "pack"
+      ],
+      "answer": "prohibited",
+      "relatedCardIds": [
+        "depth-nov18-prohibited"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-smell",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "A strong ____ may bother people sitting near you.",
+      "answers": [
+        "smell"
+      ],
+      "answer": "smell",
+      "relatedCardIds": [
+        "depth-nov18-smell"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-prohibited",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "stem": "On some buses, eating is not allowed, or is ____.",
+      "answer": "prohibited",
+      "acceptedAnswers": [
+        "prohibited",
+        "Prohibited"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-prohibited"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-pack",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 pack 在本课里的意思。可跳过。",
+      "stem": "pack",
+      "choices": [
+        "把（食物等）装进包里；打包带上",
+        "一包；一盒",
+        "瓶子",
+        "被禁止的"
+      ],
+      "answer": "把（食物等）装进包里；打包带上",
+      "relatedCardIds": [
+        "depth-nov18-pack"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-meat",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "肉",
+      "answer": "meat",
+      "relatedCardIds": [
+        "depth-nov18-meat"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-staff",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 staff 在本课里的意思。可跳过。",
+      "stem": "staff",
+      "choices": [
+        "工作人员；店员",
+        "肉",
+        "当地的；当地人",
+        "翻译"
+      ],
+      "answer": "工作人员；店员",
+      "relatedCardIds": [
+        "depth-nov18-staff"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-language-barrier",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“语言障碍”在本课里对应哪个说法？可跳过。",
+      "stemZh": "语言障碍",
+      "choices": [
+        "language barrier",
+        "translation",
+        "staff",
+        "local"
+      ],
+      "answer": "language barrier",
+      "relatedCardIds": [
+        "depth-nov18-language-barrier"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-translation",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "A ____ app can help when you need to read a menu or explain what you want.",
+      "answers": [
+        "translation"
+      ],
+      "answer": "translation",
+      "relatedCardIds": [
+        "depth-nov18-translation"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-local",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "promptEn": "Complete the sentence.",
+      "stem": "You can often get better or cheaper food in places that ____ people use.",
+      "answer": "local",
+      "acceptedAnswers": [
+        "local",
+        "Local"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-local"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-translation",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 translation 在本课里的意思。可跳过。",
+      "stem": "translation",
+      "choices": [
+        "翻译",
+        "语言障碍",
+        "工作人员；店员",
+        "肉"
+      ],
+      "answer": "翻译",
+      "relatedCardIds": [
+        "depth-nov18-translation"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-knife",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "刀；餐刀",
+      "answer": "knife",
+      "relatedCardIds": [
+        "depth-nov18-knife"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-rude",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 rude 在本课里的意思。可跳过。",
+      "stem": "rude",
+      "choices": [
+        "失礼的；不礼貌的",
+        "一口（食物）",
+        "手腕",
+        "刀；餐刀"
+      ],
+      "answer": "失礼的；不礼貌的",
+      "relatedCardIds": [
+        "depth-nov18-rude"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-table-manners",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“餐桌礼仪”在本课里对应哪个说法？可跳过。",
+      "stemZh": "餐桌礼仪",
+      "choices": [
+        "table manners",
+        "knife",
+        "wrist",
+        "bite"
+      ],
+      "answer": "table manners",
+      "relatedCardIds": [
+        "depth-nov18-table-manners"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-wrist",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "In many places, it is rude to rest your elbows on the table; rest your ____ instead.",
+      "answers": [
+        "wrists",
+        "wrist"
+      ],
+      "answer": "wrists",
+      "relatedCardIds": [
+        "depth-nov18-wrist"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-bite",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "promptEn": "Complete the sentence.",
+      "stem": "Cut one ____ at a time; do not cut up all the food on your plate first.",
+      "answer": "bite",
+      "acceptedAnswers": [
+        "bite",
+        "Bite"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-bite"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-table-manners",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 table manners 在本课里的意思。可跳过。",
+      "stem": "table manners",
+      "choices": [
+        "餐桌礼仪",
+        "失礼的；不礼貌的",
+        "手腕",
+        "刀；餐刀"
+      ],
+      "answer": "餐桌礼仪",
+      "relatedCardIds": [
+        "depth-nov18-table-manners"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-tourist",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "游客；观光客",
+      "answer": "tourist",
+      "relatedCardIds": [
+        "depth-nov18-tourist"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-review",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 review 在本课里的意思。可跳过。",
+      "stem": "review",
+      "choices": [
+        "点评；评价",
+        "可靠的",
+        "游客；观光客",
+        "招牌"
+      ],
+      "answer": "点评；评价",
+      "relatedCardIds": [
+        "depth-nov18-review"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-word-of-mouth",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“口口相传；口碑”在本课里对应哪个说法？可跳过。",
+      "stemZh": "口口相传；口碑",
+      "choices": [
+        "word of mouth",
+        "review",
+        "sign",
+        "tourist"
+      ],
+      "answer": "word of mouth",
+      "relatedCardIds": [
+        "depth-nov18-word-of-mouth"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-sign",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "A large ____ on a busy street does not, by itself, mean the meal is good.",
+      "answers": [
+        "sign",
+        "Sign"
+      ],
+      "answer": "sign",
+      "relatedCardIds": [
+        "depth-nov18-sign"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-reliable",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "promptEn": "Complete the sentence.",
+      "stem": "They are more ____ when many local people actually write them.",
+      "answer": "reliable",
+      "acceptedAnswers": [
+        "reliable",
+        "Reliable"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-reliable"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-tourist",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 tourist 在本课里的意思。可跳过。",
+      "stem": "tourist",
+      "choices": [
+        "游客；观光客",
+        "点评；评价",
+        "招牌",
+        "可靠的"
+      ],
+      "answer": "游客；观光客",
+      "relatedCardIds": [
+        "depth-nov18-tourist"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-fresh",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "新鲜的",
+      "answer": "fresh",
+      "relatedCardIds": [
+        "depth-nov18-fresh"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-cookie",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 cookie 在本课里的意思。可跳过。",
+      "stem": "cookie",
+      "choices": [
+        "曲奇",
+        "新鲜的",
+        "体积；占地方的分量",
+        "把（食物等）装进包里；打包带上"
+      ],
+      "answer": "曲奇",
+      "relatedCardIds": [
+        "depth-nov18-cookie"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-shelf-life",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“保质期”在本课里对应哪个说法？可跳过。",
+      "stemZh": "保质期",
+      "choices": [
+        "shelf life",
+        "ready to eat",
+        "bulk",
+        "fresh"
+      ],
+      "answer": "shelf life",
+      "relatedCardIds": [
+        "depth-nov18-shelf-life"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-bulk",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "On a long trip, people usually try to keep the weight down and avoid too much ____.",
+      "answers": [
+        "bulk",
+        "Bulk"
+      ],
+      "answer": "bulk",
+      "relatedCardIds": [
+        "depth-nov18-bulk"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-ready-to-eat",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "promptEn": "Complete the sentence.",
+      "stem": "Food that is ____, without a knife or fork, is often the most useful.",
+      "answer": "ready to eat",
+      "acceptedAnswers": [
+        "ready to eat",
+        "Ready to eat"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-ready-to-eat"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-fresh",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 fresh 在本课里的意思。可跳过。",
+      "stem": "fresh",
+      "choices": [
+        "新鲜的",
+        "曲奇",
+        "体积；占地方的分量",
+        "保质期"
+      ],
+      "answer": "新鲜的",
+      "relatedCardIds": [
+        "depth-nov18-fresh"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-culture",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "文化",
+      "answer": "culture",
+      "relatedCardIds": [
+        "depth-nov18-culture"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-custom",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 custom 在本课里的意思。可跳过。",
+      "stem": "custom",
+      "choices": [
+        "习惯；习俗",
+        "文化",
+        "奶制品",
+        "避开；避免"
+      ],
+      "answer": "习惯；习俗",
+      "relatedCardIds": [
+        "depth-nov18-custom"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-dairy",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“奶制品”在本课里对应哪个说法？可跳过。",
+      "stemZh": "奶制品",
+      "choices": [
+        "dairy",
+        "custom",
+        "culture",
+        "religion"
+      ],
+      "answer": "dairy",
+      "relatedCardIds": [
+        "depth-nov18-dairy"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-avoid",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "A few people also ____ some vegetables.",
+      "answers": [
+        "avoid",
+        "Avoid"
+      ],
+      "answer": "avoid",
+      "relatedCardIds": [
+        "depth-nov18-avoid"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-dairy",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "promptEn": "Complete the sentence.",
+      "stem": "They may not mix meat and ____, and they may use a separate set of dishes for each.",
+      "answer": "dairy",
+      "acceptedAnswers": [
+        "dairy",
+        "Dairy"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-dairy"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-religion",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 religion 在本课里的意思。可跳过。",
+      "stem": "religion",
+      "choices": [
+        "宗教",
+        "文化",
+        "习惯；习俗",
+        "奶制品"
+      ],
+      "answer": "宗教",
+      "relatedCardIds": [
+        "depth-nov18-religion"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-spell-healthy",
+      "type": "spelling",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "根据中文提示，拼出这个单词。可跳过。",
+      "promptEn": "Spell the word.",
+      "stemZh": "健康的",
+      "answer": "healthy",
+      "relatedCardIds": [
+        "depth-nov18-healthy"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-treat",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "words",
+      "promptZh": "选出 treat 在本课里的意思。可跳过。",
+      "stem": "treat",
+      "choices": [
+        "额外想吃的东西；当作奖励的食物",
+        "健康的",
+        "胃；肚子",
+        "安全的（食物不会让人生病）"
+      ],
+      "answer": "额外想吃的东西；当作奖励的食物",
+      "relatedCardIds": [
+        "depth-nov18-treat"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-zhen-food-poisoning",
+      "type": "zh-to-en-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "“食物中毒”在本课里对应哪个说法？可跳过。",
+      "stemZh": "食物中毒",
+      "choices": [
+        "food poisoning",
+        "treat",
+        "stomach",
+        "healthy"
+      ],
+      "answer": "food poisoning",
+      "relatedCardIds": [
+        "depth-nov18-food-poisoning"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-cloze-safe",
+      "type": "cloze",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全短段中缺失的词。可跳过。",
+      "promptEn": "Fill in the missing words.",
+      "stem": "Food should be kept ____ from bugs and other small animals.",
+      "answers": [
+        "safe",
+        "Safe"
+      ],
+      "answer": "safe",
+      "relatedCardIds": [
+        "depth-nov18-safe"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-complete-stomach",
+      "type": "completion",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "根据阅读，补全句子。可跳过。",
+      "promptEn": "Complete the sentence.",
+      "stem": "An upset ____ after a meal is also a major concern.",
+      "answer": "stomach",
+      "acceptedAnswers": [
+        "stomach",
+        "Stomach"
+      ],
+      "relatedCardIds": [
+        "depth-nov18-stomach"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    },
+    {
+      "id": "practice-nov18-dining-enzh-healthy",
+      "type": "en-to-zh-choice",
+      "pathId": "path-dining",
+      "after": "reading",
+      "promptZh": "选出 healthy 在本课里的意思。可跳过。",
+      "stem": "healthy",
+      "choices": [
+        "健康的",
+        "安全的（食物不会让人生病）",
+        "额外想吃的东西；当作奖励的食物",
+        "胃；肚子"
+      ],
+      "answer": "健康的",
+      "relatedCardIds": [
+        "depth-nov18-healthy"
+      ],
+      "scoringNote": "看过答案或做对都不自动算掌握；可跳过。"
+    }
+  ],
+  "integrationNotes": [
+    "这是审校用练习数据，不是已上线题库。字段若需与现有契约对齐，由一号改适配，不在内容稿里改 UI。",
+    "relatedCardIds 指向本包新词卡；接入前请再与正式目录去重。"
+  ],
+  "updatedAt": "2026-11-18T14:43:50+08:00",
+  "note": "130 skippable practice items, including 8 shopping items, 12 formal letter items, 8 travel-transfer items, 12 rail/bus travel items, 36 dining/home items, and 24 dining followup items. Viewing an answer or skipping does not count as mastery."
+}

@@ -1,0 +1,447 @@
+{
+  "id": "content-text-anchors-reading-v5",
+  "title": "阅读 v5 点词范围",
+  "version": "v5",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-13T09:35:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3",
+    "content-text-anchors-scenes-v4",
+    "content-text-anchors-reading-v3",
+    "content-text-anchors-scenes-v5",
+    "content-text-anchors-reading-v4"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-reading-pack-v5 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p1",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p1",
+      "textEn": "On Saturday I had a simple plan. I would spend the afternoon at the small library near my apartment, then meet my friend Tara for dinner.",
+      "spans": [],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p2",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p2",
+      "textEn": "I packed my laptop, a notebook, and a bottle of water. The charger was on the kitchen table, but I did not put it in my bag. I only thought about it later.",
+      "spans": [
+        {
+          "start": 59,
+          "end": 66,
+          "surface": "charger",
+          "cardId": "rd5-charger",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 149,
+          "end": 154,
+          "surface": "later",
+          "cardId": "l12-w-later",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p3",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p3",
+      "textEn": "The library was quiet, and I found a table by the window. For about two hours, I worked on a short presentation for a weekend class. My phone stayed in my bag.",
+      "spans": [],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p4",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p4",
+      "textEn": "Then my laptop made a soft sound. The battery was low. I looked in every pocket of my bag, and then I remembered: I had left my charger at home.",
+      "spans": [
+        {
+          "start": 120,
+          "end": 135,
+          "surface": "left my charger",
+          "cardId": "rd5-left-behind",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p5",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p5",
+      "textEn": "I did not want to lose the table. I asked the woman next to me if she could watch my notebook for ten minutes, and she said yes.",
+      "spans": [],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p6",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p6",
+      "textEn": "I walked home quickly. The charger was still on the table, next to a pile of mail. I grabbed it, locked the door, and walked back.",
+      "spans": [
+        {
+          "start": 27,
+          "end": 34,
+          "surface": "charger",
+          "cardId": "rd5-charger",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 108,
+          "end": 112,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p7",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p7",
+      "textEn": "My things were still there. I thanked the woman, plugged in the laptop, and sat down again. The rest of the afternoon went more slowly, but I finished what I needed.",
+      "spans": [],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p8",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p8",
+      "textEn": "At six, I packed up and met Tara at a noodle place down the street. I was only a little late, but I still felt rushed.",
+      "spans": [
+        {
+          "start": 88,
+          "end": 92,
+          "surface": "late",
+          "cardId": "L05-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p9",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p9",
+      "textEn": "I told her the story over dinner. She laughed and said she had done the same thing last month, with her camera, not her laptop.",
+      "spans": [
+        {
+          "start": 83,
+          "end": 93,
+          "surface": "last month",
+          "cardId": "L08-V02",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-left-my-charger-p10",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-left-my-charger-p10",
+      "textEn": "Next time, I will put the charger in my bag the night before, or look at the table once more before I leave. It was a small mistake, but I was glad I went back instead of giving up on the afternoon.",
+      "spans": [
+        {
+          "start": 26,
+          "end": 33,
+          "surface": "charger",
+          "cardId": "rd5-charger",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 102,
+          "end": 107,
+          "surface": "leave",
+          "cardId": "l14-w-leave",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 160,
+          "end": 167,
+          "surface": "instead",
+          "cardId": "reading-delivery-w07",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-left-my-charger"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p1",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p1",
+      "textEn": "On Tuesday morning, I was waiting for a box. I had bought a small lamp online for my sister's birthday, and the shop said it would arrive that day. I wanted it to get here in time, because I was seeing her on Friday.",
+      "spans": [],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p2",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p2",
+      "textEn": "I could not stay home and wait. I had already planned to go to the street market for fruit and bread, and my roommate was away that week. For a moment I thought about staying in, but I didn't want to waste the morning.",
+      "spans": [],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p3",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p3",
+      "textEn": "The market took longer than I thought. When I came home around noon, there was nothing at my door and no message about a locker. I stood there with my bags, feeling uneasy. I thought I had missed the courier.",
+      "spans": [
+        {
+          "start": 93,
+          "end": 97,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 105,
+          "end": 112,
+          "surface": "message",
+          "cardId": "l12-w-message",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 121,
+          "end": 127,
+          "surface": "locker",
+          "cardId": "sc11-locker",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 189,
+          "end": 195,
+          "surface": "missed",
+          "cardId": "l17-w-miss",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 200,
+          "end": 207,
+          "surface": "courier",
+          "cardId": "sc11-courier",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p4",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p4",
+      "textEn": "I checked the stairs and the mailbox, then walked back up and looked again. Still nothing. I even walked to the locker by the gate, but it was empty, and my phone had no new messages.",
+      "spans": [
+        {
+          "start": 112,
+          "end": 118,
+          "surface": "locker",
+          "cardId": "sc11-locker",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p5",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p5",
+      "textEn": "Then I saw a piece of paper under my door. It was a short note from a neighbor I usually only smiled at in the hallway. Her name was Mrs. Tan, in 4A.",
+      "spans": [
+        {
+          "start": 37,
+          "end": 41,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 70,
+          "end": 78,
+          "surface": "neighbor",
+          "cardId": "reading-delivery-w04",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 111,
+          "end": 118,
+          "surface": "hallway",
+          "cardId": "reading-delivery-w09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p6",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p6",
+      "textEn": "The note said the courier had come at ten, and she had taken the box so it would not sit in the hallway all morning. She said I could come over any time after lunch.",
+      "spans": [
+        {
+          "start": 18,
+          "end": 25,
+          "surface": "courier",
+          "cardId": "sc11-courier",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 96,
+          "end": 103,
+          "surface": "hallway",
+          "cardId": "reading-delivery-w09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p7",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p7",
+      "textEn": "I felt two things at once: relieved, and a little ashamed that I had never really learned her name, even after living here a year. I went down the hall and knocked.",
+      "spans": [],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p8",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p8",
+      "textEn": "Mrs. Tan opened the door with a smile, as if this were a normal Tuesday. The box was on a chair behind her, still sealed. \"It's heavier than it looks,\" she said. \"I didn't want someone to walk into it.\"",
+      "spans": [
+        {
+          "start": 20,
+          "end": 24,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p9",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p9",
+      "textEn": "I thanked her more than once. She waved it off and asked if the lamp was for me. I told her it was for my sister, and that I had been worried it would not come in time.",
+      "spans": [],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p10",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p10",
+      "textEn": "That evening, I went back with a small bag of fruit from the market. She said I didn't need to do that, but she took two peaches, and we talked for a few minutes about the plants in her hallway window.",
+      "spans": [
+        {
+          "start": 186,
+          "end": 193,
+          "surface": "hallway",
+          "cardId": "reading-delivery-w09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-neighbor-kept-the-box"
+    },
+    {
+      "id": "everyday-reading-pack-v5::reading-neighbor-kept-the-box-p11",
+      "sourcePack": "everyday-reading-pack-v5",
+      "sourceVersion": "v5",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-neighbor-kept-the-box-p11",
+      "textEn": "The lamp was fine, and I packed it carefully for Friday. What stayed with me was simpler: I live next to people, not just next to doors. The next time I pass 4A, I will say hello by name.",
+      "spans": [
+        {
+          "start": 130,
+          "end": 135,
+          "surface": "doors",
+          "cardId": "l13-w-door",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-neighbor-kept-the-box"
+    }
+  ],
+  "stats": {
+    "units": 21,
+    "unitsWithSpans": 13,
+    "spans": 24
+  }
+}

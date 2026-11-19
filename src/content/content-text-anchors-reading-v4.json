@@ -1,0 +1,561 @@
+{
+  "id": "content-text-anchors-reading-v4",
+  "title": "阅读 v4 点词范围",
+  "version": "v4",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-12T17:25:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3",
+    "content-text-anchors-scenes-v4",
+    "content-text-anchors-reading-v3"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-reading-pack-v4 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p1",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p1",
+      "textEn": "On Sunday morning, I had a simple plan. I would buy some fruit and bread at the street market, then meet my friend Jun at the park for a picnic.",
+      "spans": [
+        {
+          "start": 87,
+          "end": 93,
+          "surface": "market",
+          "cardId": "rd4-market",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 137,
+          "end": 143,
+          "surface": "picnic",
+          "cardId": "rd4-picnic",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p2",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p2",
+      "textEn": "I left home a little after nine. The market was already busy, and I could smell fresh bread from the first stall. People stood close together, carrying bags of vegetables.",
+      "spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "surface": "left",
+          "cardId": "l14-w-leave",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 37,
+          "end": 43,
+          "surface": "market",
+          "cardId": "rd4-market",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p3",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p3",
+      "textEn": "Jun had asked for strawberries. I looked for them at the fruit stall, but the woman there shook her head. \"We're out of strawberries today,\" she said. \"Would you like peaches instead?\"",
+      "spans": [
+        {
+          "start": 34,
+          "end": 44,
+          "surface": "looked for",
+          "cardId": "sc6-look-for",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 107,
+          "end": 119,
+          "surface": "We're out of",
+          "cardId": "sc6-out-of",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 175,
+          "end": 182,
+          "surface": "instead",
+          "cardId": "reading-delivery-w07",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p4",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p4",
+      "textEn": "I bought the peaches and a small loaf of bread from the stall next door. They looked ripe, and they smelled sweet. Then I messaged Jun and started walking to the park.",
+      "spans": [],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p5",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p5",
+      "textEn": "The bag was light, and I felt happy about the morning. Halfway there, the sky got dark. A few drops hit my hands, and then it started to rain hard. I had no umbrella.",
+      "spans": [
+        {
+          "start": 137,
+          "end": 141,
+          "surface": "rain",
+          "cardId": "L07-V06",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p6",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p6",
+      "textEn": "I stood under a shop roof and called Jun. \"The picnic isn't going to work,\" I said. \"I'm already wet.\" The paper bag was getting soft.",
+      "spans": [
+        {
+          "start": 47,
+          "end": 53,
+          "surface": "picnic",
+          "cardId": "rd4-picnic",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p7",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p7",
+      "textEn": "He laughed and said he was still on the way. He was near a small bakery two streets from the park. \"Come here instead,\" he said. \"They have tables inside.\"",
+      "spans": [
+        {
+          "start": 33,
+          "end": 43,
+          "surface": "on the way",
+          "cardId": "sc9-on-the-way",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 110,
+          "end": 117,
+          "surface": "instead",
+          "cardId": "reading-delivery-w07",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p8",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p8",
+      "textEn": "I ran those two streets. Jun had already bought tea, and he had a table by the window. We ate the peaches and bread there, and watched the street get wet.",
+      "spans": [],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p9",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p9",
+      "textEn": "The bakery was warm, and neither of us wanted to go back out yet. We stayed until it stopped raining, then walked home slowly.",
+      "spans": [
+        {
+          "start": 93,
+          "end": 100,
+          "surface": "raining",
+          "cardId": "L07-V06",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-picnic-in-the-rain-p10",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-picnic-in-the-rain-p10",
+      "textEn": "It was not the picnic we had planned. But we still ate together. Jun said we could try the park next Sunday, if the weather was better. This time, I'll look at the sky before I leave.",
+      "spans": [
+        {
+          "start": 15,
+          "end": 21,
+          "surface": "picnic",
+          "cardId": "rd4-picnic",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 116,
+          "end": 123,
+          "surface": "weather",
+          "cardId": "l10-w-weather",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 177,
+          "end": 182,
+          "surface": "leave",
+          "cardId": "l14-w-leave",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-picnic-in-the-rain"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p1",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p1",
+      "textEn": "On Thursday afternoon, I had one thing I really wanted to do. My aunt, Hua, lives on the other side of the city, and I had promised to bring her a cake. Her birthday had been on Wednesday, so I baked it in the morning and planned to take it over after lunch.",
+      "spans": [],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p2",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p2",
+      "textEn": "I checked the time and left with the cake in a small box. The bus stop was only a few minutes from my building. When the right bus came, I got on and found a seat by the window.",
+      "spans": [
+        {
+          "start": 23,
+          "end": 27,
+          "surface": "left",
+          "cardId": "l14-w-leave",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 139,
+          "end": 145,
+          "surface": "got on",
+          "cardId": "rd4-get-on",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 158,
+          "end": 162,
+          "surface": "seat",
+          "cardId": "reading-bus-w02",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p3",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p3",
+      "textEn": "I told myself I would watch for my stop. But a friend messaged me, and I started reading and typing. The bus moved through familiar streets, and I stopped looking out.",
+      "spans": [],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p4",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p4",
+      "textEn": "When I finally looked up, I didn't know the shops outside. I asked the woman next to me, and she said we had already passed Green Street. That was my stop. I had missed it.",
+      "spans": [
+        {
+          "start": 162,
+          "end": 168,
+          "surface": "missed",
+          "cardId": "l17-w-miss",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p5",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p5",
+      "textEn": "I got off at the next stop and started walking back. It was farther than I expected, and I was getting later with every street. I messaged Hua: \"I'm on the way, but I'll be a little late. Sorry.\"",
+      "spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "surface": "got off",
+          "cardId": "sc9-get-off",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 17,
+          "end": 21,
+          "surface": "next",
+          "cardId": "l17-w-next",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "surface": "stop",
+          "cardId": "L06-V10",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 149,
+          "end": 159,
+          "surface": "on the way",
+          "cardId": "sc9-on-the-way",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 103,
+          "end": 107,
+          "surface": "late",
+          "cardId": "L05-V03",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p6",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p6",
+      "textEn": "She replied almost right away. \"No rush. I'll put the water on.\" I felt a little better, but I still walked as fast as I could without running, because I didn't want to drop the cake.",
+      "spans": [
+        {
+          "start": 19,
+          "end": 29,
+          "surface": "right away",
+          "cardId": "l12-w-right-away",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p7",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p7",
+      "textEn": "I arrived about twenty minutes later than I had said. Hua opened the door, looked at my face, and laughed. \"You're here. That's what I wanted,\" she said. \"The cake can be a little late.\"",
+      "spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "surface": "arrived",
+          "cardId": "l17-w-arrive",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 31,
+          "end": 36,
+          "surface": "later",
+          "cardId": "l12-w-later",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p8",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p8",
+      "textEn": "I had thought she might be tired of waiting. Instead, she had already set out two cups, and the room smelled like tea. I told her about missing my stop. She said she had done the same thing last year, on the way to the market.",
+      "spans": [
+        {
+          "start": 45,
+          "end": 52,
+          "surface": "Instead",
+          "cardId": "reading-delivery-w07",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 36,
+          "end": 43,
+          "surface": "waiting",
+          "cardId": "L06-V03",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 136,
+          "end": 143,
+          "surface": "missing",
+          "cardId": "l17-w-miss",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 190,
+          "end": 199,
+          "surface": "last year",
+          "cardId": "L08-V02",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 201,
+          "end": 211,
+          "surface": "on the way",
+          "cardId": "sc9-on-the-way",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 219,
+          "end": 225,
+          "surface": "market",
+          "cardId": "rd4-market",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p9",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p9",
+      "textEn": "After tea, we thought about walking to the little bakery next to her building. It was closed on Thursdays. We were still full from the cake, so we didn't mind. We stayed and talked about her garden instead.",
+      "spans": [
+        {
+          "start": 86,
+          "end": 92,
+          "surface": "closed",
+          "cardId": "rd4-closed",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 198,
+          "end": 205,
+          "surface": "instead",
+          "cardId": "reading-delivery-w07",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p10",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p10",
+      "textEn": "Before I left, she packed a bag of tomatoes for me. I thanked her and said next time I would watch the stops. She told me to message her when I got on the bus home, so she would know I was all right.",
+      "spans": [
+        {
+          "start": 9,
+          "end": 13,
+          "surface": "left",
+          "cardId": "l14-w-leave",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 144,
+          "end": 150,
+          "surface": "got on",
+          "cardId": "rd4-get-on",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    },
+    {
+      "id": "everyday-reading-pack-v4::reading-missed-my-stop-p11",
+      "sourcePack": "everyday-reading-pack-v4",
+      "sourceVersion": "v4",
+      "unitType": "reading-paragraph",
+      "sourceId": "reading-missed-my-stop-p11",
+      "textEn": "I did. This time I stood near the door and watched every stop. I got off at the right place and walked home more slowly. The visit had not gone as I planned, but I was glad I had gone.",
+      "spans": [
+        {
+          "start": 65,
+          "end": 72,
+          "surface": "got off",
+          "cardId": "sc9-get-off",
+          "form": "variant",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "reading-missed-my-stop"
+    }
+  ],
+  "stats": {
+    "units": 21,
+    "unitsWithSpans": 17,
+    "spans": 38
+  }
+}

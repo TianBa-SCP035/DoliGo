@@ -1,0 +1,613 @@
+{
+  "id": "content-text-anchors-scenes-v6",
+  "title": "场景 v6 点词范围",
+  "version": "v6",
+  "status": "补充点词范围，不是对 content-text-anchors-v1.1 的替换。接入时合并 units。",
+  "createdAt": "2026-11-13T09:35:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "content-text-anchors-v1.1",
+    "content-text-anchors-scenes-v3",
+    "content-text-anchors-scenes-v4",
+    "content-text-anchors-reading-v3",
+    "content-text-anchors-scenes-v5",
+    "content-text-anchors-reading-v4"
+  ],
+  "offsetSpec": {
+    "indexBase": 0,
+    "endExclusive": true,
+    "unit": "unicode-code-point",
+    "noteZh": "start 和 end 是对应 textEn 的 Unicode 码位下标，左闭右开；surface 必须等于按码位切开的 [start:end]。原文若改了必须重算。"
+  },
+  "integrationNotes": [
+    "只给 everyday-scenes-pack-v6 用，追加合并，不替换旧锚点。"
+  ],
+  "units": [
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l1",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l1",
+      "textEn": "I just missed the courier. I saw the van at the stairs.",
+      "spans": [
+        {
+          "start": 7,
+          "end": 13,
+          "surface": "missed",
+          "cardId": "l17-w-miss",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 18,
+          "end": 25,
+          "surface": "courier",
+          "cardId": "sc11-courier",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l2",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l2",
+      "textEn": "Did they leave the package?",
+      "spans": [
+        {
+          "start": 19,
+          "end": 26,
+          "surface": "package",
+          "cardId": "sc11-package",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l3",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l3",
+      "textEn": "No. They called, but I didn't get to the door in time.",
+      "spans": [
+        {
+          "start": 41,
+          "end": 45,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l4",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l4",
+      "textEn": "That's annoying. Are you going back down?",
+      "spans": [],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l5",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l5",
+      "textEn": "They're gone. The message says I can pick it up from the locker by the gate.",
+      "spans": [
+        {
+          "start": 18,
+          "end": 25,
+          "surface": "message",
+          "cardId": "l12-w-message",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 37,
+          "end": 47,
+          "surface": "pick it up",
+          "cardId": "reading-bus-w06",
+          "form": "variant",
+          "priority": "primary"
+        },
+        {
+          "start": 57,
+          "end": 63,
+          "surface": "locker",
+          "cardId": "sc11-locker",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l6",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l6",
+      "textEn": "Or I can take it for you. I'm home all afternoon.",
+      "spans": [],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l7",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l7",
+      "textEn": "Would you? It's a small box. They can leave it with a neighbor.",
+      "spans": [
+        {
+          "start": 38,
+          "end": 46,
+          "surface": "leave it",
+          "cardId": "sc11-leave-it",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 54,
+          "end": 62,
+          "surface": "neighbor",
+          "cardId": "reading-delivery-w04",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l8",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l8",
+      "textEn": "Sure. Tell them I'm in 3B, just across the hall.",
+      "spans": [],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l9",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l9",
+      "textEn": "Okay, I'll reply now. If they can't do that, I'll use the locker.",
+      "spans": [
+        {
+          "start": 58,
+          "end": 64,
+          "surface": "locker",
+          "cardId": "sc11-locker",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l10",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l10",
+      "textEn": "Either way is fine. Just let me know.",
+      "spans": [],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l11",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l11",
+      "textEn": "They said they can leave it with you in about ten minutes.",
+      "spans": [
+        {
+          "start": 19,
+          "end": 27,
+          "surface": "leave it",
+          "cardId": "sc11-leave-it",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l12",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l12",
+      "textEn": "Perfect. I'll wait by the door.",
+      "spans": [
+        {
+          "start": 19,
+          "end": 21,
+          "surface": "by",
+          "cardId": "l13-w-by",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 26,
+          "end": 30,
+          "surface": "door",
+          "cardId": "l13-w-door",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l13",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l13",
+      "textEn": "Thank you. I owe you a coffee later.",
+      "spans": [
+        {
+          "start": 23,
+          "end": 29,
+          "surface": "coffee",
+          "cardId": "L02-V08",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 30,
+          "end": 35,
+          "surface": "later",
+          "cardId": "l12-w-later",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l14",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l14",
+      "textEn": "Don't worry about it. I'll message you when it's here.",
+      "spans": [
+        {
+          "start": 27,
+          "end": 34,
+          "surface": "message",
+          "cardId": "l12-w-message",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l15",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l15",
+      "textEn": "Great. I'll come back around five.",
+      "spans": [],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-package-at-the-door-l16",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-package-at-the-door-l16",
+      "textEn": "See you then. I'll put it inside, not in the hallway.",
+      "spans": [
+        {
+          "start": 45,
+          "end": 52,
+          "surface": "hallway",
+          "cardId": "reading-delivery-w09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-package-at-the-door"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l1",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l1",
+      "textEn": "Excuse me. I think this isn't what I ordered.",
+      "spans": [
+        {
+          "start": 19,
+          "end": 44,
+          "surface": "this isn't what I ordered",
+          "cardId": "sc12-isnt-what-i-ordered",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l2",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l2",
+      "textEn": "Oh, sorry. What did you get?",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l3",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l3",
+      "textEn": "This is a large iced coffee. I asked for a medium hot tea.",
+      "spans": [
+        {
+          "start": 21,
+          "end": 27,
+          "surface": "coffee",
+          "cardId": "L02-V08",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 50,
+          "end": 53,
+          "surface": "hot",
+          "cardId": "L01-V09",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 54,
+          "end": 57,
+          "surface": "tea",
+          "cardId": "L02-V09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l4",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l4",
+      "textEn": "You're right. That's my mistake. I can make the tea now.",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l5",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l5",
+      "textEn": "How long will that take?",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l6",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l6",
+      "textEn": "Just a couple of minutes. Or you can keep it, if you'd rather.",
+      "spans": [
+        {
+          "start": 37,
+          "end": 44,
+          "surface": "keep it",
+          "cardId": "sc12-keep-it",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l7",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l7",
+      "textEn": "That's kind, but I really wanted the tea. It's cold out.",
+      "spans": [
+        {
+          "start": 37,
+          "end": 40,
+          "surface": "tea",
+          "cardId": "L02-V09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l8",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l8",
+      "textEn": "Of course. I'll make it again. You can have a seat, and I'll bring it over.",
+      "spans": [
+        {
+          "start": 16,
+          "end": 29,
+          "surface": "make it again",
+          "cardId": "sc12-make-it-again",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l9",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l9",
+      "textEn": "Thanks. Should I leave this here?",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l10",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l10",
+      "textEn": "Yes, just leave it. Sorry again about the mix-up.",
+      "spans": [
+        {
+          "start": 10,
+          "end": 18,
+          "surface": "leave it",
+          "cardId": "sc11-leave-it",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l11",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l11",
+      "textEn": "No problem. It happens.",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l12",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l12",
+      "textEn": "Here's your medium hot tea. I made sure it's the right one.",
+      "spans": [
+        {
+          "start": 19,
+          "end": 22,
+          "surface": "hot",
+          "cardId": "L01-V09",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 23,
+          "end": 26,
+          "surface": "tea",
+          "cardId": "L02-V09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l13",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l13",
+      "textEn": "This looks right. Thank you.",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l14",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l14",
+      "textEn": "Sorry for the wait. The first cup had the wrong name on it.",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l15",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l15",
+      "textEn": "I wondered about that. The cup said Lin.",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l16",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l16",
+      "textEn": "That coffee was for someone else. Enjoy your tea.",
+      "spans": [
+        {
+          "start": 5,
+          "end": 11,
+          "surface": "coffee",
+          "cardId": "L02-V08",
+          "form": "exact",
+          "priority": "primary"
+        },
+        {
+          "start": 45,
+          "end": 48,
+          "surface": "tea",
+          "cardId": "L02-V09",
+          "form": "exact",
+          "priority": "primary"
+        }
+      ],
+      "parentId": "scene-wrong-drink"
+    },
+    {
+      "id": "everyday-scenes-pack-v6::scene-wrong-drink-l17",
+      "sourcePack": "everyday-scenes-pack-v6",
+      "sourceVersion": "v6",
+      "unitType": "scene-line",
+      "sourceId": "scene-wrong-drink-l17",
+      "textEn": "I will. Thanks for fixing it.",
+      "spans": [],
+      "parentId": "scene-wrong-drink"
+    }
+  ],
+  "stats": {
+    "units": 33,
+    "unitsWithSpans": 19,
+    "spans": 29
+  }
+}

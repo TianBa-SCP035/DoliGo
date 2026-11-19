@@ -1,0 +1,371 @@
+{
+  "id": "everyday-reading-pack-v3",
+  "title": "分级阅读·新增待接入稿 v3（周末计划变化、找对楼层）",
+  "version": "v3",
+  "lang": "zh-Hans",
+  "varietyNote": "用词按普通、偏美式日常英语统一。这不是唯一正确说法。",
+  "levelNote": "难度仅为教学建议，一篇大约 A2，一篇大约 A2+，未经认证分级，不保证对应某一考试等级。",
+  "provenance": "全部为原创虚构学习故事和原创例句，不是真人经历或转载语料。人物不是助手或用户本人。",
+  "status": "增量待接入稿；不替换 everyday-reading-pack-v2.1。本稿不等于页面已改或产品验收。",
+  "createdAt": "2026-11-12T16:55:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "doesNotReplace": [
+    "everyday-reading-pack-v2.1",
+    "everyday-reading-pack-v2",
+    "everyday-reading-and-words-v1"
+  ],
+  "integrationNotes": [
+    "这是 everyday-reading-pack-v3，两篇新阅读。接入时应追加到 catalog.readings，不要替换 readingPack（仍为 v2.1）或覆盖旧篇目。",
+    "正文先读英文，中文按段展开。不附必做测验。",
+    "新卡前缀 rd3-。out of、work（能用）、It does that sometimes、catch（发现问题）、last（上一个）、hallway、instead、leave（离开）、No rush 只复现，不新建。"
+  ],
+  "readings": [
+    {
+      "id": "reading-weekend-plans-change",
+      "title": "改了的周末计划",
+      "titleEn": "A Weekend Plan That Changed",
+      "levelSuggestionZh": "教学建议：日常叙事，大约 A2，未经认证分级。先读英文，中文按段展开。",
+      "targetWords": [
+        280,
+        320
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。原创学习故事，不是真实经历。",
+      "paragraphs": [
+        {
+          "id": "reading-weekend-plans-change-p1",
+          "en": "On Thursday evening, I made a plan with two friends, Mei and Chris. We wanted to take the Saturday morning train to a small town and walk around the old streets.",
+          "zh": "星期四晚上，我和两个朋友阿梅、克里斯约好了。我们想坐星期六早班火车去一个小镇，在老街上走走。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p2",
+          "en": "I thought about the trip all day Friday. After work, I packed a small bag and set my alarm for six.",
+          "zh": "星期五我一整天都在想着这次出行。下班以后，我收拾好一个小包，把闹钟定到六点。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p3",
+          "en": "At nine, Mei messaged me. Her sister's plane was arriving late, and Mei wanted to meet her at the station. She couldn't go on Saturday anymore.",
+          "zh": "九点时，阿梅给我发了消息。她姐姐的飞机要晚到，她想去车站接她。星期六她去不了了。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p4",
+          "en": "I told Chris. He said we could still go, just the two of us. I didn't want to leave Mei out of a trip we had planned together.",
+          "zh": "我把这事告诉了克里斯。他说我们两个还可以去。可我不想把阿梅撇在我们一起计划的旅行外面。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p5",
+          "en": "So we decided to stay in the city and have lunch instead. I told Mei she could join us if her sister needed to rest first.",
+          "zh": "于是我们决定留在城里，改成一起吃午饭。我告诉阿梅，要是她姐姐先去休息，她也可以过来。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p6",
+          "en": "Saturday morning, I was almost ready to leave when Chris called. His neighbor had asked him to help carry a table up the stairs, and it was taking longer than he thought. He asked if we could eat an hour later.",
+          "zh": "星期六早上，我快要出门时，克里斯打电话来了。邻居请他帮忙把一张桌子抬上楼，时间比他想的要长。他问能不能晚一个小时再吃。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p7",
+          "en": "I said there was no rush. I sat by the window with a book. After all the changes, the quiet morning felt a little strange, but not bad.",
+          "zh": "我说不着急。我坐在窗边看书。经过这一连串改动，安静的早上有点奇怪，但并不坏。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p8",
+          "en": "We met at one. Mei came after all — her sister wanted to rest at the hotel first. The noodle place was busy, so we waited outside for a few minutes.",
+          "zh": "我们一点钟见了面。阿梅到底还是来了——她姐姐想先在旅馆休息一会儿。面馆人多，我们在外面等了几分钟。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p9",
+          "en": "After lunch, we walked along the river and went into a small bookstore. Chris found a map of the town we hadn't visited, and we laughed. Mei bought a postcard for her sister.",
+          "zh": "午饭后，我们沿着河边走，进了一家小书店。克里斯找到一张我们没去成的那个镇的地图，大家都笑了。阿梅给姐姐买了一张明信片。"
+        },
+        {
+          "id": "reading-weekend-plans-change-p10",
+          "en": "On the way home, we chose a new day for the train: the weekend after next, if everyone is free. This time, I won't pack until we are really going.",
+          "zh": "回家路上，我们重新选了坐火车的日子：如果大家都有空，就定在下下个周末。这一次，我要等真的要出发了再收拾行李。"
+        }
+      ],
+      "notes": [
+        {
+          "id": "reading-weekend-plans-change-n1",
+          "expression": "leave someone out",
+          "meaningZh": "把某人排除在外、没把某人算进去。本篇 I didn't want to leave Mei out 是不想把一起约好的朋友撇在一边。不是离开某个地方的 leave。"
+        },
+        {
+          "id": "reading-weekend-plans-change-n2",
+          "expression": "have lunch instead",
+          "meaningZh": "改成吃午饭。instead（改为、取而代之）是已有词卡，本篇只复现。"
+        },
+        {
+          "id": "reading-weekend-plans-change-n3",
+          "expression": "I was almost ready to leave",
+          "meaningZh": "我快要出门了。这里的 leave 是离开（已有词卡），和 leave Mei out 不是同一个意思。"
+        },
+        {
+          "id": "reading-weekend-plans-change-n4",
+          "expression": "there was no rush",
+          "meaningZh": "不着急。No rush 是已有语块，本篇只复现。"
+        },
+        {
+          "id": "reading-weekend-plans-change-n5",
+          "expression": "Mei came after all",
+          "meaningZh": "阿梅到底还是来了。after all 这里表示情况最后还是发生了，尽管前面好像来不了。本篇先整句记，不另建必背卡。"
+        },
+        {
+          "id": "reading-weekend-plans-change-n6",
+          "expression": "the weekend after next",
+          "meaningZh": "下下个周末。比 this weekend（这个周末）和 next weekend（下个周末）再远一周。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "I didn't want to leave Mei out.",
+          "zh": "我不想把阿梅撇在外面。",
+          "required": false
+        },
+        {
+          "en": "the weekend after next",
+          "zh": "下下个周末。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "wordCount": 295
+    },
+    {
+      "id": "reading-right-floor",
+      "title": "找对楼层",
+      "titleEn": "The Right Floor",
+      "levelSuggestionZh": "教学建议：日常工作叙事，大约 A2+，未经认证分级。先读英文，中文按段展开。",
+      "targetWords": [
+        400,
+        440
+      ],
+      "narratorNote": "第一人称虚构叙事；人物不是助手或用户本人。原创学习故事，不是真实工作记录。",
+      "paragraphs": [
+        {
+          "id": "reading-right-floor-p1",
+          "en": "Tuesday started like most of my workdays. I got to the office a little after nine, made tea, and opened my email. I had a short list of things to finish before lunch.",
+          "zh": "星期二开始得和多数上班日差不多。我九点刚过到办公室，泡了茶，打开邮箱。午饭前我还有一份不长的待办清单。"
+        },
+        {
+          "id": "reading-right-floor-p2",
+          "en": "At ten, my manager, Paula, stopped by my desk. Two people from another office were coming at three to talk about a shared project. She asked me to print a few copies of the notes and get the small meeting room ready.",
+          "zh": "十点时，经理葆拉走到我桌边。另一处办公室有两个人三点要来谈一个共同的项目。她让我把笔记打印几份，并把小会议室准备好。"
+        },
+        {
+          "id": "reading-right-floor-p3",
+          "en": "I said I would take care of it. I wanted everything ready before they arrived. Last month, a visitor had waited in the wrong hallway, and I still remembered how awkward that felt.",
+          "zh": "我说这事交给我。我希望他们到之前一切都准备好。上个月，有一位来访者在错误的走廊里等过，我还记得那种尴尬。"
+        },
+        {
+          "id": "reading-right-floor-p4",
+          "en": "I put the meeting on the shared calendar and sent the visitors a short message with the time and the floor. Then I went down the hall to print the notes.",
+          "zh": "我把会议记到共用日历上，给来访者发了条短消息，写上时间和楼层。然后我走到走廊尽头去打印笔记。"
+        },
+        {
+          "id": "reading-right-floor-p5",
+          "en": "The printer started, then stopped. The light said it was out of paper, but the tray was already full. I took the paper out and put it back. Nothing changed.",
+          "zh": "打印机响了一下，又停了。指示灯显示没纸了，可纸盒里明明是满的。我把纸取出再放回去，情况没有变化。"
+        },
+        {
+          "id": "reading-right-floor-p6",
+          "en": "I tried again from another computer. The same light came on. I didn't want to bother anyone yet, so I waited a few minutes and tried once more. It still didn't work.",
+          "zh": "我换另一台电脑再试。还是同一盏灯亮了。我暂时不想麻烦别人，就等了几分钟再试一次，还是不行。"
+        },
+        {
+          "id": "reading-right-floor-p7",
+          "en": "At a quarter to twelve, I asked Ken, who sits next to me. He came over, opened the side of the printer, and pulled out a small folded piece of paper I hadn't seen. \"It does that sometimes,\" he said.",
+          "zh": "差一刻十二点，我问了坐在旁边的肯。他走过来，打开打印机侧面，抽出一小张我没看见的折叠纸片。“它有时候会这样。”他说。"
+        },
+        {
+          "id": "reading-right-floor-p8",
+          "en": "After that, the copies came out fine. I checked the first page and saw last week's date at the top — I had printed the old notes. I still had time, but not a lot.",
+          "zh": "之后，打印出来的份数就正常了。我核对第一页，看见最上头是上周的日期——我打印成旧笔记了。我还有时间，但并不多。"
+        },
+        {
+          "id": "reading-right-floor-p9",
+          "en": "I found the right file, printed it again, and checked every page. Then I looked back at the message I had sent. I had written \"third floor,\" but the small room is on the second floor. That was the same kind of mistake as last month, only this time I caught it early.",
+          "zh": "我找到正确的文件，重新打印，并逐页检查。然后我回头看自己发出的消息。我写的是“三楼”，可那间小会议室在二楼。这和上个月是同一类错，只是这次我发现得早。"
+        },
+        {
+          "id": "reading-right-floor-p10",
+          "en": "I sent a second message with the right floor and went downstairs to put a small note on the door of the wrong room, just in case someone still went there. At five to three, I was in the right room, with the copies on the table.",
+          "zh": "我又发了一条消息，写上正确的楼层，然后下楼，在错误房间的门上贴了一张小纸条，以免还有人走错。差五分三点，我已经在正确的房间里，打印稿放在桌上。"
+        },
+        {
+          "id": "reading-right-floor-p11",
+          "en": "The visitors found the room without any trouble. After they left, I wrote a short reminder for myself: check the floor, check the date, and look inside the printer before I start to worry. It was an ordinary day, when a few small things could have gone wrong, and I was glad they didn't.",
+          "zh": "来访者没费什么事就找到了房间。他们离开后，我给自己写了一小段提醒：先核对楼层和日期，也先看看打印机里面，再开始着急。这不是戏剧性的一天。只是普通的一天里，几件小事本可能出错，而我很高兴它们没有。"
+        }
+      ],
+      "notes": [
+        {
+          "id": "reading-right-floor-n1",
+          "expression": "I would take care of it.",
+          "meaningZh": "这事交给我、我会处理好。take care of it 常用来接下一件需要完成的事，不是“照顾某人”。"
+        },
+        {
+          "id": "reading-right-floor-n2",
+          "expression": "the wrong hallway",
+          "meaningZh": "错误的那条走廊。hallway 是已有词卡。后面 the wrong room 是同一类说法。"
+        },
+        {
+          "id": "reading-right-floor-n3",
+          "expression": "it was out of paper",
+          "meaningZh": "纸用完了。这里复用已有语块 We're out of / be out of（没有了、用完了），不是 outside。"
+        },
+        {
+          "id": "reading-right-floor-n4",
+          "expression": "It still didn't work. / It does that sometimes.",
+          "meaningZh": "还是不能正常运转。work 在这里是“能用”（已有卡 sc2-work），不是上班。It does that sometimes（它有时候会这样）也是已有语块。"
+        },
+        {
+          "id": "reading-right-floor-n5",
+          "expression": "last week's date / I caught it early",
+          "meaningZh": "上周的日期。这里的 last 是“上一个”（L08-V02），不是末班车的 last。caught it 是发现了问题（sc2-catch），不是赶上车。"
+        },
+        {
+          "id": "reading-right-floor-n6",
+          "expression": "third floor / second floor / the right floor",
+          "meaningZh": "三楼、二楼、正确的楼层。floor 在这里指大楼的层数，不是地板。right 是“正确的”。"
+        },
+        {
+          "id": "reading-right-floor-n7",
+          "expression": "just in case",
+          "meaningZh": "以防万一。本篇是怕还有人走到错误的房间，所以先在门上留条。"
+        },
+        {
+          "id": "reading-right-floor-n8",
+          "expression": "a short reminder",
+          "meaningZh": "一小段提醒、备忘。这里是写给自己看的，不是手机通知的技术讲法。"
+        }
+      ],
+      "optionalTakeaways": [
+        {
+          "en": "I'll take care of it.",
+          "zh": "这事交给我。",
+          "required": false
+        },
+        {
+          "en": "just in case",
+          "zh": "以防万一。",
+          "required": false
+        }
+      ],
+      "optionalQuestions": [],
+      "wordCount": 430
+    }
+  ],
+  "wordCards": [
+    {
+      "id": "rd3-leave-out",
+      "headword": "leave someone out",
+      "pos": "动词短语",
+      "senseZh": "把某人排除在外、没把某人算进去",
+      "collocation": "leave someone out / I didn't want to leave her out",
+      "exampleEn": "I didn't want to leave Mei out of a trip we had planned together.",
+      "exampleZh": "我不想把阿梅撇在我们一起计划的旅行外面。",
+      "transferEn": "If we eat now, we'll leave Sam out. He isn't here yet.",
+      "transferZh": "我们现在吃的话，就把萨姆撇在外面了。他还没到。",
+      "sourceScene": "reading-weekend-plans-change",
+      "sourceLine": "reading-weekend-plans-change-p4",
+      "notesZh": "和离开某处的 leave（l14-w-leave）不是同一个意思。本卡只学“没把某人算进去”。另境例句改到一起吃饭，不用本篇周末出行。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "rd3-weekend-after-next",
+      "headword": "the weekend after next",
+      "pos": "语块",
+      "senseZh": "下下个周末",
+      "collocation": "the weekend after next / the week after next",
+      "exampleEn": "We chose a new day for the train: the weekend after next, if everyone is free.",
+      "exampleZh": "我们重新选了坐火车的日子：如果大家都有空，就定在下下个周末。",
+      "transferEn": "I can't come this Saturday, but I'm free the weekend after next.",
+      "transferZh": "这个周六我来不了，但下下个周末有空。",
+      "sourceScene": "reading-weekend-plans-change",
+      "sourceLine": "reading-weekend-plans-change-p10",
+      "notesZh": "this weekend 是这个周末，next weekend 是下个周末，the weekend after next 再远一周。weekend、free 只复现。另境例句改到不能来的约定，不用本篇改出行计划的全过程。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "rd3-take-care-of-it",
+      "headword": "take care of it",
+      "pos": "语块",
+      "senseZh": "把这件事处理好、交给我来办",
+      "collocation": "I'll take care of it / I would take care of it",
+      "exampleEn": "I said I would take care of it.",
+      "exampleZh": "我说这事交给我。",
+      "transferEn": "You can go to lunch. I'll take care of the phone.",
+      "transferZh": "你去吃午饭吧。电话交给我。",
+      "sourceScene": "reading-right-floor",
+      "sourceLine": "reading-right-floor-p3",
+      "notesZh": "常用来接下一件需要完成的事。不是“照顾某个人”，也不是“小心一点”。另境例句改到看管电话，不用本篇准备会议室。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "rd3-floor",
+      "headword": "floor",
+      "pos": "可数名词",
+      "senseZh": "（大楼的）楼层",
+      "collocation": "the second floor / the third floor / the right floor",
+      "exampleEn": "I had written \"third floor,\" but the small room is on the second floor.",
+      "exampleZh": "我写的是“三楼”，可那间小会议室在二楼。",
+      "transferEn": "The bookstore is on the first floor, next to the entrance.",
+      "transferZh": "书店在一楼，入口旁边。",
+      "sourceScene": "reading-right-floor",
+      "sourceLine": "reading-right-floor-p9",
+      "notesZh": "本卡只学大楼的层数。不是房间里的地板。the right floor 是正确的那一层。另境例句改到书店，不用本篇接待来访者。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "rd3-just-in-case",
+      "headword": "just in case",
+      "pos": "语块",
+      "senseZh": "以防万一",
+      "collocation": "just in case / just in case someone still went there",
+      "exampleEn": "I put a small note on the door of the wrong room, just in case someone still went there.",
+      "exampleZh": "我在错误房间的门上贴了一张小纸条，以免还有人走错。",
+      "transferEn": "Take an umbrella, just in case it rains.",
+      "transferZh": "带把伞吧，以防万一下雨。",
+      "sourceScene": "reading-right-floor",
+      "sourceLine": "reading-right-floor-p10",
+      "notesZh": "用来提前做一点准备，避免可能发生的麻烦。另境例句改到带伞，不用本篇会议室。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    },
+    {
+      "id": "rd3-reminder",
+      "headword": "reminder",
+      "pos": "可数名词",
+      "senseZh": "提醒、备忘（写给自己或别人看的）",
+      "collocation": "a short reminder / write a reminder",
+      "exampleEn": "I wrote a short reminder for myself: check the floor, check the date.",
+      "exampleZh": "我给自己写了一小段提醒：先核对楼层和日期。",
+      "transferEn": "I left a reminder on the fridge: buy milk tomorrow.",
+      "transferZh": "我在冰箱上留了条提醒：明天买牛奶。",
+      "sourceScene": "reading-right-floor",
+      "sourceLine": "reading-right-floor-p11",
+      "notesZh": "这里是提醒事项，不是手机软件的技术讲法。另境例句改到冰箱便条，不用本篇工作日。",
+      "standalone": true,
+      "priority": "primary",
+      "provenance": "原创学习例句，非转载语料。"
+    }
+  ],
+  "stats": {
+    "readings": 2,
+    "paragraphs": 21,
+    "wordCounts": [
+      295,
+      430
+    ],
+    "wordCards": 6,
+    "optionalQuestions": 0
+  }
+}

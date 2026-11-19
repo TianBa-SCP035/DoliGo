@@ -1,0 +1,2208 @@
+{
+  "id": "everyday-scenes-depth-nov18",
+  "version": "v1",
+  "status": "ready",
+  "createdAt": "2026-11-18T11:11:44+08:00",
+  "note": "Nine optional continuations with new ids and parentSceneId, including the ticket-office travel continuation, plus two independent formal-writing scenes (reply to a short email; write a readers letter) that are not attached to spoken parent scenes. Parent scene lines stay unchanged.",
+  "scenes": [
+    {
+      "id": "scene-store-out-of-stock-extension-1",
+      "title": "试穿后换一件送人",
+      "titleEn": "Trying It On and Changing It as a Gift",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "parentSceneId": "scene-store-out-of-stock",
+      "speakers": {
+        "A": "顾客",
+        "B": "店员"
+      },
+      "lines": [
+        {
+          "id": "scene-store-out-of-stock-extension-1-l1",
+          "speaker": "stage",
+          "en": "The shop is busy. The customer is holding a dark jacket.",
+          "zh": "店里有些忙。顾客手里拿着一件深色夹克。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l2",
+          "speaker": "A",
+          "en": "Hi. Do you have this one in a medium? Dark blue, if you've got it.",
+          "zh": "你好。这件有中号吗？如果有深蓝色就更好了。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l3",
+          "speaker": "B",
+          "en": "Hang on, let me check... Sorry, we're out of the medium in that color.",
+          "zh": "稍等，我看一下……抱歉，那个颜色的中号没了。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l4",
+          "speaker": "A",
+          "en": "Ah, that's a shame. Is the large very big?",
+          "zh": "啊，有点可惜。大号会不会很大？"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l5",
+          "speaker": "B",
+          "en": "A bit, yeah. You can try it on if you want. The fitting room is just over there.",
+          "zh": "是有一点，对。你想的话可以试穿一下。试衣间就在那边。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l6",
+          "speaker": "A",
+          "en": "All right. Give me a second.",
+          "zh": "好。给我一小会儿。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l7",
+          "speaker": "stage",
+          "en": "A few minutes later, the customer comes back with the jacket.",
+          "zh": "几分钟后，顾客拿着那件夹克回来了。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l8",
+          "speaker": "A",
+          "en": "It's a bit loose, but I'm easy. I might wear a sweater under it.",
+          "zh": "是有点宽松，不过我都可以。我可能会在里面再穿件毛衣。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l9",
+          "speaker": "B",
+          "en": "There's a similar one on the next rack, with thinner stripes. It's not on sale, though.",
+          "zh": "旁边架子上有一件差不多的，条纹细一点。不过那件没有打折。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l10",
+          "speaker": "A",
+          "en": "To be honest, I like this pattern better. How much is it?",
+          "zh": "说实话，我更喜欢这个图案。这件多少钱？"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l11",
+          "speaker": "B",
+          "en": "That's the last one, so I can do a small discount. Not a huge bargain, but it's something.",
+          "zh": "这是最后一件，所以我可以给一点小折扣。算不上特别便宜，但也算一点优惠。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l12",
+          "speaker": "A",
+          "en": "Yeah, that works for me. Could I get gift wrap? It's for a friend.",
+          "zh": "行，这样可以。可以做礼品包装吗？是送朋友的。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-1-l13",
+          "speaker": "B",
+          "en": "No worries. I'll take it to the checkout.",
+          "zh": "没问题。我拿到收银处去。"
+        }
+      ],
+      "notes": [
+        "Hang on、I'm easy、that works for me、no worries 是口语短句，不保证所有商店都这样说。",
+        "店员提出的小折扣是虚构情境，不表示真实促销规则。",
+        "gift wrap 礼品包装，是否提供因店而异。"
+      ],
+      "spokenWordCount": 144,
+      "lineCount": 13,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov16-color",
+            "depth-nov16-large",
+            "depth-nov16-size",
+            "depth-nov16-small",
+            "depth-nov18-by-the-way",
+            "depth-nov18-checkout",
+            "depth-nov18-come-on-in",
+            "depth-nov18-exchange",
+            "depth-nov18-fitting-room",
+            "depth-nov18-give-me-a-second",
+            "depth-nov18-hang-on",
+            "depth-nov18-help-yourself",
+            "depth-nov18-no-worries",
+            "depth-nov18-take-it-easy",
+            "depth-nov18-try-on",
+            "sc6-look-for"
+          ],
+          "everyday": [
+            "depth-nov16-button",
+            "depth-nov16-cotton",
+            "depth-nov16-discount",
+            "depth-nov16-extra",
+            "depth-nov16-label",
+            "depth-nov16-loose",
+            "depth-nov16-medium",
+            "depth-nov16-pocket",
+            "depth-nov16-sale",
+            "depth-nov16-sweater",
+            "depth-nov16-tight",
+            "depth-nov18-as-soon-as-possible",
+            "depth-nov18-counter",
+            "depth-nov18-gift-wrap",
+            "depth-nov18-im-easy",
+            "depth-nov18-in-other-words",
+            "depth-nov18-its-not-the-end-of-the-world",
+            "depth-nov18-long-story-short",
+            "depth-nov18-on-the-same-page",
+            "depth-nov18-pattern",
+            "depth-nov18-that-works-for-me",
+            "depth-nov18-to-be-honest",
+            "depth-nov18-you-can-say-that-again",
+            "sc6-brand",
+            "sc6-out-of"
+          ],
+          "advanced": [
+            "depth-nov16-cashier",
+            "depth-nov16-refund",
+            "depth-nov16-sleeve",
+            "depth-nov16-wool",
+            "depth-nov18-a-fish-out-of-water",
+            "depth-nov18-bargain",
+            "depth-nov18-better-safe-than-sorry",
+            "depth-nov18-damaged",
+            "depth-nov18-for-your-information",
+            "depth-nov18-i-look-forward-to-hearing-from-you",
+            "depth-nov18-like-talking-to-a-wall",
+            "depth-nov18-once-in-a-blue-moon",
+            "depth-nov18-please-find-attached",
+            "depth-nov18-stain",
+            "depth-nov18-stripe",
+            "depth-nov18-the-ball-is-in-your-court",
+            "depth-nov18-warranty",
+            "sc6-aisle",
+            "sc6-something-else-like-it"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov16-color",
+          "depth-nov16-large",
+          "depth-nov16-button",
+          "depth-nov16-cotton",
+          "depth-nov16-discount",
+          "depth-nov16-extra",
+          "depth-nov16-cashier",
+          "depth-nov16-refund"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-next-bus-delayed-extension-1",
+      "title": "高峰时段在站台等车",
+      "titleEn": "Waiting on the Platform at Rush Hour",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏街头口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏街头口语。",
+      "parentSceneId": "scene-next-bus-delayed",
+      "speakers": {
+        "A": "赶车的人",
+        "B": "同行的朋友"
+      },
+      "lines": [
+        {
+          "id": "scene-next-bus-delayed-extension-1-l1",
+          "speaker": "stage",
+          "en": "Two people are waiting at a crowded bus stop in rush hour.",
+          "zh": "高峰时段，两个人在拥挤的公交站等车。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l2",
+          "speaker": "A",
+          "en": "Did we miss it?",
+          "zh": "我们是不是错过了？"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l3",
+          "speaker": "B",
+          "en": "I don't think so. There's a delay, apparently.",
+          "zh": "应该没有。看起来是延误了。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l4",
+          "speaker": "A",
+          "en": "Again? Take it easy... I'm already late.",
+          "zh": "又延误？放轻松……我已经要迟到了。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l5",
+          "speaker": "stage",
+          "en": "A recorded announcement plays at the stop.",
+          "zh": "站台里响起一段录音广播。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l6",
+          "speaker": "B",
+          "en": "Did you hear that? The next bus is running about ten minutes late.",
+          "zh": "你听到了吗？下一班车大约要晚十分钟。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l7",
+          "speaker": "A",
+          "en": "You can say that again. This stop is always packed in rush hour.",
+          "zh": "可不是嘛。这个点这站总是挤得要命。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l8",
+          "speaker": "B",
+          "en": "Long story short, we should have left earlier.",
+          "zh": "长话短说，我们该早点出门。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l9",
+          "speaker": "A",
+          "en": "Better safe than sorry. Let's move up, or we won't even get on.",
+          "zh": "宁可稳妥，免得后悔。我们往前靠一点，不然怕是上不去。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l10",
+          "speaker": "B",
+          "en": "A window seat is a dream at this hour. I'll just be happy if I can stand.",
+          "zh": "这个点还想要靠窗座位，想都别想。我能站着就知足了。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l11",
+          "speaker": "A",
+          "en": "If this one is too crowded, we can walk to the ticket office and check the next train.",
+          "zh": "如果这班还是太挤，我们就走到售票处，看看下一班火车。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-1-l12",
+          "speaker": "B",
+          "en": "That works for me.",
+          "zh": "我没问题。"
+        }
+      ],
+      "notes": [
+        "广播内容是虚构学习示例，不对应某一条真实线路。",
+        "you can say that again、better safe than sorry 是口语或谚语，不是交通规则。"
+      ],
+      "spokenWordCount": 105,
+      "lineCount": 12,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov18-by-the-way",
+            "depth-nov18-come-on-in",
+            "depth-nov18-crowded",
+            "depth-nov18-delay",
+            "depth-nov18-give-me-a-second",
+            "depth-nov18-hang-on",
+            "depth-nov18-help-yourself",
+            "depth-nov18-missed",
+            "depth-nov18-no-worries",
+            "depth-nov18-rush-hour",
+            "depth-nov18-take-it-easy",
+            "sc9-get-off",
+            "sc9-train"
+          ],
+          "everyday": [
+            "depth-nov16-arrival",
+            "depth-nov16-cancel",
+            "depth-nov16-departure",
+            "depth-nov16-direct",
+            "depth-nov16-driver",
+            "depth-nov16-journey",
+            "depth-nov16-notice",
+            "depth-nov16-passenger",
+            "depth-nov16-platform",
+            "depth-nov16-route",
+            "depth-nov16-schedule",
+            "depth-nov16-single",
+            "depth-nov16-traffic",
+            "depth-nov16-transfer",
+            "depth-nov18-announcement",
+            "depth-nov18-as-soon-as-possible",
+            "depth-nov18-im-easy",
+            "depth-nov18-in-other-words",
+            "depth-nov18-its-not-the-end-of-the-world",
+            "depth-nov18-long-story-short",
+            "depth-nov18-on-the-same-page",
+            "depth-nov18-that-works-for-me",
+            "depth-nov18-ticket-office",
+            "depth-nov18-to-be-honest",
+            "depth-nov18-you-can-say-that-again",
+            "sc9-be-delayed",
+            "sc9-on-the-way"
+          ],
+          "advanced": [
+            "depth-nov16-backpack",
+            "depth-nov16-fare",
+            "depth-nov16-luggage",
+            "depth-nov16-suitcase",
+            "depth-nov18-a-fish-out-of-water",
+            "depth-nov18-better-safe-than-sorry",
+            "depth-nov18-for-your-information",
+            "depth-nov18-i-look-forward-to-hearing-from-you",
+            "depth-nov18-like-talking-to-a-wall",
+            "depth-nov18-once-in-a-blue-moon",
+            "depth-nov18-please-find-attached",
+            "depth-nov18-the-ball-is-in-your-court",
+            "depth-nov18-trolley",
+            "depth-nov18-window-seat"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-by-the-way",
+          "depth-nov18-come-on-in",
+          "depth-nov16-arrival",
+          "depth-nov16-cancel",
+          "depth-nov16-departure",
+          "depth-nov16-direct",
+          "depth-nov16-backpack",
+          "depth-nov16-fare"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-one-more-round-extension-1",
+      "title": "排位卡顿之后再来一局",
+      "titleEn": "One More Ranked Game After the Lag",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏游戏口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏游戏口语。",
+      "parentSceneId": "scene-one-more-round",
+      "speakers": {
+        "A": "玩家一",
+        "B": "玩家二"
+      },
+      "lines": [
+        {
+          "id": "scene-one-more-round-extension-1-l1",
+          "speaker": "stage",
+          "en": "Two friends are in a ranked game. The voice chat cuts for a moment.",
+          "zh": "两个朋友在打排位。语音聊了一会儿中断。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l2",
+          "speaker": "A",
+          "en": "Hang on, my ping just jumped.",
+          "zh": "稍等，我的延迟突然变高了。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l3",
+          "speaker": "B",
+          "en": "Same. That lag spike was awful.",
+          "zh": "我也是。刚才那一下卡顿太糟了。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l4",
+          "speaker": "A",
+          "en": "We almost threw the last fight... long story short, I missed my shot.",
+          "zh": "上一波我们差点送掉……长话短说，我打空了。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l5",
+          "speaker": "B",
+          "en": "It's not the end of the world. We've still got time.",
+          "zh": "又不是世界末日。我们还有时间。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l6",
+          "speaker": "A",
+          "en": "One more round after this? Or are you done?",
+          "zh": "打完再来一局？还是你先到这儿？"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l7",
+          "speaker": "B",
+          "en": "I'm easy. If we lose, let me just do a quick warmup in a casual game.",
+          "zh": "我都可以。要是这局输了，让我先在休闲局里稍微热一下身。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l8",
+          "speaker": "stage",
+          "en": "A minute later, the fight ends.",
+          "zh": "一分钟后，这波对局结束了。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l9",
+          "speaker": "A",
+          "en": "Nice clutch.",
+          "zh": "刚才那波稳住得漂亮。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l10",
+          "speaker": "B",
+          "en": "Thanks. Gg, even if this queue was a mess.",
+          "zh": "谢谢。打完了，虽然这场排队挺乱的。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l11",
+          "speaker": "A",
+          "en": "Yeah. Less trash talk next time, though. It's just a game.",
+          "zh": "是啊。不过下次少说两句，这只是游戏。"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l12",
+          "speaker": "B",
+          "en": "Fair. Same party tomorrow?",
+          "zh": "行。明天还是这队？"
+        },
+        {
+          "id": "scene-one-more-round-extension-1-l13",
+          "speaker": "A",
+          "en": "That works for me.",
+          "zh": "我没问题。"
+        }
+      ],
+      "notes": [
+        "ping、lag spike、clutch、gg 是游戏里的常见说法，不是对玩家的评价。",
+        "trash talk 在此作为需要收一收的用法出现，不鼓励对着别人骂。",
+        "对局过程为虚构，不涉及真实玩家或战绩。"
+      ],
+      "spokenWordCount": 91,
+      "lineCount": 13,
+      "difficulty": {
+        "tier": "advanced",
+        "tierZh": "进阶",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov16-match",
+            "depth-nov16-practice",
+            "depth-nov16-round",
+            "depth-nov18-by-the-way",
+            "depth-nov18-come-on-in",
+            "depth-nov18-give-me-a-second",
+            "depth-nov18-hang-on",
+            "depth-nov18-help-yourself",
+            "depth-nov18-no-worries",
+            "depth-nov18-take-it-easy"
+          ],
+          "everyday": [
+            "depth-nov16-connection",
+            "depth-nov16-download",
+            "depth-nov16-pause",
+            "depth-nov16-server",
+            "depth-nov16-settings",
+            "depth-nov16-update",
+            "depth-nov16-volume",
+            "depth-nov18-as-soon-as-possible",
+            "depth-nov18-casual",
+            "depth-nov18-im-easy",
+            "depth-nov18-in-other-words",
+            "depth-nov18-its-not-the-end-of-the-world",
+            "depth-nov18-long-story-short",
+            "depth-nov18-on-the-same-page",
+            "depth-nov18-party",
+            "depth-nov18-that-works-for-me",
+            "depth-nov18-to-be-honest",
+            "depth-nov18-you-can-say-that-again",
+            "sc1-get-in",
+            "sc1-getting-late",
+            "sc1-one-more-round"
+          ],
+          "advanced": [
+            "depth-nov16-disconnect",
+            "depth-nov16-headset",
+            "depth-nov16-lag",
+            "depth-nov16-lobby",
+            "depth-nov16-microphone",
+            "depth-nov16-mute",
+            "depth-nov16-reconnect",
+            "depth-nov16-teammate",
+            "depth-nov18-a-fish-out-of-water",
+            "depth-nov18-better-safe-than-sorry",
+            "depth-nov18-clutch",
+            "depth-nov18-for-your-information",
+            "depth-nov18-gg",
+            "depth-nov18-i-look-forward-to-hearing-from-you",
+            "depth-nov18-lag-spike",
+            "depth-nov18-like-talking-to-a-wall",
+            "depth-nov18-once-in-a-blue-moon",
+            "depth-nov18-ping",
+            "depth-nov18-please-find-attached",
+            "depth-nov18-queue",
+            "depth-nov18-ranked",
+            "depth-nov18-the-ball-is-in-your-court",
+            "depth-nov18-trash-talk",
+            "depth-nov18-warmup",
+            "sc1-does-that-sometimes",
+            "sc1-thats-weird"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov16-match",
+          "depth-nov16-practice",
+          "depth-nov16-connection",
+          "depth-nov16-download",
+          "depth-nov16-pause",
+          "depth-nov16-server",
+          "depth-nov16-disconnect",
+          "depth-nov16-headset"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-restaurant-is-full-extension-1",
+      "title": "面馆里吃完再打包",
+      "titleEn": "Finishing Noodles and Taking the Rest To Go",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "parentSceneId": "scene-restaurant-is-full",
+      "speakers": {
+        "A": "朋友",
+        "B": "朋友",
+        "C": "服务员"
+      },
+      "lines": [
+        {
+          "id": "scene-restaurant-is-full-extension-1-l1",
+          "speaker": "stage",
+          "en": "Their noodles arrive at the small restaurant around the corner.",
+          "zh": "街角那家小馆把面端了上来。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l2",
+          "speaker": "A",
+          "en": "I'm starving. These look good.",
+          "zh": "我饿坏了。看起来不错。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l3",
+          "speaker": "B",
+          "en": "Yeah. Let's just eat first.",
+          "zh": "是啊。我们先吃吧。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l4",
+          "speaker": "A",
+          "en": "This soup is really tasty.",
+          "zh": "这汤真好吃。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l5",
+          "speaker": "B",
+          "en": "You can say that again. Mine's a bit bland, though. Is there chili oil?",
+          "zh": "可不是嘛。不过我这份有点淡。有辣椒油吗？"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l6",
+          "speaker": "A",
+          "en": "Here, help yourself.",
+          "zh": "在这儿，你自己来就行。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l7",
+          "speaker": "B",
+          "en": "Thanks. The fried onions on top are nice and crispy.",
+          "zh": "谢谢。面上的炸洋葱还挺脆的。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l8",
+          "speaker": "C",
+          "en": "Everything all right here?",
+          "zh": "这儿都还好吗？"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l9",
+          "speaker": "A",
+          "en": "Yes, thanks. Could we have a couple of napkins? And two pairs of chopsticks — I dropped my fork.",
+          "zh": "还好，谢谢。能给我们几张餐巾纸吗？再要两双筷子——我把叉子掉了。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l10",
+          "speaker": "C",
+          "en": "Of course. I'll bring them over.",
+          "zh": "当然。我这就拿过来。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l11",
+          "speaker": "stage",
+          "en": "A little later, most of the noodles are gone.",
+          "zh": "过了一会儿，面差不多吃完了。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l12",
+          "speaker": "A",
+          "en": "I'm stuffed. I can't eat another bite.",
+          "zh": "我吃撑了，一口也吃不下了。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l13",
+          "speaker": "B",
+          "en": "Same. Want to take the leftovers to go?",
+          "zh": "我也是。剩的要打包带走吗？"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l14",
+          "speaker": "A",
+          "en": "That works for me. To be honest, this was better than waiting forty minutes.",
+          "zh": "我没问题。说实话，这比等四十分钟强。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l15",
+          "speaker": "A",
+          "en": "Excuse me — could we have this to go?",
+          "zh": "不好意思，这个可以打包带走吗？"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l16",
+          "speaker": "C",
+          "en": "Sure. I'll pack it up.",
+          "zh": "可以。我帮你们装好。"
+        },
+        {
+          "id": "scene-restaurant-is-full-extension-1-l17",
+          "speaker": "B",
+          "en": "No worries about the first place. We can try it next time, when it's quieter.",
+          "zh": "第一家没关系。下次人少了，我们再去试试。"
+        }
+      ],
+      "notes": [
+        "接原场景：两人因客满改去街角面馆，并已点了汤面。",
+        "starving、stuffed、to go、leftovers 是口语和点餐常用说法，不保证每家店都提供打包。",
+        "crispy 在这里形容面上的炸洋葱，不是形容汤面本身。",
+        "这是学习情景示例，不是某家真实餐馆的服务规则。"
+      ],
+      "spokenWordCount": 127,
+      "lineCount": 17,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov16-bill",
+            "depth-nov18-fork",
+            "depth-nov18-tasty",
+            "depth-nov18-to-go",
+            "depth-nov18-help-yourself",
+            "depth-nov18-no-worries"
+          ],
+          "everyday": [
+            "depth-nov16-dessert",
+            "depth-nov16-menu",
+            "depth-nov16-peanut",
+            "depth-nov16-portion",
+            "depth-nov16-recommend",
+            "depth-nov16-reservation",
+            "depth-nov16-sauce",
+            "depth-nov16-separate",
+            "depth-nov16-side",
+            "depth-nov16-spicy",
+            "depth-nov16-split",
+            "depth-nov16-tip",
+            "depth-nov18-leftover",
+            "depth-nov18-starving",
+            "depth-nov18-stuffed",
+            "depth-nov18-takeaway",
+            "sc10-around-the-corner",
+            "depth-nov18-you-can-say-that-again",
+            "depth-nov18-that-works-for-me",
+            "depth-nov18-to-be-honest"
+          ],
+          "advanced": [
+            "depth-nov16-allergic",
+            "depth-nov16-ingredient",
+            "depth-nov16-vegetarian",
+            "depth-nov16-waiter",
+            "depth-nov16-waitress",
+            "depth-nov18-bland",
+            "depth-nov18-chopsticks",
+            "depth-nov18-crispy",
+            "depth-nov18-greasy",
+            "depth-nov18-napkin"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-to-go",
+          "depth-nov18-tasty",
+          "depth-nov18-starving",
+          "depth-nov18-stuffed",
+          "depth-nov18-leftover",
+          "depth-nov18-you-can-say-that-again",
+          "depth-nov18-bland",
+          "depth-nov18-chopsticks"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-package-at-the-door-extension-1",
+      "title": "五点回来取包裹",
+      "titleEn": "Coming Back at Five for the Package",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "parentSceneId": "scene-package-at-the-door",
+      "speakers": {
+        "A": "取包裹的邻居",
+        "B": "对门 3B 的邻居"
+      },
+      "lines": [
+        {
+          "id": "scene-package-at-the-door-extension-1-l1",
+          "speaker": "stage",
+          "en": "Around five, A comes back and knocks on the door of 3B.",
+          "zh": "大概五点，A 回来，敲了敲 3B 的门。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l2",
+          "speaker": "B",
+          "en": "Come on in. Your box is on the table.",
+          "zh": "进来吧。你的盒子在桌上。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l3",
+          "speaker": "A",
+          "en": "Thanks for taking it. Sorry I'm a bit late.",
+          "zh": "谢谢你帮我收着。抱歉我晚了一点。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l4",
+          "speaker": "B",
+          "en": "No worries. I put it inside, not in the hallway.",
+          "zh": "没关系。我放屋里了，没放在走廊里。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l5",
+          "speaker": "A",
+          "en": "Good. Better safe than sorry.",
+          "zh": "好。宁可稳妥，免得后悔。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l6",
+          "speaker": "B",
+          "en": "Sorry about the mess in the kitchen. I was just about to tidy up.",
+          "zh": "抱歉厨房有点乱。我正打算收拾一下。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l7",
+          "speaker": "A",
+          "en": "It's fine. Oh — the tap is starting to drip again.",
+          "zh": "没事。哎，水龙头又开始往下滴水了。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l8",
+          "speaker": "B",
+          "en": "I know. There's a leak under the sink. I put a bowl there for now.",
+          "zh": "我知道。水槽下面有一处漏水。我先放了个碗接着。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l9",
+          "speaker": "A",
+          "en": "Want me to mention it to the building later?",
+          "zh": "要不要我回头跟物业说一声？"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l10",
+          "speaker": "B",
+          "en": "Please. I already left a note in the mailbox, but I'm not sure they saw it.",
+          "zh": "麻烦了。我已经在信箱里留了字条，但不确定他们看见没有。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l11",
+          "speaker": "A",
+          "en": "I'll try the intercom if no one is in the office.",
+          "zh": "要是办公室没人，我就用对讲机试试。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l12",
+          "speaker": "B",
+          "en": "That works for me. By the way, I'll leave the pipes until morning. Quiet hours start at ten, and I don't want to make a racket tonight.",
+          "zh": "我没问题。顺便说一下，管道的事我早上再弄。晚上十点开始是安静时段，今晚我不想弄出太大动静。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l13",
+          "speaker": "A",
+          "en": "Same here. I still owe you a coffee.",
+          "zh": "我也是。咖啡我还欠着你。"
+        },
+        {
+          "id": "scene-package-at-the-door-extension-1-l14",
+          "speaker": "B",
+          "en": "Take it easy. Just message me if another delivery comes.",
+          "zh": "别客气。要是还有快递，给我发个消息就行。"
+        }
+      ],
+      "notes": [
+        "接原场景：快递员把包裹交给 3B，A 大约五点回来取。",
+        "Come on in、no worries、better safe than sorry、take it easy 是口语短句，不是固定招呼语。",
+        "漏水和安静时段是虚构的公寓情境，不表示某栋楼的真实规定；安静时段因楼而异。",
+        "对讲机和信箱留言只是常见联系方式示例。"
+      ],
+      "spokenWordCount": 153,
+      "lineCount": 14,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov16-address",
+            "depth-nov16-lock",
+            "depth-nov18-mailbox",
+            "depth-nov18-mess",
+            "depth-nov18-upstairs",
+            "depth-nov18-come-on-in",
+            "depth-nov18-no-worries",
+            "depth-nov18-by-the-way",
+            "depth-nov18-take-it-easy"
+          ],
+          "everyday": [
+            "depth-nov16-apartment",
+            "depth-nov16-ceiling",
+            "depth-nov16-electricity",
+            "depth-nov16-heating",
+            "depth-nov16-instruction",
+            "depth-nov16-rent",
+            "depth-nov16-repair",
+            "depth-nov16-stairs",
+            "depth-nov18-deposit",
+            "depth-nov18-leak",
+            "depth-nov18-tidy",
+            "sc11-leave-it",
+            "sc11-package",
+            "depth-nov18-that-works-for-me"
+          ],
+          "advanced": [
+            "depth-nov16-balcony",
+            "depth-nov16-buzzer",
+            "depth-nov16-doorbell",
+            "depth-nov16-landlord",
+            "depth-nov16-parcel",
+            "depth-nov16-signature",
+            "depth-nov16-tenant",
+            "depth-nov16-utility",
+            "depth-nov18-drip",
+            "depth-nov18-intercom",
+            "depth-nov18-lease",
+            "depth-nov18-quiet-hours",
+            "depth-nov18-recycling",
+            "sc11-courier",
+            "sc11-locker",
+            "depth-nov18-better-safe-than-sorry"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-come-on-in",
+          "depth-nov18-mess",
+          "depth-nov18-leak",
+          "depth-nov18-tidy",
+          "depth-nov18-that-works-for-me",
+          "depth-nov16-apartment",
+          "depth-nov18-drip",
+          "depth-nov18-better-safe-than-sorry"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-wrong-drink-extension-1",
+      "title": "热茶好了，再带一块走",
+      "titleEn": "The Hot Tea Is Ready, and One More Thing To Go",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "parentSceneId": "scene-wrong-drink",
+      "speakers": {
+        "A": "顾客",
+        "B": "店员"
+      },
+      "lines": [
+        {
+          "id": "scene-wrong-drink-extension-1-l1",
+          "speaker": "stage",
+          "en": "A sits down by the window with the medium hot tea.",
+          "zh": "A 端着那杯中杯热茶，在窗边坐下。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l2",
+          "speaker": "A",
+          "en": "Ooh — that's hot. I'll just take a sip first.",
+          "zh": "噢，好烫。我先小口喝一口。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l3",
+          "speaker": "B",
+          "en": "Careful. Do you want some milk with that?",
+          "zh": "小心点。要加点牛奶吗？"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l4",
+          "speaker": "A",
+          "en": "Yes, please. And a napkin, if that's okay.",
+          "zh": "好的，麻烦了。方便的话再给我一张餐巾纸。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l5",
+          "speaker": "B",
+          "en": "Here you go. Help yourself to the milk.",
+          "zh": "给你。牛奶你自己加就行。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l6",
+          "speaker": "A",
+          "en": "Thanks. To be honest, it was a bit strong at first.",
+          "zh": "谢谢。说实话，刚喝的时候有点浓。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l7",
+          "speaker": "B",
+          "en": "No worries. A little milk should help.",
+          "zh": "没关系。加点牛奶就会好一些。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l8",
+          "speaker": "stage",
+          "en": "A tries the tea again.",
+          "zh": "A 又喝了一口茶。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l9",
+          "speaker": "A",
+          "en": "That's better. It's actually tasty now.",
+          "zh": "这样好多了。现在其实挺好喝的。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l10",
+          "speaker": "B",
+          "en": "Good. Sorry again about the iced coffee earlier.",
+          "zh": "那就好。刚才那杯冰咖啡的事，再次抱歉。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l11",
+          "speaker": "A",
+          "en": "It's not the end of the world. These things happen.",
+          "zh": "也不是什么大事。这种事难免。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l12",
+          "speaker": "A",
+          "en": "By the way, can I get one of those pastries to go? I'll have it later.",
+          "zh": "顺便问一下，那些点心可以打包带走一块吗？我回头再吃。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l13",
+          "speaker": "B",
+          "en": "Sure. The cheese one is popular. The chocolate one is a bit greasy, if that matters.",
+          "zh": "可以。奶酪的比较受欢迎。巧克力的有点油，看你介不介意。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l14",
+          "speaker": "A",
+          "en": "The cheese one, then. That works for me. Just a takeaway bag is fine.",
+          "zh": "那我要奶酪的，这样就行。一个外卖袋就够了。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l15",
+          "speaker": "B",
+          "en": "Of course. I'll pack it up.",
+          "zh": "当然。我帮你装好。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l16",
+          "speaker": "A",
+          "en": "Thanks. This tea is just what I needed, especially when it's this cold out.",
+          "zh": "谢谢。这茶正是我想要的，外面这么冷更是如此。"
+        },
+        {
+          "id": "scene-wrong-drink-extension-1-l17",
+          "speaker": "B",
+          "en": "Enjoy. And I'll keep an eye on the names next time.",
+          "zh": "请慢用。下次我会多留意杯子上的名字。"
+        }
+      ],
+      "notes": [
+        "接原场景：店员已重做中杯热茶，A 准备坐下喝。",
+        "take a sip、to go、takeaway、help yourself、no worries、it's not the end of the world 是口语和点餐常用说法，不保证每家店都提供打包。",
+        "点心口味和“有点油”是虚构情境，不表示某家店的真实出品。",
+        "这是学习情景示例，不是真实聊天，也不是某家咖啡店的服务规则。"
+      ],
+      "spokenWordCount": 152,
+      "lineCount": 17,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov16-bill",
+            "depth-nov18-fork",
+            "depth-nov18-tasty",
+            "depth-nov18-to-go",
+            "depth-nov18-help-yourself",
+            "depth-nov18-no-worries",
+            "depth-nov18-by-the-way"
+          ],
+          "everyday": [
+            "depth-nov16-dessert",
+            "depth-nov16-menu",
+            "depth-nov16-peanut",
+            "depth-nov16-portion",
+            "depth-nov16-recommend",
+            "depth-nov16-reservation",
+            "depth-nov16-sauce",
+            "depth-nov16-separate",
+            "depth-nov16-side",
+            "depth-nov16-spicy",
+            "depth-nov16-split",
+            "depth-nov16-tip",
+            "depth-nov18-leftover",
+            "depth-nov18-starving",
+            "depth-nov18-stuffed",
+            "depth-nov18-takeaway",
+            "sc12-isnt-what-i-ordered",
+            "sc12-keep-it",
+            "sc12-make-it-again",
+            "depth-nov18-to-be-honest",
+            "depth-nov18-its-not-the-end-of-the-world",
+            "depth-nov18-that-works-for-me"
+          ],
+          "advanced": [
+            "depth-nov16-allergic",
+            "depth-nov16-ingredient",
+            "depth-nov16-vegetarian",
+            "depth-nov16-waiter",
+            "depth-nov16-waitress",
+            "depth-nov18-bland",
+            "depth-nov18-chopsticks",
+            "depth-nov18-crispy",
+            "depth-nov18-greasy",
+            "depth-nov18-napkin"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-tasty",
+          "depth-nov18-to-go",
+          "depth-nov18-takeaway",
+          "depth-nov18-to-be-honest",
+          "depth-nov18-its-not-the-end-of-the-world",
+          "depth-nov18-that-works-for-me",
+          "depth-nov18-greasy",
+          "depth-nov18-napkin"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-ill-be-right-down-extension-1",
+      "title": "下楼后又上楼取票",
+      "titleEn": "Going Back Upstairs for the Ticket",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "parentSceneId": "scene-ill-be-right-down",
+      "speakers": {
+        "A": "刚下楼的朋友",
+        "B": "在门口等的朋友"
+      },
+      "lines": [
+        {
+          "id": "scene-ill-be-right-down-extension-1-l1",
+          "speaker": "stage",
+          "en": "They start walking toward the front door. The movie still starts at two.",
+          "zh": "两人往大门走。电影还是两点开始。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l2",
+          "speaker": "A",
+          "en": "Hang on. I think I left the tickets upstairs.",
+          "zh": "等一下。我好像把票落在楼上了。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l3",
+          "speaker": "B",
+          "en": "You're kidding. We just got down.",
+          "zh": "不是吧。我们才刚下来。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l4",
+          "speaker": "A",
+          "en": "I know. Give me a second — I'll run back up.",
+          "zh": "我知道。给我一会儿，我再跑上去一趟。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l5",
+          "speaker": "B",
+          "en": "No rush. I'll wait in the hallway. The elevator is out anyway.",
+          "zh": "不着急。我在走廊等你。反正电梯也停了。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l6",
+          "speaker": "A",
+          "en": "I'll take the stairs. I'll be back as soon as I can.",
+          "zh": "我走楼梯。我会尽快回来。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l7",
+          "speaker": "stage",
+          "en": "A goes back upstairs. B waits by the mailboxes in the hallway.",
+          "zh": "A 又上了楼。B 在走廊的信箱旁边等着。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l8",
+          "speaker": "A",
+          "en": "Got them. To be honest, I left them on the table.",
+          "zh": "拿到了。说实话，我把票落桌上了。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l9",
+          "speaker": "B",
+          "en": "No worries. Once in a blue moon you forget something. I do it too.",
+          "zh": "没关系。人偶尔也会忘东西。我也有过。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l10",
+          "speaker": "B",
+          "en": "By the way, there's a notice by the mailbox. Recycling goes out tonight.",
+          "zh": "顺便说一下，信箱旁边有张通知。今晚要放回收袋。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l11",
+          "speaker": "A",
+          "en": "Thanks. I'll put mine in the hallway before we leave this evening.",
+          "zh": "谢谢。今晚出门前我把袋子放到走廊。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l12",
+          "speaker": "B",
+          "en": "That works for me. We should go as soon as possible, though — it's almost two.",
+          "zh": "行。不过我们该尽快走了——快两点了。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l13",
+          "speaker": "A",
+          "en": "Yeah. Long story short, I still almost made us late, even after finding my keys.",
+          "zh": "是啊。长话短说，钥匙找到了，我还是差点把咱们弄晚。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l14",
+          "speaker": "B",
+          "en": "Take it easy. If we leave now, we'll still make it.",
+          "zh": "别急。现在走的话，还来得及。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l15",
+          "speaker": "A",
+          "en": "Okay. Let's take the stairs and get a taxi if we have to.",
+          "zh": "好。我们先走楼梯，不行再打车。"
+        },
+        {
+          "id": "scene-ill-be-right-down-extension-1-l16",
+          "speaker": "B",
+          "en": "Deal. After you.",
+          "zh": "好。你先请。"
+        }
+      ],
+      "notes": [
+        "接原场景：两人已在楼下会合，准备去看两点的电影。",
+        "Hang on、give me a second、once in a blue moon、long story short、take it easy、as soon as possible 是口语短句，不是固定台词。",
+        "电梯停运和回收通知是虚构的公寓情境，不表示某栋楼的真实规定；回收日因楼而异。",
+        "这是学习情景示例，不是真实聊天。原场景里找钥匙的情节不在此重复展开，只作为一句带过。"
+      ],
+      "spokenWordCount": 156,
+      "lineCount": 16,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov16-address",
+            "depth-nov16-lock",
+            "depth-nov18-mailbox",
+            "depth-nov18-mess",
+            "depth-nov18-upstairs",
+            "depth-nov18-hang-on",
+            "depth-nov18-give-me-a-second",
+            "depth-nov18-no-worries",
+            "depth-nov18-by-the-way",
+            "depth-nov18-take-it-easy"
+          ],
+          "everyday": [
+            "depth-nov16-apartment",
+            "depth-nov16-ceiling",
+            "depth-nov16-electricity",
+            "depth-nov16-heating",
+            "depth-nov16-instruction",
+            "depth-nov16-rent",
+            "depth-nov16-repair",
+            "depth-nov16-stairs",
+            "depth-nov18-deposit",
+            "depth-nov18-leak",
+            "depth-nov18-tidy",
+            "sc14-downstairs",
+            "sc14-ill-be-right-down",
+            "depth-nov18-that-works-for-me",
+            "depth-nov18-long-story-short",
+            "depth-nov18-as-soon-as-possible",
+            "depth-nov18-to-be-honest"
+          ],
+          "advanced": [
+            "depth-nov16-balcony",
+            "depth-nov16-buzzer",
+            "depth-nov16-doorbell",
+            "depth-nov16-landlord",
+            "depth-nov16-parcel",
+            "depth-nov16-signature",
+            "depth-nov16-tenant",
+            "depth-nov16-utility",
+            "depth-nov18-drip",
+            "depth-nov18-intercom",
+            "depth-nov18-lease",
+            "depth-nov18-quiet-hours",
+            "depth-nov18-recycling",
+            "depth-nov18-once-in-a-blue-moon"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-upstairs",
+          "depth-nov18-hang-on",
+          "depth-nov18-that-works-for-me",
+          "depth-nov18-long-story-short",
+          "depth-nov18-as-soon-as-possible",
+          "depth-nov18-to-be-honest",
+          "depth-nov18-recycling",
+          "depth-nov18-once-in-a-blue-moon"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-store-out-of-stock-extension-2",
+      "title": "收银处发现袖口有污渍",
+      "titleEn": "Finding a Stain on the Cuff at the Checkout",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏日常口语。",
+      "parentSceneId": "scene-store-out-of-stock",
+      "speakers": {
+        "A": "顾客",
+        "B": "店员"
+      },
+      "lines": [
+        {
+          "id": "scene-store-out-of-stock-extension-2-l1",
+          "speaker": "stage",
+          "en": "They walk over to the checkout. The jacket is on the counter.",
+          "zh": "他们走到收银处。那件夹克放在柜台上。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l2",
+          "speaker": "A",
+          "en": "I'll just take another look before you wrap it.",
+          "zh": "我先再看一眼，再麻烦你包装。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l3",
+          "speaker": "B",
+          "en": "Sure. Leave it on the counter — the light is better here.",
+          "zh": "好。就放柜台上吧，这儿的光更好。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l4",
+          "speaker": "stage",
+          "en": "A turns the sleeve toward the light.",
+          "zh": "A 把袖口转到灯光下。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l5",
+          "speaker": "A",
+          "en": "Hang on. Is that a stain on the sleeve?",
+          "zh": "稍等。袖口上是不是有块污渍？"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l6",
+          "speaker": "B",
+          "en": "Oh. Yeah, I see it. It's only a small stain, but I wouldn't sell you a damaged jacket.",
+          "zh": "噢，我看到了。只是一小块污渍，但我不想把一件已有损坏的夹克卖给你。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l7",
+          "speaker": "A",
+          "en": "That's a shame. To be honest, I don't want to gift something with a stain.",
+          "zh": "有点可惜。说实话，我不想把带着污渍的东西送人。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l8",
+          "speaker": "B",
+          "en": "No worries. Let me check in the back. If we don't have another one, you can exchange it later — just keep the receipt.",
+          "zh": "没关系。我去后面看看。要是没有另一件，你之后也可以换，记得留着小票就行。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l9",
+          "speaker": "A",
+          "en": "Does this come with a warranty?",
+          "zh": "这个有保修吗？"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l10",
+          "speaker": "B",
+          "en": "Not really, not for clothes. You can usually exchange it within a couple of weeks if you have the receipt. Better safe than sorry — I'll write the date on it.",
+          "zh": "衣服一般没有长期保修。只要留着小票，通常几周内可以换。宁可稳妥一点——我会把日期写在小票上。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l11",
+          "speaker": "stage",
+          "en": "The clerk comes back from the stock room.",
+          "zh": "店员从库房回来了。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l12",
+          "speaker": "B",
+          "en": "You're in luck. I found one more in large, same color. No stain on this one.",
+          "zh": "你运气不错。后面还有一件大号，颜色一样。这件没有污渍。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l13",
+          "speaker": "A",
+          "en": "Nice. Can I still get gift wrap?",
+          "zh": "太好了。这个还能做礼品包装吗？"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l14",
+          "speaker": "B",
+          "en": "Of course. I'll wrap it here at the checkout.",
+          "zh": "当然。我就在收银处包好。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l15",
+          "speaker": "A",
+          "en": "That works for me. Long story short, I'm glad we checked.",
+          "zh": "可以。长话短说，幸好我们仔细看了。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l16",
+          "speaker": "B",
+          "en": "You can say that again. I'll put the receipt in the bag, not inside the wrap, so your friend won't see the price.",
+          "zh": "可不是嘛。小票我放袋子里，不放进包装，免得你朋友看到价格。"
+        },
+        {
+          "id": "scene-store-out-of-stock-extension-2-l17",
+          "speaker": "A",
+          "en": "Good thinking. Thanks.",
+          "zh": "想得周到。谢谢。"
+        }
+      ],
+      "notes": [
+        "接上一则后续末尾（店员要把夹克拿到收银处、并做礼品包装），仍是可选继续，不替换旧句。",
+        "退换期限、保修和小票写法是虚构学习情境，不表示真实商店规则。",
+        "warranty 保修多用于电器等商品；本对话里店员说明衣服通常没有长期保修，用来区分场合。",
+        "礼品包装是否提供、小票放哪里因店而异。",
+        "Hang on、no worries、to be honest、better safe than sorry、that works for me、long story short、you can say that again 是口语短句或谚语，不保证所有商店都这样说。"
+      ],
+      "spokenWordCount": 190,
+      "lineCount": 17,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov16-color",
+            "depth-nov16-large",
+            "depth-nov16-size",
+            "depth-nov16-small",
+            "depth-nov18-by-the-way",
+            "depth-nov18-checkout",
+            "depth-nov18-come-on-in",
+            "depth-nov18-exchange",
+            "depth-nov18-fitting-room",
+            "depth-nov18-give-me-a-second",
+            "depth-nov18-hang-on",
+            "depth-nov18-help-yourself",
+            "depth-nov18-no-worries",
+            "depth-nov18-take-it-easy",
+            "depth-nov18-try-on",
+            "sc6-look-for"
+          ],
+          "everyday": [
+            "depth-nov16-button",
+            "depth-nov16-cotton",
+            "depth-nov16-discount",
+            "depth-nov16-extra",
+            "depth-nov16-label",
+            "depth-nov16-loose",
+            "depth-nov16-medium",
+            "depth-nov16-pocket",
+            "depth-nov16-sale",
+            "depth-nov16-sweater",
+            "depth-nov16-tight",
+            "depth-nov18-as-soon-as-possible",
+            "depth-nov18-counter",
+            "depth-nov18-gift-wrap",
+            "depth-nov18-im-easy",
+            "depth-nov18-in-other-words",
+            "depth-nov18-its-not-the-end-of-the-world",
+            "depth-nov18-long-story-short",
+            "depth-nov18-on-the-same-page",
+            "depth-nov18-pattern",
+            "depth-nov18-that-works-for-me",
+            "depth-nov18-to-be-honest",
+            "depth-nov18-you-can-say-that-again",
+            "sc6-brand",
+            "sc6-out-of"
+          ],
+          "advanced": [
+            "depth-nov16-cashier",
+            "depth-nov16-refund",
+            "depth-nov16-sleeve",
+            "depth-nov16-wool",
+            "depth-nov18-a-fish-out-of-water",
+            "depth-nov18-bargain",
+            "depth-nov18-better-safe-than-sorry",
+            "depth-nov18-damaged",
+            "depth-nov18-for-your-information",
+            "depth-nov18-i-look-forward-to-hearing-from-you",
+            "depth-nov18-like-talking-to-a-wall",
+            "depth-nov18-once-in-a-blue-moon",
+            "depth-nov18-please-find-attached",
+            "depth-nov18-stain",
+            "depth-nov18-stripe",
+            "depth-nov18-the-ball-is-in-your-court",
+            "depth-nov18-warranty",
+            "sc6-aisle",
+            "sc6-something-else-like-it"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-checkout",
+          "depth-nov18-exchange",
+          "depth-nov18-counter",
+          "depth-nov18-gift-wrap",
+          "depth-nov18-to-be-honest",
+          "depth-nov18-that-works-for-me",
+          "depth-nov18-stain",
+          "depth-nov18-warranty"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-reply-to-a-short-email",
+      "title": "把草稿改成一封简短的正式邮件",
+      "titleEn": "Rewriting a Draft as a Short Formal Email",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级；语体偏正式书信，不是街头口语。",
+      "settingZh": "原创虚构学习情景示例，不是真实邮件往来；作为书信与新闻路径上的新场景接入，不要挂到旧的日常口语场景上，也不替换任何旧句。语气偏正式书信，不是街头口语。其中一封很短的非正式草稿只用来对照语体，不是本则的范文。",
+      "narratorNote": "原创虚构学习情景示例，不是真实邮件往来；作为书信与新闻路径上的新场景接入，不要挂到旧的日常口语场景上，也不替换任何旧句。语气偏正式书信，不是街头口语。其中一封很短的非正式草稿只用来对照语体，不是本则的范文。",
+      "speakers": {
+        "A": "询问者",
+        "B": "回复人"
+      },
+      "lines": [
+        {
+          "id": "scene-reply-to-a-short-email-l1",
+          "speaker": "stage",
+          "en": "A wants to ask about a Saturday writing workshop, and first types a very short, informal draft. This is a learning example, not a real email.",
+          "zh": "A 想询问周六的写作工作坊，先打了一封很短、很随便的草稿。这是学习情景示例，不是真实邮件。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l2",
+          "speaker": "A",
+          "en": "Hi, is the workshop still open? Send me the form if you can. Thanks.",
+          "zh": "嗨，这个工作坊还有位子吗？有表格的话发给我就行。谢谢。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l3",
+          "speaker": "stage",
+          "en": "A rereads the draft and rewrites it in a more formal style. The sample address is name@example.com, not a real inbox.",
+          "zh": "A 重新看了一遍草稿，并用更正式的语气改写。示例地址是 name@example.com，不是真实的收件箱。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l4",
+          "speaker": "stage",
+          "en": "The new subject line is: Inquiry about the Saturday writing workshop.",
+          "zh": "新的主题行是：Inquiry about the Saturday writing workshop（询问周六写作工作坊）。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l5",
+          "speaker": "A",
+          "en": "Dear Coordinator, I am writing to inquire about the Saturday writing workshop.",
+          "zh": "尊敬的协调人：我写信是想询问周六的写作工作坊。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l6",
+          "speaker": "A",
+          "en": "Could you please confirm whether I may still request a place? I believe the deadline is this Friday.",
+          "zh": "请问您能否确认，我是否还可以申请一个名额？我记得截止日期是本周五。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l7",
+          "speaker": "A",
+          "en": "If a form is required, please send it as an attachment. Kind regards, A.",
+          "zh": "如果需要表格，请以附件形式发给我。此致敬礼，A。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l8",
+          "speaker": "stage",
+          "en": "B replies the same day, and also sends a carbon copy to a colleague. The names are made up.",
+          "zh": "B 当天回复，并把邮件抄送给一位同事。其中的人名是虚构的。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l9",
+          "speaker": "B",
+          "en": "Dear A, Thank you for your email. I can confirm that a place is still available.",
+          "zh": "尊敬的 A：感谢来信。我可以确认，目前仍有一个名额。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l10",
+          "speaker": "B",
+          "en": "The workshop is on Saturday at 10:00. Please find attached the form.",
+          "zh": "工作坊在周六上午十点举行。表格请见附件。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l11",
+          "speaker": "B",
+          "en": "I noticed a typo in the subject line of your first draft, and I have corrected it here for the other recipients.",
+          "zh": "我注意到您第一封草稿的主题行有一个打字错误，已在此更正，以便其他收件人看到正确的主题。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l12",
+          "speaker": "B",
+          "en": "I have not used a blind carbon copy, because my colleague may need to reply to you.",
+          "zh": "我没有使用盲抄送，因为我的同事可能需要直接回复您。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l13",
+          "speaker": "B",
+          "en": "For your information, please check your inbox and do not open spam that is not from our address. Sincerely, B.",
+          "zh": "顺带说明：请查看您的收件箱，不要打开不是我们这个地址发来的垃圾邮件。此致，B。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l14",
+          "speaker": "stage",
+          "en": "A sends a short formal reply.",
+          "zh": "A 发了一封简短的正式回复。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l15",
+          "speaker": "A",
+          "en": "Dear B, Thank you for confirming the time. I have received the attachment, and I will return the form as soon as possible.",
+          "zh": "尊敬的 B：感谢您确认时间。我已收到附件，会尽快把表格交回去。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l16",
+          "speaker": "A",
+          "en": "I look forward to the workshop. Kind regards, A.",
+          "zh": "期待这次工作坊。此致敬礼，A。"
+        },
+        {
+          "id": "scene-reply-to-a-short-email-l17",
+          "speaker": "A",
+          "en": "If I have any further questions, I will write again. Thank you for your help.",
+          "zh": "如果还有其他问题，我会再写信询问。感谢您的帮助。"
+        }
+      ],
+      "notes": [
+        "这是书信与新闻路径上的新场景，不是旧口语场景的后续；接入时请作为独立场景导入，不要按 parentSceneId 挂到日常对话上。",
+        "工作坊、邮箱地址和人名都是虚构学习情境，不是真实课程、真实收件箱或真实往来。示例地址使用 example.com。",
+        "第一封很短的草稿是故意写得比较随便，只用来对照正式改写，不是本则要学的语气。",
+        "subject、inquire、confirm、attachment、typo、formal、informal、spam、recipient、carbon copy、blind carbon copy、deadline、sincerely、regards，以及 please find attached、for your information、as soon as possible、I look forward to 等已有词形只复用，不重复提案。",
+        "Dear、Kind regards、Sincerely 是较正式的书信套话，不保证每个工作场所都这样写。"
+      ],
+      "spokenWordCount": 191,
+      "lineCount": 17,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。本则是较正式的书信往来，不是街头口语。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov18-dear",
+            "depth-nov18-subject"
+          ],
+          "everyday": [
+            "depth-nov18-request",
+            "depth-nov18-draft",
+            "depth-nov18-confirm",
+            "depth-nov18-formal",
+            "depth-nov18-informal",
+            "depth-nov18-deadline",
+            "depth-nov18-spam",
+            "depth-nov18-as-soon-as-possible"
+          ],
+          "advanced": [
+            "depth-nov18-inquiry",
+            "depth-nov18-inquire",
+            "depth-nov18-kind-regards",
+            "depth-nov18-sincerely",
+            "depth-nov18-regards",
+            "depth-nov18-attachment",
+            "depth-nov18-typo",
+            "depth-nov18-recipient",
+            "depth-nov18-carbon-copy",
+            "depth-nov18-blind-carbon-copy",
+            "depth-nov18-please-find-attached",
+            "depth-nov18-for-your-information",
+            "depth-nov18-i-look-forward-to-hearing-from-you"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-dear",
+          "depth-nov18-subject",
+          "depth-nov18-request",
+          "depth-nov18-draft",
+          "depth-nov18-confirm",
+          "depth-nov18-deadline",
+          "depth-nov18-inquiry",
+          "depth-nov18-please-find-attached"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-write-a-readers-letter",
+      "title": "把草稿改成一封给编辑的短信",
+      "titleEn": "Rewriting a Draft as a Short Letter to the Editor",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级；语体偏正式书面，不是街头口语。",
+      "settingZh": "原创虚构学习情景示例，不是真实读者来信或新闻事件；作为书信与新闻路径上的新场景接入，不要挂到旧的日常口语场景上，也不替换任何旧句。语气偏正式书面，不是街头口语。其中一封很短的非正式草稿只用来对照语体，不是本则的范文。社区简报、编辑部和图书馆周末开放时间都是标明的学习情景示例。",
+      "narratorNote": "原创虚构学习情景示例，不是真实读者来信或新闻事件；作为书信与新闻路径上的新场景接入，不要挂到旧的日常口语场景上，也不替换任何旧句。语气偏正式书面，不是街头口语。其中一封很短的非正式草稿只用来对照语体，不是本则的范文。社区简报、编辑部和图书馆周末开放时间都是标明的学习情景示例。",
+      "speakers": {
+        "A": "读者",
+        "B": "编辑"
+      },
+      "lines": [
+        {
+          "id": "scene-write-a-readers-letter-l1",
+          "speaker": "stage",
+          "en": "A reads a short editorial in a community newsletter and first writes a very informal draft of a letter to the editor. This is a learning example, not a real newspaper or a real news event.",
+          "zh": "A 在一份社区简报里读到一篇短社论，先写了一封很随便的给编辑的草稿。这是学习情景示例，不是真实报纸，也不是真实新闻事件。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l2",
+          "speaker": "A",
+          "en": "The weekend library hours are too short. This is annoying. You should stay open longer. Thanks.",
+          "zh": "图书馆周末开放时间太短了。真烦人。你们应该开久一点。谢谢。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l3",
+          "speaker": "stage",
+          "en": "A rereads the draft and rewrites it in a more formal style. The newsletter, the editor, and the library hours are made up for study.",
+          "zh": "A 重新看了一遍草稿，并用更正式的语气改写。这份简报、编辑和图书馆开放时间都是为学习虚构的。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l4",
+          "speaker": "stage",
+          "en": "The formal letter is meant for the opinion section, not as a news report.",
+          "zh": "这封正式来信是准备给评论版的，而不是当作新闻报道。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l5",
+          "speaker": "A",
+          "en": "Dear Editor, I am writing about the editorial in your latest issue.",
+          "zh": "尊敬的编辑：我写信是想谈一谈贵刊最新一期的社论。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l6",
+          "speaker": "A",
+          "en": "The headline said the library may close earlier on weekends. I would like to share a short opinion.",
+          "zh": "标题写到，图书馆周末可能会提前关门。我想简短谈一点看法。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l7",
+          "speaker": "A",
+          "en": "Longer weekend hours would help subscribers who work during the week. Could you please consider publishing this letter?",
+          "zh": "延长周末开放时间，会方便平时上班的订阅者。不知可否考虑刊登这封来信？"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l8",
+          "speaker": "stage",
+          "en": "B is the editor of this fictional community newsletter and replies formally. This is still a learning example, not a real letter.",
+          "zh": "B 是这份虚构社区简报的编辑，并作了正式回复。这仍是学习情景示例，不是真实来信往来。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l9",
+          "speaker": "B",
+          "en": "Dear A, Thank you for your letter to the editor. I can confirm that we have received it.",
+          "zh": "尊敬的 A：感谢您给编辑的来信。我可以确认，我们已收到这封信。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l10",
+          "speaker": "B",
+          "en": "A news report, often written by a journalist, is not the same as an editorial. Your letter will be considered for the opinion section, not as a news story.",
+          "zh": "新闻报道通常由记者撰写，和社论并不是一回事。您的来信会放在评论版考虑，而不是当作新闻来用。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l11",
+          "speaker": "B",
+          "en": "We may publish a short version in the next issue, before Friday's deadline.",
+          "zh": "我们可能在下一期发表一个较短的版本，截止日期是本周五之前。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l12",
+          "speaker": "B",
+          "en": "For your information, some readers have a subscription, and others buy the newsletter at a newsstand.",
+          "zh": "顺带说明：有些读者是订阅的，也有人在报摊购买这份简报。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l13",
+          "speaker": "B",
+          "en": "I have kept your formal letter and will not use the first informal draft. Sincerely, B.",
+          "zh": "我保留的是您改写后的正式来信，不会采用第一封比较随便的草稿。此致，B。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l14",
+          "speaker": "stage",
+          "en": "A sends a short formal reply.",
+          "zh": "A 发了一封简短的正式回复。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l15",
+          "speaker": "A",
+          "en": "Dear Editor, Thank you for confirming that the letter has arrived. I understand the difference between a news report and an editorial.",
+          "zh": "尊敬的编辑：感谢您确认来信已经收到。我理解新闻报道和社论的区别。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l16",
+          "speaker": "A",
+          "en": "I have a subscription, and I read the opinion section each week. Sincerely, A.",
+          "zh": "我订阅了这份简报，每个星期都会看评论版。此致，A。"
+        },
+        {
+          "id": "scene-write-a-readers-letter-l17",
+          "speaker": "A",
+          "en": "I look forward to the next issue.",
+          "zh": "我期待下一期。"
+        }
+      ],
+      "notes": [
+        "这是书信与新闻路径上的新场景，不是旧口语场景的后续；接入时请作为独立场景导入，不要按 parentSceneId 挂到日常对话上。",
+        "社区简报、编辑部、人名和图书馆周末开放时间都是虚构学习情境，不是真实报纸、真实新闻事件或真实读者来信。",
+        "第一封很短的草稿是故意写得比较随便，只用来对照正式改写，不是本则要学的语气。",
+        "headline、editorial、journalist、publish、subscriber、issue、deadline、formal、informal、draft、dear、sincerely，以及 for your information、I look forward to 等已有词形只复用，不重复提案。",
+        "Dear Editor 和 Sincerely 是较正式的书信套话，不保证每家报社都这样写。"
+      ],
+      "spokenWordCount": 199,
+      "lineCount": 17,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。本则是较正式的读者来信往来，不是街头口语。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov18-editor",
+            "depth-nov18-dear"
+          ],
+          "everyday": [
+            "depth-nov18-opinion",
+            "depth-nov18-section",
+            "depth-nov18-subscription",
+            "depth-nov18-draft",
+            "depth-nov18-formal",
+            "depth-nov18-informal",
+            "depth-nov18-deadline",
+            "depth-nov18-confirm",
+            "depth-nov18-for-your-information"
+          ],
+          "advanced": [
+            "depth-nov18-letter-to-the-editor",
+            "depth-nov18-editorial",
+            "depth-nov18-headline",
+            "depth-nov18-journalist",
+            "depth-nov18-publish",
+            "depth-nov18-subscriber",
+            "depth-nov18-issue",
+            "depth-nov18-sincerely",
+            "depth-nov18-i-look-forward-to-hearing-from-you"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-editor",
+          "depth-nov18-dear",
+          "depth-nov18-opinion",
+          "depth-nov18-section",
+          "depth-nov18-subscription",
+          "depth-nov18-draft",
+          "depth-nov18-letter-to-the-editor",
+          "depth-nov18-editorial"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    },
+    {
+      "id": "scene-next-bus-delayed-extension-2",
+      "title": "挤不上车，改去售票处",
+      "titleEn": "Can't Get on the Bus, Going to the Ticket Office Instead",
+      "levelSuggestionZh": "建议 A2/A2+，非认证分级",
+      "settingZh": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏街头口语。",
+      "narratorNote": "原创虚构学习情景示例，不是真实聊天；作为原场景可选后续，不替换旧句子和进度。语气偏街头口语。",
+      "parentSceneId": "scene-next-bus-delayed",
+      "speakers": {
+        "A": "赶车的人",
+        "B": "同行的朋友",
+        "C": "售票处工作人员"
+      },
+      "lines": [
+        {
+          "id": "scene-next-bus-delayed-extension-2-l1",
+          "speaker": "stage",
+          "en": "The delayed bus finally arrives, but it is too packed. They cannot get on, so they walk to the ticket office.",
+          "zh": "延误的那班车终于来了，但车上太挤。他们上不去，于是走到售票处。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l2",
+          "speaker": "A",
+          "en": "Long story short, we're not getting on that one.",
+          "zh": "长话短说，那班我们是上不去了。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l3",
+          "speaker": "B",
+          "en": "No worries. The ticket office is just around the corner.",
+          "zh": "没关系。售票处就在拐角。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l4",
+          "speaker": "stage",
+          "en": "They stand at the counter.",
+          "zh": "他们站在柜台前。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l5",
+          "speaker": "A",
+          "en": "Hi. We missed the bus. Can we get a ticket for the next train?",
+          "zh": "你好。我们错过了公共汽车。还能买下一班火车的票吗？"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l6",
+          "speaker": "C",
+          "en": "Sure. This ticket is valid for the next train this morning. The platform number is on it.",
+          "zh": "可以。这张票今天上午的下一班火车有效。站台号写在票上。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l7",
+          "speaker": "A",
+          "en": "Hang on. Do we need to transfer?",
+          "zh": "稍等。我们需要换乘吗？"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l8",
+          "speaker": "C",
+          "en": "No, it's direct. Keep the ticket with you. An inspector may check it on the train.",
+          "zh": "不用，是直达的。票请随身带着。火车上查票员可能会查票。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l9",
+          "speaker": "B",
+          "en": "Got it. And if it's crowded, are there priority seats?",
+          "zh": "明白了。要是人多，车上有优先座位吗？"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l10",
+          "speaker": "C",
+          "en": "Yes, they're marked. Please leave them for people who need them more.",
+          "zh": "有，上面有标记。请留给更需要的人。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l11",
+          "speaker": "A",
+          "en": "That works for me. By the way, can I take this trolley onto the platform?",
+          "zh": "可以。顺便问一下，这个手推车能推进站台吗？"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l12",
+          "speaker": "C",
+          "en": "A small one should be fine. Just don't block the aisle.",
+          "zh": "小的应该可以。只是别堵住过道。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l13",
+          "speaker": "B",
+          "en": "You can say that again. Better safe than sorry — I'll carry the bag.",
+          "zh": "可不是嘛。宁可稳妥一点——包我来提。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l14",
+          "speaker": "A",
+          "en": "As soon as possible, then. Which way to the platform?",
+          "zh": "那就尽快吧。去站台怎么走？"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l15",
+          "speaker": "C",
+          "en": "Down the hall and to the left.",
+          "zh": "沿走廊往前，然后左转。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l16",
+          "speaker": "B",
+          "en": "Thanks. Let's go.",
+          "zh": "谢谢。走吧。"
+        },
+        {
+          "id": "scene-next-bus-delayed-extension-2-l17",
+          "speaker": "A",
+          "en": "Take it easy. We've got a bit of time now.",
+          "zh": "放轻松。这下我们还有一点时间。"
+        }
+      ],
+      "notes": [
+        "接上一则后续末尾（若这班太挤就走到售票处看下一班火车），仍是可选继续，不替换旧句。",
+        "车票是否通用、站台号、手推车可否进站台、优先座位规则，都是虚构学习情境，不表示某座车站或某条线路的真实规定。",
+        "Hang on、no worries、long story short、that works for me、by the way、you can say that again、better safe than sorry、as soon as possible、take it easy 是口语短句或谚语，不是交通规则。",
+        "这是学习情景示例，不是真实聊天。"
+      ],
+      "spokenWordCount": 164,
+      "lineCount": 17,
+      "difficulty": {
+        "tier": "everyday",
+        "tierZh": "常用",
+        "basisZh": "对话整体难度；其中的词仍可分属三档。",
+        "noteZh": "教学分层，不是 CEFR。levelSuggestionZh 不能代替本字段。同一场景可以同时有基础、常用、进阶词。",
+        "availableTiers": [
+          "foundational",
+          "everyday",
+          "advanced"
+        ],
+        "availableTiersZh": [
+          "基础",
+          "常用",
+          "进阶"
+        ],
+        "cardIdsByTier": {
+          "foundational": [
+            "depth-nov18-by-the-way",
+            "depth-nov18-come-on-in",
+            "depth-nov18-crowded",
+            "depth-nov18-delay",
+            "depth-nov18-give-me-a-second",
+            "depth-nov18-hang-on",
+            "depth-nov18-help-yourself",
+            "depth-nov18-missed",
+            "depth-nov18-no-worries",
+            "depth-nov18-rush-hour",
+            "depth-nov18-take-it-easy",
+            "sc9-get-off",
+            "sc9-train"
+          ],
+          "everyday": [
+            "depth-nov16-arrival",
+            "depth-nov16-cancel",
+            "depth-nov16-departure",
+            "depth-nov16-direct",
+            "depth-nov16-driver",
+            "depth-nov16-journey",
+            "depth-nov16-notice",
+            "depth-nov16-passenger",
+            "depth-nov16-platform",
+            "depth-nov16-route",
+            "depth-nov16-schedule",
+            "depth-nov16-single",
+            "depth-nov16-traffic",
+            "depth-nov16-transfer",
+            "depth-nov18-announcement",
+            "depth-nov18-as-soon-as-possible",
+            "depth-nov18-im-easy",
+            "depth-nov18-in-other-words",
+            "depth-nov18-its-not-the-end-of-the-world",
+            "depth-nov18-long-story-short",
+            "depth-nov18-on-the-same-page",
+            "depth-nov18-that-works-for-me",
+            "depth-nov18-ticket-office",
+            "depth-nov18-to-be-honest",
+            "depth-nov18-you-can-say-that-again",
+            "sc9-be-delayed",
+            "sc9-on-the-way",
+            "depth-nov18-valid",
+            "depth-nov18-inspector"
+          ],
+          "advanced": [
+            "depth-nov16-backpack",
+            "depth-nov16-fare",
+            "depth-nov16-luggage",
+            "depth-nov16-suitcase",
+            "depth-nov18-a-fish-out-of-water",
+            "depth-nov18-better-safe-than-sorry",
+            "depth-nov18-for-your-information",
+            "depth-nov18-i-look-forward-to-hearing-from-you",
+            "depth-nov18-like-talking-to-a-wall",
+            "depth-nov18-once-in-a-blue-moon",
+            "depth-nov18-please-find-attached",
+            "depth-nov18-the-ball-is-in-your-court",
+            "depth-nov18-trolley",
+            "depth-nov18-window-seat",
+            "depth-nov18-priority-seat",
+            "sc6-aisle"
+          ]
+        },
+        "recommendedMixIds": [
+          "depth-nov18-hang-on",
+          "depth-nov18-no-worries",
+          "depth-nov18-valid",
+          "depth-nov18-inspector",
+          "depth-nov18-ticket-office",
+          "depth-nov16-platform",
+          "depth-nov18-priority-seat",
+          "depth-nov18-trolley"
+        ],
+        "recommendedMixCounts": {
+          "基础": 2,
+          "常用": 4,
+          "进阶": 2
+        },
+        "mixPolicyZh": "默认推荐要混着出：能凑齐时大约 2 个基础、4 个常用、2 个进阶；缺档时用相邻档补上，避免一组全是易词或全是难词。用户仍可只学其中一档。"
+      }
+    }
+  ]
+}
