@@ -16,7 +16,7 @@
 .doli-prose .doli-paragraph-translation > summary {
   position: absolute; top: 4px; right: -4px; width: 36px; min-height: 32px;
   padding: 4px 0; text-align: center; font: 12px/24px "Segoe UI", "Microsoft YaHei", sans-serif;
-  list-style: none; border-radius: 5px; opacity: 0; transition: opacity .12s;
+  list-style: none; border-radius: 5px; opacity: 1; transition: opacity .12s;
 }
 .doli-paragraph-translation > summary::-webkit-details-marker { display: none; }
 .doli-prose .doli-document-unit:hover > .doli-paragraph-translation > summary,
@@ -44,7 +44,7 @@
 @media (max-width: 640px) {
   .doli-prose .doli-document-english { font-size: 19px; line-height: 1.8; }
   .doli-prose .doli-document-unit { margin-bottom: 1em; padding-right: 32px; }
-  .doli-prose .doli-paragraph-translation > summary { right: -5px; width: 32px; opacity: .75; min-height: 44px; }
+  .doli-prose .doli-paragraph-translation > summary { right: -5px; width: 32px; opacity: 1; min-height: 44px; }
   .doli-reading-hint { font-size: 12px; margin-bottom: 20px; }
   .doli-lookup-panel { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); width: calc(100vw - 24px); padding: 14px 18px; max-height: 62vh; }
 }
