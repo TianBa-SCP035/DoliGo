@@ -269,7 +269,9 @@ function DocumentView({
       else node.removeAttribute("aria-current");
     });
     const current = Array.from(nodes).find((node) => node.dataset.progressUnit === currentUnitId);
-    current?.scrollIntoView({ block: "start", behavior: "instant" });
+    if (current && currentUnitId !== unitIds[0]) {
+      current.scrollIntoView({ block: "start", behavior: "instant" });
+    }
     if (!isRestoring && !freezeProgress) remember(currentUnitId, "manual");
   }, [currentUnitId, freezeProgress, isRestoring, remember]);
 
@@ -284,7 +286,9 @@ function DocumentView({
         ...root.current!.querySelectorAll<HTMLElement>("[data-progress-unit]"),
       ].find((e) => e.dataset.progressUnit === originalSaved.current);
       try {
-        if (unit) unit.scrollIntoView({ block: "start", behavior: "instant" });
+        if (unit && originalSaved.current && originalSaved.current !== unitIds[0]) {
+          unit.scrollIntoView({ block: "start", behavior: "instant" });
+        }
       } finally {
         second = requestAnimationFrame(() => completeRestore());
       }

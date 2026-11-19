@@ -387,3 +387,123 @@ it("does not invent a next article for a lone lunch reading", async () => {
   expect(container.textContent).not.toContain("开始下一篇");
   expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
 });
+
+
+it("does not auto-scroll a fresh reading off its title, but scrolls from the second unit", async () => {
+  const scrolled: string[] = [];
+  HTMLElement.prototype.scrollIntoView = function scrollIntoView() {
+    const id = (this as HTMLElement).dataset.progressUnit;
+    if (id) scrolled.push(id);
+  };
+  act(() => {
+    root.render(
+      <TextLearningView
+        kind="reading"
+        startId={LUNCH}
+        onBack={() => undefined}
+        recall={{ onRate: vi.fn(), onSkip: vi.fn() }}
+      />,
+    );
+  });
+  await settle();
+  const units = [
+    ...container.querySelectorAll<HTMLElement>("[data-progress-unit]"),
+  ];
+  expect(units.length).toBeGreaterThan(1);
+  expect(container.querySelector("h1")).toBeTruthy();
+  expect(scrolled).toEqual([]);
+  const skip = Array.from(container.querySelectorAll("button")).find((b) =>
+    b.textContent?.includes("跳过，先看下一段"),
+  );
+  act(() => skip!.click());
+  await settle();
+  expect(scrolled).toEqual([units[1].dataset.progressUnit]);
+  expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
+});
+
+it("does not auto-scroll a fresh scene off its title", async () => {
+  const scrolled: string[] = [];
+  HTMLElement.prototype.scrollIntoView = function scrollIntoView() {
+    const id = (this as HTMLElement).dataset.progressUnit;
+    if (id) scrolled.push(id);
+  };
+  act(() => {
+    root.render(
+      <TextLearningView
+        kind="scene"
+        startId="scene-next-bus-delayed"
+        onBack={() => undefined}
+        recall={{ onRate: vi.fn(), onSkip: vi.fn() }}
+      />,
+    );
+  });
+  await settle();
+  expect(container.querySelector("h1")).toBeTruthy();
+  expect(scrolled).toEqual([]);
+  expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
+});
+
+it("still scrolls to a mid-document unit when continuing a reading", async () => {
+  const scrolled: string[] = [];
+  HTMLElement.prototype.scrollIntoView = function scrollIntoView() {
+    const id = (this as HTMLElement).dataset.progressUnit;
+    if (id) scrolled.push(id);
+  };
+  act(() => {
+    root.render(
+      <TextLearningView
+        kind="reading"
+        startId={LUNCH}
+        onBack={() => undefined}
+        recall={{ onRate: vi.fn(), onSkip: vi.fn() }}
+      />,
+    );
+  });
+  await settle();
+  const units = [
+    ...container.querySelectorAll<HTMLElement>("[data-progress-unit]"),
+  ];
+  expect(units.length).toBeGreaterThan(2);
+  const midId = units[2].dataset.progressUnit!;
+  act(() => root.unmount());
+  container.remove();
+  container = document.createElement("div");
+  document.body.append(container);
+  root = createRoot(container);
+  localStorage.setItem(
+    "doliguo.refactor.sandbox.v1",
+    JSON.stringify({
+      schemaVersion: 1,
+      kind: "doliguo-refactor-sandbox",
+      readings: {
+        [LUNCH]: {
+          kind: "reading",
+          id: LUNCH,
+          unitId: midId,
+          updatedAt: 1,
+        },
+      },
+    }),
+  );
+  localStorage.setItem(JUBAN, "fictional-do-not-touch");
+  localStorage.setItem(REVIEW_KEY, "fictional-review");
+  scrolled.length = 0;
+  act(() => {
+    root.render(
+      <TextLearningView
+        kind="reading"
+        startId={LUNCH}
+        onBack={() => undefined}
+        recall={{ onRate: vi.fn(), onSkip: vi.fn() }}
+      />,
+    );
+  });
+  await settle();
+  expect(scrolled.length).toBeGreaterThan(0);
+  expect(scrolled.every((id) => id === midId)).toBe(true);
+  expect(scrolled).not.toContain(units[0].dataset.progressUnit);
+  expect(container.querySelector("[data-current-unit]")?.getAttribute("data-progress-unit")).toBe(
+    midId,
+  );
+  expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
+});
