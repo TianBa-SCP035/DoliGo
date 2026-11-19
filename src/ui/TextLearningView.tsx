@@ -426,6 +426,21 @@ function DocumentView({
           );
         })}
       </div>}
+      {recall && !reachedEnd ? (
+        <div className="doli-recall-dock">
+          <RecallJudgement
+            onRate={(rating) => {
+              recall.onRate(rating, currentUnitId);
+              advanceUnit();
+            }}
+            onSkip={() => {
+              recall.onSkip?.(currentUnitId);
+              advanceUnit();
+            }}
+            unitLabel={judgementUnitLabel(kind, recall.unitLabel)}
+          />
+        </div>
+      ) : null}
       <footer className="doli-document-footer">
         <details>
           <summary>表达说明</summary>
@@ -447,19 +462,7 @@ function DocumentView({
             </p>
           </details>
         )}
-        {recall && !reachedEnd ? (
-          <RecallJudgement
-            onRate={(rating) => {
-              recall.onRate(rating, currentUnitId);
-              advanceUnit();
-            }}
-            onSkip={() => {
-              recall.onSkip?.(currentUnitId);
-              advanceUnit();
-            }}
-            unitLabel={judgementUnitLabel(kind, recall.unitLabel)}
-          />
-        ) : recall && reachedEnd ? (
+        {recall && reachedEnd ? (
           <p className="doli-muted" data-recall-complete="">
             {judgementEndCopy(kind)}
           </p>

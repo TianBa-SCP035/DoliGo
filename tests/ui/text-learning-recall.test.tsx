@@ -259,6 +259,8 @@ it("uses paragraph copy on readings even if App still passes 下一句", async (
   expect(container.textContent).toContain("跳过，先看下一段");
   expect(container.textContent).not.toContain("跳过，先看下一句");
   expect(container.textContent).not.toContain("已经到最后一段了");
+  expect(container.querySelector(".doli-recall-dock .doli-recall")).toBeTruthy();
+  expect(container.querySelector(".doli-document-footer .doli-recall")).toBeNull();
   const units = container.querySelectorAll("[data-progress-unit]").length;
   for (let i = 0; i < units; i++) {
     const button = Array.from(container.querySelectorAll("button")).find((b) =>
@@ -267,6 +269,8 @@ it("uses paragraph copy on readings even if App still passes 下一句", async (
     act(() => button!.click());
   }
   expect(container.querySelector("[data-recall-complete]")).toBeTruthy();
+  expect(container.querySelector(".doli-recall-dock")).toBeNull();
+  expect(container.querySelector(".doli-document-footer [data-recall-complete]")).toBeTruthy();
   expect(container.textContent).toContain("已经到最后一段了，可以返回列表。");
   expect(container.textContent).not.toContain("已经到最后一句了");
   expect(container.querySelector("h1")).toBeTruthy();
@@ -290,6 +294,8 @@ it("keeps sentence copy on scenes", async () => {
   expect(container.textContent).not.toContain("这一项你觉得怎么样");
   expect(container.textContent).toContain("跳过，先看下一句");
   expect(container.textContent).not.toContain("跳过，先看下一段");
+  expect(container.querySelector(".doli-recall-dock .doli-recall")).toBeTruthy();
+  expect(container.querySelector(".doli-document-footer .doli-recall")).toBeNull();
   expect(localStorage.getItem(JUBAN)).toBe("fictional-do-not-touch");
 });
 

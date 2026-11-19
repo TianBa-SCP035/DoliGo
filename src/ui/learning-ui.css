@@ -1039,6 +1039,43 @@ a {
     min-height: 52px;
   }
 }
+.doli-recall-dock {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+  padding: 12px 24px calc(12px + env(safe-area-inset-bottom, 0px));
+  background: #f6f7f1;
+  border-top: 1px solid var(--line);
+}
+.doli-recall-dock .doli-recall {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.doli-app:has(.doli-recall-dock) .doli-main {
+  padding-bottom: calc(160px + env(safe-area-inset-bottom, 0px));
+}
+body:has(.doli-lookup-panel) .doli-recall-dock {
+  display: none;
+}
+@media (max-width: 639px) {
+  .doli-recall-dock {
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+  .doli-recall-dock .doli-recall-buttons {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .doli-recall-dock .doli-recall-buttons button {
+    min-height: 52px;
+    padding: 10px 6px;
+  }
+  .doli-app:has(.doli-recall-dock) .doli-main {
+    padding-bottom: calc(148px + env(safe-area-inset-bottom, 0px));
+  }
+}
 .doli-practice,
 .doli-scene-difficulty,
 .doli-review-due,
