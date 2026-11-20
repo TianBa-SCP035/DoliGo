@@ -20,7 +20,6 @@ export interface WordGroupChoice {
 export function WordGroupPicker({
   groups,
   onSelect,
-  onBack,
   library,
 }: {
   groups: readonly WordGroupChoice[];
@@ -47,9 +46,6 @@ export function WordGroupPicker({
   );
   return (
     <section className="doli-library" aria-labelledby="word-groups-title">
-      <button className="doli-text-button" onClick={onBack}>
-        返回首页
-      </button>
       <header className="doli-library-heading">
         <h1 id="word-groups-title">背单词</h1>
         {library && library.total > 0 && (

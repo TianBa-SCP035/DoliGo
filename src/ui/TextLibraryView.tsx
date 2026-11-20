@@ -37,7 +37,6 @@ export function TextLibraryView({
   kind,
   documents,
   onOpen,
-  onBack,
 }: {
   kind: "scene" | "reading";
   documents: LearningDocument[];
@@ -65,9 +64,6 @@ export function TextLibraryView({
   );
   return (
     <section className="doli-library">
-      <button className="doli-text-button" onClick={onBack}>
-        返回首页
-      </button>
       <header className="doli-library-heading">
         <h1>{kind === "scene" ? "生活里的对话" : "安静读一会儿"}</h1>
       </header>

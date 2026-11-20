@@ -165,7 +165,10 @@ describe("home words and review wiring", () => {
     expect(allLibraryChoices()).toHaveLength(
       loadLearningCatalog().scenes.length,
     );
-    click("返回首页");
+    const libraryHome = host.querySelector(
+      'button[aria-label="多莉国首页"]',
+    ) as HTMLButtonElement;
+    act(() => libraryHome.click());
     click("读点英语");
     expect(location.hash).toBe("#/reading");
     expect(host.querySelector(".doli-library h1")?.textContent).toBe(
